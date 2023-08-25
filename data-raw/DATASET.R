@@ -295,7 +295,7 @@ write.csv(StudentWt, "..//SRM-Textbook//Data//StudentWt.csv")
 
 Throttle <- read.csv("data-raw/Throttle.csv")
 usethis::use_data(Throttle, overwrite = TRUE)
-write.csv(Throttle, "..//SRM-Textbook//Data//Throttle.csv")
+write.csv(Throttle, "..//SRM-Textbook//Data//Throttle.csv", row.names = FALSE)
 
 
 UniStudentsLong <- read.csv("data-raw/UniStudentsLong.csv")
