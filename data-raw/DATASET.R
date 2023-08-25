@@ -97,9 +97,17 @@ usethis::use_data(EDpatients, overwrite = TRUE)
 write.csv(EDpatients, "..//SRM-Textbook//Data//EDpatients.csv")
 
 
+##############################
+### Exception: Processing needed
 EmeraldAug <- read.csv("data-raw/EmeraldAug.csv")
+EmeraldAug <- select(EmeraldAug,
+               Phase,
+               Rain,
+               SOI,
+               Year)
 usethis::use_data(EmeraldAug, overwrite = TRUE)
 write.csv(EmeraldAug, "..//SRM-Textbook//Data//EmeraldAug.csv")
+##############################
 
 
 Ferritin <- read.csv("data-raw/Ferritin.csv")
@@ -114,22 +122,17 @@ write.csv(ForwardFall, "..//SRM-Textbook//Data//ForwardFall.csv")
 
 ##############################
 ### Exception: Processing needed
-Sanddollars <- read.csv("data-raw/Fertilization_data.csv")
-Sanddollars <- dplyr::select(Sanddollars,
-                             SD.temperatures,
-                             SD.fertilization,
-                             SD.speeds,
-                             SD.motility)
-usethis::use_data(Sanddollars,
-                  overwrite = TRUE)
-write.csv(Sanddollars,
-          "..//SRM-Textbook//Data//Sanddollars.csv")
-##############################
-
-
 Gorillas <- read.csv("data-raw/Gorillas.csv")
+Gorillas <- select(Gorillas,
+                   Age,
+                   BackBreadth,
+                   ChestBeatRate,
+                   FocalTime,
+                   Male,
+                   NoChestBeats)
 usethis::use_data(Gorillas, overwrite = TRUE)
 write.csv(Gorillas, "..//SRM-Textbook//Data//Gorillas.csv")
+##############################
 
 
 HatSunglasses <- read.csv("data-raw/HatSunglasses.csv")
@@ -230,12 +233,28 @@ write.csv(RecoveryTime, "..//SRM-Textbook//Data//RecoveryTime.csv")
 
 RedDeer <- read.csv("data-raw/RedDeer.csv")
 usethis::use_data(RedDeer, overwrite = TRUE)
-write.csv(RedDeer, "..//SRM-Textbook//Data//RedDeer.csv")
+write.csv(RedDeer, "..//SRM-Textbook//Data//RedDeer.csv", row.names = FALSE)
 
 
 Removal <- read.csv("data-raw/Removal.csv")
 usethis::use_data(Removal, overwrite = TRUE)
 write.csv(Removal, "..//SRM-Textbook//Data//Removal.csv")
+
+
+##############################
+### Exception: Processing needed
+Sanddollars <- read.csv("data-raw/Fertilization_data.csv")
+Sanddollars <- dplyr::select(Sanddollars,
+                             SD.temperatures,
+                             SD.fertilization,
+                             SD.speeds,
+                             SD.motility)
+Sanddollars <- Sanddollars[1:36, ] # Others rows contains "n/a" strings
+usethis::use_data(Sanddollars,
+                  overwrite = TRUE)
+write.csv(Sanddollars,
+          "..//SRM-Textbook//Data//Sanddollars.csv", row.names = FALSE)
+##############################
 
 
 ScarHeight <- read.csv("data-raw/ScarHeight.csv")
@@ -265,7 +284,7 @@ write.csv(Speed, "..//SRM-Textbook//Data//Speed.csv")
 
 Stress <- read.csv("data-raw/Stress.csv")
 usethis::use_data(Stress, overwrite = TRUE)
-write.csv(Stress, "..//SRM-Textbook//Data//Stress.csv")
+write.csv(Stress, "..//SRM-Textbook//Data//Stress.csv", row.names = FALSE)
 
 
 StudentWt <- read.csv("data-raw/StudentWt.csv")
