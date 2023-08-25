@@ -185,7 +185,7 @@ write.csv(MaryRiver, "..//SRM-Textbook//Data//MaryRiver.csv")
 
 OSA <- read.csv("data-raw/OSA.csv")
 usethis::use_data(OSA, overwrite = TRUE)
-write.csv(OSA, "..//SRM-Textbook//Data//OSA.csv")
+write.csv(OSA, "..//SRM-Textbook//Data//OSA.csv", row.names = FALSE)
 
 
 Peas <- read.csv("data-raw/Peas.csv")
