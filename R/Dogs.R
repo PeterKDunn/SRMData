@@ -8,7 +8,6 @@
 #'
 #' @format A data frame with 30 rows (one per dog) and 8 columns:
 #' \describe{
-#'   \item{Number}{An identifier}
 #'   \item{BL}{Body length, in cm}
 #'   \item{BH}{Body height, in cm}
 #'   \item{Chest}{Chest measurement, in cm}

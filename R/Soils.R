@@ -1,6 +1,10 @@
 #' Soils
 #'
 #' The Soils dataset
+#' 
+#' @docType data
+#' 
+#' @keywords datasets
 #'
 #' @format A data frame with 16 rows (each sample) and 12 columns:
 #' \describe{
@@ -10,7 +14,10 @@
 #'   \item{Clay}{The percentage of clay in the sample}
 #'   \item{CBR}{The California Bearing Ratio, a measure of flexibility, in percentage}
 #' }
-#' @source Talukdar, Dilip Kumar. 2014. A Study of Correlation Between California Bearing Ratio (CBR) Value with Other Properties of Soil.
-#' International Journal of Emerging Technology and Advanced Engineering 4 (1): 559--62
+#' @source Talukdar, Dilip Kumar. 2014. 
+#' A Study of Correlation Between California Bearing Ratio (CBR) Value with Other Properties of Soil.
+#' \emph{International Journal of Emerging Technology and Advanced Engineering} \bold{4} (1): 559--62
+#' 
+#' @usage data(Soils)
 
 "Soils"
