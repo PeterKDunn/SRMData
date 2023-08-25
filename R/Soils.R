@@ -12,6 +12,7 @@
 #'   \item{Gravel}{The percentage of gravel in the sample}
 #'   \item{Sand}{The percentage of sand in the sample}
 #'   \item{Clay}{The percentage of clay in the sample}
+#'   \item{PI}{Plasticity index (PI, a measure of the plasticity of the soil}
 #'   \item{CBR}{The California Bearing Ratio, a measure of flexibility, in percentage}
 #' }
 #' @source Talukdar, Dilip Kumar. 2014. 
