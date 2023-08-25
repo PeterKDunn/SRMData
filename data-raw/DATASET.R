@@ -2,73 +2,14 @@
 ### See: https://r-pkgs.org/data.html
 
 library(usethis) # To save things and so on
-library(foreign) # To load SPSS (.sav) files
 library(dplyr) # For selecting variables
 
 ###########################################################################
-# First, load and convert SPSS files into .csv files
-
-# Load names of csv data files
-csvFileList <- list.files(path = "data-raw/", # Load .csv data files list
-                          full.names = TRUE,
-                          pattern = "*.csv")
-
-# Now extract bit *without* the  ".csv"
-csvNumFiles <- length(csvFileList)
-cat("* Processing (csv):")
-for (i in (1:csvNumFiles)) {
-  cat(".")
-  csvFileList[i] <- substr(x = csvFileList[i],
-                           start = 1,
-                           stop = nchar(csvFileList[i]) - 4 )
-}
-cat("Done: ", length(csvFileList), " .csv files\n")
-
-
-# Load names of sav data files
-savFileList <- list.files(path = "data-raw/", # Load .sav data files list
-                          full.names = TRUE,
-                          pattern = "*.sav")
-
-# Now extract bit *without* the  ".sav"
-savNumFiles <- length(savFileList)
-cat("* Processing (sav):")
-for (i in (1:savNumFiles)) {
-  cat(".")
-  savFileList[i] <- substr(x = savFileList[i],
-                           start = 1,
-                           stop = nchar(savFileList[i]) - 4 )
-}
-cat("Done: *", length(savFileList), " .sav files\n")
-
-### A list of the  .sav  files not available as csv yet:
-onlyAsSPSS <- savFileList[ !(savFileList %in% csvFileList) ]
-cat("*", length(onlyAsSPSS), " files only appear as SPSS files; converting to .csv\n")
-
-
-# Now load these, and save as  csv  files
-if ( length(onlyAsSPSS) > 0) {
-  for (i in (1:length(onlyAsSPSS))) {
-    # Load the  sav  file
-    savDataFile <- read.spss( paste0( onlyAsSPSS[i], ".sav"),
-                              to.data.frame = TRUE) # Loaded as "dataFile", so rename
-    # Save as a  csv  file
-    write.csv(x = savDataFile,
-              file = paste0( onlyAsSPSS[i], ".csv"))
-
-  }
-  cat("* Copy csv files to textbook Data directory\n")
-} else {
-  cat("* No files just exist as SPSS; no conversions needed\n")
-}
-
-
-###########################################################################
-# Now, we can save all the csv files and RData files
-# - Load names of data files
-# - Process if needed
-# - Save as rda
-# - Save as .csv in the Textbook Data/ directory
+#  Save all the csv files and RData files
+#  - Load names of data files
+#  - Process **IF NEEDED**
+#  - Save as .rda
+#  - Save as .csv in the Textbook Data/ directory
 
 Anorexia <- read.csv("data-raw/Anorexia.csv")
 usethis::use_data(Anorexia, overwrite = TRUE)
@@ -120,14 +61,35 @@ usethis::use_data(Dental, overwrite = TRUE)
 write.csv(Dental, "..//SRM-Textbook//Data//Dental.csv")
 
 
+##############################
+### Exception: Processing needed
 Diabetes <- read.csv("data-raw/Diabetes.csv")
+Diabetes <- dplyr::select(Diabetes,
+                          bp.1s,
+                          bp.1d,
+                          bp.2s,
+                          bp.2d)
+Diabetes <- rename(Diabetes,
+                   SBPfirst = bp.1s,
+                   DBPfirst = bp.1d,
+                   SBPsecond = bp.2s,
+                   DBPsecond = bp.2d)
 usethis::use_data(Diabetes, overwrite = TRUE)
 write.csv(Diabetes, "..//SRM-Textbook//Data//Diabetes.csv")
+##############################
 
 
+##############################
+### Exception: Processing needed
 Dogs <- read.csv("data-raw/Dogs.csv")
+Dogs <- select(Dogs,
+               BL,
+               BH,
+               Chest,
+               Waist)
 usethis::use_data(Dogs, overwrite = TRUE)
 write.csv(Dogs, "..//SRM-Textbook//Data//Dogs.csv")
+##############################
 
 
 EDpatients <- read.csv("data-raw/EDpatients.csv")
@@ -151,7 +113,7 @@ write.csv(ForwardFall, "..//SRM-Textbook//Data//ForwardFall.csv")
 
 
 ##############################
-        ### Exception: Processing needed
+### Exception: Processing needed
 Sanddollars <- read.csv("data-raw/Fertilization_data.csv")
 Sanddollars <- dplyr::select(Sanddollars,
                              SD.temperatures,
@@ -162,6 +124,7 @@ usethis::use_data(Sanddollars,
                   overwrite = TRUE)
 write.csv(Sanddollars,
           "..//SRM-Textbook//Data//Sanddollars.csv")
+##############################
 
 
 Gorillas <- read.csv("data-raw/Gorillas.csv")
@@ -199,9 +162,22 @@ usethis::use_data(Lynx, overwrite = TRUE)
 write.csv(Lynx, "..//SRM-Textbook//Data//Lynx.csv")
 
 
+##############################
+### Exception: Processing needed
 MaryRiver <- read.csv("data-raw/MaryRiver.csv")
+MaryRiver$Year <- substr(MaryRiver$Date.and.time,
+                         start = 7, 
+                         stop = 8)
+MaryRiver$Month <- substr(MaryRiver$Date.and.time,
+                          start = 4, 
+                          stop = 5)
+MaryRiver <- dplyr::select(MaryRiver,
+                           Month,
+                           Year,
+                           Mean)
 usethis::use_data(MaryRiver, overwrite = TRUE)
 write.csv(MaryRiver, "..//SRM-Textbook//Data//MaryRiver.csv")
+##############################
 
 
 OSA <- read.csv("data-raw/OSA.csv")
@@ -224,8 +200,8 @@ usethis::use_data(Placebos, overwrite = TRUE)
 write.csv(Placebos, "..//SRM-Textbook//Data//Placebos.csv")
 
 
-        ##############################
-        ### Exception: Processing needed
+##############################
+### Exception: Processing needed
 ## Select bits from PossumsALL.csv
 Possums <- read.csv("data-raw/PossumsALL.csv")
 Possums <- dplyr::select(Possums,
@@ -234,6 +210,7 @@ Possums <- dplyr::select(Possums,
                          DEM)
 usethis::use_data(Possums, overwrite = TRUE)
 write.csv(Possums, "..//SRM-Textbook//Data//Possums.csv")
+##############################
 
 
 Punting <- read.csv("data-raw/Punting.csv")
@@ -267,8 +244,8 @@ write.csv(ScarHeight, "..//SRM-Textbook//Data//ScarHeight.csv")
 
 
 
-        ##############################
-        ### Exception: Processing needed
+##############################
+### Exception: Processing needed
 Soils <- read.csv("data-raw/Soils.csv")
 Soils <- dplyr::select(Soils,
                        Sample,
@@ -276,6 +253,9 @@ Soils <- dplyr::select(Soils,
                        Sand,
                        Clay,
                        CBR)
+usethis::use_data(Soils, overwrite = TRUE)
+write.csv(Soils, "..//SRM-Textbook//Data//Soils.csv")
+##############################
 
 
 Speed <- read.csv("data-raw/Speed.csv")
@@ -301,7 +281,3 @@ write.csv(Throttle, "..//SRM-Textbook//Data//Throttle.csv")
 UniStudentsLong <- read.csv("data-raw/UniStudentsLong.csv")
 usethis::use_data(UniStudentsLong, overwrite = TRUE)
 write.csv(UniStudentsLong, "..//SRM-Textbook//Data//UniStudentsLong.csv")
-
-
-
-cat("Done\n")

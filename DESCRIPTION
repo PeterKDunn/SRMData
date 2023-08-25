@@ -2,16 +2,15 @@ Package: SRMData
 Type: Package
 Title: Datafiles Supporting "Scientific  Research and Methodology"
 Version: 0.1.0
-Author: Peter K. Dunn
-Maintainer: Peter K. Dunn <pdunn2@usc.edu.au>
-Description: A package to provide most of the data files used in the textbook
-    "Scientific  Research and Methodology"
-License: What license is it under?
+Authors@R: c(person("Peter K. Dunn", role = c("aut", "cre"),
+                    email = "pdunn2@usc.edu.au") )
+Description: A package that provide most of the data files used in the textbook "Scientific  Research and Methodology".
+License: GPL (>= 2)
 Imports:
-    dplyr
-    foreign
-    usethis
+    dplyr (>= 1.1.0),
+    usethis (>= 2.2.0)
 Encoding: UTF-8
 LazyData: true
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5.0)
+RoxygenNote: 7.2.3

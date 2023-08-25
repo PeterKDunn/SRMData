@@ -1,6 +1,10 @@
 #' Peas
 #'
 #' The Peas dataset
+#' 
+#' @docType data
+#' 
+#' @keywords datasets
 #'
 #' @format A data frame with 96 rows (each seed) and 11 columns:
 #' \describe{
@@ -17,7 +21,10 @@
 #'   \item{Mn}{The manganese content, in mg/g}
 #' }
 #' @source Hacisalihoglu, Gokhan, Nicole S. Beisel, and A.Mark Settles. 2021.
-#' Characterization of Pea Seed Nutritional Value Within a Diverse Population of Pisum Sativum.” PLoS One 16 (11): e0259565.
+#' Characterization of Pea Seed Nutritional Value Within a Diverse Population of Pisum Sativum.
+#' \emph{PLoS One} \bold{16} (11): e0259565.
+#' 
+#' @usage data(Peas)
 
 "Peas"
 
