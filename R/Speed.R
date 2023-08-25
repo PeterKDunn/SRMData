@@ -1,0 +1,13 @@
+#' Speed
+#'
+#' The Speed dataset
+#'
+#' @format A data frame with 79 rows (each vehicle) and 2 columns:
+#' \describe{
+#'   \item{When}{When the speed is measured; one of `Before` or `After` new signage added}
+#'   \item{Speed}{The measured speed, in km/h}
+#' }
+#' @source Ma, Yongfeng, Wenbo Zhang, Xin Gu, and Jiguang Zhao. 2019.
+#' Impacts of Experimental Advisory Exit Speed Sign on Traffic Speeds for Freeway Exit Ramp. PLoS One 14 (11):e0225203
+
+"Speed"
