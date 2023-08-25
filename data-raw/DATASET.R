@@ -273,7 +273,7 @@ Soils <- dplyr::select(Soils,
                        Clay,
                        CBR)
 usethis::use_data(Soils, overwrite = TRUE)
-write.csv(Soils, "..//SRM-Textbook//Data//Soils.csv")
+write.csv(Soils, "..//SRM-Textbook//Data//Soils.csv", row.names = FALSE)
 ##############################
 
 
