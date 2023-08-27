@@ -6,9 +6,9 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 130 rows and 4 columns:
+#' @format A data frame with 130 rows (each person) and 4 columns:
 #' \describe{
-#'   \item{BodyTemp}{The measured body temperature, in degrees F, as given }
+#'   \item{BodyTemp}{The measured body temperature, in degrees F, as given}
 #'   \item{Gender}{One of \code{1} (males) or \code{2} (females)}
 #'   \item{HeartRate}{Heart rate, in beats per minute}
 #'   \item{BodyTempC}{The measured body temperature in degrees C; converted from degrees F}
