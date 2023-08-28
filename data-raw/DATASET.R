@@ -16,6 +16,7 @@ AISsub <- data.frame( Sex = AIS$Sex,
                       SSF = AIS$SSF,
                       PBF = AIS$PBF,
                       Sport = AIS$Sport,
+                      Wt = AIS$Wt,
                       Ht = AIS$Ht)
 usethis::use_data(AISsub, overwrite = TRUE)
 write.csv(AISsub, "..//SRM-Textbook//Data//AISsub.csv", row.names = FALSE)
