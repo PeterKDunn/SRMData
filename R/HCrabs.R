@@ -10,6 +10,7 @@
 #' \describe{
 #'   \item{Col}{The female's carapace colour; one of \code{LM} (light medium), \code{M} (medium), \code{DM} (dark medium) or \code{D} (dark)}
 #'   \item{Spine}{The female's spine condition; one of \code{BothOK}, \code{OneOK} or \code{NoneOK}}
+#'   \item{Width}{The female's carapace width, in cm}
 #'   \item{Wt}{The weight of the female, in grams}
 #'   \item{Sat}{The number of male crabs attached ('satellites')}
 #' }

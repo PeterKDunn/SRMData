@@ -8,13 +8,7 @@
 #'
 #' @format A data frame with 31 rows (each foetus) and 8 columns:
 #' \describe{
-#'   \item{Miners}{Whether noisy miners were present in the transect \code{1} or absent \code{0}}
 #'   \item{Eucs}{The number of eucalypt trees in the transect}
-#'   \item{Area}{The area of contiguous remnant patch of vegetation in which the transect was located, in hectares}
-#'   \item{Grazed}{Whether the area was grazed or not; one of \code{0} (not grazed) or \code{1} (grazed)}
-#'   \item{Shrubs}{Whether shrubs were present in the transect or not; one of \code{1} (absent) or \code{1} (present)}
-#'   \item{Bulokes}{The number of buloke trees in each 2 ha transect}
-#'   \item{Timber}{The number of pieces of fallen timber in each 2 ha transect}
 #'   \item{Minerab}{The number of noisy miners ('abundance') in three 20 min surveys in each transect}
 #' }
 #' 

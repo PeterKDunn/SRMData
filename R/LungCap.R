@@ -27,7 +27,7 @@
 
 
 #' 
-#' @usage data(Lungcap)
+#' @usage data(LungCap)
 
 "LungCap"
 
