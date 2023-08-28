@@ -16,7 +16,7 @@
 #' @source The data were obtained electronically from OzDASL <http://www.statsci.org/data/>. 
 #' The Details above were obtained from this webpage
 #' 
-#' @reference D. C. Montgomery and E. A. Peck (1992).
+#' @references D. C. Montgomery and E. A. Peck (1992).
 #' \emph{Introduction to Regression Analysis}. Wiley, New York. Example 4.1
 #'  
 #' @usage data(SDrink)

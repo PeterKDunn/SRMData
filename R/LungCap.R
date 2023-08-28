@@ -15,7 +15,7 @@
 #'   \item{Smoke}{Whether the child is a smoker; one of \code{0} (non-smoker) or \code{1} (smoker)}
 #' }
 #' 
-#' @reference Kahn, Michael (2005). 
+#' @references Kahn, Michael (2005). 
 #' An exhalent problem for teaching statistics. 
 #' \emph{The Journal of Statistical Education}, \bold{13}(2). Available on-line.
 #' 

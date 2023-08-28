@@ -20,7 +20,7 @@
 #' 
 #' @source Personal communication from Martine Maron.
 #' 
-#' @reference Martine Maron (2007) Threshold effect of eucalypt density on an aggressive avian competitor. 
+#' @references Martine Maron (2007) Threshold effect of eucalypt density on an aggressive avian competitor. 
 #' \emph{Biological Conservation}, \bold{136}, 100–107.
 #'  
 #' @usage data(NMiner)

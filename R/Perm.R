@@ -16,7 +16,7 @@
 #' @source Bent Joergensen (1992) Exponential dispersion models and extensions: A review. 
 #' \emph{International Statistical Review}, \bold{60}(1), 5–20
 #' 
-#' @reference A. Hald (1952).
+#' @references A. Hald (1952).
 #' \emph{Statistical theory with engineering applications}. New York: Wiley.
 #'  
 #' @usage data(Perm)

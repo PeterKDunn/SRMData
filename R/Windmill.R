@@ -15,7 +15,7 @@
 #' @source G. Joglekar, J. H. Schuenemeyer and V. LaRicca (1989) Lack-of-fit testing when replicates are not available. 
 #' \emph{American Statistician}, \bold{43}, 135–143.
 #' 
-#' @reference 
+#' @references 
 #' D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway, and E. Ostrowski (1994). 
 #' \emph{A Handbook of Small Data Sets}, London: Chapman and Hall. Dataset 271.
 #' 

@@ -14,7 +14,7 @@
 #'   \item{City}{The city; one of \code{Fredericia}, \code{Horsens}, \code{Kolding} or \code{Vejle}}
 #' }
 #' 
-#' @reference The original source is: E. B. Andersen (1977) \
+#' @references The original source is: E. B. Andersen (1977) \
 #' Multiplicative Poisson models with unequal cell rates.
 #' \emph{Scandinavian Journal of Statistics}, \bold{4}, 153–158.
 #' 

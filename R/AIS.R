@@ -23,7 +23,7 @@
 #'   \item{Ferr}{The plasma ferritins, in ng per decilitre}
 #' }
 #' 
-#' @reference Telford, R. D. and Cunningham, R. B. (1991).
+#' @references Telford, R. D. and Cunningham, R. B. (1991).
 #' Sex, sport, and body-size dependency of hematology in highly trained athletes. 
 #' \emph{Medicine and Science in Sports and Exercise}, \bold{23}(7):788–794.
 #' 
