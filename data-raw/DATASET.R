@@ -303,7 +303,13 @@ Sanddollars <- dplyr::select(Sanddollars,
                              SD.speeds,
                              SD.motility)
 Sanddollars <- Sanddollars[1:36, ] # Others rows contains "n/a" strings
-usethis::use_data(Sanddollars,
+Sanddollars <- data.frame(
+  SD.temperatures = as.numeric(Sanddollars$SD.temperatures),
+  SD.fertilization = as.numeric(Sanddollars$SD.fertilization),
+  SD.speeds = as.numeric(Sanddollars$SD.speeds),
+  SD.motility = as.numeric(Sanddollars$SD.motility)
+)
+  usethis::use_data(Sanddollars,
                   overwrite = TRUE)
 write.csv(Sanddollars,
           "..//SRM-Textbook//Data//Sanddollars.csv", row.names = FALSE)
