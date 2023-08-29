@@ -12,12 +12,12 @@ library(dplyr) # For selecting variables
 #  - Save as .csv in the Textbook Data/ directory
 
 AISsub <- read.csv("data-raw/AIS.csv")
-AISsub <- data.frame( Sex = AIS$Sex,
-                      SSF = AIS$SSF,
-                      PBF = AIS$PBF,
-                      Sport = AIS$Sport,
-                      Wt = AIS$Wt,
-                      Ht = AIS$Ht)
+AISsub <- data.frame( Sex = AISsub$Sex,
+                      SSF = AISsub$SSF,
+                      PBF = AISsub$PBF,
+                      Sport = AISsub$Sport,
+                      Wt = AISsub$Wt,
+                      Ht = AISsub$Ht)
 usethis::use_data(AISsub, overwrite = TRUE)
 write.csv(AISsub, "..//SRM-Textbook//Data//AISsub.csv", row.names = FALSE)
 
