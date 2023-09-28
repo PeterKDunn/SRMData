@@ -212,9 +212,13 @@ MaryRiver <- read.csv("data-raw/MaryRiver.csv")
 MaryRiver$Year <- substr(MaryRiver$Date.and.time,
                          start = 7, 
                          stop = 8)
+MaryRiver$Year <- as.numeric(MaryRiver$Year)
+
 MaryRiver$Month <- substr(MaryRiver$Date.and.time,
                           start = 4, 
                           stop = 5)
+MaryRiver$Month <- as.numeric(MaryRiver$Month)
+
 MaryRiver <- dplyr::select(MaryRiver,
                            Month,
                            Year,
