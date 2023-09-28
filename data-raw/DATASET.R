@@ -224,7 +224,7 @@ MaryRiver <- dplyr::select(MaryRiver,
                            Year,
                            Mean)
 usethis::use_data(MaryRiver, overwrite = TRUE)
-write.csv(MaryRiver, "..//SRM-Textbook//Data//MaryRiver.csv")
+write.csv(MaryRiver, "..//SRM-Textbook//Data//MaryRiver.csv", row.names = FALSE)
 ##############################
 
 
