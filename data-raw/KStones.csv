@@ -1,4 +1,4 @@
-Counts,Group,Method,Outcome
+Counts,Size,Method,Outcome
 81,Small,Method A,Success
 6,Small,Method A,Failure
 234,Small,Method B,Success
