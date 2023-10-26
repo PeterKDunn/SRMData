@@ -346,6 +346,11 @@ write.csv(Soils, "..//SRM-Textbook//Data//Soils.csv", row.names = FALSE)
 ##############################
 
 
+SoilCN <- read.csv("data-raw/SoilCN.csv")
+usethis::use_data(SoilCN, overwrite = TRUE)
+write.csv(SoilCN, "..//SRM-Textbook//Data//SoilCN.csv")
+
+
 Speed <- read.csv("data-raw/Speed.csv")
 usethis::use_data(Speed, overwrite = TRUE)
 write.csv(Speed, "..//SRM-Textbook//Data//Speed.csv")
