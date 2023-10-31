@@ -3,6 +3,7 @@
 
 library(usethis) # To save things and so on
 library(dplyr) # For selecting variables
+library(roxygen2)
 
 ###########################################################################
 #  Save all the csv files and RData files
@@ -384,3 +385,8 @@ write.csv(Windmill, "..//SRM-Textbook//Data//Windmill.csv", row.names = FALSE)
 YieldDen <- read.csv("data-raw/YieldDen.csv")
 usethis::use_data(YieldDen, overwrite = TRUE)
 write.csv(YieldDen, "..//SRM-Textbook//Data//YieldDen.csv", row.names = FALSE)
+
+
+#####################################################################################
+# Now produce the man (.Rd) files
+roxygen2::roxygenise()
