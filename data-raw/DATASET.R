@@ -144,6 +144,33 @@ write.csv(ForwardFall, "..//SRM-Textbook//Data//ForwardFall.csv")
 
 ##############################
 ### Exception: Processing needed
+Fruit2014 <- read.csv("data-raw/pair_2014_For Dryad.csv")
+Fruit2015 <- read.csv("data-raw/pair_2015_For Dryad.csv")
+
+# Merge
+Fruit <- dplyr::inner_join(Fruit2014, 
+                           Fruit2015,
+                           by = "Farm.ID")
+
+Fruit <- dplyr::select(Fruit,
+                       Farm = Farm.ID,
+                       Flowers2014 = Total.flower.x,
+                       Flowers2015 = Total.flower.y,
+                       Fruit2014 = Total.Fruit.Formed.1,
+                       Fruit2015 = Total.Fruit.Formed,
+                       FLength2014 = Fruit.length.x,
+                       FLength2015 = Fruit.length.y,
+                       FBreadth2014 = Fruit.Breadth.x,
+                       FBreadth2015 = Fruit.Breadth.y,
+                       FWeight2014 = Fruit.Weight.x,
+                       FWeight2015 = Fruit.Weight.y)
+
+usethis::use_data(Fruit, overwrite = TRUE)
+write.csv(Fruit, "..//SRM-Textbook//Data//Fruit.csv")
+##############################
+
+##############################
+### Exception: Processing needed
 Gorillas <- read.csv("data-raw/Gorillas.csv")
 Gorillas <- select(Gorillas,
                    Age,
