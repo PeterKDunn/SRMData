@@ -137,7 +137,7 @@ write.csv(Ferritin, "..//SRM-Textbook//Data//Ferritin.csv")
 
 ##############################
 ### Exception: Processing needed
-Flowering <- read.csv("data-raw/salix and pv phenology data.csv")
+Flowering <- read.csv("data-raw/salix_and_pv_phenology_data.csv")
 
 Flowering <- dplyr::select(Flowering,
                            Willow = julian.day...Salix,
