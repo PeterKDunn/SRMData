@@ -65,7 +65,7 @@ write.csv(Cyclones, "..//SRM-Textbook//Data//Cyclones.csv")
 
 Deceleration <- read.csv("data-raw/Deceleration.csv")
 usethis::use_data(Deceleration, overwrite = TRUE)
-write.csv(Deceleration, "..//SRM-Textbook//Data//Deceleration.csv")
+write.csv(Deceleration, "..//SRM-Textbook//Data//Deceleration.csv", row.names = FALSE)
 
 
 DanishLC <- read.csv("data-raw/DanishLC.csv")
@@ -75,7 +75,7 @@ write.csv(DanishLC, "..//SRM-Textbook//Data//DanishLC.csv", row.names = FALSE)
 
 Dental <- read.csv("data-raw/Dental.csv")
 usethis::use_data(Dental, overwrite = TRUE)
-write.csv(Dental, "..//SRM-Textbook//Data//Dental.csv")
+write.csv(Dental, "..//SRM-Textbook//Data//Dental.csv", row.names = FALSE)
 
 
 ##############################
@@ -149,7 +149,7 @@ Flowering <- dplyr::select(Flowering,
 Flowering$Altitude <- as.numeric(sub(",", "", Flowering$Altitude))
 
 usethis::use_data(Flowering, overwrite = TRUE)
-write.csv(Flowering, "..//SRM-Textbook//Data//Flowering.csv")
+write.csv(Flowering, "..//SRM-Textbook//Data//Flowering.csv", row.names = FALSE)
 ##############################
 
 
