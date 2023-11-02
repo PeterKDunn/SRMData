@@ -135,6 +135,25 @@ usethis::use_data(Ferritin, overwrite = TRUE)
 write.csv(Ferritin, "..//SRM-Textbook//Data//Ferritin.csv")
 
 
+##############################
+### Exception: Processing needed
+Flowering <- read.csv("data-raw/salix and pv phenology data.csv")
+
+Flowering <- dplyr::select(Flowering,
+                           Willow = julian.day...Salix,
+                           Skypilot = julian.day...Polemonium,
+                           MinTemp = min.temp.June,
+                           Altitude = altitude)
+
+# Altitude is in the form "11.500", so convert to numeric:
+Flowering$Altitude <- as.numeric(sub(",", "", Flowering$Altitude))
+
+usethis::use_data(Flowering, overwrite = TRUE)
+write.csv(Flowering, "..//SRM-Textbook//Data//Flowering.csv")
+##############################
+
+
+
 Fluoro <- read.csv("data-raw/Fluoro.csv")
 usethis::use_data(Fluoro, overwrite = TRUE)
 write.csv(Fluoro, "..//SRM-Textbook//Data//Fluoro.csv", row.names = FALSE)
