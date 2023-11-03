@@ -145,7 +145,7 @@ Flowering <- dplyr::select(Flowering,
                            MinTemp = min.temp.June,
                            Altitude = altitude)
 
-# Altitude is in the form "11.500", so convert to numeric:
+# Altitude is in the form "11,500", so convert to numeric:
 Flowering$Altitude <- as.numeric(sub(",", "", Flowering$Altitude))
 
 usethis::use_data(Flowering, overwrite = TRUE)
