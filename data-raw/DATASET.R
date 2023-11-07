@@ -380,6 +380,14 @@ usethis::use_data(SDrink, overwrite = TRUE)
 write.csv(SDrink, "..//SRM-Textbook//Data//SDrink.csv", row.names = FALSE)
 
 
+ShoppingBags <- read.csv("data-raw/ShoppingBags.csv")
+colnames(ShoppingBags) <- c("AgeGroup",
+                            "BringBags",
+                            "Counts")
+usethis::use_data(ShoppingBags, overwrite = TRUE)
+write.csv(ShoppingBags, "..//SRM-Textbook//Data//ShoppingBags.csv", row.names = FALSE)
+
+
 
 ##############################
 ### Exception: Processing needed
