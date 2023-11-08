@@ -58,6 +58,17 @@ usethis::use_data(Captopril, overwrite = TRUE)
 write.csv(Captopril, "..//SRM-Textbook//Data//Captopril.csv")
 
 
+##############################
+### Exception: Processing needed
+CherryRipe <- read.csv("data-raw/CherryRipe.csv")
+
+CherryRipe <- CherryRipe[, c(3:5, 7)]
+
+usethis::use_data(CherryRipe, overwrite = TRUE)
+write.csv(CherryRipe, "..//SRM-Textbook//Data//CherryRipe.csv", row.names = FALSE)
+##############################
+
+
 Cyclones <- read.csv("data-raw/Cyclones.csv")
 usethis::use_data(Cyclones, overwrite = TRUE)
 write.csv(Cyclones, "..//SRM-Textbook//Data//Cyclones.csv")
@@ -109,6 +120,31 @@ write.csv(Dogs, "..//SRM-Textbook//Data//Dogs.csv")
 ##############################
 
 
+
+##############################
+### Exception: Processing needed
+EarInfection <- read.csv("data-raw/EarInfection.csv")
+
+EarInfection$Swimmer <- factor(EarInfection$Swimmer,
+                               levels = 0:1,
+                               labels = c("Occasional",
+                                          "Frequent"))
+EarInfection$Location <- factor(EarInfection$Location,
+                                levels = 0:1,
+                                labels = c("Non-beach",
+                                           "Beach"))
+EarInfection$Age <- factor(EarInfection$Age,
+                           levels = 1:3,
+                           labels = c("15 to 19",
+                                      "20 to 24",
+                                      "25 to 29"))
+EarInfection$Infections <- factor(EarInfection$Infections,
+                                  levels = 0:1,
+                                  labels = c("Yes",
+                                             "No"))
+usethis::use_data(EarInfection, overwrite = TRUE)
+write.csv(EarInfection, "..//SRM-Textbook//Data//EarInfection.csv")
+##############################
 
 
 
