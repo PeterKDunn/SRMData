@@ -156,10 +156,10 @@ write.csv(EDpatients, "..//SRM-Textbook//Data//EDpatients.csv")
 ### Exception: Processing needed
 EmeraldAug <- read.csv("data-raw/EmeraldAug.csv")
 EmeraldAug <- select(EmeraldAug,
-               Phase,
-               Rain,
-               SOI,
-               Year)
+                     Phase,
+                     Rain,
+                     SOI,
+                     Year)
 usethis::use_data(EmeraldAug, overwrite = TRUE)
 write.csv(EmeraldAug, "..//SRM-Textbook//Data//EmeraldAug.csv")
 ##############################
@@ -398,7 +398,7 @@ Sanddollars <- data.frame(
   SD.speeds = as.numeric(Sanddollars$SD.speeds),
   SD.motility = as.numeric(Sanddollars$SD.motility)
 )
-  usethis::use_data(Sanddollars,
+usethis::use_data(Sanddollars,
                   overwrite = TRUE)
 write.csv(Sanddollars,
           "..//SRM-Textbook//Data//Sanddollars.csv", row.names = FALSE)
@@ -430,7 +430,7 @@ Snakes <- read.csv("data-raw/Snakes.csv")
 SPtable <- table(Snakes$SPECIES)
 Snakes <- subset(Snakes,
                  (SPECIES == names(SPtable)[4]) | 
-                  (SPECIES == names(SPtable)[5]))
+                   (SPECIES == names(SPtable)[5]))
 Snakes$Crayfish <- ifelse( Snakes$SPECIES == "T. mel No eat crayfish", 
                            "N",
                            "Y")
@@ -440,7 +440,7 @@ Snakes <- dplyr::select(Snakes,
                         Sex = SEX,
                         SVL = SVL..cm.,
                         Teeth = TEETH.NUMBER
-                        )
+)
 usethis::use_data(Snakes, overwrite = TRUE)
 write.csv(Snakes, "..//SRM-Textbook//Data//Snakes.csv", row.names = FALSE)
 
@@ -492,12 +492,9 @@ write.csv(Throttle, "..//SRM-Textbook//Data//Throttle.csv", row.names = FALSE)
 ##############################
 ### Exception: Processing needed
 
-# This code taken from https://osf.io/u2xyz?view_only=87885752038b4be190d532143fdedb07, RQ1.R, and adapted to ghet what I want
-library(ggplot2)
-library(sfsmisc)
-#library(plyr)
-library(dbscan)
-library(ggExtra)
+# This code taken from https://osf.io/u2xyz?view_only=87885752038b4be190d532143fdedb07, RQ1.R, 
+# and adapted to get what I want
+library(plyr) # For ddply
 
 
 load('data-raw/Typing/txt_insdelsub.RData')  # by text and/or by subject
@@ -516,12 +513,12 @@ ddd <- as.data.frame( table( txtikis$Subject,
                              txtikis$icur ))
 
 # Typing speed --- iki should have 11709 rows
-iki <- ddply(txtikis, 
-             .(Subject,icur),
-             .drop = F, 
-             summarize, 
-             total = sum(ikis), 
-             nb = max(count))
+iki <- plyr::ddply(txtikis, 
+                   .(Subject,icur),
+                   .drop = F, 
+                   summarize, 
+                   total = sum(ikis), 
+                   nb = max(count))
 
 sent <- read.table("data-raw/Typing/signatures2_ascii.txt", 
                    sep = '\n', 
@@ -548,13 +545,13 @@ b <- names( which( table( a$Subject) > 6 ) )
 iki <- subset(iki, 
               nb > (nchar/2))
 
-iki$totalmin <- iki$total/(60*1000)
+iki$totalmin <- iki$total/(60 * 1000)
 iki$TSabs <- iki$nchar / (5 * iki$totalmin) # 5-char words per minute
 iki$TSrel <- iki$nb / (5 * iki$totalmin) # 5-char words per minute
 
 # Accuracy
 txtres <- merge(txtres, 
-                sent[,c('icur', 'nchar')])
+                sent[, c('icur', 'nchar')])
 txtres <- merge(txtres, 
                 iki, 
                 all = TRUE)
@@ -577,13 +574,13 @@ load('data-raw/Typing/txt_all.RData')
 # txt = subset(txt, Subject %in% SubjIn)
 
 # average over sentences by subject
-m1 = ddply(txt, 
-           .(Subject), 
-           summarize, 
-           mTS = mean(TSrel), 
-           mAcc = mean(accuracy))
+m1 <- plyr::ddply(txt, 
+                  .(Subject), 
+                  summarize, 
+                  mTS = mean(TSrel), 
+                  mAcc = mean(accuracy))
 
-ggplot(m1, aes(mAcc, mTS)) + geom_point()
+# ggplot(m1, aes(mAcc, mTS)) + geom_point()
 
 
 
@@ -591,16 +588,16 @@ ggplot(m1, aes(mAcc, mTS)) + geom_point()
 # Demographic info in  allabout
 load('data-raw/Typing/allabout.RData') # alabout contains age and gender
 
-mPKD = ddply(allabout, 
-             .(Subject), 
-             summarize, 
-             Age = (age), 
-             Sex = (gender))
+mPKD <- ddply(allabout, 
+              .(Subject), 
+              summarize, 
+              Age = (age), 
+              Sex = (gender))
 
 # Now merge with m1
 Typing <- dplyr::inner_join(as.data.frame(m1), 
-                           as.data.frame(mPKD), 
-                           by = "Subject")
+                            as.data.frame(mPKD), 
+                            by = "Subject")
 
 rm(mPKD, m1)
 usethis::use_data(Typing, overwrite = TRUE)
