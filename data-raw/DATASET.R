@@ -3,7 +3,6 @@
 
 library(usethis) # To save things and so on
 library(dplyr) # For selecting variables
-library(roxygen2)
 
 ###########################################################################
 #  Save all the csv files and RData files
@@ -97,11 +96,11 @@ Diabetes <- dplyr::select(Diabetes,
                           bp.1d,
                           bp.2s,
                           bp.2d)
-Diabetes <- rename(Diabetes,
-                   SBPfirst = bp.1s,
-                   DBPfirst = bp.1d,
-                   SBPsecond = bp.2s,
-                   DBPsecond = bp.2d)
+Diabetes <- dplyr::rename(Diabetes,
+                          SBPfirst = bp.1s,
+                          DBPfirst = bp.1d,
+                          SBPsecond = bp.2s,
+                          DBPsecond = bp.2d)
 usethis::use_data(Diabetes, overwrite = TRUE)
 write.csv(Diabetes, "..//SRM-Textbook//Data//Diabetes.csv")
 ##############################
@@ -489,6 +488,126 @@ write.csv(StudentWt, "..//SRM-Textbook//Data//StudentWt.csv")
 Throttle <- read.csv("data-raw/Throttle.csv")
 usethis::use_data(Throttle, overwrite = TRUE)
 write.csv(Throttle, "..//SRM-Textbook//Data//Throttle.csv", row.names = FALSE)
+
+##############################
+### Exception: Processing needed
+
+# This code taken from https://osf.io/u2xyz?view_only=87885752038b4be190d532143fdedb07, RQ1.R, and adapted to ghet what I want
+library(ggplot2)
+library(sfsmisc)
+#library(plyr)
+library(dbscan)
+library(ggExtra)
+
+
+load('data-raw/Typing/txt_insdelsub.RData')  # by text and/or by subject
+load('data-raw/Typing/txt_ikis.RData')
+
+# Select sample we will be working with
+load('data-raw/Typing/SubjIn_final.RData')
+
+txtikis <- subset(txtikis, 
+                  Subject %in% SubjIn)
+txtres <- subset(txtres, 
+                 Subject %in% SubjIn)
+
+txtikis <- droplevels(txtikis) #fixes it
+ddd <- as.data.frame( table( txtikis$Subject,
+                             txtikis$icur ))
+
+# Typing speed --- iki should have 11709 rows
+iki <- ddply(txtikis, 
+             .(Subject,icur),
+             .drop = F, 
+             summarize, 
+             total = sum(ikis), 
+             nb = max(count))
+
+sent <- read.table("data-raw/Typing/signatures2_ascii.txt", 
+                   sep = '\n', 
+                   encoding = "latin1", 
+                   header = TRUE, 
+                   stringsAsFactors = FALSE)
+sent$icur <- seq(1:nrow(sent))
+sent <- sent[1:9, ]
+sent$nchar <- nchar(sent$sentence)
+
+iki <- merge(iki, 
+             sent[, c('icur', 'nchar')], 
+             all.x = TRUE)
+
+# Remove sentences with at least half the number of characters
+# plot % of nb/nchar
+iki$perc <- iki$nb/iki$nchar
+
+# Here, exclude some subjects that have too low accuracy and put it back in SampleChar.R
+a <- droplevels(subset(iki, 
+                       nb < nchar/2))
+b <- names( which( table( a$Subject) > 6 ) )
+
+iki <- subset(iki, 
+              nb > (nchar/2))
+
+iki$totalmin <- iki$total/(60*1000)
+iki$TSabs <- iki$nchar / (5 * iki$totalmin) # 5-char words per minute
+iki$TSrel <- iki$nb / (5 * iki$totalmin) # 5-char words per minute
+
+# Accuracy
+txtres <- merge(txtres, 
+                sent[,c('icur', 'nchar')])
+txtres <- merge(txtres, 
+                iki, 
+                all = TRUE)
+
+txtres$idsnorm <- txtres$insdelsub/txtres$nchar
+txtres$accuracy <- (txtres$nchar - txtres$insdelsub) / txtres$nchar
+
+# For some computing reason, some values of accuracy are under 0 and should be removed
+txtres = subset(txtres, txtres$accuracy > 0)
+
+# Merge both
+txt = merge(iki,txtres)
+# save(txt, file = 'txt_all.RData', row.names = F, col.names = T)
+
+
+# Analysis ----
+# ---
+
+load('data-raw/Typing/txt_all.RData')
+# txt = subset(txt, Subject %in% SubjIn)
+
+# average over sentences by subject
+m1 = ddply(txt, 
+           .(Subject), 
+           summarize, 
+           mTS = mean(TSrel), 
+           mAcc = mean(accuracy))
+
+ggplot(m1, aes(mAcc, mTS)) + geom_point()
+
+
+
+##### START MY EFFORTS
+# Demographic info in  allabout
+load('data-raw/Typing/allabout.RData') # alabout contains age and gender
+
+mPKD = ddply(allabout, 
+             .(Subject), 
+             summarize, 
+             Age = (age), 
+             Sex = (gender))
+
+# Now merge with m1
+Typing <- dplyr::inner_join(as.data.frame(m1), 
+                           as.data.frame(mPKD), 
+                           by = "Subject")
+
+rm(mPKD, m1)
+usethis::use_data(Typing, overwrite = TRUE)
+write.csv(Typing, "..//SRM-Textbook//Data//Typing.csv", row.names = FALSE)
+##############################
+
+
 
 
 UniStudentsLong <- read.csv("data-raw/UniStudentsLong.csv")
