@@ -2,6 +2,7 @@
 ### See: https://r-pkgs.org/data.html
 
 library(usethis) # To save things and so on
+library(plyr)
 library(dplyr) # For selecting variables
 
 ###########################################################################
@@ -229,13 +230,18 @@ write.csv(Fruit, "..//SRM-Textbook//Data//Fruit.csv")
 ##############################
 ### Exception: Processing needed
 Gorillas <- read.csv("data-raw/Gorillas.csv")
+Gorillas$Age20 <- factor( Gorillas$Age < 20,
+                 levels = c(TRUE, FALSE),
+                 labels = c("Younger", 
+                            "Older"))
 Gorillas <- select(Gorillas,
-                   Age,
                    BackBreadth,
                    ChestBeatRate,
                    FocalTime,
                    Male,
-                   NoChestBeats)
+                   NoChestBeats,
+                   Age,
+                   Age20)
 usethis::use_data(Gorillas, overwrite = TRUE)
 write.csv(Gorillas, "..//SRM-Textbook//Data//Gorillas.csv")
 ##############################
