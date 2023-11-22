@@ -230,10 +230,9 @@ write.csv(Fruit, "..//SRM-Textbook//Data//Fruit.csv")
 ##############################
 ### Exception: Processing needed
 Gorillas <- read.csv("data-raw/Gorillas.csv")
-Gorillas$Age20 <- factor( Gorillas$Age < 20,
-                 levels = c(TRUE, FALSE),
-                 labels = c("Younger", 
-                            "Older"))
+Gorillas$Age20 <- ifelse( Gorillas$Age < 20,
+                          "Younger",
+                          "Older")
 Gorillas <- select(Gorillas,
                    BackBreadth,
                    ChestBeatRate,
@@ -261,6 +260,19 @@ HusbandWife <- read.csv("data-raw/HusbandWife.csv")
 usethis::use_data(HusbandWife, overwrite = TRUE)
 write.csv(HusbandWife, "..//SRM-Textbook//Data//HusbandWife.csv")
 
+
+
+
+##############################
+Pre <-  c( 83, 292, 293, 623, 792, 1543, 1668, 1960, 2877, 2961, 5504)
+Post <- c( 83, 292, 292, 542, 709, 1000, 1000, 1626, 2502, 2711, 4504)
+
+IgE <- data.frame( Before = Pre,
+                   After = Post,
+                   Reduction = Pre - Post)
+usethis::use_data(IgE, overwrite = TRUE)
+write.csv(IgE, "..//SRM-Textbook//Data//IgE")
+##############################
 
 InsulationBeforeAfter <- read.csv("data-raw/InsulationBeforeAfter.csv")
 usethis::use_data(InsulationBeforeAfter, overwrite = TRUE)
