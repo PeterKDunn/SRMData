@@ -23,36 +23,43 @@ usethis::use_data(AISsub, overwrite = TRUE)
 write.csv(AISsub, "..//SRM-Textbook//Data//AISsub.csv", row.names = FALSE)
 
 
+##############################
 Anorexia <- read.csv("data-raw/Anorexia.csv")
 usethis::use_data(Anorexia, overwrite = TRUE)
 write.csv(Anorexia, "..//SRM-Textbook//Data//Anorexia.csv")
 
 
+##############################
 B12Long <- read.csv("data-raw/B12Long.csv")
 usethis::use_data(B12Long, overwrite = TRUE)
 write.csv(B12Long, "..//SRM-Textbook//Data//B12Long.csv")
 
 
+##############################
 BabyBoom <- read.csv("data-raw/BabyBoom.csv")
 usethis::use_data(BabyBoom, overwrite = TRUE)
 write.csv(BabyBoom, "..//SRM-Textbook//Data//BabyBoom.csv")
 
 
+##############################
 Battery <- read.csv("data-raw/Battery.csv")
 usethis::use_data(Battery, overwrite = TRUE)
 write.csv(Battery, "..//SRM-Textbook//Data//Battery.csv")
 
 
+##############################
 Bitumen <- read.csv("data-raw/Bitumen.csv")
 usethis::use_data(Bitumen, overwrite = TRUE)
 write.csv(Bitumen, "..//SRM-Textbook//Data//Bitumen.csv")
 
 
+##############################
 BodyTemp <- read.csv("data-raw/BodyTemp.csv")
 usethis::use_data(BodyTemp, overwrite = TRUE)
 write.csv(BodyTemp, "..//SRM-Textbook//Data//BodyTemp.csv")
 
 
+##############################
 Captopril <- read.csv("data-raw/Captopril.csv")
 usethis::use_data(Captopril, overwrite = TRUE)
 write.csv(Captopril, "..//SRM-Textbook//Data//Captopril.csv")
@@ -69,21 +76,25 @@ write.csv(CherryRipe, "..//SRM-Textbook//Data//CherryRipe.csv", row.names = FALS
 ##############################
 
 
+##############################
 Cyclones <- read.csv("data-raw/Cyclones.csv")
 usethis::use_data(Cyclones, overwrite = TRUE)
 write.csv(Cyclones, "..//SRM-Textbook//Data//Cyclones.csv")
 
 
+##############################
 Deceleration <- read.csv("data-raw/Deceleration.csv")
 usethis::use_data(Deceleration, overwrite = TRUE)
 write.csv(Deceleration, "..//SRM-Textbook//Data//Deceleration.csv", row.names = FALSE)
 
 
+##############################
 DanishLC <- read.csv("data-raw/DanishLC.csv")
 usethis::use_data(DanishLC, overwrite = TRUE)
 write.csv(DanishLC, "..//SRM-Textbook//Data//DanishLC.csv", row.names = FALSE)
 
 
+##############################
 Dental <- read.csv("data-raw/Dental.csv")
 usethis::use_data(Dental, overwrite = TRUE)
 write.csv(Dental, "..//SRM-Textbook//Data//Dental.csv", row.names = FALSE)
@@ -148,6 +159,7 @@ write.csv(EarInfection, "..//SRM-Textbook//Data//EarInfection.csv")
 
 
 
+##############################
 EDpatients <- read.csv("data-raw/EDpatients.csv")
 usethis::use_data(EDpatients, overwrite = TRUE)
 write.csv(EDpatients, "..//SRM-Textbook//Data//EDpatients.csv")
@@ -166,6 +178,7 @@ write.csv(EmeraldAug, "..//SRM-Textbook//Data//EmeraldAug.csv")
 ##############################
 
 
+##############################
 Ferritin <- read.csv("data-raw/Ferritin.csv")
 usethis::use_data(Ferritin, overwrite = TRUE)
 write.csv(Ferritin, "..//SRM-Textbook//Data//Ferritin.csv")
@@ -195,9 +208,22 @@ usethis::use_data(Fluoro, overwrite = TRUE)
 write.csv(Fluoro, "..//SRM-Textbook//Data//Fluoro.csv", row.names = FALSE)
 
 
+##############################
 ForwardFall <- read.csv("data-raw/ForwardFall.csv")
 usethis::use_data(ForwardFall, overwrite = TRUE)
 write.csv(ForwardFall, "..//SRM-Textbook//Data//ForwardFall.csv")
+
+
+
+##############################
+FriesWt <- c(117, 126, 128, 132, 133, 133, 134, 137, 138, 139, 139, 140, 141, 142, 142.5, 143, 143.5,  
+           145, 146, 146, 151, 152, 152, 154, 154, 154.5, 154.5, 155, 156, 156.5, 157, 176)
+FriesWt <- data.frame( FriesWt = FriesWt)
+
+usethis::use_data(FriesWt, overwrite = TRUE)
+write.csv(FriesWt, "..//SRM-Textbook//Data//FriesWt.csv")
+
+##############################
 
 
 ##############################
@@ -483,26 +509,77 @@ write.csv(Soils, "..//SRM-Textbook//Data//Soils.csv", row.names = FALSE)
 ##############################
 
 
+##############################
 SoilCN <- read.csv("data-raw/SoilCN.csv")
 usethis::use_data(SoilCN, overwrite = TRUE)
 write.csv(SoilCN, "..//SRM-Textbook//Data//SoilCN.csv")
 
 
+##############################
 Speed <- read.csv("data-raw/Speed.csv")
 usethis::use_data(Speed, overwrite = TRUE)
 write.csv(Speed, "..//SRM-Textbook//Data//Speed.csv")
 
 
+##############################
 Stress <- read.csv("data-raw/Stress.csv")
 usethis::use_data(Stress, overwrite = TRUE)
 write.csv(Stress, "..//SRM-Textbook//Data//Stress.csv", row.names = FALSE)
 
 
+##############################
 StudentWt <- read.csv("data-raw/StudentWt.csv")
 usethis::use_data(StudentWt, overwrite = TRUE)
 write.csv(StudentWt, "..//SRM-Textbook//Data//StudentWt.csv")
 
 
+##############################
+TapeOriginal <- read.csv("data-raw/Tape.csv")
+
+# Lots of empty cols:
+emptyColumns <- which(colSums( is.na(TapeOriginal) ) == dim(TapeOriginal)[1])
+Tape <- TapeOriginal[, -emptyColumns]
+ # Now 16 x 72
+
+Tape <- dplyr::select(Tape,
+                      Age = AGE,
+                      Sex = SEX,
+                      Pre.Left.KT.NoTension      = KT.NO.TENSION_PrePPT_LEFT.ARM,
+                      Pre.Right.KT.NoTension     = KT.NO.TENSION_PrePPT_RIGHT.ARM,		
+                      Post1.Left.KT.NoTension    = KT.NO.TENSION_POST1_PPT_LEFT.ARM,
+                      Post1.Right.KT.NoTension   = KT.NO.TENSION_POST1_PPT_RIGHT.ARM,
+                      Post2.Left.KT.NoTension    = KT.NO.TENSION_POST2_PPT_LEFT.ARM,
+                      Post2.Right.KT.NoTension   = KT.NO.TENSION_POST2_PPT_RIGHT.ARM,
+                      
+                      #Pre.Left.75KT.Tension      = KT.75..TENSION_PRE_PPT_LEFT.ARM,
+                      #Pre.Right.75KT.Tension     = KT.75..TENSION_PRE_PPT_RIGHT.ARM,
+                      Post1.Left.75KT.Tension    = KT.75..TENSION_POST1_PPT_LEFT.ARM,
+                      Post1.Right.75KT.Tension   = KT.75..TENSION_POST1_PPT_RIGHT.ARM,
+                      Post2.Left.75TKT.Tension    = KT.75..TENSION_POST2_PPT_LEFT.ARM,
+                      Post2.Right.75KT.Tension   = KT.75..TENSION_POST2_PPT_RIGHT.ARM,
+                      
+                      Pre.Left.NoTape         = NO.KT_PrePPT_LEFT.ARM,
+                      Pre.Right.NoTape        = NO.KT_PrePPT_RIGHT.ARM,
+                      Post1.Left.NoTape       = NO.KT_POST1_PPT_LEFT.ARM,
+                      Post1.Right.NoTape      = NO.KT_POST1_PPT_RIGHT.ARM,
+                      Post2.Left.NoTape       = NO.KT_POST2_PPT_LEFT.ARM,
+                      Post2.Right.NoTape      = NO.KT_POST2_PPT_RIGHT.ARM)
+
+# To help select columns
+# TapeDetails <- list(LeftArm  = seq(3, 18, by = 2),
+#                     RightArm = seq(4, 18, by = 2),
+#                     
+#                     NoTension = 3:8,
+#                     
+#                     KT = 3:8,
+#                     KT75 = 9:12,
+#                     NoKT = 13:18)
+
+usethis::use_data(Tape, overwrite = TRUE)
+write.csv(Tape, "..//SRM-Textbook//Data//Tape.csv")
+
+
+##############################
 Throttle <- read.csv("data-raw/Throttle.csv")
 usethis::use_data(Throttle, overwrite = TRUE)
 write.csv(Throttle, "..//SRM-Textbook//Data//Throttle.csv", row.names = FALSE)
