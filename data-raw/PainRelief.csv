@@ -1,0 +1,913 @@
+﻿id,time,score,group,age,maritalstats,educ,occupation,residence,numvisit,parity,gravidy,income,childsex,birthweight,Perineumoutcome,digreetare,breastfeeding
+1,1,4,palacetamol,27,single,non,peasant,rural,1,4,4,less than 1USD per day,female,3,tear,first digree,within on hour
+1,2,4,palacetamol,27,single,non,peasant,rural,1,4,4,less than 1USD per day,female,3,tear,first digree,within on hour
+1,3,2,palacetamol,27,single,non,peasant,rural,1,4,4,less than 1USD per day,female,3,tear,first digree,within on hour
+1,4,2,palacetamol,27,single,non,peasant,rural,1,4,4,less than 1USD per day,female,3,tear,first digree,within on hour
+2,1,7,palacetamol,20,married,secondary,peasant,rural,1,4,4,less than 1USD per day,male,3,,first digree,within on hour
+2,2,8,palacetamol,20,married,secondary,peasant,rural,1,4,4,less than 1USD per day,male,3,,first digree,within on hour
+2,3,5,palacetamol,20,married,secondary,peasant,rural,1,4,4,less than 1USD per day,male,3,,first digree,within on hour
+2,4,3,palacetamol,20,married,secondary,peasant,rural,1,4,4,less than 1USD per day,male,3,,first digree,within on hour
+3,1,4,palacetamol,19,married,secondary,employed,urban,4,1,1,less than 1USD per day,male,3,tear,first digree,within on hour
+3,2,4,palacetamol,19,married,secondary,employed,urban,4,1,1,less than 1USD per day,male,3,tear,first digree,within on hour
+3,3,3,palacetamol,19,married,secondary,employed,urban,4,1,1,less than 1USD per day,male,3,tear,first digree,within on hour
+3,4,3,palacetamol,19,married,secondary,employed,urban,4,1,1,less than 1USD per day,male,3,tear,first digree,within on hour
+4,1,4,coldpack,32,married,secondary,housewife,urban,3,4,4,less than 1USD per day,male,3,intact,intact,within on hour
+4,2,0,coldpack,32,married,secondary,housewife,urban,3,4,4,less than 1USD per day,male,3,intact,intact,within on hour
+4,3,0,coldpack,32,married,secondary,housewife,urban,3,4,4,less than 1USD per day,male,3,intact,intact,within on hour
+4,4,0,coldpack,32,married,secondary,housewife,urban,3,4,4,less than 1USD per day,male,3,intact,intact,within on hour
+5,1,4,palacetamol,22,married,secondary,employed,urban,3,1,1,more than 1USD per day,female,2.5,tear,first digree,within on hour
+5,2,4,palacetamol,22,married,secondary,employed,urban,3,1,1,more than 1USD per day,female,2.5,tear,first digree,within on hour
+5,3,2,palacetamol,22,married,secondary,employed,urban,3,1,1,more than 1USD per day,female,2.5,tear,first digree,within on hour
+5,4,1,palacetamol,22,married,secondary,employed,urban,3,1,1,more than 1USD per day,female,2.5,tear,first digree,within on hour
+6,1,8,coldpack,27,married,secondary,employed,rural,5,2,2,more than 1USD per day,female,3,tear,second digree,within on hour
+6,2,5,coldpack,27,married,secondary,employed,rural,5,2,2,more than 1USD per day,female,3,tear,second digree,within on hour
+6,3,2,coldpack,27,married,secondary,employed,rural,5,2,2,more than 1USD per day,female,3,tear,second digree,within on hour
+6,4,0,coldpack,27,married,secondary,employed,rural,5,2,2,more than 1USD per day,female,3,tear,second digree,within on hour
+7,1,8,coldpack,21,married,non,peasant,rural,7,1,1,less than 1USD per day,female,3,tear,first digree,after one hour
+7,2,6,coldpack,21,married,non,peasant,rural,7,1,1,less than 1USD per day,female,3,tear,first digree,after one hour
+7,3,3,coldpack,21,married,non,peasant,rural,7,1,1,less than 1USD per day,female,3,tear,first digree,after one hour
+7,4,0,coldpack,21,married,non,peasant,rural,7,1,1,less than 1USD per day,female,3,tear,first digree,after one hour
+8,1,8,coldpack,27,married,primary,employed,urban,4,3,3,more than 1USD per day,female,4,tear,second digree,after one hour
+8,2,5,coldpack,27,married,primary,employed,urban,4,3,3,more than 1USD per day,female,4,tear,second digree,after one hour
+8,3,2,coldpack,27,married,primary,employed,urban,4,3,3,more than 1USD per day,female,4,tear,second digree,after one hour
+8,4,1,coldpack,27,married,primary,employed,urban,4,3,3,more than 1USD per day,female,4,tear,second digree,after one hour
+9,1,,coldpack,17,married,secondary,employed,urban,3,1,1,more than 1USD per day,female,3,episiotomy,second digree,after one hour
+9,2,5,coldpack,17,married,secondary,employed,urban,3,1,1,more than 1USD per day,female,3,episiotomy,second digree,after one hour
+9,3,2,coldpack,17,married,secondary,employed,urban,3,1,1,more than 1USD per day,female,3,episiotomy,second digree,after one hour
+9,4,1,coldpack,17,married,secondary,employed,urban,3,1,1,more than 1USD per day,female,3,episiotomy,second digree,after one hour
+10,1,9,coldpack,24,married,secondary,employed,urban,5,2,2,more than 1USD per day,female,3,tear,first digree,within on hour
+10,2,3,coldpack,24,married,secondary,employed,urban,5,2,2,more than 1USD per day,female,3,tear,first digree,within on hour
+10,3,2,coldpack,24,married,secondary,employed,urban,5,2,2,more than 1USD per day,female,3,tear,first digree,within on hour
+10,4,0,coldpack,24,married,secondary,employed,urban,5,2,2,more than 1USD per day,female,3,tear,first digree,within on hour
+11,1,9,coldpack,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,male,4,tear,first digree,after one hour
+11,2,6,coldpack,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,male,4,tear,first digree,after one hour
+11,3,4,coldpack,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,male,4,tear,first digree,after one hour
+11,4,1,coldpack,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,male,4,tear,first digree,after one hour
+12,1,6,coldpack,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,female,4,intact,intact,within on hour
+12,2,2,coldpack,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,female,4,intact,intact,within on hour
+12,3,2,coldpack,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,female,4,intact,intact,within on hour
+12,4,0,coldpack,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,female,4,intact,intact,within on hour
+13,1,9,coldpack,19,single,primary,employed,urban,6,6,2,less than 1USD per day,female,3,episiotomy,episiotomy,after one hour
+13,2,7,coldpack,19,single,primary,employed,urban,6,1,1,less than 1USD per day,female,3,episiotomy,episiotomy,after one hour
+13,3,3,coldpack,19,single,primary,employed,urban,6,1,1,less than 1USD per day,female,3,episiotomy,episiotomy,after one hour
+13,4,2,coldpack,19,single,primary,employed,urban,6,1,1,less than 1USD per day,female,3,episiotomy,episiotomy,after one hour
+14,1,9,coldpack,21,married,secondary,housewife,urban,3,1,1,less than 1USD per day,male,3,tear,first digree,within on hour
+14,2,7,coldpack,21,married,secondary,housewife,urban,3,1,1,less than 1USD per day,male,3,tear,first digree,within on hour
+14,3,2,coldpack,21,married,secondary,housewife,urban,3,1,1,less than 1USD per day,male,3,tear,first digree,within on hour
+14,4,0,coldpack,21,married,secondary,housewife,urban,3,1,1,less than 1USD per day,male,3,tear,first digree,within on hour
+15,1,8,coldpack,21,married,primary,employed,urban,4,1,1,more than 1USD per day,male,3.5,tear,first digree,within on hour
+15,2,5,coldpack,21,married,primary,employed,urban,4,1,1,more than 1USD per day,male,3.5,tear,first digree,within on hour
+15,3,2,coldpack,21,married,primary,employed,urban,4,1,1,more than 1USD per day,male,3.5,tear,first digree,within on hour
+15,4,1,coldpack,21,married,primary,employed,urban,4,1,1,more than 1USD per day,male,3.5,tear,first digree,within on hour
+16,1,7,coldpack,22,married,primary,housewife,urban,5,1,1,less than 1USD per day,female,3.4,episiotomy,episiotomy,after one hour
+16,2,7,coldpack,22,married,primary,housewife,urban,5,1,1,less than 1USD per day,female,3.4,episiotomy,episiotomy,after one hour
+16,3,6,coldpack,22,married,primary,housewife,urban,5,1,1,less than 1USD per day,female,3.4,episiotomy,episiotomy,after one hour
+16,4,2,coldpack,22,married,primary,housewife,urban,5,1,1,less than 1USD per day,female,3.4,episiotomy,episiotomy,after one hour
+17,1,8,coldpack,21,married,non,peasant,rural,6,1,1,less than 1USD per day,male,2.8,tear,first digree,after one hour
+17,2,3,coldpack,21,married,non,peasant,rural,6,1,1,less than 1USD per day,male,2.8,tear,first digree,after one hour
+17,3,2,coldpack,21,married,non,peasant,rural,6,1,1,less than 1USD per day,male,2.8,tear,first digree,after one hour
+17,4,0,coldpack,21,married,non,peasant,rural,6,1,1,less than 1USD per day,male,2.8,tear,first digree,after one hour
+18,1,10,coldpack,35,married,secondary,employed,rural,7,4,4,more than 1USD per day,male,3.5,tear,second digree,after one hour
+18,2,8,coldpack,35,married,secondary,employed,rural,7,4,4,more than 1USD per day,male,3.5,tear,second digree,after one hour
+18,3,6,coldpack,35,married,secondary,employed,rural,7,4,4,more than 1USD per day,male,3.5,tear,second digree,after one hour
+18,4,4,coldpack,35,married,secondary,employed,rural,7,4,4,more than 1USD per day,male,3.5,tear,second digree,after one hour
+19,1,10,coldpack,32,married,secondary,employed,urban,6,3,3,more than 1USD per day,male,3.2,intact,intact,within on hour
+19,2,7,coldpack,32,married,secondary,employed,urban,6,3,3,more than 1USD per day,male,3.2,intact,intact,within on hour
+19,3,4,coldpack,32,married,secondary,employed,urban,6,3,3,more than 1USD per day,male,3.2,intact,intact,within on hour
+19,4,2,coldpack,32,married,secondary,employed,urban,6,3,3,more than 1USD per day,male,3.2,intact,intact,within on hour
+20,1,9,coldpack,27,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,3.5,tear,second digree,within on hour
+20,2,7,coldpack,27,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,3.5,tear,second digree,within on hour
+20,3,6,coldpack,27,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,3.5,tear,second digree,within on hour
+20,4,4,coldpack,27,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,3.5,tear,second digree,within on hour
+21,1,4,palacetamol,27,married,secondary,employed,urban,5,2,3,more than 1USD per day,female,3.3,intact,intact,within on hour
+21,2,4,palacetamol,27,married,secondary,employed,urban,5,2,3,more than 1USD per day,female,3.3,intact,intact,within on hour
+21,3,3,palacetamol,27,married,secondary,employed,urban,5,2,3,more than 1USD per day,female,3.3,intact,intact,within on hour
+21,4,2,palacetamol,27,married,secondary,employed,urban,5,2,3,more than 1USD per day,female,3.3,intact,intact,within on hour
+22,1,9,coldpack,31,married,secondary,employed,urban,5,2,4,more than 1USD per day,male,2.5,tear,second digree,after one hour
+22,2,6,coldpack,31,married,secondary,employed,urban,5,2,4,more than 1USD per day,male,2.5,tear,second digree,after one hour
+22,3,3,coldpack,31,married,secondary,employed,urban,5,2,4,more than 1USD per day,male,2.5,tear,second digree,after one hour
+22,4,1,coldpack,31,married,secondary,employed,urban,5,2,4,more than 1USD per day,male,2.5,tear,second digree,after one hour
+23,1,7,palacetamol,30,married,non,peasant,rural,1,6,6,less than 1USD per day,female,3.8,tear,first digree,within on hour
+23,2,7,palacetamol,30,married,non,peasant,rural,1,6,6,less than 1USD per day,female,3.8,tear,first digree,within on hour
+23,3,6,palacetamol,30,married,non,peasant,rural,1,6,6,less than 1USD per day,female,3.8,tear,first digree,within on hour
+23,4,3,palacetamol,30,married,non,peasant,rural,1,6,6,less than 1USD per day,female,3.8,tear,first digree,within on hour
+24,1,3,palacetamol,20,married,secondary,peasant,urban,6,1,1,less than 1USD per day,female,3,intact,intact,within on hour
+24,2,3,palacetamol,20,married,secondary,peasant,urban,6,1,1,less than 1USD per day,female,3,intact,intact,within on hour
+24,3,2,palacetamol,20,married,secondary,peasant,urban,6,1,1,less than 1USD per day,female,3,intact,intact,within on hour
+24,4,2,palacetamol,20,married,secondary,peasant,urban,6,1,1,less than 1USD per day,female,3,intact,intact,within on hour
+25,1,6,coldpack,32,married,primary,employed,urban,4,3,3,more than 1USD per day,male,3.4,intact,intact,within on hour
+25,2,3,coldpack,32,married,primary,employed,urban,4,3,3,more than 1USD per day,male,3.4,intact,intact,within on hour
+25,3,3,coldpack,32,married,primary,employed,urban,4,3,3,more than 1USD per day,male,3.4,intact,intact,within on hour
+25,4,0,coldpack,32,married,primary,employed,urban,4,3,3,more than 1USD per day,male,3.4,intact,intact,within on hour
+26,1,8,coldpack,21,married,primary,employed,urban,4,2,2,more than 1USD per day,female,3.2,tear,first digree,within on hour
+26,2,7,coldpack,21,married,primary,employed,urban,4,2,2,more than 1USD per day,female,3.2,tear,first digree,within on hour
+26,3,5,coldpack,21,married,primary,employed,urban,4,2,2,more than 1USD per day,female,3.2,tear,first digree,within on hour
+26,4,3,coldpack,21,married,primary,employed,urban,4,2,2,more than 1USD per day,female,3.2,tear,first digree,within on hour
+27,1,9,coldpack,35,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,3.6,intact,intact,within on hour
+27,2,4,coldpack,35,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,3.6,intact,intact,within on hour
+27,3,2,coldpack,35,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,3.6,intact,intact,within on hour
+27,4,1,coldpack,35,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,3.6,intact,intact,within on hour
+28,1,10,coldpack,19,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,3,tear,second digree,after one hour
+28,2,8,coldpack,19,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,3,tear,second digree,after one hour
+28,3,1,coldpack,19,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,3,tear,second digree,after one hour
+28,4,1,coldpack,19,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,3,tear,second digree,after one hour
+29,1,10,coldpack,22,married,secondary,employed,urban,6,2,4,more than 1USD per day,female,3.7,tear,second digree,within on hour
+29,2,7,coldpack,22,married,secondary,employed,urban,6,2,4,more than 1USD per day,female,3.7,tear,second digree,within on hour
+29,3,5,coldpack,22,married,secondary,employed,urban,6,2,4,more than 1USD per day,female,3.7,tear,second digree,within on hour
+29,4,3,coldpack,22,married,secondary,employed,urban,6,2,4,more than 1USD per day,female,3.7,tear,second digree,within on hour
+30,1,9,coldpack,32,married,secondary,housewife,urban,7,1,1,less than 1USD per day,female,2.8,intact,intact,within on hour
+30,2,5,coldpack,32,married,secondary,housewife,,7,1,1,less than 1USD per day,female,2.8,intact,intact,within on hour
+30,3,3,coldpack,32,married,secondary,housewife,,7,1,1,less than 1USD per day,female,2.8,intact,intact,within on hour
+30,4,2,coldpack,32,married,secondary,housewife,,7,1,1,less than 1USD per day,female,2.8,intact,intact,within on hour
+31,1,10,coldpack,24,single,secondary,employed,urban,5,2,2,more than 1USD per day,male,2.5,intact,intact,after one hour
+31,2,5,coldpack,24,single,secondary,employed,,5,2,2,more than 1USD per day,male,2.5,intact,intact,after one hour
+31,3,2,coldpack,24,single,secondary,employed,,5,2,2,more than 1USD per day,male,2.5,intact,intact,after one hour
+31,4,1,coldpack,24,single,secondary,employed,,5,2,2,more than 1USD per day,male,2.5,intact,intact,after one hour
+32,1,8,coldpack,24,single,secondary,employed,urban,6,1,1,more than 1USD per day,male,3.6,tear,second digree,within on hour
+32,2,6,coldpack,24,married,secondary,employed,,6,1,2,more than 1USD per day,male,3.6,tear,second digree,within on hour
+32,3,3,coldpack,24,married,secondary,employed,,6,1,2,more than 1USD per day,male,3.6,tear,second digree,within on hour
+32,4,2,coldpack,24,married,secondary,employed,,6,1,2,more than 1USD per day,male,3.6,tear,second digree,within on hour
+33,1,9,coldpack,23,married,secondary,housewife,urban,3,2,2,less than 1USD per day,male,3.4,tear,first digree,within on hour
+33,2,7,coldpack,23,married,secondary,housewife,,3,2,2,less than 1USD per day,male,3.4,tear,first digree,within on hour
+33,3,4,coldpack,23,married,secondary,housewife,,3,2,2,less than 1USD per day,male,3.4,tear,first digree,within on hour
+33,4,1,coldpack,23,married,secondary,housewife,,3,2,2,less than 1USD per day,male,3.4,tear,first digree,within on hour
+34,1,7,coldpack,22,married,non,peasant,rural,4,2,2,less than 1USD per day,female,3.3,intact,intact,after one hour
+34,2,3,coldpack,22,married,non,peasant,rural,4,2,2,less than 1USD per day,female,3.3,intact,intact,after one hour
+34,3,2,coldpack,22,married,non,peasant,rural,4,2,2,less than 1USD per day,female,3.3,intact,intact,after one hour
+34,4,0,coldpack,22,married,non,peasant,rural,4,2,2,less than 1USD per day,female,3.3,intact,intact,after one hour
+35,1,9,coldpack,19,single,secondary,housewife,rural,0,1,1,less than 1USD per day,male,2.5,tear,second digree,within on hour
+35,2,4,coldpack,19,single,secondary,housewife,rural,0,1,1,less than 1USD per day,male,2.5,tear,second digree,within on hour
+35,3,3,coldpack,19,single,secondary,housewife,rural,0,1,1,less than 1USD per day,male,2.5,tear,second digree,within on hour
+35,4,0,coldpack,19,single,secondary,housewife,rural,0,1,1,less than 1USD per day,male,2.5,tear,second digree,within on hour
+36,1,9,coldpack,24,married,secondary,employed,urban,8,3,3,more than 1USD per day,male,3.8,tear,first digree,within on hour
+36,2,7,coldpack,24,married,secondary,employed,urban,8,3,3,more than 1USD per day,male,3.8,tear,first digree,within on hour
+36,3,5,coldpack,24,married,secondary,employed,urban,8,3,3,more than 1USD per day,male,3.8,tear,first digree,within on hour
+36,4,3,coldpack,24,married,secondary,employed,urban,8,3,3,more than 1USD per day,male,3.8,tear,first digree,within on hour
+37,1,10,coldpack,34,single,primary,employed,rural,5,2,2,less than 1USD per day,male,2.5,tear,second digree,after one hour
+37,2,8,coldpack,34,single,primary,employed,rural,5,2,2,less than 1USD per day,male,2.5,tear,second digree,after one hour
+37,3,3,coldpack,34,single,primary,employed,rural,5,2,2,less than 1USD per day,male,2.5,tear,second digree,after one hour
+37,4,0,coldpack,34,single,primary,employed,rural,5,2,2,less than 1USD per day,male,2.5,tear,second digree,after one hour
+38,1,9,coldpack,20,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,3.5,tear,second digree,within on hour
+38,2,7,coldpack,20,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,3.5,tear,second digree,within on hour
+38,3,3,coldpack,20,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,3.5,tear,second digree,within on hour
+38,4,1,coldpack,20,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,3.5,tear,second digree,within on hour
+39,1,10,coldpack,22,married,primary,employed,urban,7,2,2,more than 1USD per day,female,2.8,intact,intact,within on hour
+39,2,6,coldpack,22,married,primary,employed,urban,7,2,2,more than 1USD per day,female,2.8,intact,intact,within on hour
+39,3,3,coldpack,22,married,primary,employed,urban,7,2,2,more than 1USD per day,female,2.8,intact,intact,within on hour
+39,4,2,coldpack,22,married,primary,employed,urban,7,2,2,more than 1USD per day,female,2.8,intact,intact,within on hour
+40,1,7,coldpack,30,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,2.7,intact,intact,within on hour
+40,2,5,coldpack,30,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,2.7,intact,intact,within on hour
+40,3,2,coldpack,30,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,2.7,intact,intact,within on hour
+40,4,0,coldpack,30,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,2.7,intact,intact,within on hour
+41,1,9,coldpack,27,married,primary,employed,urban,5,3,3,more than 1USD per day,female,3.2,tear,second digree,within on hour
+41,2,7,coldpack,27,married,primary,employed,urban,5,3,3,more than 1USD per day,female,3.2,tear,second digree,within on hour
+41,3,4,coldpack,27,married,primary,employed,urban,5,3,3,more than 1USD per day,female,3.2,tear,second digree,within on hour
+41,4,2,coldpack,27,married,primary,employed,urban,5,3,3,more than 1USD per day,female,3.2,tear,second digree,within on hour
+42,1,8,coldpack,31,married,secondary,employed,urban,3,4,5,more than 1USD per day,female,3.1,intact,intact,within on hour
+42,2,6,coldpack,31,married,secondary,employed,urban,3,4,5,more than 1USD per day,female,3.1,intact,intact,within on hour
+42,3,3,coldpack,31,married,secondary,employed,urban,3,4,5,more than 1USD per day,female,3.1,intact,intact,within on hour
+42,4,1,coldpack,31,married,secondary,employed,urban,3,4,5,more than 1USD per day,female,3.1,intact,intact,within on hour
+43,1,9,coldpack,25,married,primary,employed,rural,6,2,2,less than 1USD per day,male,3.6,intact,intact,within on hour
+43,2,6,coldpack,25,married,primary,employed,rural,6,2,2,less than 1USD per day,male,3.6,intact,intact,within on hour
+43,3,3,coldpack,25,married,primary,employed,rural,6,2,2,less than 1USD per day,male,3.6,intact,intact,within on hour
+43,4,0,coldpack,25,married,primary,employed,rural,6,2,2,less than 1USD per day,male,3.6,intact,intact,within on hour
+44,1,10,coldpack,30,married,primary,employed,rural,2,2,1,more than 1USD per day,male,2.6,tear,second digree,after one hour
+44,2,6,coldpack,30,married,primary,employed,rural,2,2,1,more than 1USD per day,male,2.6,tear,second digree,after one hour
+44,3,2,coldpack,30,married,primary,employed,rural,2,2,1,more than 1USD per day,male,2.6,tear,second digree,after one hour
+44,4,0,coldpack,30,married,primary,employed,rural,2,2,1,more than 1USD per day,male,2.6,tear,second digree,after one hour
+45,1,6,palacetamol,19,single,primary,peasant,rural,4,1,1,less than 1USD per day,male,3,tear,second digree,after one hour
+45,2,6,palacetamol,19,single,primary,peasant,rural,4,1,1,less than 1USD per day,male,3,tear,second digree,after one hour
+45,3,3,palacetamol,19,single,primary,peasant,rural,4,1,1,less than 1USD per day,male,3,tear,second digree,after one hour
+45,4,1,palacetamol,19,single,primary,peasant,rural,4,1,1,less than 1USD per day,male,3,tear,second digree,after one hour
+46,1,8,coldpack,19,married,primary,peasant,rural,4,1,1,less than 1USD per day,female,2.9,episiotomy,episiotomy,after one hour
+46,2,6,coldpack,19,married,primary,peasant,rural,4,1,1,less than 1USD per day,female,2.9,episiotomy,episiotomy,after one hour
+46,3,2,coldpack,19,married,primary,peasant,rural,4,1,1,less than 1USD per day,female,2.9,episiotomy,episiotomy,after one hour
+46,4,1,coldpack,19,married,primary,peasant,rural,4,1,1,less than 1USD per day,female,2.9,episiotomy,episiotomy,after one hour
+47,1,8,coldpack,16,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,2.7,intact,intact,after one hour
+47,2,4,coldpack,16,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,2.7,intact,intact,after one hour
+47,3,1,coldpack,16,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,2.7,intact,intact,after one hour
+47,4,0,coldpack,16,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,2.7,intact,intact,after one hour
+48,1,9,coldpack,22,married,primary,employed,urban,4,2,2,more than 1USD per day,male,3.4,tear,first digree,within on hour
+48,2,7,coldpack,22,married,primary,employed,urban,4,2,2,more than 1USD per day,male,3.4,tear,first digree,within on hour
+48,3,5,coldpack,22,married,primary,employed,urban,4,2,2,more than 1USD per day,male,3.4,tear,first digree,within on hour
+48,4,1,coldpack,22,married,primary,employed,urban,4,2,2,more than 1USD per day,male,3.4,tear,first digree,within on hour
+49,1,9,coldpack,24,single,non,peasant,rural,4,2,2,less than 1USD per day,male,3.2,tear,first digree,within on hour
+49,2,6,coldpack,24,single,non,peasant,rural,4,2,2,less than 1USD per day,male,3.2,tear,first digree,within on hour
+49,3,3,coldpack,24,single,non,peasant,rural,4,2,2,less than 1USD per day,male,3.2,tear,first digree,within on hour
+49,4,2,coldpack,24,single,non,peasant,rural,4,2,2,less than 1USD per day,male,3.2,tear,first digree,within on hour
+50,1,7,coldpack,27,single,primary,peasant,rural,5,4,4,more than 1USD per day,female,2.9,intact,intact,within on hour
+50,2,4,coldpack,27,single,primary,peasant,rural,5,4,4,more than 1USD per day,female,2.9,intact,intact,within on hour
+50,3,3,coldpack,27,single,primary,peasant,rural,5,4,4,more than 1USD per day,female,2.9,intact,intact,within on hour
+50,4,1,coldpack,27,single,primary,peasant,rural,5,4,4,more than 1USD per day,female,2.9,intact,intact,within on hour
+51,1,10,coldpack,18,single,primary,housewife,urban,4,1,1,more than 1USD per day,male,2.8,tear,first digree,within on hour
+51,2,7,coldpack,18,single,primary,housewife,urban,4,1,1,more than 1USD per day,male,2.8,tear,first digree,within on hour
+51,3,3,coldpack,18,single,primary,housewife,urban,4,1,1,more than 1USD per day,male,2.8,tear,first digree,within on hour
+51,4,3,coldpack,18,single,primary,housewife,urban,4,1,1,more than 1USD per day,male,2.8,tear,first digree,within on hour
+52,1,6,coldpack,22,married,primary,peasant,urban,5,1,1,more than 1USD per day,male,2.6,intact,intact,after one hour
+52,2,3,coldpack,22,married,primary,peasant,urban,5,1,1,more than 1USD per day,male,2.6,intact,intact,after one hour
+52,3,2,coldpack,22,married,primary,peasant,urban,5,1,1,more than 1USD per day,male,2.6,intact,intact,after one hour
+52,4,0,coldpack,22,married,primary,peasant,urban,5,1,1,more than 1USD per day,male,2.6,intact,intact,after one hour
+53,1,10,coldpack,20,married,non,housewife,urban,6,1,2,more than 1USD per day,male,2.5,tear,second digree,within on hour
+53,2,6,coldpack,20,married,non,housewife,urban,6,1,2,more than 1USD per day,male,2.5,tear,second digree,within on hour
+53,3,3,coldpack,20,married,non,housewife,urban,6,1,2,more than 1USD per day,male,2.5,tear,second digree,within on hour
+53,4,2,coldpack,20,married,non,housewife,urban,6,1,2,more than 1USD per day,male,2.5,tear,second digree,within on hour
+54,1,9,coldpack,29,married,non,peasant,rural,3,6,6,less than 1USD per day,male,3.4,intact,intact,after one hour
+54,2,5,coldpack,29,married,non,peasant,rural,3,6,6,less than 1USD per day,male,3.4,intact,intact,after one hour
+54,3,3,coldpack,29,married,non,peasant,rural,3,6,6,less than 1USD per day,male,3.4,intact,intact,after one hour
+54,4,0,coldpack,29,married,non,peasant,rural,3,6,6,less than 1USD per day,male,3.4,intact,intact,after one hour
+55,1,10,coldpack,31,married,secondary,housewife,urban,4,3,6,more than 1USD per day,female,3.5,intact,intact,within on hour
+55,2,6,coldpack,31,married,secondary,housewife,urban,4,3,6,more than 1USD per day,female,3.5,intact,intact,within on hour
+55,3,2,coldpack,31,married,secondary,housewife,urban,4,3,6,more than 1USD per day,female,3.5,intact,intact,within on hour
+55,4,0,coldpack,31,married,secondary,housewife,urban,4,3,6,more than 1USD per day,female,3.5,intact,intact,within on hour
+56,1,8,coldpack,40,married,primary,housewife,urban,2,5,5,less than 1USD per day,male,3.4,tear,first digree,within on hour
+56,2,5,coldpack,40,married,primary,housewife,urban,2,5,5,less than 1USD per day,male,3.4,tear,first digree,within on hour
+56,3,3,coldpack,40,married,primary,housewife,urban,2,5,5,less than 1USD per day,male,3.4,tear,first digree,within on hour
+56,4,1,coldpack,40,married,primary,housewife,urban,2,5,5,less than 1USD per day,male,3.4,tear,first digree,within on hour
+57,1,10,coldpack,34,married,primary,housewife,urban,5,5,5,more than 1USD per day,male,3,tear,first digree,after one hour
+57,2,7,coldpack,34,married,primary,housewife,urban,5,5,5,more than 1USD per day,male,3,tear,first digree,after one hour
+57,3,5,coldpack,34,married,primary,housewife,urban,5,5,5,more than 1USD per day,male,3,tear,first digree,after one hour
+57,4,1,coldpack,34,married,primary,housewife,urban,5,5,5,more than 1USD per day,male,3,tear,first digree,after one hour
+58,1,10,coldpack,46,married,secondary,employed,urban,4,3,3,more than 1USD per day,male,3.9,tear,first digree,after one hour
+58,2,5,coldpack,46,married,secondary,employed,urban,4,3,3,more than 1USD per day,male,3.9,tear,first digree,after one hour
+58,3,3,coldpack,46,married,secondary,employed,urban,4,3,3,more than 1USD per day,male,3.9,tear,first digree,after one hour
+58,4,0,coldpack,46,married,secondary,employed,urban,4,3,3,more than 1USD per day,male,3.9,tear,first digree,after one hour
+59,1,5,palacetamol,48,married,primary,peasant,rural,2,7,7,less than 1USD per day,male,3.4,intact,intact,within on hour
+59,2,5,palacetamol,48,married,primary,peasant,rural,2,7,7,less than 1USD per day,male,3.4,intact,intact,within on hour
+59,3,4,palacetamol,48,married,primary,peasant,rural,2,7,7,less than 1USD per day,male,3.4,intact,intact,within on hour
+59,4,2,palacetamol,48,married,primary,peasant,rural,2,7,7,less than 1USD per day,male,3.4,intact,intact,within on hour
+60,1,7,coldpack,37,married,primary,peasant,rural,4,4,5,less than 1USD per day,male,3.8,intact,intact,within on hour
+60,2,4,coldpack,37,married,primary,peasant,rural,4,4,5,less than 1USD per day,male,3.8,intact,intact,within on hour
+60,3,3,coldpack,37,married,primary,peasant,rural,4,4,5,less than 1USD per day,male,3.8,intact,intact,within on hour
+60,4,1,coldpack,37,married,primary,peasant,rural,4,4,5,less than 1USD per day,male,3.8,intact,intact,within on hour
+61,1,5,palacetamol,33,married,primary,employed,urban,4,2,2,more than 1USD per day,female,3,tear,first digree,within on hour
+61,2,4,palacetamol,33,married,primary,employed,urban,4,2,2,more than 1USD per day,female,3,tear,first digree,within on hour
+61,3,3,palacetamol,33,married,primary,employed,urban,4,2,2,more than 1USD per day,female,3,tear,first digree,within on hour
+61,4,1,palacetamol,33,married,primary,employed,urban,4,2,2,more than 1USD per day,female,3,tear,first digree,within on hour
+62,1,9,palacetamol,21,married,secondary,housewife,urban,4,1,1,less than 1USD per day,male,2.7,episiotomy,episiotomy,after one hour
+62,2,7,palacetamol,21,married,secondary,housewife,urban,4,1,1,less than 1USD per day,male,2.7,episiotomy,episiotomy,after one hour
+62,3,6,palacetamol,21,married,secondary,housewife,urban,4,1,1,less than 1USD per day,male,2.7,episiotomy,episiotomy,after one hour
+62,4,3,palacetamol,21,married,secondary,housewife,urban,4,1,1,less than 1USD per day,male,2.7,episiotomy,episiotomy,after one hour
+63,1,5,palacetamol,27,married,secondary,housewife,urban,5,1,1,more than 1USD per day,female,2.8,tear,second digree,after one hour
+63,2,5,palacetamol,27,married,secondary,housewife,urban,5,1,1,more than 1USD per day,female,2.8,tear,second digree,after one hour
+63,3,3,palacetamol,27,married,secondary,housewife,urban,5,1,1,more than 1USD per day,female,2.8,tear,second digree,after one hour
+63,4,1,palacetamol,27,married,secondary,housewife,urban,5,1,1,more than 1USD per day,female,2.8,tear,second digree,after one hour
+64,1,8,palacetamol,20,single,secondary,employed,urban,1,1,1,less than 1USD per day,female,3,tear,second digree,after one hour
+64,2,5,palacetamol,20,single,secondary,employed,urban,1,1,1,less than 1USD per day,female,3,tear,second digree,after one hour
+64,3,3,palacetamol,20,single,secondary,employed,urban,1,1,1,less than 1USD per day,female,3,tear,second digree,after one hour
+64,4,2,palacetamol,20,single,secondary,employed,urban,1,1,1,less than 1USD per day,female,3,tear,second digree,after one hour
+65,1,10,coldpack,20,married,secondary,employed,urban,2,1,1,more than 1USD per day,female,2.8,tear,second digree,after one hour
+65,2,7,coldpack,20,married,secondary,employed,urban,2,1,1,more than 1USD per day,female,2.8,tear,second digree,after one hour
+65,3,5,coldpack,20,married,secondary,employed,urban,2,1,1,more than 1USD per day,female,2.8,tear,second digree,after one hour
+65,4,2,coldpack,20,married,secondary,employed,urban,2,1,1,more than 1USD per day,female,2.8,tear,second digree,after one hour
+66,1,9,coldpack,29,married,primary,employed,urban,7,1,2,less than 1USD per day,female,2.5,tear,second digree,after one hour
+66,2,6,coldpack,29,married,primary,employed,urban,7,1,2,less than 1USD per day,female,2.5,tear,second digree,after one hour
+66,3,3,coldpack,29,married,primary,employed,urban,7,1,2,less than 1USD per day,female,2.5,tear,second digree,after one hour
+66,4,1,coldpack,29,married,primary,employed,urban,7,1,2,less than 1USD per day,female,2.5,tear,second digree,within on hour
+67,1,9,coldpack,33,married,secondary,housewife,urban,3,1,2,less than 1USD per day,male,2.5,intact,intact,within on hour
+67,2,6,coldpack,33,married,secondary,housewife,urban,3,1,2,less than 1USD per day,male,2.5,intact,intact,within on hour
+67,3,4,coldpack,33,married,secondary,housewife,urban,3,1,2,less than 1USD per day,male,2.5,intact,intact,within on hour
+67,4,0,coldpack,33,married,secondary,housewife,urban,3,1,2,less than 1USD per day,male,2.5,intact,intact,within on hour
+68,1,9,coldpack,22,married,non,employed,urban,6,1,1,more than 1USD per day,male,2.6,tear,first digree,after one hour
+68,2,7,coldpack,22,married,non,employed,urban,6,1,1,more than 1USD per day,male,2.6,tear,first digree,after one hour
+68,3,5,coldpack,22,married,non,employed,urban,6,1,1,more than 1USD per day,male,2.6,tear,first digree,after one hour
+68,4,1,coldpack,22,married,non,employed,urban,6,1,1,more than 1USD per day,male,2.6,tear,first digree,after one hour
+69,1,10,coldpack,18,single,primary,housewife,urban,4,1,1,less than 1USD per day,female,2.7,tear,second digree,after one hour
+69,2,8,coldpack,18,single,primary,housewife,urban,4,1,1,less than 1USD per day,female,2.7,tear,second digree,after one hour
+69,3,5,coldpack,18,single,primary,housewife,urban,4,1,1,less than 1USD per day,female,2.7,tear,second digree,after one hour
+69,4,2,coldpack,18,single,primary,housewife,urban,4,1,1,less than 1USD per day,female,2.7,tear,second digree,after one hour
+70,1,8,coldpack,29,married,primary,peasant,rural,5,3,3,less than 1USD per day,male,3.2,intact,intact,within on hour
+70,2,6,coldpack,29,married,primary,peasant,rural,5,3,3,less than 1USD per day,male,3.2,intact,intact,within on hour
+70,3,4,coldpack,29,married,primary,peasant,rural,5,3,3,less than 1USD per day,male,3.2,intact,intact,within on hour
+70,4,1,coldpack,29,married,primary,peasant,rural,5,3,3,less than 1USD per day,male,3.2,intact,intact,within on hour
+71,1,10,coldpack,21,married,primary,employed,urban,4,1,1,more than 1USD per day,male,3,tear,second digree,after one hour
+71,2,8,coldpack,21,married,primary,employed,urban,4,1,1,more than 1USD per day,male,3,tear,second digree,after one hour
+71,3,4,coldpack,21,married,primary,employed,urban,4,1,1,more than 1USD per day,male,3,tear,second digree,after one hour
+71,4,2,coldpack,21,married,primary,employed,urban,4,1,1,more than 1USD per day,male,3,tear,second digree,after one hour
+72,1,9,coldpack,19,married,secondary,housewife,urban,3,1,1,less than 1USD per day,male,2.5,tear,second digree,after one hour
+72,2,7,coldpack,19,married,secondary,housewife,urban,3,1,1,less than 1USD per day,male,2.5,tear,second digree,after one hour
+72,3,5,coldpack,19,married,secondary,housewife,urban,3,1,1,less than 1USD per day,male,2.5,tear,second digree,after one hour
+72,4,2,coldpack,19,married,secondary,housewife,urban,3,1,1,less than 1USD per day,male,2.5,tear,second digree,after one hour
+73,1,9,coldpack,24,married,primary,employed,urban,5,2,2,more than 1USD per day,male,3.5,tear,first digree,after one hour
+73,2,7,coldpack,24,married,primary,employed,urban,5,2,2,more than 1USD per day,male,3.5,tear,first digree,after one hour
+73,3,4,coldpack,24,married,primary,employed,urban,5,2,2,more than 1USD per day,male,3.5,tear,first digree,after one hour
+73,4,1,coldpack,24,married,primary,employed,urban,5,2,2,more than 1USD per day,male,3.5,tear,first digree,after one hour
+74,1,10,coldpack,22,married,secondary,housewife,urban,2,1,1,less than 1USD per day,female,3,tear,second digree,after one hour
+74,2,8,coldpack,22,married,secondary,housewife,urban,2,1,1,less than 1USD per day,female,3,tear,second digree,after one hour
+74,3,4,coldpack,22,married,secondary,housewife,urban,2,1,1,less than 1USD per day,female,3,tear,second digree,after one hour
+74,4,2,coldpack,22,married,secondary,housewife,urban,2,1,1,less than 1USD per day,female,3,tear,second digree,after one hour
+75,1,8,coldpack,31,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,3.3,intact,intact,within on hour
+75,2,6,coldpack,31,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,3.3,intact,intact,within on hour
+75,3,5,coldpack,31,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,3.3,intact,intact,within on hour
+75,4,1,coldpack,31,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,3.3,intact,intact,within on hour
+76,1,9,coldpack,32,married,secondary,housewife,urban,6,3,3,less than 1USD per day,male,2.5,intact,intact,within on hour
+76,2,7,coldpack,32,married,secondary,housewife,urban,6,3,3,less than 1USD per day,male,2.5,intact,intact,within on hour
+76,3,5,coldpack,32,married,secondary,housewife,urban,6,3,3,less than 1USD per day,male,2.5,intact,intact,within on hour
+76,4,2,coldpack,32,married,secondary,housewife,urban,6,3,3,less than 1USD per day,male,2.5,intact,intact,within on hour
+77,1,9,coldpack,20,single,non,peasant,rural,3,1,1,less than 1USD per day,male,3.5,tear,first digree,after one hour
+77,2,6,coldpack,20,single,non,peasant,rural,3,1,1,less than 1USD per day,male,3.5,tear,first digree,after one hour
+77,3,3,coldpack,20,single,non,peasant,rural,3,1,1,less than 1USD per day,male,3.5,tear,first digree,after one hour
+77,4,0,coldpack,20,single,non,peasant,rural,3,1,1,less than 1USD per day,male,3.5,tear,first digree,after one hour
+78,1,10,coldpack,24,married,primary,peasant,rural,7,2,2,more than 1USD per day,male,3.7,tear,second digree,within on hour
+78,2,9,coldpack,24,married,primary,peasant,rural,7,2,2,more than 1USD per day,male,,tear,second digree,within on hour
+78,3,5,coldpack,24,married,primary,peasant,rural,7,2,2,more than 1USD per day,male,,tear,second digree,within on hour
+78,4,3,coldpack,24,married,primary,peasant,rural,7,2,2,more than 1USD per day,male,,tear,second digree,within on hour
+79,1,8,coldpack,38,married,secondary,employed,urban,6,4,4,more than 1USD per day,female,3.4,intact,intact,within on hour
+79,2,5,coldpack,38,married,secondary,employed,urban,6,4,4,more than 1USD per day,female,,intact,intact,within on hour
+79,3,3,coldpack,38,married,secondary,employed,urban,6,4,4,more than 1USD per day,female,,intact,intact,within on hour
+79,4,1,coldpack,38,married,secondary,employed,urban,6,4,4,more than 1USD per day,female,,intact,intact,within on hour
+80,1,10,coldpack,42,married,primary,housewife,rural,5,6,6,less than 1USD per day,male,3.2,intact,intact,within on hour
+80,2,7,coldpack,42,married,primary,housewife,rural,5,6,6,less than 1USD per day,male,,intact,intact,within on hour
+80,3,4,coldpack,42,married,primary,housewife,rural,5,6,6,less than 1USD per day,male,,intact,intact,within on hour
+80,4,2,coldpack,42,married,primary,housewife,rural,5,6,6,less than 1USD per day,male,,intact,intact,within on hour
+81,1,9,coldpack,23,married,primary,employed,urban,5,1,1,more than 1USD per day,male,2.9,tear,first digree,after one hour
+81,2,6,coldpack,23,married,primary,employed,urban,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+81,3,3,coldpack,23,married,primary,employed,urban,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+81,4,1,coldpack,23,married,primary,employed,urban,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+82,1,9,coldpack,22,married,primary,peasant,rural,6,2,2,less than 1USD per day,female,2.7,tear,second digree,after one hour
+82,2,6,coldpack,22,married,primary,peasant,rural,6,2,2,less than 1USD per day,female,,tear,second digree,after one hour
+82,3,3,coldpack,22,married,primary,peasant,rural,6,2,2,less than 1USD per day,female,,tear,second digree,after one hour
+82,4,0,coldpack,22,married,primary,peasant,rural,6,2,2,less than 1USD per day,female,,tear,second digree,after one hour
+83,1,10,coldpack,22,married,primary,employed,urban,5,1,1,more than 1USD per day,male,3,tear,second digree,after one hour
+83,2,7,coldpack,22,married,primary,employed,urban,5,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+83,3,4,coldpack,22,married,primary,employed,urban,5,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+83,4,2,coldpack,22,married,primary,employed,urban,5,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+84,1,9,coldpack,18,married,primary,housewife,urban,5,1,1,less than 1USD per day,male,3,episiotomy,episiotomy,after one hour
+84,2,6,coldpack,18,married,primary,housewife,urban,5,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+84,3,3,coldpack,18,married,primary,housewife,urban,5,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+84,4,1,coldpack,18,married,primary,housewife,urban,5,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+85,1,9,coldpack,25,married,primary,employed,urban,6,1,1,more than 1USD per day,male,2.8,tear,second digree,after one hour
+85,2,7,coldpack,25,married,primary,employed,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+85,3,4,coldpack,25,married,primary,employed,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+85,4,2,coldpack,25,married,primary,employed,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+86,1,10,coldpack,22,married,secondary,peasant,rural,4,2,2,less than 1USD per day,male,3,tear,second digree,after one hour
+86,2,7,coldpack,22,married,secondary,peasant,rural,4,2,2,less than 1USD per day,female,,tear,second digree,after one hour
+86,3,4,coldpack,22,married,secondary,peasant,rural,4,2,2,less than 1USD per day,female,,tear,second digree,after one hour
+86,4,2,coldpack,22,married,secondary,peasant,rural,4,2,2,less than 1USD per day,female,,tear,second digree,after one hour
+87,1,8,coldpack,35,married,primary,employed,urban,5,6,7,more than 1USD per day,male,4,intact,intact,within on hour
+87,2,6,coldpack,35,married,primary,employed,urban,5,6,7,more than 1USD per day,male,,intact,intact,within on hour
+87,3,3,coldpack,35,married,primary,employed,urban,5,6,7,more than 1USD per day,male,,intact,intact,within on hour
+87,4,1,coldpack,35,married,primary,employed,urban,5,6,7,more than 1USD per day,male,,intact,intact,within on hour
+88,1,10,coldpack,27,married,secondary,employed,urban,4,2,2,more than 1USD per day,male,3.2,intact,intact,after one hour
+88,2,7,coldpack,27,married,secondary,employed,urban,4,2,2,more than 1USD per day,male,,intact,intact,after one hour
+88,3,3,coldpack,27,married,secondary,employed,urban,4,2,2,more than 1USD per day,male,,intact,intact,after one hour
+88,4,1,coldpack,27,married,secondary,employed,urban,4,2,2,more than 1USD per day,male,,intact,intact,after one hour
+89,1,4,palacetamol,19,married,primary,housewife,urban,7,2,2,less than 1USD per day,male,2.5,tear,second digree,after one hour
+89,2,4,palacetamol,19,married,primary,housewife,urban,7,2,2,less than 1USD per day,male,,tear,second digree,after one hour
+89,3,3,palacetamol,19,married,primary,housewife,urban,7,2,2,less than 1USD per day,male,,tear,second digree,after one hour
+89,4,2,palacetamol,19,married,primary,housewife,urban,7,2,2,less than 1USD per day,male,,tear,second digree,after one hour
+90,1,6,palacetamol,30,married,primary,employed,urban,3,2,2,more than 1USD per day,female,2.9,intact,intact,within on hour
+90,2,6,palacetamol,30,married,primary,employed,urban,3,2,2,more than 1USD per day,female,,intact,intact,within on hour
+90,3,3,palacetamol,30,married,primary,employed,urban,3,2,2,more than 1USD per day,female,,intact,intact,within on hour
+90,4,2,palacetamol,30,married,primary,employed,urban,3,2,2,more than 1USD per day,female,,intact,intact,within on hour
+91,1,9,palacetamol,19,single,primary,housewife,urban,5,1,1,more than 1USD per day,male,3.1,episiotomy,episiotomy,within on hour
+91,2,7,palacetamol,19,single,primary,housewife,urban,5,1,1,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+91,3,5,palacetamol,19,single,primary,housewife,urban,5,1,1,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+91,4,0,palacetamol,19,single,primary,housewife,urban,5,1,1,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+92,1,8,palacetamol,38,married,primary,housewife,rural,6,3,3,less than 1USD per day,female,3.7,tear,second digree,within on hour
+92,2,7,palacetamol,38,married,primary,housewife,rural,6,3,3,less than 1USD per day,female,,tear,second digree,within on hour
+92,3,4,palacetamol,38,married,primary,housewife,rural,6,3,3,less than 1USD per day,female,,tear,second digree,within on hour
+92,4,2,palacetamol,38,married,primary,housewife,rural,6,3,3,less than 1USD per day,female,,tear,second digree,within on hour
+93,1,8,palacetamol,32,married,non,peasant,rural,4,4,4,less than 1USD per day,male,3.7,tear,first digree,within on hour
+93,2,8,palacetamol,32,married,non,peasant,rural,4,4,4,less than 1USD per day,male,,tear,first digree,within on hour
+93,3,4,palacetamol,32,married,non,peasant,rural,4,4,4,less than 1USD per day,male,,tear,first digree,within on hour
+93,4,1,palacetamol,32,married,non,peasant,rural,4,4,4,less than 1USD per day,male,,tear,first digree,within on hour
+94,1,8,palacetamol,38,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,2.7,tear,first digree,after one hour
+94,2,7,palacetamol,38,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+94,3,6,palacetamol,38,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+94,4,3,palacetamol,38,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+95,1,5,palacetamol,24,single,non,employed,rural,3,2,2,less than 1USD per day,female,3.2,intact,intact,within on hour
+95,2,5,palacetamol,24,single,non,employed,rural,3,2,2,less than 1USD per day,female,,intact,intact,within on hour
+95,3,3,palacetamol,24,single,non,employed,rural,3,2,2,less than 1USD per day,female,,intact,intact,within on hour
+95,4,2,palacetamol,24,single,non,employed,rural,3,2,2,less than 1USD per day,female,,intact,intact,within on hour
+96,1,7,palacetamol,28,single,primary,housewife,rural,3,1,1,less than 1USD per day,male,2.7,tear,first digree,after one hour
+96,2,7,palacetamol,28,single,primary,housewife,rural,3,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+96,3,5,palacetamol,28,single,primary,housewife,rural,3,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+96,4,3,palacetamol,28,single,primary,housewife,rural,3,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+97,1,10,palacetamol,23,married,primary,peasant,urban,4,1,1,less than 1USD per day,male,2.8,episiotomy,episiotomy,after one hour
+97,2,10,palacetamol,23,married,primary,peasant,urban,4,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+97,3,6,palacetamol,23,married,primary,peasant,urban,4,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+97,4,4,palacetamol,23,married,primary,peasant,urban,4,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+98,1,5,coldpack,29,married,secondary,employed,urban,5,2,2,more than 1USD per day,female,2.7,episiotomy,episiotomy,within on hour
+98,2,0,coldpack,29,married,secondary,employed,urban,5,2,2,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+98,3,0,coldpack,29,married,secondary,employed,urban,5,2,2,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+98,4,0,coldpack,29,married,secondary,employed,urban,5,2,2,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+99,1,10,coldpack,18,single,secondary,housewife,urban,4,1,1,less than 1USD per day,female,3,episiotomy,episiotomy,after one hour
+99,2,8,coldpack,18,single,secondary,housewife,urban,4,1,1,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+99,3,5,coldpack,18,single,secondary,housewife,urban,4,1,1,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+99,4,2,coldpack,18,single,secondary,housewife,urban,4,1,1,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+100,1,9,coldpack,24,married,primary,employed,urban,6,1,1,more than 1USD per day,male,3.1,tear,second digree,after one hour
+100,2,7,coldpack,24,married,primary,employed,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+100,3,3,coldpack,24,married,primary,employed,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+100,4,0,coldpack,24,married,primary,employed,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+101,1,10,coldpack,19,married,primary,housewife,urban,4,1,1,less than 1USD per day,male,3.4,tear,second digree,after one hour
+101,2,8,coldpack,19,married,primary,housewife,urban,4,1,1,less than 1USD per day,male,,tear,second digree,after one hour
+101,3,5,coldpack,19,married,primary,housewife,urban,4,1,1,less than 1USD per day,male,,tear,second digree,after one hour
+101,4,1,coldpack,19,married,primary,housewife,urban,4,1,1,less than 1USD per day,male,,tear,second digree,after one hour
+102,1,9,coldpack,38,single,secondary,employed,urban,7,4,4,more than 1USD per day,male,3.9,intact,intact,within on hour
+102,2,6,coldpack,38,single,secondary,employed,urban,7,4,4,more than 1USD per day,male,,intact,intact,within on hour
+102,3,2,coldpack,38,single,secondary,employed,urban,7,4,4,more than 1USD per day,male,,intact,intact,within on hour
+102,4,0,coldpack,38,single,secondary,employed,urban,7,4,4,more than 1USD per day,male,,intact,intact,within on hour
+103,1,10,coldpack,16,single,primary,housewife,urban,3,1,1,less than 1USD per day,male,3.8,episiotomy,episiotomy,after one hour
+103,2,9,coldpack,16,single,primary,housewife,urban,3,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+103,3,5,coldpack,16,single,primary,housewife,urban,3,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+103,4,1,coldpack,16,single,primary,housewife,urban,3,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+104,1,8,coldpack,29,single,secondary,employed,urban,6,2,2,more than 1USD per day,female,3.5,intact,intact,within on hour
+104,2,6,coldpack,29,single,secondary,employed,urban,6,2,2,more than 1USD per day,female,,intact,intact,within on hour
+104,3,3,coldpack,29,single,secondary,employed,urban,6,2,2,more than 1USD per day,female,,intact,intact,within on hour
+104,4,0,coldpack,29,single,secondary,employed,urban,6,2,2,more than 1USD per day,female,,intact,intact,within on hour
+105,1,10,coldpack,20,married,primary,peasant,rural,3,1,1,less than 1USD per day,male,3.7,episiotomy,episiotomy,after one hour
+105,2,8,coldpack,20,married,primary,peasant,rural,3,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+105,3,6,coldpack,20,married,primary,peasant,rural,3,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+105,4,2,coldpack,20,married,primary,peasant,rural,3,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+106,1,9,coldpack,32,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,3.5,tear,first digree,within on hour
+106,2,6,coldpack,32,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,,tear,first digree,within on hour
+106,3,4,coldpack,32,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,,tear,first digree,within on hour
+106,4,1,coldpack,32,married,secondary,employed,urban,5,3,3,more than 1USD per day,male,,tear,first digree,within on hour
+107,1,9,palacetamol,23,married,primary,peasant,rural,3,1,1,less than 1USD per day,female,2.9,tear,first digree,after one hour
+107,2,7,palacetamol,23,married,primary,peasant,rural,3,1,1,less than 1USD per day,female,,tear,first digree,after one hour
+107,3,5,palacetamol,23,married,primary,peasant,rural,3,1,1,less than 1USD per day,female,,tear,first digree,after one hour
+107,4,1,palacetamol,23,married,primary,peasant,rural,3,1,1,less than 1USD per day,female,,tear,first digree,after one hour
+108,1,9,coldpack,32,married,primary,peasant,rural,7,4,4,less than 1USD per day,female,3.5,tear,first digree,within on hour
+108,2,5,coldpack,32,married,primary,peasant,rural,7,4,4,less than 1USD per day,female,,tear,first digree,within on hour
+108,3,2,coldpack,32,married,primary,peasant,rural,7,4,4,less than 1USD per day,female,,tear,first digree,within on hour
+108,4,0,coldpack,32,married,primary,peasant,rural,7,4,4,less than 1USD per day,female,,tear,first digree,within on hour
+109,1,10,coldpack,26,married,secondary,employed,urban,6,1,1,more than 1USD per day,male,3.8,tear,second digree,after one hour
+109,2,8,coldpack,26,married,secondary,employed,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+109,3,4,coldpack,26,married,secondary,employed,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+109,4,1,coldpack,26,married,secondary,employed,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+110,1,9,coldpack,38,married,secondary,employed,urban,6,5,5,more than 1USD per day,female,3.5,intact,intact,within on hour
+110,2,6,coldpack,38,married,secondary,employed,urban,6,5,5,more than 1USD per day,female,,intact,intact,within on hour
+110,3,3,coldpack,38,married,secondary,employed,urban,6,5,5,more than 1USD per day,female,,intact,intact,within on hour
+110,4,1,coldpack,38,married,secondary,employed,urban,6,5,5,more than 1USD per day,female,,intact,intact,within on hour
+111,1,8,coldpack,29,single,secondary,employed,urban,7,3,3,more than 1USD per day,female,3.4,intact,intact,within on hour
+111,2,8,coldpack,29,single,secondary,employed,urban,7,3,3,more than 1USD per day,female,,intact,intact,within on hour
+111,3,6,coldpack,29,single,secondary,employed,urban,7,3,3,more than 1USD per day,female,,intact,intact,within on hour
+111,4,2,coldpack,29,single,secondary,employed,urban,7,3,3,more than 1USD per day,female,,intact,intact,within on hour
+112,1,8,coldpack,26,married,secondary,employed,urban,6,3,3,more than 1USD per day,male,3.6,tear,first digree,after one hour
+112,2,8,coldpack,26,married,secondary,employed,urban,6,3,3,more than 1USD per day,male,,tear,first digree,after one hour
+112,3,4,coldpack,26,married,secondary,employed,urban,6,3,3,more than 1USD per day,male,,tear,first digree,after one hour
+112,4,1,coldpack,26,married,secondary,employed,urban,6,3,3,more than 1USD per day,male,,tear,first digree,after one hour
+113,1,10,palacetamol,18,married,primary,peasant,rural,5,1,1,less than 1USD per day,male,3.1,tear,first digree,after one hour
+113,2,6,palacetamol,18,married,primary,peasant,rural,5,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+113,3,3,palacetamol,18,married,primary,peasant,rural,5,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+113,4,0,palacetamol,18,married,primary,peasant,rural,5,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+114,1,7,coldpack,27,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,2.5,intact,intact,within on hour
+114,2,4,coldpack,27,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,,intact,intact,within on hour
+114,3,2,coldpack,27,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,,intact,intact,within on hour
+114,4,0,coldpack,27,married,primary,peasant,rural,4,3,3,less than 1USD per day,male,,intact,intact,within on hour
+115,1,10,coldpack,30,married,primary,peasant,rural,5,3,3,less than 1USD per day,male,3.2,intact,intact,within on hour
+115,2,8,coldpack,30,married,primary,peasant,rural,5,3,3,less than 1USD per day,male,,intact,intact,after one hour
+115,3,6,coldpack,30,married,primary,peasant,rural,5,3,3,less than 1USD per day,male,,intact,intact,after one hour
+115,4,1,coldpack,30,married,primary,peasant,rural,5,3,3,less than 1USD per day,male,,intact,intact,after one hour
+116,1,7,coldpack,28,married,primary,housewife,urban,5,4,4,less than 1USD per day,male,2.9,intact,intact,within on hour
+116,2,7,coldpack,28,married,primary,housewife,urban,5,4,4,less than 1USD per day,male,,intact,intact,within on hour
+116,3,5,coldpack,28,married,primary,housewife,urban,5,4,4,less than 1USD per day,male,,intact,intact,within on hour
+116,4,3,coldpack,28,married,primary,housewife,urban,5,4,4,less than 1USD per day,male,,intact,intact,within on hour
+117,1,10,coldpack,22,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,3.5,episiotomy,episiotomy,after one hour
+117,2,8,coldpack,22,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+117,3,6,coldpack,22,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+117,4,1,coldpack,22,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+118,1,7,palacetamol,21,single,primary,employed,urban,3,1,1,less than 1USD per day,female,4.1,tear,first digree,within on hour
+118,2,7,palacetamol,21,single,primary,employed,urban,3,1,1,less than 1USD per day,female,,tear,first digree,within on hour
+118,3,5,palacetamol,21,single,primary,employed,urban,3,1,1,less than 1USD per day,female,,tear,first digree,within on hour
+118,4,3,palacetamol,21,single,primary,employed,urban,3,1,1,less than 1USD per day,female,,tear,first digree,within on hour
+119,1,9,palacetamol,21,single,primary,peasant,rural,3,2,2,less than 1USD per day,male,2.8,tear,first digree,after one hour
+119,2,9,palacetamol,21,single,primary,peasant,rural,3,2,2,less than 1USD per day,male,,tear,first digree,after one hour
+119,3,7,palacetamol,21,single,primary,peasant,rural,3,2,2,less than 1USD per day,male,,tear,first digree,after one hour
+119,4,4,palacetamol,21,single,primary,peasant,rural,3,2,2,less than 1USD per day,male,,tear,first digree,after one hour
+120,1,6,palacetamol,36,married,primary,housewife,rural,2,3,3,less than 1USD per day,female,3.1,intact,intact,within on hour
+120,2,5,palacetamol,36,married,primary,housewife,rural,2,3,3,less than 1USD per day,female,,intact,intact,within on hour
+120,3,5,palacetamol,36,married,primary,housewife,rural,2,3,3,less than 1USD per day,female,,intact,intact,within on hour
+120,4,4,palacetamol,36,married,primary,housewife,rural,2,3,3,less than 1USD per day,female,,intact,intact,within on hour
+121,1,10,palacetamol,27,married,primary,employed,rural,4,3,3,more than 1USD per day,female,3.4,tear,first digree,after one hour
+121,2,8,palacetamol,27,married,primary,employed,rural,4,3,4,more than 1USD per day,female,,tear,first digree,after one hour
+121,3,6,palacetamol,27,married,primary,employed,rural,4,3,4,more than 1USD per day,female,,tear,first digree,after one hour
+121,4,4,palacetamol,27,married,primary,employed,rural,4,3,4,more than 1USD per day,female,,tear,first digree,after one hour
+122,1,4,palacetamol,46,married,non,peasant,rural,1,7,7,less than 1USD per day,male,3.1,intact,intact,within on hour
+122,2,4,palacetamol,46,married,non,peasant,rural,1,7,7,less than 1USD per day,male,,intact,intact,within on hour
+122,3,4,palacetamol,46,married,non,peasant,rural,1,7,7,less than 1USD per day,male,,intact,intact,within on hour
+122,4,3,palacetamol,46,married,non,peasant,rural,1,7,7,less than 1USD per day,male,,intact,intact,within on hour
+123,1,9,palacetamol,21,married,secondary,employed,urban,4,1,1,more than 1USD per day,male,3.3,tear,second digree,after one hour
+123,2,7,palacetamol,21,married,secondary,employed,urban,4,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+123,3,6,palacetamol,21,married,secondary,employed,urban,4,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+123,4,3,palacetamol,21,married,secondary,employed,urban,4,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+124,1,10,palacetamol,22,married,non,employed,urban,5,1,1,less than 1USD per day,female,2.5,episiotomy,episiotomy,after one hour
+124,2,10,palacetamol,22,married,non,employed,urban,5,1,1,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+124,3,7,palacetamol,22,married,non,employed,urban,5,1,1,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+124,4,4,palacetamol,22,married,non,employed,urban,5,1,1,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+125,1,9,palacetamol,19,married,primary,housewife,rural,2,1,1,less than 1USD per day,male,3,tear,first digree,after one hour
+125,2,8,palacetamol,19,single,primary,housewife,rural,2,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+125,3,5,palacetamol,19,single,primary,housewife,rural,2,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+125,4,2,palacetamol,19,single,primary,housewife,rural,2,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+126,1,8,palacetamol,25,married,primary,housewife,rural,4,3,3,less than 1USD per day,male,3.9,tear,second digree,after one hour
+126,2,8,palacetamol,25,married,primary,housewife,rural,4,3,3,less than 1USD per day,male,,tear,second digree,after one hour
+126,3,6,palacetamol,25,married,primary,housewife,rural,4,3,3,less than 1USD per day,male,,tear,second digree,after one hour
+126,4,3,palacetamol,25,married,primary,housewife,rural,4,3,3,less than 1USD per day,male,,tear,second digree,after one hour
+127,1,10,palacetamol,19,single,primary,employed,rural,5,1,1,more than 1USD per day,female,3.4,episiotomy,episiotomy,after one hour
+127,2,9,palacetamol,19,single,primary,employed,rural,5,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+127,3,6,palacetamol,19,single,primary,employed,rural,5,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+127,4,4,palacetamol,19,single,primary,employed,rural,5,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+128,1,9,palacetamol,29,single,secondary,employed,rural,2,4,4,more than 1USD per day,female,4.8,episiotomy,episiotomy,after one hour
+128,2,9,palacetamol,29,single,secondary,employed,rural,2,4,4,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+128,3,7,palacetamol,29,single,secondary,employed,rural,2,4,4,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+128,4,5,palacetamol,29,single,secondary,employed,rural,2,4,4,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+129,1,9,coldpack,23,married,secondary,housewife,urban,5,1,1,less than 1USD per day,female,2.9,tear,second digree,after one hour
+129,2,9,coldpack,23,married,secondary,housewife,urban,5,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+129,3,6,coldpack,23,married,secondary,housewife,urban,5,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+129,4,2,coldpack,23,married,secondary,housewife,urban,5,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+130,1,10,coldpack,19,single,non,housewife,rural,3,1,1,less than 1USD per day,female,2.5,tear,second digree,after one hour
+130,2,8,coldpack,19,single,non,housewife,rural,3,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+130,3,5,coldpack,19,single,non,housewife,rural,3,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+130,4,1,coldpack,19,single,non,housewife,rural,3,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+131,1,9,coldpack,21,married,primary,employed,urban,6,1,1,more than 1USD per day,male,3.4,tear,first digree,after one hour
+131,2,7,coldpack,21,married,primary,employed,urban,6,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+131,3,6,coldpack,21,married,primary,employed,urban,6,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+131,4,2,coldpack,21,married,primary,employed,urban,6,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+132,1,9,coldpack,23,married,secondary,employed,urban,7,1,1,more than 1USD per day,male,3.5,tear,second digree,after one hour
+132,2,8,coldpack,23,married,secondary,employed,urban,7,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+132,3,6,coldpack,23,married,secondary,employed,urban,7,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+132,4,1,coldpack,23,married,secondary,employed,urban,7,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+133,1,9,coldpack,20,married,primary,employed,urban,4,1,1,more than 1USD per day,male,2.5,tear,first digree,within on hour
+133,2,7,coldpack,20,married,primary,employed,urban,4,1,1,more than 1USD per day,male,,tear,first digree,within on hour
+133,3,5,coldpack,20,married,primary,employed,urban,4,1,1,more than 1USD per day,male,,tear,first digree,within on hour
+133,4,2,coldpack,20,married,primary,employed,urban,4,1,1,more than 1USD per day,male,,tear,first digree,within on hour
+134,1,10,palacetamol,19,single,primary,peasant,rural,2,1,1,less than 1USD per day,female,2.8,episiotomy,episiotomy,within on hour
+134,2,9,palacetamol,19,single,primary,peasant,rural,2,1,1,less than 1USD per day,female,,episiotomy,episiotomy,within on hour
+134,3,6,palacetamol,19,single,primary,peasant,rural,2,1,1,less than 1USD per day,female,,episiotomy,episiotomy,within on hour
+134,4,4,palacetamol,19,single,primary,peasant,rural,2,1,1,less than 1USD per day,female,,episiotomy,episiotomy,within on hour
+135,1,2,palacetamol,30,married,primary,employed,urban,3,6,6,more than 1USD per day,female,3,intact,intact,within on hour
+135,2,2,palacetamol,30,married,primary,employed,urban,3,6,6,more than 1USD per day,female,,intact,intact,within on hour
+135,3,2,palacetamol,30,married,primary,employed,urban,3,6,6,more than 1USD per day,female,,intact,intact,within on hour
+135,4,0,palacetamol,30,married,primary,employed,urban,3,6,6,more than 1USD per day,female,,intact,intact,within on hour
+136,1,8,palacetamol,24,married,primary,peasant,rural,5,6,5,less than 1USD per day,female,3.8,tear,second digree,after one hour
+136,2,8,palacetamol,24,married,primary,peasant,rural,5,6,5,less than 1USD per day,female,,tear,second digree,after one hour
+136,3,6,palacetamol,24,married,primary,peasant,rural,5,6,5,less than 1USD per day,female,,tear,second digree,after one hour
+136,4,3,palacetamol,24,married,primary,peasant,rural,5,6,5,less than 1USD per day,female,,tear,second digree,after one hour
+137,1,8,palacetamol,25,married,primary,peasant,urban,4,3,3,less than 1USD per day,female,3.3,tear,second digree,after one hour
+137,2,7,palacetamol,25,married,primary,peasant,urban,4,3,3,less than 1USD per day,female,,tear,second digree,after one hour
+137,3,7,palacetamol,25,married,primary,peasant,urban,4,3,3,less than 1USD per day,female,,tear,second digree,after one hour
+137,4,4,palacetamol,25,married,primary,peasant,urban,4,3,3,less than 1USD per day,female,,tear,second digree,after one hour
+138,1,8,palacetamol,26,married,secondary,peasant,urban,5,2,2,more than 1USD per day,male,3.1,tear,second digree,after one hour
+138,2,7,palacetamol,26,married,secondary,peasant,urban,5,2,2,more than 1USD per day,male,,tear,second digree,after one hour
+138,3,6,palacetamol,26,married,secondary,peasant,urban,5,2,2,more than 1USD per day,male,,tear,second digree,after one hour
+138,4,3,palacetamol,26,married,secondary,peasant,urban,5,2,2,more than 1USD per day,male,,tear,second digree,after one hour
+139,1,6,palacetamol,37,married,non,employed,urban,1,4,5,less than 1USD per day,female,2.9,intact,intact,within on hour
+139,2,6,palacetamol,37,married,non,employed,urban,1,4,5,less than 1USD per day,female,,intact,intact,within on hour
+139,3,6,palacetamol,37,married,non,employed,urban,1,4,5,less than 1USD per day,female,,intact,intact,within on hour
+139,4,4,palacetamol,37,married,non,employed,urban,1,4,5,less than 1USD per day,female,,intact,intact,within on hour
+140,1,10,palacetamol,18,single,primary,employed,urban,1,1,1,less than 1USD per day,female,3,tear,second digree,after one hour
+140,2,10,palacetamol,18,single,primary,employed,urban,1,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+140,3,6,palacetamol,18,single,primary,employed,urban,1,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+140,4,4,palacetamol,18,single,primary,employed,urban,1,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+141,1,9,palacetamol,24,married,primary,peasant,rural,1,1,1,less than 1USD per day,female,2.8,tear,second digree,after one hour
+141,2,9,palacetamol,24,married,primary,peasant,rural,1,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+141,3,5,palacetamol,24,married,primary,peasant,rural,1,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+141,4,3,palacetamol,24,married,primary,peasant,rural,1,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+142,1,7,palacetamol,21,single,secondary,peasant,urban,4,1,1,less than 1USD per day,male,2.6,tear,first digree,after one hour
+142,2,7,palacetamol,21,single,secondary,peasant,urban,4,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+142,3,3,palacetamol,21,single,secondary,peasant,urban,4,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+142,4,3,palacetamol,21,single,secondary,peasant,urban,4,1,1,less than 1USD per day,male,,tear,first digree,after one hour
+143,1,4,palacetamol,31,married,primary,peasant,rural,4,5,6,less than 1USD per day,male,3.2,intact,intact,within on hour
+143,2,4,palacetamol,31,married,primary,peasant,rural,4,5,6,less than 1USD per day,male,,intact,intact,within on hour
+143,3,4,palacetamol,31,married,primary,peasant,rural,4,5,6,less than 1USD per day,male,,intact,intact,within on hour
+143,4,2,palacetamol,31,married,primary,peasant,rural,4,5,6,less than 1USD per day,male,,intact,intact,within on hour
+144,1,6,palacetamol,35,married,primary,peasant,rural,5,4,4,less than 1USD per day,male,3.2,intact,intact,within on hour
+144,2,6,palacetamol,35,married,primary,peasant,rural,5,4,4,less than 1USD per day,male,,intact,intact,within on hour
+144,3,4,palacetamol,35,married,primary,peasant,rural,5,4,4,less than 1USD per day,male,,intact,intact,within on hour
+144,4,3,palacetamol,35,married,primary,peasant,rural,5,4,4,less than 1USD per day,male,,intact,intact,within on hour
+145,1,10,palacetamol,18,married,primary,employed,rural,4,2,2,more than 1USD per day,female,2.9,tear,first digree,within on hour
+145,2,9,palacetamol,18,married,primary,employed,rural,4,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+145,3,6,palacetamol,18,married,primary,employed,rural,4,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+145,4,4,palacetamol,18,married,primary,employed,rural,4,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+146,1,7,palacetamol,27,married,secondary,peasant,urban,4,1,1,more than 1USD per day,female,3.2,tear,first digree,within on hour
+146,2,7,palacetamol,27,married,secondary,peasant,urban,4,1,1,more than 1USD per day,female,,tear,first digree,within on hour
+146,3,4,palacetamol,27,married,secondary,peasant,urban,4,1,1,more than 1USD per day,female,,tear,first digree,within on hour
+146,4,3,palacetamol,27,married,secondary,peasant,urban,4,1,1,more than 1USD per day,female,,tear,first digree,within on hour
+147,1,10,palacetamol,18,married,primary,employed,urban,6,1,1,less than 1USD per day,female,3.4,episiotomy,episiotomy,after one hour
+147,2,10,palacetamol,18,married,primary,employed,urban,6,1,1,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+147,3,6,palacetamol,18,married,primary,employed,urban,6,1,1,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+147,4,3,palacetamol,18,married,primary,employed,urban,6,1,1,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+148,1,8,palacetamol,21,married,primary,employed,urban,5,1,1,more than 1USD per day,male,3.5,episiotomy,episiotomy,within on hour
+148,2,8,palacetamol,21,married,primary,employed,urban,5,1,2,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+148,3,6,palacetamol,21,married,primary,employed,urban,5,1,2,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+148,4,5,palacetamol,21,married,primary,employed,urban,5,1,2,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+149,1,10,palacetamol,20,single,secondary,employed,rural,2,1,1,more than 1USD per day,female,3.2,tear,first digree,after one hour
+149,2,7,palacetamol,20,single,secondary,employed,rural,2,1,1,more than 1USD per day,female,,tear,first digree,after one hour
+149,3,5,palacetamol,20,single,secondary,employed,rural,2,1,1,more than 1USD per day,female,,tear,first digree,after one hour
+149,4,3,palacetamol,20,single,secondary,employed,rural,2,1,1,more than 1USD per day,female,,tear,first digree,after one hour
+150,1,7,palacetamol,26,married,primary,peasant,rural,1,2,2,more than 1USD per day,female,2.8,tear,first digree,within on hour
+150,2,7,palacetamol,26,married,primary,peasant,rural,1,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+150,3,6,palacetamol,26,married,primary,peasant,rural,1,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+150,4,3,palacetamol,26,married,primary,peasant,rural,1,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+151,1,9,palacetamol,22,married,secondary,peasant,urban,6,1,1,more than 1USD per day,male,3.3,tear,second digree,after one hour
+151,2,9,palacetamol,22,married,secondary,peasant,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+151,3,6,palacetamol,22,married,secondary,peasant,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+151,4,4,palacetamol,22,married,secondary,peasant,urban,6,1,1,more than 1USD per day,male,,tear,second digree,after one hour
+152,1,8,palacetamol,38,married,non,peasant,rural,1,8,8,less than 1USD per day,female,2.6,intact,intact,after one hour
+152,2,7,palacetamol,38,married,non,peasant,rural,1,8,8,less than 1USD per day,female,,intact,intact,after one hour
+152,3,6,palacetamol,38,married,non,peasant,rural,1,8,8,less than 1USD per day,female,,intact,intact,after one hour
+152,4,5,palacetamol,38,married,non,peasant,rural,1,8,8,less than 1USD per day,female,,intact,intact,after one hour
+153,1,8,palacetamol,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,female,2.9,tear,first digree,within on hour
+153,2,8,palacetamol,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+153,3,9,palacetamol,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+153,4,3,palacetamol,23,married,secondary,employed,urban,4,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+154,1,6,palacetamol,20,married,primary,peasant,rural,4,2,2,less than 1USD per day,female,3.5,intact,intact,within on hour
+154,2,6,palacetamol,20,married,primary,peasant,rural,4,2,2,less than 1USD per day,female,,intact,intact,within on hour
+154,3,4,palacetamol,20,married,primary,peasant,rural,4,2,2,less than 1USD per day,female,,intact,intact,within on hour
+154,4,3,palacetamol,20,married,primary,peasant,rural,4,2,2,less than 1USD per day,female,,intact,intact,within on hour
+155,1,7,palacetamol,35,married,primary,employed,urban,5,4,5,more than 1USD per day,male,3.5,tear,first digree,after one hour
+155,2,7,palacetamol,35,married,primary,employed,urban,5,4,5,more than 1USD per day,male,,tear,first digree,after one hour
+155,3,5,palacetamol,35,married,primary,employed,urban,5,4,5,more than 1USD per day,male,,tear,first digree,after one hour
+155,4,3,palacetamol,35,married,primary,employed,urban,5,4,5,more than 1USD per day,male,,tear,first digree,after one hour
+156,1,6,palacetamol,32,married,primary,peasant,urban,3,6,6,more than 1USD per day,male,3.1,intact,intact,within on hour
+156,2,6,palacetamol,32,married,primary,peasant,urban,3,6,6,more than 1USD per day,male,,intact,intact,within on hour
+156,3,4,palacetamol,32,married,primary,peasant,urban,3,6,6,more than 1USD per day,male,,intact,intact,within on hour
+156,4,3,palacetamol,32,married,primary,peasant,urban,3,6,6,more than 1USD per day,male,,intact,intact,within on hour
+157,1,7,palacetamol,30,married,primary,peasant,rural,5,3,3,less than 1USD per day,female,3,tear,first digree,within on hour
+157,2,6,palacetamol,30,married,primary,peasant,rural,5,3,3,less than 1USD per day,female,,tear,first digree,within on hour
+157,3,4,palacetamol,30,married,primary,peasant,rural,5,3,3,less than 1USD per day,female,,tear,first digree,within on hour
+157,4,3,palacetamol,30,married,primary,peasant,rural,5,3,3,less than 1USD per day,female,,tear,first digree,within on hour
+158,1,10,palacetamol,24,married,secondary,employed,urban,1,1,1,more than 1USD per day,female,3.1,episiotomy,episiotomy,after one hour
+158,2,9,palacetamol,24,married,secondary,employed,urban,1,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+158,3,6,palacetamol,24,married,secondary,employed,urban,1,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+158,4,4,palacetamol,24,married,secondary,employed,urban,1,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+159,1,10,palacetamol,18,single,secondary,employed,urban,5,1,1,more than 1USD per day,female,3.6,episiotomy,episiotomy,after one hour
+159,2,10,palacetamol,18,single,secondary,employed,urban,5,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+159,3,7,palacetamol,18,single,secondary,employed,urban,5,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+159,4,5,palacetamol,18,single,secondary,employed,urban,5,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+160,1,9,palacetamol,25,single,secondary,employed,urban,5,1,1,more than 1USD per day,female,2.6,tear,second digree,within on hour
+160,2,9,palacetamol,25,single,secondary,employed,urban,5,1,1,more than 1USD per day,female,,tear,second digree,within on hour
+160,3,7,palacetamol,25,single,secondary,employed,urban,5,1,1,more than 1USD per day,female,,tear,second digree,within on hour
+160,4,5,palacetamol,25,single,secondary,employed,urban,5,1,1,more than 1USD per day,female,,tear,second digree,within on hour
+161,1,9,palacetamol,19,married,primary,peasant,rural,4,1,1,more than 1USD per day,female,2.9,tear,second digree,after one hour
+161,2,7,palacetamol,19,married,primary,peasant,rural,4,1,1,more than 1USD per day,female,,tear,second digree,after one hour
+161,3,4,palacetamol,19,married,primary,peasant,rural,4,1,1,more than 1USD per day,female,,tear,second digree,after one hour
+161,4,2,palacetamol,19,married,primary,peasant,rural,4,1,1,more than 1USD per day,female,,tear,second digree,after one hour
+162,1,10,palacetamol,20,married,primary,peasant,rural,2,1,1,more than 1USD per day,male,2.7,episiotomy,episiotomy,after one hour
+162,2,7,palacetamol,20,married,primary,peasant,rural,2,1,1,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+162,3,4,palacetamol,20,married,primary,peasant,rural,2,1,1,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+162,4,2,palacetamol,20,married,primary,peasant,rural,2,1,1,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+163,1,3,palacetamol,22,married,primary,peasant,urban,1,2,2,less than 1USD per day,male,2.4,intact,intact,within on hour
+163,2,2,palacetamol,22,married,primary,peasant,urban,1,2,2,less than 1USD per day,male,,intact,intact,within on hour
+163,3,2,palacetamol,22,married,primary,peasant,urban,1,2,2,less than 1USD per day,male,,intact,intact,within on hour
+163,4,0,palacetamol,22,married,primary,peasant,urban,1,2,2,less than 1USD per day,male,,intact,intact,within on hour
+164,1,6,palacetamol,19,single,primary,peasant,urban,5,2,2,less than 1USD per day,male,2.5,intact,intact,within on hour
+164,2,6,palacetamol,19,single,primary,peasant,urban,5,2,2,less than 1USD per day,male,,intact,intact,within on hour
+164,3,4,palacetamol,19,single,primary,peasant,urban,5,2,2,less than 1USD per day,male,,intact,intact,within on hour
+164,4,2,palacetamol,19,single,primary,peasant,urban,5,2,2,less than 1USD per day,male,,intact,intact,within on hour
+165,1,8,palacetamol,19,married,secondary,peasant,urban,7,1,1,less than 1USD per day,male,3.1,tear,second digree,after one hour
+165,2,8,palacetamol,19,married,secondary,peasant,urban,7,1,1,less than 1USD per day,male,,tear,second digree,after one hour
+165,3,6,palacetamol,19,married,secondary,peasant,urban,7,1,1,less than 1USD per day,male,,tear,second digree,after one hour
+165,4,4,palacetamol,19,married,secondary,peasant,urban,7,1,1,less than 1USD per day,male,,tear,second digree,after one hour
+166,1,10,palacetamol,26,married,secondary,peasant,urban,5,2,2,more than 1USD per day,male,3.1,episiotomy,episiotomy,after one hour
+166,2,9,palacetamol,26,married,secondary,peasant,urban,5,2,2,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+166,3,5,palacetamol,26,married,secondary,peasant,urban,5,2,2,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+166,4,3,palacetamol,26,married,secondary,peasant,urban,5,2,2,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+167,1,6,palacetamol,23,married,secondary,peasant,rural,1,2,2,less than 1USD per day,female,3.2,intact,intact,within on hour
+167,2,5,palacetamol,23,married,secondary,peasant,rural,1,2,2,less than 1USD per day,female,,intact,intact,within on hour
+167,3,5,palacetamol,23,married,secondary,peasant,rural,1,2,2,less than 1USD per day,female,,intact,intact,within on hour
+167,4,2,palacetamol,23,married,secondary,peasant,rural,1,2,2,less than 1USD per day,female,,intact,intact,within on hour
+168,1,10,palacetamol,20,married,secondary,peasant,urban,8,1,2,less than 1USD per day,male,2.9,episiotomy,episiotomy,after one hour
+168,2,9,palacetamol,20,married,secondary,peasant,urban,8,1,2,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+168,3,9,palacetamol,20,married,secondary,peasant,urban,8,1,2,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+168,4,7,palacetamol,20,married,secondary,peasant,urban,8,1,2,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+169,1,7,palacetamol,18,married,primary,peasant,rural,1,1,1,more than 1USD per day,female,2.6,tear,first digree,within on hour
+169,2,5,palacetamol,18,married,primary,peasant,rural,1,1,1,more than 1USD per day,female,,tear,first digree,within on hour
+169,3,4,palacetamol,18,married,primary,peasant,rural,1,1,1,more than 1USD per day,female,,tear,first digree,within on hour
+169,4,2,palacetamol,18,married,primary,peasant,rural,1,1,1,more than 1USD per day,female,,tear,first digree,within on hour
+170,1,6,palacetamol,39,married,primary,peasant,urban,4,6,8,less than 1USD per day,male,3.2,tear,second digree,within on hour
+170,2,5,palacetamol,39,married,primary,peasant,urban,4,6,8,less than 1USD per day,male,,tear,second digree,within on hour
+170,3,4,palacetamol,39,married,primary,peasant,urban,4,6,8,less than 1USD per day,male,,tear,second digree,within on hour
+170,4,3,palacetamol,39,married,primary,peasant,urban,4,6,8,less than 1USD per day,male,,tear,second digree,within on hour
+171,1,10,palacetamol,19,single,primary,peasant,rural,2,1,1,less than 1USD per day,female,2.3,tear,first digree,after one hour
+171,2,7,palacetamol,19,single,primary,peasant,rural,2,1,1,less than 1USD per day,female,,tear,first digree,after one hour
+171,3,4,palacetamol,19,single,primary,peasant,rural,2,1,1,less than 1USD per day,female,,tear,first digree,after one hour
+171,4,2,palacetamol,19,single,primary,peasant,rural,2,1,1,less than 1USD per day,female,,tear,first digree,after one hour
+172,1,6,palacetamol,19,single,primary,peasant,rural,2,1,1,more than 1USD per day,female,2.8,episiotomy,episiotomy,within on hour
+172,2,6,palacetamol,19,single,primary,peasant,rural,2,1,1,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+172,3,4,palacetamol,19,single,primary,peasant,rural,2,1,1,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+172,4,3,palacetamol,19,single,primary,peasant,rural,2,1,1,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+173,1,10,palacetamol,30,married,secondary,peasant,urban,3,1,1,less than 1USD per day,male,3.4,episiotomy,episiotomy,after one hour
+173,2,10,palacetamol,30,married,secondary,peasant,urban,3,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+173,3,6,palacetamol,30,married,secondary,peasant,urban,3,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+173,4,3,palacetamol,30,married,secondary,peasant,urban,3,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+174,1,9,palacetamol,30,married,secondary,peasant,rural,2,1,2,less than 1USD per day,male,3.1,tear,second digree,after one hour
+174,2,9,palacetamol,30,married,secondary,peasant,rural,2,1,2,less than 1USD per day,male,,tear,second digree,after one hour
+174,3,6,palacetamol,30,married,secondary,peasant,rural,2,1,2,less than 1USD per day,male,,tear,second digree,after one hour
+174,4,4,palacetamol,30,married,secondary,peasant,rural,2,1,2,less than 1USD per day,male,,tear,second digree,after one hour
+175,1,9,palacetamol,29,married,secondary,employed,rural,3,3,3,more than 1USD per day,female,3.2,intact,intact,within on hour
+175,2,9,palacetamol,29,married,secondary,employed,rural,3,3,3,more than 1USD per day,female,,intact,intact,within on hour
+175,3,6,palacetamol,29,married,secondary,employed,rural,3,3,3,more than 1USD per day,female,,intact,intact,within on hour
+175,4,4,palacetamol,29,married,secondary,employed,rural,3,3,3,more than 1USD per day,female,,intact,intact,within on hour
+176,1,6,palacetamol,31,married,primary,peasant,rural,5,4,4,less than 1USD per day,male,3,intact,intact,within on hour
+176,2,6,palacetamol,31,married,primary,peasant,rural,5,4,4,less than 1USD per day,male,,intact,intact,within on hour
+176,3,4,palacetamol,31,married,primary,peasant,rural,5,4,4,less than 1USD per day,male,,intact,intact,within on hour
+176,4,2,palacetamol,31,married,primary,peasant,rural,5,4,4,less than 1USD per day,male,,intact,intact,within on hour
+177,1,8,palacetamol,21,married,secondary,peasant,rural,5,1,1,more than 1USD per day,male,2.8,tear,first digree,after one hour
+177,2,8,palacetamol,21,married,secondary,peasant,rural,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+177,3,6,palacetamol,21,married,secondary,peasant,rural,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+177,4,4,palacetamol,21,married,secondary,peasant,rural,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+178,1,6,palacetamol,39,married,non,peasant,rural,4,3,6,less than 1USD per day,male,3.6,intact,intact,within on hour
+178,2,6,palacetamol,39,married,non,peasant,rural,4,3,6,less than 1USD per day,male,,intact,intact,within on hour
+178,3,4,palacetamol,39,married,non,peasant,rural,4,3,6,less than 1USD per day,male,,intact,intact,within on hour
+178,4,2,palacetamol,39,married,non,peasant,rural,4,3,6,less than 1USD per day,male,,intact,intact,within on hour
+179,1,7,palacetamol,27,married,primary,employed,urban,2,2,2,more than 1USD per day,female,2.9,tear,first digree,within on hour
+179,2,7,palacetamol,27,married,primary,employed,urban,2,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+179,3,5,palacetamol,27,married,primary,employed,urban,2,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+179,4,5,palacetamol,27,married,primary,employed,urban,2,2,2,more than 1USD per day,female,,tear,first digree,within on hour
+180,1,10,palacetamol,35,single,non,peasant,rural,2,2,5,less than 1USD per day,female,3.9,episiotomy,episiotomy,after one hour
+180,2,10,palacetamol,35,single,non,peasant,rural,2,2,5,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+180,3,5,palacetamol,35,single,non,peasant,rural,2,2,5,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+180,4,3,palacetamol,35,single,non,peasant,rural,2,2,5,less than 1USD per day,female,,episiotomy,episiotomy,after one hour
+181,1,8,palacetamol,29,single,secondary,employed,rural,3,3,3,less than 1USD per day,male,3.2,tear,second digree,after one hour
+181,2,8,palacetamol,29,single,secondary,employed,rural,3,3,3,less than 1USD per day,male,,tear,second digree,after one hour
+181,3,5,palacetamol,29,single,secondary,employed,rural,3,3,3,less than 1USD per day,male,,tear,second digree,after one hour
+181,4,3,palacetamol,29,single,secondary,employed,rural,3,3,3,less than 1USD per day,male,,tear,second digree,after one hour
+182,1,6,palacetamol,28,married,secondary,employed,urban,5,2,2,more than 1USD per day,male,2.8,intact,intact,within on hour
+182,2,6,palacetamol,28,married,secondary,employed,urban,5,2,2,more than 1USD per day,male,,intact,intact,within on hour
+182,3,4,palacetamol,28,married,secondary,employed,urban,5,2,2,more than 1USD per day,male,,intact,intact,within on hour
+182,4,3,palacetamol,28,married,secondary,employed,urban,5,2,2,more than 1USD per day,male,,intact,intact,within on hour
+183,1,7,palacetamol,30,single,primary,employed,rural,3,5,6,less than 1USD per day,female,3.2,tear,first digree,within on hour
+183,2,7,palacetamol,30,single,primary,employed,rural,3,5,6,less than 1USD per day,female,,tear,first digree,within on hour
+183,3,4,palacetamol,30,single,primary,employed,rural,3,5,6,less than 1USD per day,female,,tear,first digree,within on hour
+183,4,2,palacetamol,30,single,primary,employed,rural,3,5,6,less than 1USD per day,female,,tear,first digree,within on hour
+184,1,5,palacetamol,34,single,non,employed,rural,2,4,6,more than 1USD per day,male,3.9,intact,intact,within on hour
+184,2,5,palacetamol,34,single,non,employed,rural,2,4,6,more than 1USD per day,male,,intact,intact,within on hour
+184,3,3,palacetamol,34,single,non,employed,rural,2,4,6,more than 1USD per day,male,,intact,intact,within on hour
+184,4,1,palacetamol,34,single,non,employed,rural,2,4,6,more than 1USD per day,male,,intact,intact,within on hour
+185,1,9,palacetamol,36,married,non,peasant,rural,4,4,6,more than 1USD per day,female,4,episiotomy,episiotomy,within on hour
+185,2,8,palacetamol,36,married,non,peasant,rural,4,4,6,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+185,3,5,palacetamol,36,married,non,peasant,rural,4,4,6,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+185,4,3,palacetamol,36,married,non,peasant,rural,4,4,6,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+186,1,9,coldpack,32,married,primary,peasant,rural,5,2,5,less than 1USD per day,female,3.4,episiotomy,episiotomy,within on hour
+186,2,5,coldpack,32,married,primary,peasant,rural,5,2,5,less than 1USD per day,female,,episiotomy,episiotomy,within on hour
+186,3,3,coldpack,32,married,primary,peasant,rural,5,2,5,less than 1USD per day,female,,episiotomy,episiotomy,within on hour
+186,4,0,coldpack,32,married,primary,peasant,rural,5,2,5,less than 1USD per day,female,,episiotomy,episiotomy,within on hour
+187,1,10,coldpack,19,single,secondary,employed,rural,5,1,1,less than 1USD per day,male,3,episiotomy,episiotomy,within on hour
+187,2,4,coldpack,19,single,secondary,employed,rural,5,1,1,less than 1USD per day,male,,episiotomy,episiotomy,within on hour
+187,3,0,coldpack,19,single,secondary,employed,rural,5,1,1,less than 1USD per day,male,,episiotomy,episiotomy,within on hour
+187,4,0,coldpack,19,single,secondary,employed,rural,5,1,1,less than 1USD per day,male,,episiotomy,episiotomy,within on hour
+188,1,10,palacetamol,21,single,secondary,peasant,urban,2,1,1,less than 1USD per day,female,2.9,tear,second digree,after one hour
+188,2,9,palacetamol,21,single,secondary,peasant,urban,2,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+188,3,6,palacetamol,21,single,secondary,peasant,urban,2,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+188,4,4,palacetamol,21,single,secondary,peasant,urban,2,1,1,less than 1USD per day,female,,tear,second digree,after one hour
+189,1,8,palacetamol,28,single,secondary,employed,urban,6,2,3,more than 1USD per day,male,3.9,tear,second digree,after one hour
+189,2,8,palacetamol,28,single,secondary,employed,urban,6,2,3,more than 1USD per day,male,,tear,second digree,after one hour
+189,3,5,palacetamol,28,single,secondary,employed,urban,6,2,3,more than 1USD per day,male,,tear,second digree,after one hour
+189,4,3,palacetamol,28,single,secondary,employed,urban,6,2,33,more than 1USD per day,male,,tear,second digree,after one hour
+190,1,6,palacetamol,32,single,primary,peasant,urban,5,3,4,more than 1USD per day,female,3.4,intact,intact,within on hour
+190,2,6,palacetamol,32,single,primary,peasant,urban,5,3,4,more than 1USD per day,female,,intact,intact,within on hour
+190,3,3,palacetamol,32,single,primary,peasant,urban,5,3,4,more than 1USD per day,female,,intact,intact,within on hour
+190,4,3,palacetamol,32,single,primary,peasant,urban,5,3,4,more than 1USD per day,female,,intact,intact,within on hour
+191,1,6,palacetamol,27,single,secondary,employed,rural,6,3,3,less than 1USD per day,male,3.8,intact,intact,after one hour
+191,2,5,palacetamol,27,single,secondary,employed,rural,6,3,3,less than 1USD per day,male,,intact,intact,after one hour
+191,3,3,palacetamol,27,single,secondary,employed,rural,6,3,3,less than 1USD per day,male,,intact,intact,after one hour
+191,4,2,palacetamol,27,single,secondary,employed,rural,6,3,3,less than 1USD per day,male,,intact,intact,after one hour
+192,1,5,palacetamol,28,single,primary,peasant,rural,3,3,3,less than 1USD per day,male,3.6,intact,intact,within on hour
+192,2,5,palacetamol,28,single,primary,peasant,rural,3,3,3,less than 1USD per day,male,,intact,intact,within on hour
+192,3,3,palacetamol,28,single,primary,peasant,rural,3,3,3,less than 1USD per day,male,,intact,intact,within on hour
+192,4,3,palacetamol,28,single,primary,peasant,rural,3,3,3,less than 1USD per day,male,,intact,intact,within on hour
+193,1,10,palacetamol,35,single,primary,employed,rural,6,4,5,more than 1USD per day,male,4.2,episiotomy,episiotomy,after one hour
+193,2,9,palacetamol,35,single,primary,employed,rural,6,4,5,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+193,3,5,palacetamol,35,single,primary,employed,rural,6,4,5,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+193,4,2,palacetamol,35,single,primary,employed,rural,6,4,5,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+194,1,8,palacetamol,20,single,secondary,employed,rural,4,1,1,less than 1USD per day,female,3.2,tear,second digree,within on hour
+194,2,9,palacetamol,20,single,secondary,employed,rural,4,1,1,less than 1USD per day,female,,tear,second digree,within on hour
+194,3,5,palacetamol,20,single,secondary,employed,rural,4,1,1,less than 1USD per day,female,,tear,second digree,within on hour
+194,4,3,palacetamol,20,single,secondary,employed,rural,4,1,1,less than 1USD per day,female,,tear,second digree,within on hour
+195,1,7,palacetamol,24,single,secondary,employed,urban,7,2,3,less than 1USD per day,male,3.8,tear,first digree,within on hour
+195,2,6,palacetamol,24,single,secondary,employed,urban,7,2,3,less than 1USD per day,male,,tear,first digree,within on hour
+195,3,3,palacetamol,24,single,secondary,employed,urban,7,2,3,less than 1USD per day,male,,tear,first digree,within on hour
+195,4,3,palacetamol,24,single,secondary,employed,urban,7,2,3,less than 1USD per day,male,,tear,first digree,within on hour
+196,1,6,palacetamol,22,married,primary,employed,rural,2,2,2,more than 1USD per day,male,3.1,tear,first digree,within on hour
+196,2,6,palacetamol,22,married,primary,employed,rural,2,2,2,more than 1USD per day,male,,tear,first digree,within on hour
+196,3,4,palacetamol,22,married,primary,employed,rural,2,2,2,more than 1USD per day,male,,tear,first digree,within on hour
+196,4,2,palacetamol,22,married,primary,employed,rural,2,2,2,more than 1USD per day,male,,tear,first digree,within on hour
+197,1,8,palacetamol,28,married,secondary,peasant,rural,4,3,3,less than 1USD per day,male,3.2,episiotomy,episiotomy,after one hour
+197,2,8,palacetamol,28,married,secondary,peasant,rural,4,3,3,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+197,3,4,palacetamol,28,married,secondary,peasant,rural,4,3,3,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+197,4,2,palacetamol,28,married,secondary,peasant,rural,4,3,3,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+198,1,9,palacetamol,22,single,secondary,employed,rural,3,1,1,more than 1USD per day,female,3.2,tear,second digree,after one hour
+198,2,8,palacetamol,22,single,secondary,employed,rural,3,1,1,more than 1USD per day,female,,tear,second digree,after one hour
+198,3,5,palacetamol,22,single,secondary,employed,rural,3,1,1,more than 1USD per day,female,,tear,second digree,after one hour
+198,4,3,palacetamol,22,single,secondary,employed,rural,3,1,1,more than 1USD per day,female,,tear,second digree,after one hour
+199,1,10,palacetamol,24,single,secondary,employed,rural,2,1,1,more than 1USD per day,female,3.4,episiotomy,episiotomy,after one hour
+199,2,9,palacetamol,24,single,secondary,employed,rural,2,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+199,3,9,palacetamol,24,single,secondary,employed,rural,2,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+199,4,6,palacetamol,24,single,secondary,employed,rural,2,1,1,more than 1USD per day,female,,episiotomy,episiotomy,after one hour
+200,1,8,palacetamol,22,single,secondary,peasant,rural,4,2,2,more than 1USD per day,male,3.7,episiotomy,episiotomy,after one hour
+200,2,8,palacetamol,22,single,secondary,peasant,rural,4,2,2,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+200,3,5,palacetamol,22,single,secondary,peasant,rural,4,2,2,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+200,4,3,palacetamol,22,single,secondary,peasant,rural,4,2,2,more than 1USD per day,male,,episiotomy,episiotomy,after one hour
+201,1,6,coldpack,25,married,secondary,employed,urban,6,2,2,more than 1USD per day,male,3.7,intact,intact,within on hour
+201,2,2,coldpack,25,married,secondary,employed,urban,6,2,2,more than 1USD per day,male,,intact,intact,within on hour
+201,3,0,coldpack,25,married,secondary,employed,urban,6,2,2,more than 1USD per day,male,,intact,intact,within on hour
+201,4,0,coldpack,25,married,secondary,employed,urban,6,2,2,more than 1USD per day,male,,intact,intact,within on hour
+202,1,7,coldpack,28,single,secondary,peasant,urban,4,3,3,more than 1USD per day,male,3.2,tear,second digree,within on hour
+202,2,3,coldpack,28,single,secondary,peasant,urban,4,3,3,more than 1USD per day,male,,tear,second digree,within on hour
+202,3,2,coldpack,28,single,secondary,peasant,urban,4,3,3,more than 1USD per day,male,,tear,second digree,within on hour
+202,4,0,coldpack,28,single,secondary,peasant,urban,4,3,3,more than 1USD per day,male,,tear,second digree,within on hour
+203,1,7,coldpack,35,single,non,peasant,rural,2,6,7,less than 1USD per day,female,3.9,intact,second digree,within on hour
+203,2,3,coldpack,35,single,non,peasant,rural,2,6,7,less than 1USD per day,female,,intact,intact,within on hour
+203,3,1,coldpack,35,single,non,peasant,rural,2,6,7,less than 1USD per day,female,,intact,intact,within on hour
+203,4,0,coldpack,35,single,non,peasant,rural,2,6,7,less than 1USD per day,female,,intact,intact,within on hour
+204,1,10,coldpack,31,married,secondary,peasant,rural,7,1,1,less than 1USD per day,female,3.5,episiotomy,episiotomy,within on hour
+204,2,4,coldpack,31,married,secondary,peasant,rural,7,1,1,less than 1USD per day,female,,episiotomy,episiotomy,within on hour
+204,3,2,coldpack,31,married,secondary,peasant,rural,7,1,1,less than 1USD per day,female,,episiotomy,episiotomy,within on hour
+204,4,0,coldpack,31,married,secondary,peasant,rural,7,1,1,less than 1USD per day,female,,episiotomy,episiotomy,within on hour
+205,1,4,coldpack,36,married,secondary,employed,urban,6,4,4,more than 1USD per day,male,3.5,intact,intact,within on hour
+205,2,1,coldpack,36,married,secondary,employed,urban,6,4,4,more than 1USD per day,male,,intact,intact,within on hour
+205,3,0,coldpack,36,married,secondary,employed,urban,6,4,4,more than 1USD per day,male,,intact,intact,within on hour
+205,4,0,coldpack,36,married,secondary,employed,urban,6,4,4,more than 1USD per day,male,,intact,intact,within on hour
+206,1,7,coldpack,28,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,3,tear,first digree,after one hour
+206,2,3,coldpack,28,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+206,3,2,coldpack,28,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+206,4,0,coldpack,28,married,secondary,employed,urban,5,1,1,more than 1USD per day,male,,tear,first digree,after one hour
+207,1,9,coldpack,35,married,primary,peasant,rural,6,5,5,less than 1USD per day,male,3.6,episiotomy,episiotomy,within on hour
+207,2,4,coldpack,35,married,primary,peasant,rural,6,5,5,less than 1USD per day,male,,episiotomy,episiotomy,within on hour
+207,3,3,coldpack,35,married,primary,peasant,rural,6,5,5,less than 1USD per day,male,,episiotomy,episiotomy,within on hour
+207,4,0,coldpack,35,married,primary,peasant,rural,6,5,5,less than 1USD per day,male,,episiotomy,episiotomy,within on hour
+208,1,7,coldpack,21,married,secondary,employed,rural,5,1,1,more than 1USD per day,female,3.4,episiotomy,episiotomy,within on hour
+208,2,3,coldpack,21,married,secondary,employed,rural,5,1,1,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+208,3,2,coldpack,21,married,secondary,employed,rural,5,1,1,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+208,4,0,coldpack,21,married,secondary,employed,rural,5,1,1,more than 1USD per day,female,,episiotomy,episiotomy,within on hour
+209,1,6,coldpack,26,married,primary,peasant,urban,3,2,2,less than 1USD per day,male,3.2,tear,first digree,within on hour
+209,2,2,coldpack,26,married,primary,peasant,urban,3,2,2,less than 1USD per day,male,,tear,first digree,within on hour
+209,3,0,coldpack,26,married,primary,peasant,urban,3,2,2,less than 1USD per day,male,,tear,first digree,within on hour
+209,4,0,coldpack,26,married,primary,peasant,urban,3,2,2,less than 1USD per day,male,,tear,first digree,within on hour
+210,1,10,coldpack,28,married,secondary,employed,urban,2,1,1,more than 1USD per day,male,3.5,episiotomy,episiotomy,within on hour
+210,2,3,coldpack,28,married,secondary,employed,urban,2,1,1,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+210,3,0,coldpack,28,married,secondary,employed,urban,2,1,1,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+210,4,0,coldpack,28,married,secondary,employed,urban,2,1,1,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+211,1,8,coldpack,19,married,non,employed,rural,4,1,1,more than 1USD per day,male,3.1,episiotomy,episiotomy,within on hour
+211,2,2,coldpack,19,married,non,employed,rural,4,1,1,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+211,3,0,coldpack,19,married,non,employed,rural,4,1,1,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+211,4,0,coldpack,19,married,non,employed,rural,4,1,1,more than 1USD per day,male,,episiotomy,episiotomy,within on hour
+212,1,10,coldpack,22,single,secondary,peasant,rural,5,1,1,less than 1USD per day,male,3.5,tear,second digree,within on hour
+212,2,3,coldpack,22,single,secondary,peasant,rural,5,1,1,less than 1USD per day,male,,tear,second digree,within on hour
+212,3,2,coldpack,22,single,secondary,peasant,rural,5,1,1,less than 1USD per day,male,,tear,second digree,within on hour
+212,4,0,coldpack,22,single,secondary,peasant,rural,5,1,1,less than 1USD per day,male,,tear,second digree,within on hour
+213,1,8,coldpack,18,single,non,employed,rural,3,1,1,more than 1USD per day,male,3,tear,second digree,within on hour
+213,2,2,coldpack,18,single,non,employed,rural,3,1,1,more than 1USD per day,male,,tear,second digree,within on hour
+213,3,0,coldpack,18,single,non,employed,rural,3,1,1,more than 1USD per day,male,,tear,second digree,within on hour
+213,4,0,coldpack,18,single,non,employed,rural,3,1,1,more than 1USD per day,male,,tear,second digree,within on hour
+214,1,9,palacetamol,28,married,primary,employed,rural,4,5,5,more than 1USD per day,male,3.8,tear,first digree,after one hour
+214,2,6,palacetamol,28,married,primary,employed,rural,4,5,5,more than 1USD per day,male,,tear,first digree,after one hour
+214,3,3,palacetamol,28,married,primary,employed,rural,4,5,5,more than 1USD per day,male,,tear,first digree,after one hour
+214,4,3,palacetamol,28,married,primary,employed,rural,4,5,5,more than 1USD per day,male,,tear,first digree,after one hour
+215,1,4,coldpack,20,single,primary,employed,rural,7,2,2,more than 1USD per day,female,3,intact,intact,within on hour
+215,2,0,coldpack,20,single,primary,employed,rural,7,2,2,more than 1USD per day,female,,intact,intact,within on hour
+215,3,0,coldpack,20,single,primary,employed,rural,7,2,2,more than 1USD per day,female,,intact,intact,within on hour
+215,4,0,coldpack,20,single,primary,employed,rural,7,2,2,more than 1USD per day,female,,intact,intact,within on hour
+216,1,8,palacetamol,27,married,secondary,employed,rural,6,2,2,more than 1USD per day,female,3.2,tear,second digree,after one hour
+216,2,8,palacetamol,27,married,secondary,employed,rural,6,2,2,more than 1USD per day,female,,tear,second digree,after one hour
+216,3,4,palacetamol,27,married,secondary,employed,rural,6,2,2,more than 1USD per day,female,,tear,second digree,after one hour
+216,4,2,palacetamol,27,married,secondary,employed,rural,6,2,2,more than 1USD per day,female,,tear,second digree,after one hour
+217,1,7,palacetamol,35,single,non,employed,rural,4,5,7,less than 1USD per day,female,3.8,tear,first digree,after one hour
+217,2,7,palacetamol,35,single,non,employed,rural,4,5,7,less than 1USD per day,female,,tear,first digree,after one hour
+217,3,3,palacetamol,35,single,non,employed,rural,4,5,7,less than 1USD per day,female,,tear,first digree,after one hour
+217,4,2,palacetamol,35,single,non,employed,rural,4,5,7,less than 1USD per day,female,,tear,first digree,after one hour
+218,1,9,palacetamol,21,married,primary,peasant,rural,2,1,1,less than 1USD per day,male,3.6,episiotomy,episiotomy,after one hour
+218,2,8,palacetamol,21,married,primary,peasant,rural,2,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+218,3,5,palacetamol,21,married,primary,peasant,rural,2,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+218,4,3,palacetamol,21,married,primary,peasant,rural,2,1,1,less than 1USD per day,male,,episiotomy,episiotomy,after one hour
+219,1,4,palacetamol,23,married,primary,employed,rural,5,2,2,more than 1USD per day,female,2.5,intact,intact,within on hour
+219,2,4,palacetamol,23,married,primary,employed,rural,5,2,2,more than 1USD per day,female,,intact,intact,within on hour
+219,3,4,palacetamol,23,married,primary,employed,rural,5,2,2,more than 1USD per day,female,,intact,intact,within on hour
+219,4,2,palacetamol,23,married,primary,employed,rural,5,2,2,more than 1USD per day,female,,intact,intact,within on hour
+220,1,4,palacetamol,38,married,non,peasant,rural,4,6,7,less than 1USD per day,female,3.8,intact,intact,within on hour
+220,2,4,palacetamol,38,married,non,peasant,rural,4,6,7,less than 1USD per day,female,,intact,intact,within on hour
+220,3,3,palacetamol,38,married,non,peasant,rural,4,6,7,less than 1USD per day,female,,intact,intact,within on hour
+220,4,2,palacetamol,38,married,non,peasant,rural,4,6,7,less than 1USD per day,female,,intact,intact,within on hour
+221,1,7,palacetamol,42,married,non,peasant,rural,5,1,1,less than 1USD per day,male,3.9,tear,first digree,within on hour
+221,2,7,palacetamol,42,married,non,peasant,rural,5,1,1,less than 1USD per day,male,,tear,first digree,within on hour
+221,3,4,palacetamol,42,married,non,peasant,rural,5,1,1,less than 1USD per day,male,,tear,first digree,within on hour
+221,4,3,palacetamol,42,married,non,peasant,rural,5,1,1,less than 1USD per day,male,,tear,first digree,within on hour
+222,1,9,palacetamol,38,single,non,employed,rural,6,5,5,more than 1USD per day,female,3.8,tear,first digree,within on hour
+222,2,8,palacetamol,38,single,non,employed,rural,6,5,5,more than 1USD per day,female,,tear,first digree,within on hour
+222,3,4,palacetamol,38,single,non,employed,rural,6,5,5,more than 1USD per day,female,,tear,first digree,within on hour
+222,4,2,palacetamol,38,single,non,employed,rural,6,5,5,more than 1USD per day,female,,tear,first digree,within on hour
+223,1,6,palacetamol,32,married,non,peasant,rural,6,6,6,less than 1USD per day,female,2.9,intact,intact,within on hour
+223,2,6,palacetamol,32,married,primary,peasant,rural,6,6,6,less than 1USD per day,female,,intact,intact,within on hour
+223,3,3,palacetamol,32,married,primary,peasant,rural,6,6,6,less than 1USD per day,female,,intact,intact,within on hour
+223,4,3,palacetamol,32,married,primary,peasant,rural,6,6,6,less than 1USD per day,female,,intact,intact,within on hour
+224,1,7,palacetamol,28,single,secondary,employed,urban,5,6,4,more than 1USD per day,female,3.5,tear,first digree,after one hour
+224,2,7,palacetamol,28,single,secondary,employed,urban,5,4,4,more than 1USD per day,female,,tear,first digree,after one hour
+224,3,4,palacetamol,28,single,secondary,employed,urban,5,4,4,more than 1USD per day,female,,tear,first digree,after one hour
+224,4,2,palacetamol,28,single,secondary,employed,urban,5,4,4,more than 1USD per day,female,,tear,first digree,after one hour
+225,1,5,palacetamol,44,single,non,peasant,rural,6,7,8,less than 1USD per day,female,4,intact,intact,within on hour
+225,2,5,palacetamol,44,single,non,peasant,rural,6,7,8,less than 1USD per day,female,,intact,intact,within on hour
+225,3,3,palacetamol,44,single,non,peasant,rural,6,7,8,less than 1USD per day,female,,intact,intact,within on hour
+225,4,3,palacetamol,44,single,non,peasant,rural,6,7,8,less than 1USD per day,female,,intact,intact,within on hour
+226,1,9,palacetamol,20,married,primary,peasant,rural,1,2,2,less than 1USD per day,male,3,intact,intact,within on hour
+226,2,6,palacetamol,20,married,primary,peasant,rural,1,2,2,less than 1USD per day,male,,intact,intact,within on hour
+226,3,6,palacetamol,20,married,primary,peasant,rural,1,2,2,less than 1USD per day,male,,intact,intact,within on hour
+226,4,3,palacetamol,20,married,primary,peasant,rural,1,2,2,less than 1USD per day,male,,intact,intact,within on hour
+227,1,10,palacetamol,32,married,secondary,employed,urban,6,5,5,more than 1USD per day,male,4.2,tear,second digree,after one hour
+227,2,9,palacetamol,32,married,secondary,employed,urban,6,5,5,more than 1USD per day,male,,tear,second digree,after one hour
+227,3,6,palacetamol,32,married,secondary,employed,urban,6,5,5,more than 1USD per day,male,,tear,second digree,after one hour
+227,4,4,palacetamol,32,married,secondary,employed,urban,6,5,5,more than 1USD per day,male,,tear,second digree,after one hour
+228,1,6,palacetamol,40,single,non,peasant,rural,3,7,8,less than 1USD per day,male,3.8,intact,intact,within on hour
+228,2,6,palacetamol,40,single,non,peasant,rural,3,7,8,less than 1USD per day,male,,intact,intact,within on hour
+228,3,3,palacetamol,40,single,non,peasant,rural,3,7,8,less than 1USD per day,male,,intact,intact,within on hour
+228,4,3,palacetamol,40,single,non,peasant,rural,3,7,8,less than 1USD per day,male,,intact,intact,within on hour

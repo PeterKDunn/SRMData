@@ -364,26 +364,69 @@ usethis::use_data(NMiner, overwrite = TRUE) # Just  Minerab  and  Eucs
 write.csv(NMiner, "..//SRM-Textbook//Data//NMiner.csv", row.names = FALSE)
 
 
+##############################
+Gender <- rep("M", 15)
+Gender[ c(11, 14, 15)] <- "F"
+Age <- c(9, 7, 7, 12, 11, 5, 6, 8, 8, 6, 7, 11, 7, 9, 8)
+Ht <- c(136, 106, 129, 152, 146, 113, 112, 112, 138, 116, 113, 141, 136, 128, 133)
+Wt <- c(34.5, 16.2, 21.1, 40.4, 39.3, 18.1, 16.7, 19.1, 28.6, 19.3, 17.6, 34.9, 34.5, 21.9, 23.0)
+GMFCS <- c(1, 2, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1)
+Orthoses <- data.frame(
+  Gender = Gender,
+  Age = Age,
+  Height = Ht,
+  Weight = Wt,
+  GMFCS = GMFCS)
+  
+usethis::use_data(Orthoses, overwrite = TRUE)
+write.csv(Orthoses, "..//SRM-Textbook//Data//Orthoses.csv", row.names = FALSE)
+
+
+
+##############################
 OSA <- read.csv("data-raw/OSA.csv")
 usethis::use_data(OSA, overwrite = TRUE)
 write.csv(OSA, "..//SRM-Textbook//Data//OSA.csv", row.names = FALSE)
 
 
+##############################
+PainRelief <- read.csv("data-raw/PainRelief.csv")
+
+PainRelief <- dplyr::select(PainRelief,
+                            ID = id,
+                            Time = time,
+                            Score = score,
+                            Group = group,
+                            Age = age,
+                            Parity = parity,
+                            ChildSex = childsex,
+                            Birthweight = birthweight)
+PainRelief$Group[PainRelief$Group == "palacetamol"] <- "paracetamol"
+
+usethis::use_data(PainRelief, overwrite = TRUE)
+write.csv(PainRelief, "..//SRM-Textbook//Data//PainRelief.csv", row.names = FALSE)
+
+
+
+##############################
 Peas <- read.csv("data-raw/Peas.csv")
 usethis::use_data(Peas, overwrite = TRUE)
 write.csv(Peas, "..//SRM-Textbook//Data//Peas.csv")
 
 
+##############################
 Perm <- read.csv("data-raw/Perm.csv")
 usethis::use_data(Perm, overwrite = TRUE)
 write.csv(Perm, "..//SRM-Textbook//Data//Perm.csv", row.names = FALSE)
 
 
+##############################
 PetBirds <- read.csv("data-raw/PetBirds.csv")
 usethis::use_data(PetBirds, overwrite = TRUE)
 write.csv(PetBirds, "..//SRM-Textbook//Data//PetBirds.csv")
 
 
+##############################
 Placebos <- read.csv("data-raw/Placebos.csv")
 usethis::use_data(Placebos, overwrite = TRUE)
 write.csv(Placebos, "..//SRM-Textbook//Data//Placebos.csv")
@@ -555,7 +598,7 @@ Tape <- dplyr::select(Tape,
                       #Pre.Right.75KT.Tension     = KT.75..TENSION_PRE_PPT_RIGHT.ARM,
                       Post1.Left.75KT.Tension    = KT.75..TENSION_POST1_PPT_LEFT.ARM,
                       Post1.Right.75KT.Tension   = KT.75..TENSION_POST1_PPT_RIGHT.ARM,
-                      Post2.Left.75TKT.Tension    = KT.75..TENSION_POST2_PPT_LEFT.ARM,
+                      Post2.Left.75KT.Tension    = KT.75..TENSION_POST2_PPT_LEFT.ARM,
                       Post2.Right.75KT.Tension   = KT.75..TENSION_POST2_PPT_RIGHT.ARM,
                       
                       Pre.Left.NoTape         = NO.KT_PrePPT_LEFT.ARM,
@@ -722,4 +765,6 @@ write.csv(YieldDen, "..//SRM-Textbook//Data//YieldDen.csv", row.names = FALSE)
 
 #####################################################################################
 # Now produce the man (.Rd) files
+
+cat("*** Running roxygenise *** ")
 roxygen2::roxygenise()
