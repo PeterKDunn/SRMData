@@ -445,29 +445,51 @@ write.csv(Possums, "..//SRM-Textbook//Data//Possums.csv")
 ##############################
 
 
+##############################
 Punting <- read.csv("data-raw/Punting.csv")
 usethis::use_data(Punting, overwrite = TRUE)
 write.csv(Punting, "..//SRM-Textbook//Data//Punting.csv")
 
 
+##############################
 ReactionTimePhoneInd <- read.csv("data-raw/ReactionTimePhoneInd.csv")
 usethis::use_data(ReactionTimePhoneInd, overwrite = TRUE)
 write.csv(ReactionTimePhoneInd, "..//SRM-Textbook//Data//ReactionTimePhoneInd.csv")
 
 
+##############################
 RecoveryTime <- read.csv("data-raw/RecoveryTime.csv")
 usethis::use_data(RecoveryTime, overwrite = TRUE)
 write.csv(RecoveryTime, "..//SRM-Textbook//Data//RecoveryTime.csv")
 
 
+##############################
 RedDeer <- read.csv("data-raw/RedDeer.csv")
 usethis::use_data(RedDeer, overwrite = TRUE)
 write.csv(RedDeer, "..//SRM-Textbook//Data//RedDeer.csv", row.names = FALSE)
 
 
+##############################
 Removal <- read.csv("data-raw/Removal.csv")
 usethis::use_data(Removal, overwrite = TRUE)
 write.csv(Removal, "..//SRM-Textbook//Data//Removal.csv")
+
+
+##############################
+Running <- read.csv("data-raw/Running.csv",
+                    skip = 1)
+Running <- dplyr::select(Running,
+                         ID = participant_id,
+                         Trail = trial_block,
+                         Speed = run.speed..km.h.,
+                         HRM = HRM,
+                         NOVA = NOVA,
+                         RDP = RDP,
+                         Footpod = Footpod,
+                         Video = VMCS)
+
+usethis::use_data(Running, overwrite = TRUE)
+write.csv(Running, "..//SRM-Textbook//Data//Running.csv")
 
 
 ##############################
