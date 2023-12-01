@@ -480,7 +480,7 @@ Running <- read.csv("data-raw/Running.csv",
                     skip = 1)
 Running <- dplyr::select(Running,
                          ID = participant_id,
-                         Trail = trial_block,
+                         Trial = trial_block,
                          Speed = run.speed..km.h.,
                          HRM = HRM,
                          NOVA = NOVA,
