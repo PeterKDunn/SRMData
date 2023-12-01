@@ -767,16 +767,97 @@ write.csv(Typing, "..//SRM-Textbook//Data//Typing.csv", row.names = FALSE)
 
 
 
+##############################
 UniStudentsLong <- read.csv("data-raw/UniStudentsLong.csv")
 usethis::use_data(UniStudentsLong, overwrite = TRUE)
 write.csv(UniStudentsLong, "..//SRM-Textbook//Data//UniStudentsLong.csv")
 
 
+##############################
+WaterAccess <- read.csv2("data-raw/Water.csv")
+
+names(WaterAccess) <- c("District", "Date", "code",
+                        "NameCaretaker", "PhoneNb", "age",
+                        "TotalHHsize", "TotalHHU5", "TotalHHU5.1",
+                        "Education", "Education.1", "Animals",
+                        "Animals.1", "AnimalsTypes", "AnimalsTypes.1",
+                        "Garden", "Garden.1", "GPSX",
+                        "GPSY", "ChildrenHealth", "ChildrenHealth.1",
+                        "DiseaseHealth", "Diarrhea", "Stomachache",
+                        "Fever", "Rashes", "Vomiting",
+                        "DrinkContainer", "DrinkContainer.1", "DrinkFreq",
+                        "DrinkFreq.1", "DrinkCup", "DrinkCup.1",
+                        "DrinkAmt", "TotalDrink24h", "UsedDrinkWater",
+                        "ProxSource", "ProxSource.1", "ProxSource2",
+                        "ProxSource2.1", "AmtDrink", "AmtUsed",
+                        "DrinkSource", "DrinkSource.1", "DrinkPay",
+                        "DrinkPay.1", "DistanceDrinkSource", "DistanceDrinkSource.1",
+                        "TimeDrinkSour", "TimeDrinkSour.1", "QueueDrinkSource",
+                        "QueueDrinkSource.1", "TripDrinkSour", "TripDrinkSour.1",
+                        "UsedDrinkWater.1", "UsedDrinkWater.2", "SatisfactionDrinking",
+                        "SatisfactionDrinking.1", "SatisfactionWhy", "ContainerDrink",
+                        "ContainerDrink.1", "CoverDrinking", "CoverDrinking.1",
+                        "FetchDrink", "Children", "Teenager",
+                        "Adults", "FetchDrink.1", "ChangeContainerDrink",
+                        "ChangeContainerDrink.1", "StorageDrink", "StorageDrink.1",
+                        "ProblemWaterFetching", "ProblemWaterFetching.1", "WhenDrinkLast",
+                        "WhoFetchLast", "WhoFetchLast.1", "WhereFetchLast",
+                        "WhereFetchLast.1", "ChorSource", "ChorSource.1",
+                        "ChorePay", "ChorePay.1", "DistanceChoreSource",
+                        "DistanceChoreSource.1", "TimeChoreSource", "TimeChoreSource.1",
+                        "QueueChoreSource", "QueueChoreSource.1", "TripChoreSource",
+                        "TripChoreSource.1", "UsedCHOreWater", "UsedCHOreWater.1",
+                        "SatisfiedChoreAmount", "SatisfiedChoreAmount.1", "SatsfiedChoreWhy",
+                        "ContainerChore", "ContainerChore.1", "CoverChore",
+                        "CoverChore.1", "FetchChore", "FetchChore.1",
+                        "ChnageCOntainerChore", "ChnageCOntainerChore.1", "StorageChore",
+                        "StorageChore.1", "ProblemWaterChore", "ProblemWaterChore.1",
+                        "WhenChoreLast", "WhoChoreLast", "WhoChoreLast.1",
+                        "WhereFetchChoreLast", "WhereFetchChoreLast.1", "ObsoContDrink",
+                        "ObsoChoreCONtainer", "ObsoDrinkAmt", "ObsoChoreAmt",
+                        "MaximumStorageDrinking", "MaximumStorageDrinking.1", "DrinkingFrequency",
+                        "DrinkingFrequency.1", "ContainerForDrinking", "ContainerForDrinking.1",
+                        "WATINE1", "WATINE2", "WATINE3",
+                        "WATINE4", "WATINE5", "WATINE6",
+                        "WATINE7", "WATINE8", "WATINE9",
+                        "WATINE10", "WATINE11", "WATINE12",
+                        "WATINE13", "WATINE14", "WATINE15",
+                        "WATINE16", "WATINE17", "TotalHWISA",
+                        "TreatWaterDrink", "TreatWaterDrink.1", "HowTreat",
+                        "HowTreat.1", "AmtDrinkU5", "AmtDrinkU5.1",
+                        "FreqDrinkU5", "WashingDrinkStorage", "WashingDrinkStorage.1",
+                        "CleaningCompound", "CleaningCompound.1", "GarbageEvacuation",
+                        "GarbageEvacuation.1", "UsedWaterEvac", "UsedWaterEvac.1",
+                        "LatrineOwn", "LatrineOwn.1", "LatrineType",
+                        "LatrineType.1", "LatrineShare", "Be4eat",
+                        "AfterClean", "AfterClean.1", "AmtWater",
+                        "WaterSourceMapped", "TypeWaterSourceMapped", "GPSXwatersource",
+                        "GPSYwatersource")
+# Process:
+# - In R: names(Water)
+# - In Notepad+: Convert spaces to ,
+# In Google translate: Translate from French to English
+# Then a bit of manual handlin
+
+WaterAccess <- data.frame( Region = Water$District,
+                           Age = Water$age,
+                           Education = Water$Education,
+                           SourceDistance = Water$DistanceDrinkSource,
+                           SourceQueueTime = Water$QueueDrinkSource,
+                           HouseholdPeople = Water$TotalHHsize,
+                           HouseholdUnder5s = Water$TotalHHU5)
+
+usethis::use_data(WaterAccess, overwrite = TRUE)
+write.csv(WaterAccess, "..//SRM-Textbook//Data//WaterAccess.csv")
+
+
+##############################
 Windmill <- read.csv("data-raw/Windmill.csv")
 usethis::use_data(Windmill, overwrite = TRUE)
 write.csv(Windmill, "..//SRM-Textbook//Data//Windmill.csv", row.names = FALSE)
 
 
+##############################
 YieldDen <- read.csv("data-raw/YieldDen.csv")
 usethis::use_data(YieldDen, overwrite = TRUE)
 write.csv(YieldDen, "..//SRM-Textbook//Data//YieldDen.csv", row.names = FALSE)
