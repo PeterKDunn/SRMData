@@ -8,14 +8,18 @@
 #'
 #' @format A data frame with 150 rows (15 participants by 10 reps each) and 3 columns:
 #' \describe{
-#'   \item{ID}{The particiapnt ID}
-#'   \item{Trial}{Which trial; one of \code{1} to \code{5}}
-#'   \item{Speed}{The average running speed, in km.h}
-#'   \item{HRM}{The vertical oscillation (VO) as measured by the Garmin Heart Rate Monitor-Pro (HRM), in cm}
-#'   \item{NOVA}{The VO as measured by the  the INCUS NOVA device, in cm}
-#'   \item{RDP}{The VO as measured by the Garmin Running Dynamics Pod (RDP), in cm}
-#'   \item{Footpod}{The VO as measured by the Stryd Running Power Meter Footpod (Footpod), in cm}
-#'   \item{Video}{The VO as measured by video analysis, in cm}
+#'   \item{Region}{The region; one of \code{Mbeng}, \code{Mbih} or \code{Ntsingbeu}}
+#'   \item{Age}{The age of the woman in the household, in years}
+#'   \item{Education}{The level of education of the woman' one of \code{Primary or less} or \code{Secondary or higher}}
+#'   \item{SourceDistance}{The distance to the water source; one of \code{Under 100m}, \code{100m to 1000m} or \code{Over 1000m} }
+#'   \item{SourceQueueTime}{The queuing time at the water source; one of \code{Under 5 min}, \code{5 to 15 min} or \code{Over 15 min}}
+#'   \item{HasGarden}{Whether the household has a farming garden; one of {Y} or \code{N}}
+#'   \item{HasLivestock}{Whether the household keeps livestock; one of \code{Y} or \code{N}}
+#'   \item{HouseholdPeople}{The number of people in the household}
+#'   \item{HouseholdUnder5s}{The number of people under 5 in the houserhold}
+#'   \item{WaterSource}{The water source; one of \code{Tap}, \code{Bore}, \code{Well} or \code{River}}
+#'   \item{WashContainer}{How often the water container is washed; one of \code{Before each fill}, \code{Once per week} or \code{Once per month}}
+#'   \item{Diarrhea}{Whether a child has had diarrhoea in the last two weeks; one of \code{Y} or \code{N}}
 #' }
 #' @source 
 #' Nounkeu, C. D., Metapi, Y. D., Ouabo, F. K., Kamguem, A. S. T., Nono, B., Azza, N., Leumeni, P., Nguefack-{T}sague, G., Todem, D., Dharod, J. M., & Kuate, D. (2022). 

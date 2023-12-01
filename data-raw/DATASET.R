@@ -774,9 +774,9 @@ write.csv(UniStudentsLong, "..//SRM-Textbook//Data//UniStudentsLong.csv")
 
 
 ##############################
-WaterAccess <- read.csv2("data-raw/Water.csv")
+Water <- read.csv2("data-raw/Water.csv")
 
-names(WaterAccess) <- c("District", "Date", "code",
+names(Water) <- c("District", "Date", "code",
                         "NameCaretaker", "PhoneNb", "age",
                         "TotalHHsize", "TotalHHU5", "TotalHHU5.1",
                         "Education", "Education.1", "Animals",
@@ -837,15 +837,76 @@ names(WaterAccess) <- c("District", "Date", "code",
 # - In R: names(Water)
 # - In Notepad+: Convert spaces to ,
 # In Google translate: Translate from French to English
-# Then a bit of manual handlin
+# Then a bit of manual handling
 
 WaterAccess <- data.frame( Region = Water$District,
-                           Age = Water$age,
-                           Education = Water$Education,
+                           Age = as.numeric(Water$age),
+                           Education = Water$Education.1,
                            SourceDistance = Water$DistanceDrinkSource,
-                           SourceQueueTime = Water$QueueDrinkSource,
+                           SourceQueueTime = Water$QueueDrinkSource.1,
+                           HasGarden = Water$Garden,
+                           HasLivestock = Water$Animals,
                            HouseholdPeople = Water$TotalHHsize,
-                           HouseholdUnder5s = Water$TotalHHU5)
+                           HouseholdUnder5s = as.numeric(Water$TotalHHU5),
+                           WaterSource = Water$DrinkSource.1,
+                           WashContainer = Water$WashingDrinkStorage.1,
+                           Diarrhea = Water$Diarrhea)
+
+WaterAccess$Education <- factor(WaterAccess$Education,
+                                levels = 1:5,
+                                labels = c("Primary or less",
+                                           "Primary or less",
+                                           "Primary or less",
+                                           "Secondary or higher",
+                                           "Secondary or higher" ) )
+                                
+WaterAccess$SourceDistance <- ordered(WaterAccess$SourceDistance,
+                                      levels = c("< 100 m",
+                                                 "100 - 1000 m",
+                                                 "> 1000 m"),
+                                      labels = c("Under 100m",
+                                                 "100m to 1000m",
+                                                 "Over 1000m") )
+
+WaterAccess$SourceQueueTime <- ordered(WaterAccess$SourceQueueTime,
+                                       levels = c(1, 2, 3),
+                                       labels = c("Under 5 min",
+                                                 "5 to 15 min",
+                                                 "Over 15 min") )
+
+WaterAccess$WaterSource <- factor(WaterAccess$WaterSource,
+                                  levels = 1:4,
+                                  labels = c("Tap",
+                                             "Bore",
+                                             "Well",
+                                             "River"))
+
+WaterAccess$HasGarden <- factor(WaterAccess$HasGarden,
+                               levels = c("non",
+                                          "oui"),
+                               labels = c("N",
+                                          "Y") )
+
+WaterAccess$HasLivestock <- factor(WaterAccess$HasLivestock,
+                                  levels = c("Non",
+                                             "non",
+                                             "oui"),
+                                  labels = c("N",
+                                             "N",
+                                             "Y") )
+
+WaterAccess$WashContainer <- ordered(WaterAccess$WashContainer,
+                                    levels = 1:3,
+                                    labels = c("Before each fill",
+                                               "Once per week",
+                                               "Once per month"))
+
+WaterAccess$Diarrhea <- factor(WaterAccess$Diarrhea,
+                               levels = 0:2,
+                               labels = c("N",
+                                          "Y",
+                                          "N") )
+
 
 usethis::use_data(WaterAccess, overwrite = TRUE)
 write.csv(WaterAccess, "..//SRM-Textbook//Data//WaterAccess.csv")
