@@ -60,6 +60,26 @@ write.csv(BodyTemp, "..//SRM-Textbook//Data//BodyTemp.csv")
 
 
 ##############################
+BoneQuality <- read.csv("data-raw/BoneQuality.csv")
+
+BoneQuality <- dplyr::select(BoneQuality,
+                             Sex = Sex.M.1..W.2.,
+                             Age = Age.years.,
+                             Height = Height.cm.,
+                             Weight = Weight.kg.,
+                             LumbarBMD = L.spine.BMD.g.cm2.,
+                             HipBMD = Total.hip.BMD.g.cm2.,
+                             NeckBMD = Femur.neck.BMD.g.cm2.)
+BoneQuality$Sex <- factor(BoneQuality$Sex,
+                          levels = 1:2,
+                          labels = c("Male",
+                                     "Female"))
+
+usethis::use_data(BoneQuality, overwrite = TRUE)
+write.csv(BoneQuality, "..//SRM-Textbook//Data//BoneQuality.csv")
+
+
+##############################
 Captopril <- read.csv("data-raw/Captopril.csv")
 usethis::use_data(Captopril, overwrite = TRUE)
 write.csv(Captopril, "..//SRM-Textbook//Data//Captopril.csv")
