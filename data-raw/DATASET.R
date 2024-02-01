@@ -97,6 +97,15 @@ write.csv(CherryRipe, "..//SRM-Textbook//Data//CherryRipe.csv", row.names = FALS
 
 
 ##############################
+Corollas <- read.csv("data-raw/Corollas.csv")
+
+usethis::use_data(Corollas, overwrite = TRUE)
+write.csv(Corollas, "..//SRM-Textbook//Data//Corollas.csv", row.names = FALSE)
+##############################
+
+
+
+##############################
 Cyclones <- read.csv("data-raw/Cyclones.csv")
 usethis::use_data(Cyclones, overwrite = TRUE)
 write.csv(Cyclones, "..//SRM-Textbook//Data//Cyclones.csv")
@@ -325,6 +334,14 @@ usethis::use_data(InsulationBeforeAfter, overwrite = TRUE)
 write.csv(InsulationBeforeAfter, "..//SRM-Textbook//Data//InsulationBeforeAfter.csv")
 
 
+##############################
+Jellyfish <- read.csv("data-raw/Jellyfish.csv")
+
+usethis::use_data(Jellyfish, overwrite = TRUE)
+write.csv(Jellyfish, "..//SRM-Textbook//Data//Jellyfish.csv", row.names = FALSE)
+##############################
+
+
 Kerbside <- read.csv("data-raw/Kerbside.csv")
 usethis::use_data(Kerbside, overwrite = TRUE)
 write.csv(Kerbside, "..//SRM-Textbook//Data//Kerbside.csv")
@@ -450,6 +467,15 @@ write.csv(PetBirds, "..//SRM-Textbook//Data//PetBirds.csv")
 Placebos <- read.csv("data-raw/Placebos.csv")
 usethis::use_data(Placebos, overwrite = TRUE)
 write.csv(Placebos, "..//SRM-Textbook//Data//Placebos.csv")
+
+
+
+##############################
+PizzaSize <- read.csv("data-raw/PizzaSize.csv")
+PizzaSize <- PizzaSize[, c(2, 4, 5, 6, 7)]
+usethis::use_data(PizzaSize, overwrite = TRUE)
+write.csv(PizzaSize, "..//SRM-Textbook//Data//PizzaSize.csv", row.names = FALSE)
+##############################
 
 
 ##############################
