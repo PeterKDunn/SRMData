@@ -53,6 +53,13 @@ usethis::use_data(Bitumen, overwrite = TRUE)
 write.csv(Bitumen, "..//SRM-Textbook//Data//Bitumen.csv")
 
 
+
+##############################
+BloodLoss <- read.csv("data-raw/BloodLoss.csv")
+usethis::use_data(BloodLoss, overwrite = TRUE)
+write.csv(BloodLoss, "..//SRM-Textbook//Data//BloodLoss.csv")
+
+
 ##############################
 BodyTemp <- read.csv("data-raw/BodyTemp.csv")
 usethis::use_data(BodyTemp, overwrite = TRUE)
