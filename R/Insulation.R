@@ -1,6 +1,6 @@
-#' InsulationBeforeAfter
+#' Insulation
 #'
-#' The InsulationBeforeAfter dataset
+#' The Insulation dataset
 #' 
 #' @docType data
 #' 
@@ -15,7 +15,7 @@
 #' 
 #' Originally from: The Open University. 1983. \emph{MDST242 Statistics in Society, Unit A0: Introduction.} The Open University.
 #' 
-#' @usage data(InsulationBeforeAfter)
+#' @usage data(Insulation)
 
-"InsulationBeforeAfter"
+"Insulation"
 

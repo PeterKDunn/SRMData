@@ -336,9 +336,9 @@ usethis::use_data(IgE, overwrite = TRUE)
 write.csv(IgE, "..//SRM-Textbook//Data//IgE")
 ##############################
 
-InsulationBeforeAfter <- read.csv("data-raw/InsulationBeforeAfter.csv")
-usethis::use_data(InsulationBeforeAfter, overwrite = TRUE)
-write.csv(InsulationBeforeAfter, "..//SRM-Textbook//Data//InsulationBeforeAfter.csv")
+Insulation <- read.csv("data-raw/InsulationBeforeAfter.csv")
+usethis::use_data(Insulation, overwrite = TRUE)
+write.csv(Insulation, "..//SRM-Textbook//Data//Insulation")
 
 
 ##############################
