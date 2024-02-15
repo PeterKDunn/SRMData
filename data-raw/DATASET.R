@@ -505,9 +505,9 @@ write.csv(Punting, "..//SRM-Textbook//Data//Punting.csv")
 
 
 ##############################
-ReactionTimePhoneInd <- read.csv("data-raw/ReactionTimePhoneInd.csv")
-usethis::use_data(ReactionTimePhoneInd, overwrite = TRUE)
-write.csv(ReactionTimePhoneInd, "..//SRM-Textbook//Data//ReactionTimePhoneInd.csv")
+ReactionTime <- read.csv("data-raw/ReactionTimePhoneInd.csv")
+usethis::use_data(ReactionTime, overwrite = TRUE)
+write.csv(ReactionTime, "..//SRM-Textbook//Data//ReactionTime.csv")
 
 
 ##############################

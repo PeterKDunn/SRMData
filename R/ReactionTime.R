@@ -1,6 +1,6 @@
-#' ReactionTimePhoneInd
+#' ReactionTime
 #'
-#' The ReactionTimePhoneInd dataset
+#' The ReactionTime dataset
 #' 
 #' @docType data
 #' 
@@ -20,6 +20,6 @@
 #' Driven to Distraction: Dual-Task Studies of Simulated Driving and Conversing on a Cellular Telephone. 
 #' \emph{Psychological Science} \bold{12} (6):462--66
 #' 
-#' @usage data(ReactionTimePhoneInd)
+#' @usage data(ReactionTime)
 
-"ReactionTimePhoneInd"
+"ReactionTime"
