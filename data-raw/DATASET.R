@@ -333,12 +333,12 @@ IgE <- data.frame( Before = Pre,
                    After = Post,
                    Reduction = Pre - Post)
 usethis::use_data(IgE, overwrite = TRUE)
-write.csv(IgE, "..//SRM-Textbook//Data//IgE")
+write.csv(IgE, "..//SRM-Textbook//Data//IgE.csv")
 ##############################
 
 Insulation <- read.csv("data-raw/InsulationBeforeAfter.csv")
 usethis::use_data(Insulation, overwrite = TRUE)
-write.csv(Insulation, "..//SRM-Textbook//Data//Insulation")
+write.csv(Insulation, "..//SRM-Textbook//Data//Insulation.csv")
 
 
 ##############################
