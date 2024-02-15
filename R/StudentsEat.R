@@ -1,6 +1,6 @@
-#' UniStudentsLong
+#' StudentsEat
 #'
-#' The UniStudentsLong dataset
+#' The StudentsEat dataset
 #' 
 #' @docType data
 #' 
@@ -15,6 +15,6 @@
 #' Influences of Physical Environments on University Student Eating Behaviors.
 #' \emph{International Journal of Health Sciences} \bold{5} (2): 42–52
 #' 
-#' @usage data(UniStudentsLong)
+#' @usage data(StudentsEat)
 
-"UniStudentsLong"
+"StudentsEat"

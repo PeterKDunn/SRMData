@@ -645,6 +645,13 @@ usethis::use_data(Stress, overwrite = TRUE)
 write.csv(Stress, "..//SRM-Textbook//Data//Stress.csv", row.names = FALSE)
 
 
+
+##############################
+StudentsEat <- read.csv("data-raw/UniStudentsLong.csv")
+usethis::use_data(StudentsEat, overwrite = TRUE)
+write.csv(StudentsEat, "..//SRM-Textbook//Data//StudentsEat.csv")
+
+
 ##############################
 StudentWt <- read.csv("data-raw/StudentWt.csv")
 usethis::use_data(StudentWt, overwrite = TRUE)
@@ -817,13 +824,6 @@ usethis::use_data(Typing, overwrite = TRUE)
 write.csv(Typing, "..//SRM-Textbook//Data//Typing.csv", row.names = FALSE)
 ##############################
 
-
-
-
-##############################
-UniStudentsLong <- read.csv("data-raw/UniStudentsLong.csv")
-usethis::use_data(UniStudentsLong, overwrite = TRUE)
-write.csv(UniStudentsLong, "..//SRM-Textbook//Data//UniStudentsLong.csv")
 
 
 ##############################
