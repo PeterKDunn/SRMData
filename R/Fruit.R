@@ -1,6 +1,6 @@
-#' Cyclones
+#' Fruit
 #'
-#' Cyclones data set
+#' Fruit data set
 #' 
 #' @docType data
 #' 
