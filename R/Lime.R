@@ -1,6 +1,6 @@
 #' Lime
 #'
-#' The number of male crabs attached to female horseshoe crabs
+#' The foliage biomass of small-leaved lime trees of different origins.
 #' 
 #' @docType data
 #' 
