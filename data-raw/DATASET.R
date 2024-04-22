@@ -93,6 +93,12 @@ write.csv(Captopril, "..//SRM-Textbook//Data//Captopril.csv")
 
 
 ##############################
+CarCrashes <- read.csv("data-raw/CarCrashes.csv")
+usethis::use_data(CarCrashes, overwrite = TRUE)
+write.csv(Captopril, "..//SRM-Textbook//Data//CarCrashes.csv")
+
+
+##############################
 ### Exception: Processing needed
 CherryRipe <- read.csv("data-raw/CherryRipe.csv")
 
@@ -708,6 +714,16 @@ write.csv(Tape, "..//SRM-Textbook//Data//Tape.csv")
 Throttle <- read.csv("data-raw/Throttle.csv")
 usethis::use_data(Throttle, overwrite = TRUE)
 write.csv(Throttle, "..//SRM-Textbook//Data//Throttle.csv", row.names = FALSE)
+
+
+##############################
+Turbines <- read.csv("data-raw/Turbines.csv")
+Turbines <- subset(Turbines, (Hours == 1800) | (Hours == 3000) )
+
+usethis::use_data(Turbines, overwrite = TRUE)
+write.csv(Turbines, "..//SRM-Textbook//Data//Turbines.csv", row.names = FALSE)
+
+
 
 
 ##############################
