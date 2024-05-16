@@ -13,7 +13,7 @@
 #'   \item{Education}{The level of education of the woman' one of \code{Primary or less} or \code{Secondary or higher}}
 #'   \item{SourceDistance}{The distance to the water source; one of \code{Under 100m}, \code{100m to 1000m} or \code{Over 1000m} }
 #'   \item{SourceQueueTime}{The queuing time at the water source; one of \code{Under 5 min}, \code{5 to 15 min} or \code{Over 15 min}}
-#'   \item{HasGarden}{Whether the household has a farming garden; one of {Y} or \code{N}}
+#'   \item{HasGarden}{Whether the household has a farming garden; one of \code{Y} or \code{N}}
 #'   \item{HasLivestock}{Whether the household keeps livestock; one of \code{Y} or \code{N}}
 #'   \item{HouseholdPeople}{The number of people in the household}
 #'   \item{HouseholdUnder5s}{The number of people under 5 in the household}

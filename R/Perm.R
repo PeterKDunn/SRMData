@@ -8,7 +8,7 @@
 #'
 #' @format A data frame with 81 rows (each sample) and 3 columns:
 #' \describe{
-#'   \item{Day}{The day of the data collection; code{1} to \code{9}}
+#'   \item{Day}{The day of the data collection; \code{1} to \code{9}}
 #'   \item{Mach}{The machine; one of \code{A}, \code{B} or \code{C}}
 #'   \item{Perm}{The permeability of the sample, in seconds}
 #' }

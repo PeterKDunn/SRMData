@@ -9,7 +9,7 @@
 #' @format A data frame with 25 rows (each windmill) and 2 columns:
 #' \describe{
 #'   \item{Wind}{The wind velocity, in miles per hour}
-#'   \item{DC}{The {DC} output}
+#'   \item{DC}{The DC output}
 #' }
 #' 
 #' @source G. Joglekar, J. H. Schuenemeyer and V. LaRicca (1989) Lack-of-fit testing when replicates are not available. 
