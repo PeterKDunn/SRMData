@@ -221,6 +221,12 @@ write.csv(EmeraldAug, "..//SRM-Textbook//Data//EmeraldAug.csv")
 
 
 ##############################
+EVpurchase <- read.csv("data-raw/EVpurchase.csv")
+usethis::use_data(EVpurchase, overwrite = TRUE)
+write.csv(EVpurchase, "..//SRM-Textbook//Data//EVpurchase.csv", row.names=FALSE)
+
+
+##############################
 Ferritin <- read.csv("data-raw/Ferritin.csv")
 usethis::use_data(Ferritin, overwrite = TRUE)
 write.csv(Ferritin, "..//SRM-Textbook//Data//Ferritin.csv")
