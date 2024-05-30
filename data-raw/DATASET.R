@@ -95,7 +95,7 @@ write.csv(Captopril, "..//SRM-Textbook//Data//Captopril.csv")
 ##############################
 CarCrashes <- read.csv("data-raw/CarCrashes.csv")
 usethis::use_data(CarCrashes, overwrite = TRUE)
-write.csv(Captopril, "..//SRM-Textbook//Data//CarCrashes.csv")
+write.csv(CarCrashes, "..//SRM-Textbook//Data//CarCrashes.csv")
 
 
 ##############################
@@ -724,7 +724,7 @@ write.csv(Throttle, "..//SRM-Textbook//Data//Throttle.csv", row.names = FALSE)
 
 ##############################
 Turbines <- read.csv("data-raw/Turbines.csv")
-Turbines <- subset(Turbines, (Hours == 1800) | (Hours == 3000) )
+Turbines <- subset(Turbines, (Hours == "1800h") | (Hours == "3000h") )
 
 usethis::use_data(Turbines, overwrite = TRUE)
 write.csv(Turbines, "..//SRM-Textbook//Data//Turbines.csv", row.names = FALSE)
