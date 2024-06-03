@@ -60,6 +60,30 @@ usethis::use_data(BloodLoss, overwrite = TRUE)
 write.csv(BloodLoss, "..//SRM-Textbook//Data//BloodLoss.csv")
 
 
+
+##############################
+library("foreign")
+
+BMI <- read.spss("data-raw/ARCHIVEDData.sav",
+                 to.data.frame = TRUE)    # From publisher website
+levels(BMI$edu) <- c("primary",
+                     "secondary",
+                     "postLeaving",
+                     "complete3rd")
+levels(BMI$smoke) <- c("daily",
+                       "occasionally",
+                       "not at all")
+levels(BMI$diet) <- c("yes",
+                      "no",
+                      "dont know")
+levels(BMI$bmi_perception) <- c("normalweight",
+                                "overweight",
+                                "obese")
+
+usethis::use_data(BMI, overwrite = TRUE)
+write.csv(BMI, "..//SRM-Textbook//Data//BMI.csv")
+
+
 ##############################
 BodyTemp <- read.csv("data-raw/BodyTemp.csv")
 usethis::use_data(BodyTemp, overwrite = TRUE)
