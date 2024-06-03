@@ -525,7 +525,7 @@ write.csv(ReactionTime, "..//SRM-Textbook//Data//ReactionTime.csv")
 ##############################
 RecoveryTime <- read.csv("data-raw/RecoveryTime.csv")
 usethis::use_data(RecoveryTime, overwrite = TRUE)
-write.csv(RecoveryTime, "..//SRM-Textbook//Data//RecoveryTime.csv")
+write.csv(RecoveryTime, "..//SRM-Textbook//Data//RecoveryTime.csv", row.names = FALSE)
 
 
 ##############################
@@ -537,7 +537,13 @@ write.csv(RedDeer, "..//SRM-Textbook//Data//RedDeer.csv", row.names = FALSE)
 ##############################
 Removal <- read.csv("data-raw/Removal.csv")
 usethis::use_data(Removal, overwrite = TRUE)
-write.csv(Removal, "..//SRM-Textbook//Data//Removal.csv")
+write.csv(Removal, "..//SRM-Textbook//Data//Removal.csv", row.names = FALSE)
+
+
+##############################
+RipsID <- read.csv("data-raw/RipsID.csv")
+usethis::use_data(RipsID, overwrite = TRUE)
+write.csv(RipsID, "..//SRM-Textbook//Data//RipsID.csv", row.names = FALSE)
 
 
 ##############################
