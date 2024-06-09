@@ -200,6 +200,15 @@ write.csv(Dogs, "..//SRM-Textbook//Data//Dogs.csv")
 
 ##############################
 ### Exception: Processing needed
+DogWalks <- read.csv("data-raw/DogWalks.csv")
+usethis::use_data(DogWalks, overwrite = TRUE)
+write.csv(DogWalks, "..//SRM-Textbook//Data//DogWalks.csv")
+##############################
+
+
+
+##############################
+### Exception: Processing needed
 EarInfection <- read.csv("data-raw/EarInfection.csv")
 
 EarInfection$Swimmer <- factor(EarInfection$Swimmer,
@@ -437,11 +446,22 @@ write.csv(MaryRiver, "..//SRM-Textbook//Data//MaryRiver.csv", row.names = FALSE)
 ##############################
 
 
+
+##############################
+Mumps <- read.csv("data-raw/Mumps.csv")
+usethis::use_data(Mumps, overwrite = TRUE) 
+write.csv(Mumps, "..//SRM-Textbook//Data//Mumps.csv", row.names = FALSE)
+##############################
+
+
+
+##############################
 NMiner <- read.csv("data-raw/NMiner.csv")
 NMiner <- data.frame( Eucs = NMiner$Eucs,
                       Minerab = NMiner$Minerab)
 usethis::use_data(NMiner, overwrite = TRUE) # Just  Minerab  and  Eucs
 write.csv(NMiner, "..//SRM-Textbook//Data//NMiner.csv", row.names = FALSE)
+##############################
 
 
 ##############################
