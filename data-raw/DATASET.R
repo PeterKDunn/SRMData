@@ -11,6 +11,19 @@ library(dplyr) # For selecting variables
 #  - Process **IF NEEDED**
 #  - Save as .rda
 #  - Save as .csv in the Textbook Data/ directory
+###########################################################################
+
+
+
+SixMWT <- read.csv("data-raw/6MWT.csv")
+SixMWT <- data.frame( Distance20 = SixMWT$Distance20,
+                      Distance30 = SixMWT$Distance30,
+                      Age = SixMWT$Age)
+usethis::use_data(SixMWT, overwrite = TRUE)
+write.csv(SixMWT, "..//SRM-Textbook//Data//SixMWT.csv", row.names = FALSE)
+
+
+##############################
 
 AISsub <- read.csv("data-raw/AIS.csv")
 AISsub <- data.frame( Sex = AISsub$Sex,
