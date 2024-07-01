@@ -124,6 +124,12 @@ write.csv(BoneQuality, "..//SRM-Textbook//Data//BoneQuality.csv")
 
 
 ##############################
+Burros <- read.csv("data-raw/Burros.csv")
+usethis::use_data(Burros, overwrite = TRUE)
+write.csv(Burros, "..//SRM-Textbook//Data//Burros.csv")
+
+
+##############################
 Captopril <- read.csv("data-raw/Captopril.csv")
 usethis::use_data(Captopril, overwrite = TRUE)
 write.csv(Captopril, "..//SRM-Textbook//Data//Captopril.csv")
@@ -153,6 +159,13 @@ usethis::use_data(Corollas, overwrite = TRUE)
 write.csv(Corollas, "..//SRM-Textbook//Data//Corollas.csv", row.names = FALSE)
 ##############################
 
+
+##############################
+CrabShells <- read.csv("data-raw/CrabShells.csv")
+
+usethis::use_data(CrabShells, overwrite = TRUE)
+write.csv(CrabShells, "..//SRM-Textbook//Data//CrabShells.csv", row.names = FALSE)
+##############################
 
 
 ##############################
