@@ -11,7 +11,7 @@
 #'   \item{ID}{An identifier}
 #'   \item{Age}{The age of the patient, in years}
 #'   \item{Gender}{The gender of the patient; one of \code{1} (male) or \code{2} (female)}
-#'   \item{BMI}{PThe BMI of the patient}
+#'   \item{BMI}{The BMI of the patient}
 #'   \item{Neck}{The neck circumference of the patient, in cm}
 #'   \item{REI}{The Respiratory Event Index for the patient}
 #'   \item{SAOS}{The SAOS score; one of \code{Severe}, \code{Moderate} or \code{Low}}
