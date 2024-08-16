@@ -1,6 +1,6 @@
 #' BodyTemp
 #'
-#' BodyTemp data set
+#' Body temperature (in degrees C and F) for people
 #' 
 #' @docType data
 #' 
