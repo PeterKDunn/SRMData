@@ -580,6 +580,23 @@ write.csv(Possums, "..//SRM-Textbook//Data//Possums.csv")
 ##############################
 
 
+
+##############################
+PremierL <- read.csv("data-raw/england-premier-league-2019-to-2020.csv")
+PremierL<- dplyr::select(PremierL,
+                         Date = Date,
+                         HomeTeam = HomeTeam,
+                         AwayTeam = AwayTeam,
+                         HomeGoals = FTHG,
+                         AwayGoals = FTAG,
+                         Result = FTR)
+
+usethis::use_data(PremierL, overwrite = TRUE)
+write.csv(PremierL, "..//SRM-textbook//Data//PremierL.csv")
+##############################
+
+
+
 ##############################
 Punting <- read.csv("data-raw/Punting.csv")
 usethis::use_data(Punting, overwrite = TRUE)
@@ -1085,5 +1102,5 @@ write.csv(YieldDen, "..//SRM-Textbook//Data//YieldDen.csv", row.names = FALSE)
 #####################################################################################
 # Now produce the man (.Rd) files
 
-cat("*** Running roxygenise *** ")
+cat("*** Running roxygenise *** \n")
 roxygen2::roxygenise()
