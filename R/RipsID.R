@@ -17,7 +17,7 @@
 #' @details The data provide the number of people correctly identifying a rip from a photo, by age group.
 #' 
 #' @source 
-#' Diez-Fern{\'{a}}ndez, P., Ruibal-Lista, B., Lobato-Alejano, F., & L{\'{o}}pez-Garc{\'i}a, S. (2023). 
+#' Diez-Fern\'andez, P., Ruibal-Lista, B., Lobato-Alejano, F., & L\'opez-Garc\'ia, S. (2023). 
 #' 'Rip current knowledge: do people really know its danger? Do lifeguards know more than the general public?'. 
 #' \emph{Heliyon}, \bold{9}(7).
 #' 
