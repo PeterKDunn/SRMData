@@ -8,7 +8,7 @@
 #'
 #' @format A data frame with 28 rows (each plot) and 4 columns:
 #' \describe{
-#'   \item{Crayfish}{Whether the snake lives in a crayfish region or not; one of \code{Y} or \code{N}}
+#'   \item{Crayfish}{Whether the snake lives in a crayfish region or not; one of \code{Cfish} or \code{NoCfish}}
 #'   \item{Sex}{The snake sex; one of \code{male} or \code{female}}
 #'   \item{SVL}{The snout-to-length length, in cm}
 #'   \item{Teeth}{The number of number of maxillary teeth}

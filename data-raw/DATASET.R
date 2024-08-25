@@ -699,8 +699,8 @@ Snakes <- subset(Snakes,
                  (SPECIES == names(SPtable)[4]) | 
                  (SPECIES == names(SPtable)[5]))
 Snakes$Crayfish <- ifelse( Snakes$SPECIES == "T. mel No eat crayfish", 
-                           "N",
-                           "Y")
+                           "NoCfish",
+                           "Cfish")
 
 Snakes <- dplyr::select(Snakes,
                         Crayfish = Crayfish,
