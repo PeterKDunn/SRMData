@@ -697,7 +697,7 @@ Snakes <- read.csv("data-raw/Snakes.csv")
 SPtable <- table(Snakes$SPECIES)
 Snakes <- subset(Snakes,
                  (SPECIES == names(SPtable)[4]) | 
-                   (SPECIES == names(SPtable)[5]))
+                 (SPECIES == names(SPtable)[5]))
 Snakes$Crayfish <- ifelse( Snakes$SPECIES == "T. mel No eat crayfish", 
                            "N",
                            "Y")
