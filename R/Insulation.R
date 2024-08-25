@@ -1,6 +1,6 @@
 #' Insulation
 #'
-#' The Insulation dataset
+#' Energy consumption before and after adding insulation.
 #' 
 #' @docType data
 #' 

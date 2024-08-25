@@ -1,6 +1,6 @@
 #' Perm
 #'
-#' The permeability of building materials
+#' The permeability of building materials.
 #' 
 #' @docType data
 #' 

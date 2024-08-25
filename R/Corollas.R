@@ -1,6 +1,6 @@
 #' Price of second-hand Corollas
 #'
-#'Corollas data set
+#' The price of second-hand Corollas advertised on Gum Tree.
 #' 
 #' @docType data
 #' 

@@ -1,6 +1,6 @@
 #' Diabetes
 #'
-#' Diabetes data set
+#' Blood pressure on the first and second visits.
 #' 
 #' @docType data
 #' 

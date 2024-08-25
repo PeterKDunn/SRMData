@@ -1,6 +1,6 @@
 #' Cyclones
 #'
-#' Cyclones data set
+#' The number of cyclones (severe; non-severe) and the ONI.
 #' 
 #' @docType data
 #' 

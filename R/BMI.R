@@ -1,6 +1,6 @@
 #' BMI
 #'
-#' The BMI and other health data number of Irish patients
+#' The BMI and other health data number of Irish patients.
 #' 
 #' @docType data
 #' 

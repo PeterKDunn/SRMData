@@ -1,6 +1,6 @@
 #' Dogs
 #'
-#' Dogs data
+#' Measurements of Phu Quoc Ridgeback dogs.
 #' 
 #' @docType data
 #' 

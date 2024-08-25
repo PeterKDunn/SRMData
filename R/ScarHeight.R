@@ -1,6 +1,6 @@
 #' ScarHeight
 #'
-#' The ScarHeight dataset
+#' Scar heights for men and women.
 #' 
 #' @docType data
 #' 

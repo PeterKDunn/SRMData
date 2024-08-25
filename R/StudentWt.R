@@ -1,6 +1,6 @@
 #' StudentWt
 #'
-#' The StudentWt dataset
+#' Weights of students from Week 1 to Week 12 of semester.
 #' 
 #' @docType data
 #' 

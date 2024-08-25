@@ -1,6 +1,6 @@
 #' HusbandWife
 #'
-#' The HusbandWife dataset
+#' The heights of British husbands and wives.
 #' 
 #' @docType data
 #' 

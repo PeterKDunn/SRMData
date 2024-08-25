@@ -1,7 +1,7 @@
 #' Throttle
 #'
-#' The Throttle dataset
-#' 
+#' Throttle and manifold air pressure.
+#'  
 #' @docType data
 #' 
 #' @keywords datasets

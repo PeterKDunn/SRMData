@@ -1,6 +1,6 @@
 #' EVpurchase
 #'
-#' The EVpurchase dataset
+#' Details of people regarding the purchase of an EV.
 #' 
 #' @docType data
 #' 

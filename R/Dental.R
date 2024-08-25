@@ -1,7 +1,7 @@
 #' Dental
 #'
 #' The data give the estimates of the mean number of decayed, missing and filled teeth (DMFT)
-#' at age 12 years, and the mean annual sugar consumption in the previous five years for 90 countries
+#' at age 12 years, and the mean annual sugar consumption in the previous five years for 90 countries.
 #' 
 #' @docType data
 #' 

@@ -1,6 +1,6 @@
 #' Placebos
 #'
-#' The Placebos dataset
+#' Pain relief from analgesics and placebos.
 #' 
 #' @docType data
 #' 

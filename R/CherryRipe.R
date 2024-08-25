@@ -1,6 +1,6 @@
 #' CherryRipe
 #'
-#' The CherryRipe dataset
+#' The weight if 'Fun Size' Cherry Ripe chocolate bars.
 #' 
 #' @docType data
 #' 

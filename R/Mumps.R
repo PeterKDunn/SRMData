@@ -1,7 +1,7 @@
 #' Mumps
 #' 
 #' 
-#' Whether students complied with isolation orders duration a mumps outbreak
+#' Whether students complied with isolation orders duration a mumps outbreak.
 #' 
 #' @docType data
 #' 

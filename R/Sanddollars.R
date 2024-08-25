@@ -1,6 +1,6 @@
 #' Sanddollars
 #'
-#' The Sanddollars dataset
+#' Details about reproduction of sand dollars
 #' 
 #' @docType data
 #' 

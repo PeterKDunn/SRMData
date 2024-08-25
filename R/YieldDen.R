@@ -1,6 +1,6 @@
 #' YieldDen
 #'
-#' The mean yields per plant for three onion varieties
+#' The mean yields per plant for three onion varieties.
 #' 
 #' @docType data
 #' 

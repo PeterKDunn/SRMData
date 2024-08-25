@@ -1,6 +1,6 @@
 #' SDrink
 #'
-#' The time taken to deliver soft drinks to vending machines
+#' The time taken to deliver soft drinks to vending machines.
 #' 
 #' @docType data
 #' 

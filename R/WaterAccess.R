@@ -1,6 +1,6 @@
 #' WaterAccess
 #'
-#' WaterAccess data set
+#' Water access for households in West Cameroon.
 #' 
 #' @docType data
 #' 

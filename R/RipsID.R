@@ -1,7 +1,7 @@
 #' RipsID
 #' 
 #' 
-#' Whether people of given age groups can correctly identify ocean rips
+#' Whether people of given age groups can correctly identify ocean rips.
 #' 
 #' @docType data
 #' 

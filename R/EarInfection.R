@@ -1,6 +1,6 @@
 #' EarInfection
 #'
-#' Ear infections on a Sydney beach
+#' Ear infections on a Sydney beach.
 #' 
 #' @docType data
 #' 

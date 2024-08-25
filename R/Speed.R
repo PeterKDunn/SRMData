@@ -1,6 +1,6 @@
 #' Speed
 #'
-#' The Speed dataset
+#' Speeds before and after adding additional signage.
 #' 
 #' @docType data
 #' 

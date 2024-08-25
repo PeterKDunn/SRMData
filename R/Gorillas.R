@@ -1,6 +1,6 @@
 #' Gorillas
 #'
-#' The Gorillas dataset
+#' Chest-beating in Gorillas.
 #' 
 #' @docType data
 #' 

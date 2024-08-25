@@ -1,6 +1,6 @@
 #' CarCrashes
 #'
-#' The number and type of of car crashes, in two different years
+#' The number and type of of car crashes, in two different years.
 #' 
 #' @docType data
 #' 

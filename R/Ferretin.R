@@ -1,6 +1,6 @@
 #' Ferritin
 #'
-#' The Ferritin dataset
+#' Ferritin concentration changes.
 #' 
 #' @docType data
 #' 

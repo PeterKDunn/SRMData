@@ -1,7 +1,6 @@
 #' CrabShells
 #' 
-#' 
-#' The placement of anemonoes of their shells by hermit crabs
+#' The placement of anemones on their shells by hermit crabs.
 #' 
 #' @docType data
 #' 

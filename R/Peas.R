@@ -1,6 +1,6 @@
 #' Peas
 #'
-#' The Peas dataset
+#' Nutritional content of peas.
 #' 
 #' @docType data
 #' 

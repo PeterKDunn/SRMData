@@ -1,6 +1,6 @@
 #' ShoppingBags
 #'
-#' ShoppingBags data set
+#' Age of people, and whether they bring their own shopping bags.
 #' 
 #' @docType data
 #' 

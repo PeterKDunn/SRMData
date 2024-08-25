@@ -1,6 +1,6 @@
 #' Windmill
 #'
-#' The amount of direct current (dc) output from windmills for varying wind velocities
+#' The amount of direct current (dc) output from windmills for varying wind velocities.
 #' 
 #' @docType data
 #' 

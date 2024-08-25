@@ -1,6 +1,6 @@
 #' Lynx
 #'
-#' The Lynx dataset
+#' The number of lynx trappings per year.
 #' 
 #' @docType data
 #' 

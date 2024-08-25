@@ -1,6 +1,6 @@
 #' HatSunglasses
 #'
-#' The HatSunglasses dataset
+#' The wearing of hats and sunglasses in Brisbane.
 #' 
 #' @docType data
 #' 

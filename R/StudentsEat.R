@@ -1,6 +1,6 @@
 #' StudentsEat
 #'
-#' The StudentsEat dataset
+#' Where students live and wjere they eat most of their meals.
 #' 
 #' @docType data
 #' 

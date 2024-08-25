@@ -1,6 +1,6 @@
 #' Orthoses
 #'
-#' Orthoses data set
+#' Details of children fitted with orthoses.
 #' 
 #' @docType data
 #' 

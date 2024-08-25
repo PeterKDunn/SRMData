@@ -1,6 +1,6 @@
 #' Kerbside
 #'
-#' The Kerbside dataset
+#' Opinions of kerbside recycling.
 #' 
 #' @docType data
 #' 

@@ -1,6 +1,6 @@
 #' DanishLC
 #'
-#' The number of cases of lung cancer in four Danish cities
+#' The number of cases of lung cancer in four Danish cities.
 #' 
 #' @docType data
 #' 

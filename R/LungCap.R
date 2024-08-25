@@ -1,6 +1,6 @@
 #' LungCap
 #'
-#' Lungcap data set
+#' The lung capacity of children.
 #' 
 #' @docType data
 #' 

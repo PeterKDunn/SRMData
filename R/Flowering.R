@@ -1,6 +1,6 @@
 #' Flowering
 #'
-#' Flowering data set
+#' First-flowering dates for two shrubs.
 #' 
 #' @docType data
 #' 

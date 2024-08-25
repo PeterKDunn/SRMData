@@ -1,6 +1,6 @@
 #' Punting
 #'
-#' The Punting dataset
+#' Punting distance with right and left legs.
 #' 
 #' @docType data
 #' 

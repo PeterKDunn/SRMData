@@ -1,6 +1,6 @@
 #' Weight loss after treatment for anorexia
 #'
-#' Anorexia data set
+#' Weight changes in girls with anorexia: two treatments.
 #' 
 #' @docType data
 #' 

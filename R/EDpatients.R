@@ -1,6 +1,6 @@
 #' EDpatients
 #'
-#' EDpatients data
+#' Welfare distribution and emergency department patients.
 #' 
 #' @docType data
 #' 

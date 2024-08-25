@@ -1,6 +1,6 @@
 #' Turbines
 #'
-#' Fissure cracks appearing in turbines
+#' Fissure cracks appearing in turbines.
 #' 
 #' @docType data
 #' 

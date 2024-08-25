@@ -1,6 +1,6 @@
 #' Tape
 #'
-#' The Tape dataset
+#' The use of tapes to reduce pain.
 #' 
 #' @docType data
 #' 

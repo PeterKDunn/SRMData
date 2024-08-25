@@ -1,6 +1,6 @@
 #' PremierL
 #'
-#' Premier League football (soccer) results from 2019 to 2020
+#' Premier League football (soccer) results from 2019 to 2020.
 #' 
 #' @docType data
 #' 

@@ -1,6 +1,6 @@
 #' PetBirds
 #'
-#' The PetBirds dataset
+#' Lung cancer and owning pet birds. 
 #' 
 #' @docType data
 #' 

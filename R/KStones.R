@@ -1,6 +1,6 @@
 #' KStones
 #'
-#' The KStones dataset
+#' Treatment of kidneys stones, and the result.
 #' 
 #' @docType data
 #' 

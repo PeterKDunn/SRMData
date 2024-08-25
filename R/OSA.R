@@ -1,6 +1,6 @@
 #' OSA
 #'
-#' The OSA dataset
+#' Sleeping information for adiults with Down Syndrome.
 #' 
 #' @docType data
 #' 

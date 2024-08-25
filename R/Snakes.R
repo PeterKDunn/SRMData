@@ -1,6 +1,6 @@
 #' Snakes
 #'
-#' The Snakes dataset
+#' Measurements of snakes, some of which eat crayfish, and some of which do not.
 #' 
 #' @docType data
 #' 
@@ -14,11 +14,12 @@
 #'   \item{Teeth}{The number of number of maxillary teeth}
 #' }
 #' 
-#' Cabrera, Doreen; Griffen, Blaine D. (2023). 
-#' Data for: Northern crayfish form alternation morphometrics [Dataset]. 
-#' Dryad. https://doi.org/10.5061/dryad.15dv41p2j
+#' @source 
+#' Javier Manjarrez, Constantino Macías Garcia, Hugh Drummond (2018). 
+#' Data from: Morphological convergence in a Mexican garter snake associated with the ingestion of a novel prey [Dataset]. 
+#' Dryad. https://doi.org/10.5061/dryad.mg152
 #' 
-#' @source Manjarrez, J., Macias Garcia, C., & Drummond, H. (2017). 
+#' Manjarrez, J., Macias Garcia, C., & Drummond, H. (2017). 
 #' Morphological convergence in a Mexican garter snake associated with the ingestion of a novel prey. 
 #' \emph{Ecology and Evolution}, \bold{7}(18), 7178--7186.
 #' 

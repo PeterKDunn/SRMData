@@ -1,6 +1,6 @@
 #' Vegetarianism and B12
 #'
-#' B12Long data set
+#' B12 deficiency in vegetarian and non-vegetarian women.
 #' 
 #' @docType data
 #' 

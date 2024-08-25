@@ -1,6 +1,6 @@
 #' FriesWt
 #'
-#' The FriesWt dataset
+#' The weights of McDonald's large fries.
 #' 
 #' @docType data
 #' 

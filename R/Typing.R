@@ -1,7 +1,7 @@
 #' Typing
 #'
-#' The Typing dataset
-#' 
+#' Typing speeds and accuracy.
+#'
 #' @docType data
 #' 
 #' @keywords datasets
@@ -12,7 +12,7 @@
 #'   \item{mTS}{The mean typing speed (wpm) for each subject}
 #'   \item{mAcc}{The mean typing accuracy for each subject}
 #'   \item{Age}{The age, in completed years}
-#'.  \item{Sex}{The sec of the subject; one of \code{female} or \code{male}}
+#'.  \item{Sex}{The sex of the subject; one of \code{female} or \code{male}}
 #' }
 #' 
 #' @details

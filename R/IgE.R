@@ -1,6 +1,6 @@
 #' IgE
 #'
-#' The IgE dataset
+#' IgE concentration before and after intervention.
 #' 
 #' @docType data
 #' 

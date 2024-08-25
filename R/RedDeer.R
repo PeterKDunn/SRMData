@@ -1,6 +1,6 @@
 #' RedDeer
 #'
-#' The RedDeer dataset
+#' The age and weight of molars in male red deer.
 #' 
 #' @docType data
 #' 

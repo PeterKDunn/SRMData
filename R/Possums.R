@@ -1,6 +1,6 @@
 #' Possums
 #'
-#' The Possums dataset
+#' Sex and weight of possums at various elevations.
 #' 
 #' @docType data
 #' 

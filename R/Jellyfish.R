@@ -1,6 +1,6 @@
 #' Length and width of jellyfish
 #'
-#'Jellyfish data set
+#' Width and length of jellyfish at two locations.
 #' 
 #' @docType data
 #' 

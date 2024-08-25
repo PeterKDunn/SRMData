@@ -1,6 +1,6 @@
 #' EmeraldAug
 #'
-#' The total monthly rainfall in Emerald, Australia, and the average monthly soi
+#' The total monthly rainfall in Emerald, Australia, and the average monthly SOI.
 #' 
 #' @docType data
 #' 

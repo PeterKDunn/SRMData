@@ -1,6 +1,6 @@
 #' Fruit
 #'
-#' Fruit data set
+#' Details of fruit from different farms.
 #' 
 #' @docType data
 #' 

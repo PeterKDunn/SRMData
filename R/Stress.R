@@ -1,6 +1,6 @@
 #' Stress
 #'
-#' Stress data set
+#' Stress before surgery.
 #' 
 #' @docType data
 #' 

@@ -1,6 +1,6 @@
 #' Battery performance
 #'
-#'Battery data set
+#' Battery life for two brands of batteries.
 #' 
 #' @docType data
 #' 

@@ -1,6 +1,6 @@
 #' Diameters of pizzas
 #'
-#'PizzaSize data set
+#' The diameter of 12-inch pizzas from two companies.
 #' 
 #' @docType data
 #' 

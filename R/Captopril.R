@@ -1,7 +1,7 @@
 #' Captopril
 #'
-#' Captopril data set
-#' 
+#' Blood pressure before and after treatment with Captopril.
+#'  
 #' @docType data
 #' 
 #' @keywords datasets

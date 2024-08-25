@@ -1,6 +1,6 @@
 #' AISsub
 #'
-#' AISsub data set
+#' Body measurements from athletes at the Australian Institute of Sport
 #' 
 #' @docType data
 #' 

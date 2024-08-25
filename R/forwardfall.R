@@ -1,6 +1,6 @@
 #' ForwardFall
 #'
-#' The ForwardFall dataset
+#' The forward-leaning angle before women fall over.
 #' 
 #' @docType data
 #' 

@@ -1,6 +1,6 @@
 #' SoilCN
 #'
-#' The SoilCN dataset
+#' Percentage of carbon and nitrogen in irrigated and non-irrigated plots.
 #' 
 #' @docType data
 #' 

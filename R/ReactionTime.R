@@ -1,7 +1,7 @@
 #' ReactionTime
 #'
-#' The ReactionTime dataset
-#' 
+#' Reaction times when driving, when using and not using a mobile phone.
+#'  
 #' @docType data
 #' 
 #' @keywords datasets

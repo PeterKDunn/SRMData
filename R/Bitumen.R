@@ -1,6 +1,6 @@
 #' Bitumen
 #'
-#' Bitumen data set
+#' Relationship between bitumen content and percentage air voids.
 #' 
 #' @docType data
 #' 

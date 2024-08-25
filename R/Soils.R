@@ -1,6 +1,6 @@
 #' Soils
 #'
-#' The Soils dataset
+#' Properties of soil and the California Bearing Ratio.
 #' 
 #' @docType data
 #' 

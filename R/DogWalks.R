@@ -1,7 +1,7 @@
 #' DogWalks
 #' 
 #' 
-#' Dog walking in the city and country
+#' Dog walking in the city and country.
 #' 
 #' @docType data
 #' 

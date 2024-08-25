@@ -1,6 +1,6 @@
 #' Baby births in one day
 #'
-#'BabyBoom data set
+#' Details of the births on one day from a Brisbane hospital.
 #' 
 #' @docType data
 #' 

@@ -1,6 +1,6 @@
 #' PainRelief
 #'
-#' The PainRelief dataset
+#' Pain relief for birthing mothers.
 #' 
 #' @docType data
 #' 

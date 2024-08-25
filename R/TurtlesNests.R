@@ -1,6 +1,6 @@
 #' TurtleNests
 #'
-#' Infected and non-infected turtle nests, and whether the nests are relocated
+#' Infected and non-infected turtle nests, and whether the nests were relocated.
 #' 
 #' @docType data
 #' 

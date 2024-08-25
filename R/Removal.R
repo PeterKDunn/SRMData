@@ -1,6 +1,6 @@
 #' Removal
 #'
-#' The Removal dataset
+#' The removal efficiency in biofiltration.
 #' 
 #' @docType data
 #' 

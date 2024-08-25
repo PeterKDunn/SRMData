@@ -1,6 +1,6 @@
 #' Deceleration
 #'
-#' Deceleration data set
+#' The deceleration of cars after addin additional speed signage.
 #' 
 #' @docType data
 #' 

@@ -1,6 +1,6 @@
 #' BoneQuality
 #'
-#' The BoneQuality dataset
+#' Bone mass density of South Korean subjects, at three body locations.
 #' 
 #' @docType data
 #' 

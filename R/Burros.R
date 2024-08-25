@@ -1,7 +1,7 @@
 #' Burros
 #' 
 #' 
-#' The health of females burros in the Mojave Desert
+#' The health of females burros in the Mojave Desert.
 #' 
 #' @docType data
 #' 

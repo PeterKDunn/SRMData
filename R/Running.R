@@ -1,6 +1,6 @@
 #' Running
 #'
-#' Running data set
+#' The reliability vertical oscillation measurements in wearable devices for running.
 #' 
 #' @docType data
 #' 
@@ -18,9 +18,10 @@
 #'   \item{Video}{The VO as measured by video analysis, in cm}
 #' }
 #' @source From Tables 1 and 5 of:
-#' Choon, S. W., Tan, S. H., & Chong, L. L. (2017). 
-#' The perception of households about solid waste management issues in Malaysia. 
-#' \emph{Environment, Development and Sustainability}, \bold{19}, 1685--1700.
+#' 
+#'   Smith, Craig P. and Fullerton, Elliott and Walton, Liam and Funnell, Emelia and Pantazis, Dimitrios and Lugo, Heinz (2022).
+#'   The validity and reliability of wearable devices for the measurement of vertical oscillation for running.
+#'   \emph{Plos One}, 17 (11), p. e0277810.
 #' 
 #' 
 #' @usage data(Running)

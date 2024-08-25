@@ -1,6 +1,6 @@
 #' Six-minute walk time test results
 #'
-#'Six-minute walk time data set
+#' Six-minute walk time data for two different walkway lengths.
 #' 
 #' @docType data
 #' 
