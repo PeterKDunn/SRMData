@@ -24,7 +24,6 @@ write.csv(SixMWT, "..//SRM-Textbook//Data//SixMWT.csv", row.names = FALSE)
 
 
 ##############################
-
 AISsub <- read.csv("data-raw/AIS.csv")
 AISsub <- data.frame( Sex = AISsub$Sex,
                       SSF = AISsub$SSF,
@@ -157,7 +156,7 @@ Corollas <- read.csv("data-raw/Corollas.csv")
 
 usethis::use_data(Corollas, overwrite = TRUE)
 write.csv(Corollas, "..//SRM-Textbook//Data//Corollas.csv", row.names = FALSE)
-##############################
+
 
 
 ##############################
@@ -165,7 +164,7 @@ CrabShells <- read.csv("data-raw/CrabShells.csv")
 
 usethis::use_data(CrabShells, overwrite = TRUE)
 write.csv(CrabShells, "..//SRM-Textbook//Data//CrabShells.csv", row.names = FALSE)
-##############################
+
 
 
 ##############################
@@ -207,7 +206,7 @@ Diabetes <- dplyr::rename(Diabetes,
                           DBPsecond = bp.2d)
 usethis::use_data(Diabetes, overwrite = TRUE)
 write.csv(Diabetes, "..//SRM-Textbook//Data//Diabetes.csv")
-##############################
+
 
 
 ##############################
@@ -220,7 +219,7 @@ Dogs <- select(Dogs,
                Waist)
 usethis::use_data(Dogs, overwrite = TRUE)
 write.csv(Dogs, "..//SRM-Textbook//Data//Dogs.csv")
-##############################
+
 
 
 
@@ -229,7 +228,7 @@ write.csv(Dogs, "..//SRM-Textbook//Data//Dogs.csv")
 DogWalks <- read.csv("data-raw/DogWalks.csv")
 usethis::use_data(DogWalks, overwrite = TRUE)
 write.csv(DogWalks, "..//SRM-Textbook//Data//DogWalks.csv")
-##############################
+
 
 
 
@@ -256,7 +255,7 @@ EarInfection$Infections <- factor(EarInfection$Infections,
                                              "No"))
 usethis::use_data(EarInfection, overwrite = TRUE)
 write.csv(EarInfection, "..//SRM-Textbook//Data//EarInfection.csv")
-##############################
+
 
 
 
@@ -276,7 +275,7 @@ EmeraldAug <- select(EmeraldAug,
                      Year)
 usethis::use_data(EmeraldAug, overwrite = TRUE)
 write.csv(EmeraldAug, "..//SRM-Textbook//Data//EmeraldAug.csv")
-##############################
+
 
 
 ##############################
@@ -306,10 +305,11 @@ Flowering$Altitude <- as.numeric(sub(",", "", Flowering$Altitude))
 
 usethis::use_data(Flowering, overwrite = TRUE)
 write.csv(Flowering, "..//SRM-Textbook//Data//Flowering.csv", row.names = FALSE)
+
+
+
+
 ##############################
-
-
-
 Fluoro <- read.csv("data-raw/Fluoro.csv")
 usethis::use_data(Fluoro, overwrite = TRUE)
 write.csv(Fluoro, "..//SRM-Textbook//Data//Fluoro.csv", row.names = FALSE)
@@ -330,7 +330,7 @@ FriesWt <- data.frame( FriesWt = FriesWt)
 usethis::use_data(FriesWt, overwrite = TRUE)
 write.csv(FriesWt, "..//SRM-Textbook//Data//FriesWt.csv")
 
-##############################
+
 
 
 ##############################
@@ -358,7 +358,8 @@ Fruit <- dplyr::select(Fruit,
 
 usethis::use_data(Fruit, overwrite = TRUE)
 write.csv(Fruit, "..//SRM-Textbook//Data//Fruit.csv")
-##############################
+
+
 
 ##############################
 ### Exception: Processing needed
@@ -376,19 +377,22 @@ Gorillas <- select(Gorillas,
                    Age20)
 usethis::use_data(Gorillas, overwrite = TRUE)
 write.csv(Gorillas, "..//SRM-Textbook//Data//Gorillas.csv")
+
+
+
 ##############################
-
-
 HatSunglasses <- read.csv("data-raw/HatSunglasses.csv")
 usethis::use_data(HatSunglasses, overwrite = TRUE)
 write.csv(HatSunglasses, "..//SRM-Textbook//Data//HatSunglasses.csv")
 
 
+##############################
 HCrabs <- read.csv("data-raw/HCrabs.csv")
 usethis::use_data(HCrabs, overwrite = TRUE)
 write.csv(HCrabs, "..//SRM-Textbook//Data//HCrabs.csv", row.names = FALSE)
 
 
+##############################
 HusbandWife <- read.csv("data-raw/HusbandWife.csv")
 usethis::use_data(HusbandWife, overwrite = TRUE)
 write.csv(HusbandWife, "..//SRM-Textbook//Data//HusbandWife.csv")
@@ -404,12 +408,37 @@ IgE <- data.frame( Before = Pre,
                    After = Post,
                    Reduction = Pre - Post)
 usethis::use_data(IgE, overwrite = TRUE)
-write.csv(IgE, "..//SRM-Textbook//Data//IgE.csv")
-##############################
+write.csv(IgE, "..//SRM-Textbook//Data//IgE.csv", row.names = FALSE)
 
+
+
+##############################
 Insulation <- read.csv("data-raw/InsulationBeforeAfter.csv")
 usethis::use_data(Insulation, overwrite = TRUE)
 write.csv(Insulation, "..//SRM-Textbook//Data//Insulation.csv")
+
+
+
+##############################
+Jeans <- read.csv("data-raw/measurements.csv")
+Jeans <- select( Jeans,
+                 Brand = brand,
+                 Style = style,
+                 Sex = menWomen,
+                 Price = price,
+                 MaxHeightFront = maxHeightFront,
+                 MinHeightFront = minHeightFront,
+                 MaxWidthFront = maxWidthFront,
+                 MinWidthFront = minWidthFront,
+                 #
+                 MaxHeightBack = maxHeightBack,
+                 MinHeightBack = minHeightBack,
+                 MaxWidthBack = maxWidthBack,
+                 MinWidthBack = minWidthBack)
+usethis::use_data(Jeans, overwrite = TRUE)
+write.csv(Jeans, "..//SRM-Textbook//Data//Jeans.csv", row.names = FALSE)
+
+
 
 
 ##############################
@@ -417,34 +446,40 @@ Jellyfish <- read.csv("data-raw/Jellyfish.csv")
 
 usethis::use_data(Jellyfish, overwrite = TRUE)
 write.csv(Jellyfish, "..//SRM-Textbook//Data//Jellyfish.csv", row.names = FALSE)
+
+
+
 ##############################
-
-
 Kerbside <- read.csv("data-raw/Kerbside.csv")
 usethis::use_data(Kerbside, overwrite = TRUE)
-write.csv(Kerbside, "..//SRM-Textbook//Data//Kerbside.csv")
+write.csv(Kerbside, "..//SRM-Textbook//Data//Kerbside.csv", row.names = FALSE)
 
 
+##############################
 KStones <- read.csv("data-raw/KStones.csv")
 usethis::use_data(KStones, overwrite = TRUE)
-write.csv(KStones, "..//SRM-Textbook//Data//KStones.csv")
+write.csv(KStones, "..//SRM-Textbook//Data//KStones.csv", row.names = FALSE)
 
 
+##############################
 Lime <- read.csv("data-raw/Lime.csv")
 usethis::use_data(Lime, overwrite = TRUE)
 write.csv(Lime, "..//SRM-Textbook//Data//Lime.csv", row.names = FALSE)
 
 
+##############################
 LungCap <- read.csv("data-raw/LungCap.csv")
 usethis::use_data(LungCap, overwrite = TRUE)
 write.csv(LungCap, "..//SRM-Textbook//Data//LungCap.csv", row.names = FALSE)
 
 
+##############################
 Lynx <- read.csv("data-raw/Lynx.csv")
 usethis::use_data(Lynx, overwrite = TRUE)
 write.csv(Lynx, "..//SRM-Textbook//Data//Lynx.csv")
 
 
+##############################
 Mandible <- read.csv("data-raw/Mandible.csv")
 usethis::use_data(Mandible, overwrite = TRUE)
 write.csv(Mandible, "..//SRM-Textbook//Data//Mandible.csv", row.names = FALSE)
@@ -469,7 +504,7 @@ MaryRiver <- dplyr::select(MaryRiver,
                            Mean)
 usethis::use_data(MaryRiver, overwrite = TRUE)
 write.csv(MaryRiver, "..//SRM-Textbook//Data//MaryRiver.csv", row.names = FALSE)
-##############################
+
 
 
 
@@ -477,7 +512,7 @@ write.csv(MaryRiver, "..//SRM-Textbook//Data//MaryRiver.csv", row.names = FALSE)
 Mumps <- read.csv("data-raw/Mumps.csv")
 usethis::use_data(Mumps, overwrite = TRUE) 
 write.csv(Mumps, "..//SRM-Textbook//Data//Mumps.csv", row.names = FALSE)
-##############################
+
 
 
 
@@ -487,7 +522,7 @@ NMiner <- data.frame( Eucs = NMiner$Eucs,
                       Minerab = NMiner$Minerab)
 usethis::use_data(NMiner, overwrite = TRUE) # Just  Minerab  and  Eucs
 write.csv(NMiner, "..//SRM-Textbook//Data//NMiner.csv", row.names = FALSE)
-##############################
+
 
 
 ##############################
@@ -564,7 +599,7 @@ PizzaSize <- read.csv("data-raw/PizzaSize.csv")
 PizzaSize <- PizzaSize[, c(2, 4, 5, 6, 7)]
 usethis::use_data(PizzaSize, overwrite = TRUE)
 write.csv(PizzaSize, "..//SRM-Textbook//Data//PizzaSize.csv", row.names = FALSE)
-##############################
+
 
 
 ##############################
@@ -577,7 +612,7 @@ Possums <- dplyr::select(Possums,
                          DEM)
 usethis::use_data(Possums, overwrite = TRUE)
 write.csv(Possums, "..//SRM-Textbook//Data//Possums.csv")
-##############################
+
 
 
 
@@ -593,7 +628,7 @@ PremierL<- dplyr::select(PremierL,
 
 usethis::use_data(PremierL, overwrite = TRUE)
 write.csv(PremierL, "..//SRM-textbook//Data//PremierL.csv")
-##############################
+
 
 
 
@@ -669,19 +704,22 @@ usethis::use_data(Sanddollars,
                   overwrite = TRUE)
 write.csv(Sanddollars,
           "..//SRM-Textbook//Data//Sanddollars.csv", row.names = FALSE)
+
+
+
 ##############################
-
-
 ScarHeight <- read.csv("data-raw/ScarHeight.csv")
 usethis::use_data(ScarHeight, overwrite = TRUE)
 write.csv(ScarHeight, "..//SRM-Textbook//Data//ScarHeight.csv")
 
 
+##############################
 SDrink <- read.csv("data-raw/SDrink.csv")
 usethis::use_data(SDrink, overwrite = TRUE)
 write.csv(SDrink, "..//SRM-Textbook//Data//SDrink.csv", row.names = FALSE)
 
 
+##############################
 ShoppingBags <- read.csv("data-raw/ShoppingBags.csv")
 colnames(ShoppingBags) <- c("AgeGroup",
                             "BringBags",
@@ -712,9 +750,6 @@ usethis::use_data(Snakes, overwrite = TRUE)
 write.csv(Snakes, "..//SRM-Textbook//Data//Snakes.csv", row.names = FALSE)
 
 
-##############################
-
-
 
 
 ##############################
@@ -729,7 +764,6 @@ Soils <- dplyr::select(Soils,
                        CBR)
 usethis::use_data(Soils, overwrite = TRUE)
 write.csv(Soils, "..//SRM-Textbook//Data//Soils.csv", row.names = FALSE)
-##############################
 
 
 ##############################
@@ -944,7 +978,6 @@ Typing <- dplyr::inner_join(as.data.frame(m1),
 rm(mPKD, m1)
 usethis::use_data(Typing, overwrite = TRUE)
 write.csv(Typing, "..//SRM-Textbook//Data//Typing.csv", row.names = FALSE)
-##############################
 
 
 
