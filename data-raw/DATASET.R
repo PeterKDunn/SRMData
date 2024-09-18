@@ -393,9 +393,9 @@ write.csv(HCrabs, "..//SRM-Textbook//Data//HCrabs.csv", row.names = FALSE)
 
 
 ##############################
-HusbandWife <- read.csv("data-raw/HusbandWife.csv")
-usethis::use_data(HusbandWife, overwrite = TRUE)
-write.csv(HusbandWife, "..//SRM-Textbook//Data//HusbandWife.csv")
+# HusbandWife <- read.csv("data-raw/HusbandWife.csv")
+# usethis::use_data(HusbandWife, overwrite = TRUE)
+# write.csv(HusbandWife, "..//SRM-Textbook//Data//HusbandWife.csv")
 
 
 
@@ -462,9 +462,9 @@ write.csv(Jellyfish, "..//SRM-Textbook//Data//Jellyfish.csv", row.names = FALSE)
 
 
 ##############################
-Kerbside <- read.csv("data-raw/Kerbside.csv")
-usethis::use_data(Kerbside, overwrite = TRUE)
-write.csv(Kerbside, "..//SRM-Textbook//Data//Kerbside.csv", row.names = FALSE)
+# Kerbside <- read.csv("data-raw/Kerbside.csv")
+# usethis::use_data(Kerbside, overwrite = TRUE)
+# write.csv(Kerbside, "..//SRM-Textbook//Data//Kerbside.csv", row.names = FALSE)
 
 
 ##############################
@@ -486,9 +486,9 @@ write.csv(LungCap, "..//SRM-Textbook//Data//LungCap.csv", row.names = FALSE)
 
 
 ##############################
-Lynx <- read.csv("data-raw/Lynx.csv")
-usethis::use_data(Lynx, overwrite = TRUE)
-write.csv(Lynx, "..//SRM-Textbook//Data//Lynx.csv")
+# Lynx <- read.csv("data-raw/Lynx.csv")
+# usethis::use_data(Lynx, overwrite = TRUE)
+# write.csv(Lynx, "..//SRM-Textbook//Data//Lynx.csv")
 
 
 ##############################
@@ -657,9 +657,9 @@ write.csv(ReactionTime, "..//SRM-Textbook//Data//ReactionTime.csv")
 
 
 ##############################
-RecoveryTime <- read.csv("data-raw/RecoveryTime.csv")
-usethis::use_data(RecoveryTime, overwrite = TRUE)
-write.csv(RecoveryTime, "..//SRM-Textbook//Data//RecoveryTime.csv", row.names = FALSE)
+# RecoveryTime <- read.csv("data-raw/RecoveryTime.csv")
+# usethis::use_data(RecoveryTime, overwrite = TRUE)
+# write.csv(RecoveryTime, "..//SRM-Textbook//Data//RecoveryTime.csv", row.names = FALSE)
 
 
 ##############################
