@@ -42,9 +42,9 @@ write.csv(Anorexia, "..//SRM-Textbook//Data//Anorexia.csv")
 
 
 ##############################
-B12Long <- read.csv("data-raw/B12Long.csv")
-usethis::use_data(B12Long, overwrite = TRUE)
-write.csv(B12Long, "..//SRM-Textbook//Data//B12Long.csv")
+B12Diet <- read.csv("data-raw/B12Long.csv")
+usethis::use_data(B12Diet, overwrite = TRUE)
+write.csv(B12Diet, "..//SRM-Textbook//Data//B12Long.csv")
 
 
 ##############################
@@ -421,6 +421,14 @@ write.csv(Insulation, "..//SRM-Textbook//Data//Insulation.csv")
 
 ##############################
 Jeans <- read.csv("data-raw/measurements.csv")
+
+# Now load the json file, with other data
+# install.packages("jsonlite")
+library(jsonlite)
+json_data <- jsonlite::fromJSON("data-raw/measurementRectangles.json")
+df <- as.data.frame(json_data)
+head(df)
+
 Jeans <- select( Jeans,
                  Brand = brand,
                  Style = style,
@@ -435,8 +443,12 @@ Jeans <- select( Jeans,
                  MinHeightBack = minHeightBack,
                  MaxWidthBack = maxWidthBack,
                  MinWidthBack = minWidthBack)
+Jeans$Area <- df$pocketArea
+Jeans$Style2 <- df$updatedStyle
+
 usethis::use_data(Jeans, overwrite = TRUE)
 write.csv(Jeans, "..//SRM-Textbook//Data//Jeans.csv", row.names = FALSE)
+
 
 
 

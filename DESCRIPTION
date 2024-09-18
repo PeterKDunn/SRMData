@@ -13,4 +13,4 @@ Encoding: UTF-8
 LazyData: false
 Depends: 
     R (>= 3.5.0)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2

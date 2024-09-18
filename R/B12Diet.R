@@ -15,7 +15,7 @@
 #' Vegetarianism, Vitamin B12, and Insulin Resistance in a Group of Predominately
 #' Overweight/Obese South Asian Women. \emph{Nutrition} \bold{28}: 20--24.
 #' 
-#' @usage data(B12Long)
+#' @usage data(B12Diet)
 
-"B12Long"
+"B12Diet"
 
