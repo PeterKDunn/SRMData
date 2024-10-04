@@ -751,7 +751,7 @@ Snakes <- subset(Snakes,
 Snakes$Crayfish <- ifelse( Snakes$SPECIES == "T. mel No eat crayfish", 
                            "NoCfish",
                            "Cfish")
-Snakes$SVL[ Snakes$SVL == "" ] <- NA
+Snakes$SEX[ Snakes$SEX == "" ] <- NA
 
 Snakes <- dplyr::select(Snakes,
                         Crayfish = Crayfish,
