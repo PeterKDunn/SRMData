@@ -1,6 +1,6 @@
 #' BloodLoss
 #'
-#' BloodLoss data set
+#' Estimates of blood loss, for a known amount if blood.
 #' 
 #' @docType data
 #' 
@@ -13,7 +13,7 @@
 #'   \item{High2}{Instrument 2 measurement of LH concentrations at a high level, in mIU/ml}
 #'   \item{Mid2}{Instrument 2 measurement of LH concentrations at a middle level, in mIU/ml}
 #' }
-#' @note The known mean values are, respectively, 64.31, 19.24, 64.97 and 19.40 mIU/ml.
+#' @note The known values are, respectively, 64.31, 19.24, 64.97 and 19.40 mIU/ml.
 #' @source Feng, Yang-chun and Huang, Yan-chun and Ma, Xiu-min. 2017.
 #' The application of Student's $t$-test in internal quality control of clinical laboratory.
 #' \emph{Frontiers in Laboratory Medicine} \bold{1} (3): 125--128.
