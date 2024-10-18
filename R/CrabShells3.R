@@ -1,4 +1,4 @@
-#' CrabShells
+#' CrabShells3
 #' 
 #' The placement of anemones on their shells by hermit crabs.
 #' 
@@ -21,7 +21,7 @@
 #' Hermit crabs alter sea anemone placement patterns for shell balance and reduced predation. 
 #' \emph{Journal of Experimental Marine Biology and Ecology}, \bold{132}(2), 109--121.
 #' 
-#' @usage data(CrabShells)
+#' @usage data(CrabShells3)
 
-"CrabShells"
+"CrabShells3"
 
