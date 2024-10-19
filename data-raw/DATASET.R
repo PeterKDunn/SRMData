@@ -160,11 +160,23 @@ write.csv(Corollas, "..//SRM-Textbook//Data//Corollas.csv", row.names = FALSE)
 
 
 ##############################
-CrabShells <- read.csv("data-raw/CrabShells.csv")
+CrabShells3 <- read.csv("data-raw/CrabShells.csv")
 
-usethis::use_data(CrabShells, overwrite = TRUE)
-write.csv(CrabShells, "..//SRM-Textbook//Data//CrabShells.csv", row.names = FALSE)
+# 3 x 3
+usethis::use_data(CrabShells3, overwrite = TRUE)
+write.csv(CrabShells3, "..//SRM-Textbook//Data//CrabShells3.csv", row.names = FALSE)
 
+# 2 x 2
+CrabShells2 <- CrabShells3
+CrabShells2$ShellColumn[ CrabShells2$ShellColumn == 3] <- 1
+CrabShells2$ShellRow[ CrabShells2$ShellRow == 3] <- 1
+CrabShells2 <- as.data.frame(xtabs( Counts ~ ShellColumn + ShellRow, 
+                           data = CrabShells2) )
+CrabShells2 <- dplyr::rename(CrabShells2,
+                             Counts = Freq)
+
+usethis::use_data(CrabShells2, overwrite = TRUE)
+write.csv(CrabShells2, "..//SRM-Textbook//Data//CrabShells2.csv", row.names = FALSE)
 
 
 ##############################
@@ -751,7 +763,6 @@ Snakes <- subset(Snakes,
 Snakes$Crayfish <- ifelse( Snakes$SPECIES == "T. mel No eat crayfish", 
                            "NoCfish",
                            "Cfish")
-Snakes$SEX[ Snakes$SEX == "" ] <- NA
 
 Snakes <- dplyr::select(Snakes,
                         Crayfish = Crayfish,
@@ -759,6 +770,9 @@ Snakes <- dplyr::select(Snakes,
                         SVL = SVL..cm.,
                         Teeth = TEETH.NUMBER
 )
+Snakes$Sex[ Snakes$Sex == "" ] <- NA # Remove some empty strings in variable 'Sex'
+
+
 usethis::use_data(Snakes, overwrite = TRUE)
 write.csv(Snakes, "..//SRM-Textbook//Data//Snakes.csv", row.names = FALSE)
 
