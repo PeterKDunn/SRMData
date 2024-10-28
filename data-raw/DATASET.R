@@ -1163,19 +1163,19 @@ WC$X <- gsub("P", "", WC$X)
 WC$X.3 <- gsub("P", "", WC$X.3)
 
 # Take the *first* value for each participant
-takeWR <- c(1, 
+takeWR <- c(0, 
             which(diff( as.numeric(WC$X) ) > 0) )
-PTwith <- WC$PT.WR[takeWR]
+PTwith <- WC$PT.WR[takeWR + 1]
 
-takeWOR <- c(1, 
+takeWOR <- c(0, 
              which(diff( as.numeric(WC$X.3) ) > 0) )
-PTwithout <- WC$PT.WOR[takeWOR]
+PTwithout <- WC$PT.WOR[takeWOR + 1]
 
 # Person 12 has no data for WR, so align:
 PTwith <- c( PTwith[1:11], 
              NA,
              PTwith[12] )
-WCTennis <- data.frame(Person = WC$X.3[takeWOR],
+WCTennis <- data.frame(Person = WC$X.3[takeWOR + 1],
                        PTwith = PTwith,
                        PTwithout = PTwithout)
 
