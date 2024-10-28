@@ -19,6 +19,11 @@
 #' Sprint performance and force application of tennis players during manual wheelchair propulsion with and without holding a tennis racket. 
 #' \emph{PLoS ONE}, \bold{17}(2), e0263392.
 #' 
+#' I. Alberca, 2016, 
+#' Kinetic and temporal parameters calculated from raw data collected via wireless instrumented wheel for measuring 3D pushrim kinetics of a racing wheelchair,
+#'  https://doi.org/10.17026/dans-xjf-bs8v, 
+#'  \emph{DANS Data Station Life Sciences}, V1.
+#' 
 #' @usage data(WCTennis)
 
 "WCTennis"
