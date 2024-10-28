@@ -872,24 +872,30 @@ write.csv(Tape, "..//SRM-Textbook//Data//Tape.csv")
 
 ##############################
 Throttle <- read.csv("data-raw/Throttle.csv")
-usethis::use_data(Throttle, overwrite = TRUE)
-write.csv(Throttle, "..//SRM-Textbook//Data//Throttle.csv", row.names = FALSE)
+usethis::use_data(Throttle, 
+                  overwrite = TRUE)
+write.csv(Throttle, "..//SRM-Textbook//Data//Throttle.csv", 
+          row.names = FALSE)
 
 
 ##############################
 Turbines <- read.csv("data-raw/Turbines.csv")
 Turbines <- subset(Turbines, (Hours == "1800h") | (Hours == "3000h") )
 
-usethis::use_data(Turbines, overwrite = TRUE)
-write.csv(Turbines, "..//SRM-Textbook//Data//Turbines.csv", row.names = FALSE)
+usethis::use_data(Turbines, 
+                  overwrite = TRUE)
+write.csv(Turbines, "..//SRM-Textbook//Data//Turbines.csv", 
+          row.names = FALSE)
 
 
 
 
 ##############################
 TurtleNests <- read.csv("data-raw/TurtleNests.csv")
-usethis::use_data(TurtleNests, overwrite = TRUE)
-write.csv(TurtleNests, "..//SRM-Textbook//Data//TurtleNests.csv", row.names = FALSE)
+usethis::use_data(TurtleNests, 
+                  overwrite = TRUE)
+write.csv(TurtleNests, "..//SRM-Textbook//Data//TurtleNests.csv", 
+          row.names = FALSE)
 
 
 ##############################
@@ -1003,8 +1009,10 @@ Typing <- dplyr::inner_join(as.data.frame(m1),
                             by = "Subject")
 
 rm(mPKD, m1)
-usethis::use_data(Typing, overwrite = TRUE)
-write.csv(Typing, "..//SRM-Textbook//Data//Typing.csv", row.names = FALSE)
+usethis::use_data(Typing, 
+                  overwrite = TRUE)
+write.csv(Typing, "..//SRM-Textbook//Data//Typing.csv", 
+          row.names = FALSE)
 
 
 
@@ -1143,20 +1151,55 @@ WaterAccess$Diarrhea <- factor(WaterAccess$Diarrhea,
                                           "N") )
 
 
-usethis::use_data(WaterAccess, overwrite = TRUE)
+usethis::use_data(WaterAccess, 
+                  overwrite = TRUE)
 write.csv(WaterAccess, "..//SRM-Textbook//Data//WaterAccess.csv")
 
 
 ##############################
+WC <- read.csv("data-raw//Kinetic_and_temporal_datas.csv")
+# Turn participant labels into numbers by removin initial letter (a "P")
+WC$X <- gsub("P", "", WC$X)
+WC$X.3 <- gsub("P", "", WC$X.3)
+
+# Take the *first* value for each participant
+takeWR <- c(1, 
+            which(diff( as.numeric(WC$X) ) > 0) )
+PTwith <- WC$PT.WR[takeWR]
+
+takeWOR <- c(1, 
+             which(diff( as.numeric(WC$X.3) ) > 0) )
+PTwithout <- WC$PT.WOR[takeWOR]
+
+# Person 12 has no data for WR, so align:
+PTwith <- c( PTwith[1:11], 
+             NA,
+             PTwith[12] )
+WCTennis <- data.frame(Person = WC$X.3[takeWOR],
+                       PTwith = PTwith,
+                       PTwithout = PTwithout)
+
+usethis::use_data(WCTennis, 
+                  overwrite = TRUE)
+write.csv(WCTennis, "..//SRM-Textbook//Data//WCTennis.csv", 
+          row.names = FALSE)
+
+
+
+##############################
 Windmill <- read.csv("data-raw/Windmill.csv")
-usethis::use_data(Windmill, overwrite = TRUE)
-write.csv(Windmill, "..//SRM-Textbook//Data//Windmill.csv", row.names = FALSE)
+usethis::use_data(Windmill, 
+                  overwrite = TRUE)
+write.csv(Windmill, "..//SRM-Textbook//Data//Windmill.csv", 
+          row.names = FALSE)
 
 
 ##############################
 YieldDen <- read.csv("data-raw/YieldDen.csv")
-usethis::use_data(YieldDen, overwrite = TRUE)
-write.csv(YieldDen, "..//SRM-Textbook//Data//YieldDen.csv", row.names = FALSE)
+usethis::use_data(YieldDen, 
+                  overwrite = TRUE)
+write.csv(YieldDen, "..//SRM-Textbook//Data//YieldDen.csv", 
+          row.names = FALSE)
 
 
 #####################################################################################
