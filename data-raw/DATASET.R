@@ -472,6 +472,16 @@ usethis::use_data(Jellyfish, overwrite = TRUE)
 write.csv(Jellyfish, "..//SRM-Textbook//Data//Jellyfish.csv", row.names = FALSE)
 
 
+##############################
+Jumping.tmp <- read.csv("data-raw/Footwear_OSF.csv")
+Jumping <- data.frame( Shoes = rowMeans( Jumping.tmp[, 2:4] ),
+                       Barefoot = rowMeans( Jumping.tmp[, 5:7] ) )
+usethis::use_data(Jumping, 
+                  overwrite = TRUE)
+write.csv(Jumping, "..//SRM-Textbook//Data//Jumping.csv", 
+          row.names = FALSE)
+
+
 
 ##############################
 # Kerbside <- read.csv("data-raw/Kerbside.csv")
