@@ -6,7 +6,7 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 86 rows and 5 columns:
+#' @format A data frame with 73 rows and 5 columns:
 #' \describe{
 #'   \item{Breed}{The breed name}
 #'   \item{Weight}{The average breed weight (in kg)}

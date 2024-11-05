@@ -266,10 +266,12 @@ removeManually <- c(162, 177, 263, 4, 108, 53,
                     166, 147, 22, 188, 276, 279, 180) 
 dat <- dat[ -removeManually, ]
 nDeaths <- nDeaths[ -removeManually]
+dat <- subset(dat, nDeaths > 50)
+
 #
 # PLOT looks as close as I can can get to that shown in the paper
 #plot( Lifespan ~ Weight, 
-#      data = subset(dat, nDeaths > 50),
+#      data = dat,
 #      ylim = c(4, 16),
 #      xlim = c(0, 80),
 #      las = 1)
@@ -319,7 +321,6 @@ write.csv(EarInfection, "..//SRM-Textbook//Data//EarInfection.csv")
 
 
 
-##############################
 EDpatients <- read.csv("data-raw/EDpatients.csv")
 usethis::use_data(EDpatients, overwrite = TRUE)
 write.csv(EDpatients, "..//SRM-Textbook//Data//EDpatients.csv")
