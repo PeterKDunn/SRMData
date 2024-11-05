@@ -235,8 +235,56 @@ write.csv(Dogs, "..//SRM-Textbook//Data//Dogs.csv")
 
 
 
+
 ##############################
-### Exception: Processing needed
+### Processing needed
+### Some code based on code from https://datadryad.org/stash/dataset/doi:10.5061/dryad.wwpzgmsn6#citations
+dat <- read.csv("data-raw/Adams data plus.csv",
+                na.strings = "#N/A")
+dat <- as.data.frame(dat)
+dat <- dat[, c(1:5)]
+nDeaths <- array( 100, # DEFAULT to 100, which is greater than 50 so IS INCLUDED. 
+                  dim = length(dat$Lifespan) )
+nDeaths[ dat$Lifespan < 5.9 ] <- 0 # Nothing in Fig 2A is under 6
+nDeaths[ dat$Lifespan > 14 & dat$Weight > 10] <- 0 # Nothing in Fig 2A is here
+nDeaths[ dat$Lifespan < 10 & dat$Weight < 20] <- 0 # Nothing in Fig 2A is here
+nDeaths[ dat$Lifespan > 12.5 & dat$Weight > 31] <- 0 # Nothing in Fig 2A is here
+
+removeManually <- c(162, 177, 263, 4, 108, 53,
+                    203, 141, 259, 281,
+                    131, 83, 76, 165, 287,
+                    26, 112, 120, 
+                    123, 257, 117,
+                    1, 10, 41, 48, 78, 106, 134, 144, 146, 165, 187, 200, 203, 207, 227, 242, 268, 287,
+                    122,
+                    20, 88, 5,
+                    116,
+                    160, 164, 52,
+                    93, 198,
+                    272, 274, 110, 60, 201, 25, 213,
+                    32, 232,
+                    166, 147, 22, 188, 276, 279, 180) 
+dat <- dat[ -removeManually, ]
+nDeaths <- nDeaths[ -removeManually]
+#
+# PLOT looks as close as I can can get to that shown in the paper
+#plot( Lifespan ~ Weight, 
+#      data = subset(dat, nDeaths > 50),
+#      ylim = c(4, 16),
+#      xlim = c(0, 80),
+#      las = 1)
+#abline(12.99, -0.08842)
+#grid()
+DogsLife <- dat
+DogsLife <- DogsLife[
+  complete.cases(DogsLife[, c(1, 2, 5)]), ]
+
+usethis::use_data(DogsLife, overwrite = TRUE)
+write.csv(DogsLife, "..//SRM-Textbook//Data//DogsLife.csv")
+
+
+##############################
+### Processing needed
 DogWalks <- read.csv("data-raw/DogWalks.csv")
 usethis::use_data(DogWalks, overwrite = TRUE)
 write.csv(DogWalks, "..//SRM-Textbook//Data//DogWalks.csv")
@@ -245,7 +293,7 @@ write.csv(DogWalks, "..//SRM-Textbook//Data//DogWalks.csv")
 
 
 ##############################
-### Exception: Processing needed
+### Processing needed
 EarInfection <- read.csv("data-raw/EarInfection.csv")
 
 EarInfection$Swimmer <- factor(EarInfection$Swimmer,
@@ -278,7 +326,23 @@ write.csv(EDpatients, "..//SRM-Textbook//Data//EDpatients.csv")
 
 
 ##############################
-### Exception: Processing needed
+Elephants <- read.csv("data-raw/sex-specific-dataset.csv",
+                      sep = ";")
+Elephants <- dplyr::select(Elephants,
+                           Sex = sex,
+                           Age = age,
+                           Chest = chest,
+                           Height = height,
+                           Mass = body_mass)
+Ecomplete <- complete.cases(Elephants)
+Elephants <- Elephants[ Ecomplete, ]
+                           
+usethis::use_data(Elephants, overwrite = TRUE)
+write.csv(Elephants, "..//SRM-Textbook//Data//Elephants.csv")
+
+
+##############################
+### Processing needed
 EmeraldAug <- read.csv("data-raw/EmeraldAug.csv")
 EmeraldAug <- select(EmeraldAug,
                      Phase,
