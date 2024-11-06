@@ -282,14 +282,16 @@ DogsLife <- DogsLife[
   complete.cases(DogsLife[, c(1, 2, 5)]), ]
 
 usethis::use_data(DogsLife, overwrite = TRUE)
-write.csv(DogsLife, "..//SRM-Textbook//Data//DogsLife.csv")
+write.csv(DogsLife, "..//SRM-Textbook//Data//DogsLife.csv", 
+          row.names=FALSE)
 
 
 ##############################
 ### Processing needed
 DogWalks <- read.csv("data-raw/DogWalks.csv")
 usethis::use_data(DogWalks, overwrite = TRUE)
-write.csv(DogWalks, "..//SRM-Textbook//Data//DogWalks.csv")
+write.csv(DogWalks, "..//SRM-Textbook//Data//DogWalks.csv", 
+          row.names=FALSE)
 
 
 
@@ -316,14 +318,16 @@ EarInfection$Infections <- factor(EarInfection$Infections,
                                   labels = c("Yes",
                                              "No"))
 usethis::use_data(EarInfection, overwrite = TRUE)
-write.csv(EarInfection, "..//SRM-Textbook//Data//EarInfection.csv")
+write.csv(EarInfection, "..//SRM-Textbook//Data//EarInfection.csv", 
+          row.names=FALSE)
 
 
 
 
 EDpatients <- read.csv("data-raw/EDpatients.csv")
 usethis::use_data(EDpatients, overwrite = TRUE)
-write.csv(EDpatients, "..//SRM-Textbook//Data//EDpatients.csv")
+write.csv(EDpatients, "..//SRM-Textbook//Data//EDpatients.csv", 
+          row.names=FALSE)
 
 
 ##############################
@@ -339,7 +343,8 @@ Ecomplete <- complete.cases(Elephants)
 Elephants <- Elephants[ Ecomplete, ]
                            
 usethis::use_data(Elephants, overwrite = TRUE)
-write.csv(Elephants, "..//SRM-Textbook//Data//Elephants.csv")
+write.csv(Elephants, "..//SRM-Textbook//Data//Elephants.csv", 
+          row.names=FALSE)
 
 
 ##############################
@@ -351,14 +356,16 @@ EmeraldAug <- select(EmeraldAug,
                      SOI,
                      Year)
 usethis::use_data(EmeraldAug, overwrite = TRUE)
-write.csv(EmeraldAug, "..//SRM-Textbook//Data//EmeraldAug.csv")
+write.csv(EmeraldAug, "..//SRM-Textbook//Data//EmeraldAug.csv", 
+          row.names=FALSE)
 
 
 
 ##############################
 EVpurchase <- read.csv("data-raw/EVpurchase.csv")
 usethis::use_data(EVpurchase, overwrite = TRUE)
-write.csv(EVpurchase, "..//SRM-Textbook//Data//EVpurchase.csv", row.names=FALSE)
+write.csv(EVpurchase, "..//SRM-Textbook//Data//EVpurchase.csv", 
+          row.names=FALSE)
 
 
 ##############################
