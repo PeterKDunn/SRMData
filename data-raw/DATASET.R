@@ -739,12 +739,6 @@ write.csv(PremierL, "..//SRM-textbook//Data//PremierL.csv")
 
 
 ##############################
-Punting <- read.csv("data-raw/Punting.csv")
-usethis::use_data(Punting, overwrite = TRUE)
-write.csv(Punting, "..//SRM-Textbook//Data//Punting.csv")
-
-
-##############################
 ReactionTime <- read.csv("data-raw/ReactionTimePhoneInd.csv")
 usethis::use_data(ReactionTime, overwrite = TRUE)
 write.csv(ReactionTime, "..//SRM-Textbook//Data//ReactionTime.csv")
