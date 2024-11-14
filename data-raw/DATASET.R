@@ -737,6 +737,41 @@ write.csv(PremierL, "..//SRM-textbook//Data//PremierL.csv")
 
 
 
+##############################
+Sex <- gl( n = 2,
+           k = 1, 
+           length = 8,
+           labels = c("F", "M") )
+School <- gl( n = 2,
+              k = 2, 
+              length = 8,
+              labels = c("Government", 
+                         "Non-government") )
+FNations <- gl( n = 2,
+                k = 4,
+                length = 8,
+                labels = c("Yes", 
+                           "No") )
+Counts <- c(2540,
+            2734,
+            391,
+            362,
+            21219,
+            22574,
+            9496,
+            9963)
+
+QSchools <- data.frame(Counts = Counts,
+                       Sex = Sex,
+                       FNations = FNations,
+                       School = School)
+
+usethis::use_data(QSchools, 
+                  overwrite = TRUE)
+write.csv(QSchools, 
+          "..//SRM-Textbook//Data//QSchools.csv")
+
+
 
 ##############################
 ReactionTime <- read.csv("data-raw/ReactionTimePhoneInd.csv")
