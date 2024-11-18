@@ -20,6 +20,10 @@
 #' SOI phase relationships with rainfall in eastern Australia, 
 #' \emph{International Journal of Climatology}, \bold{12}, 625--636.
 #' 
+#' @references 
+#' Dunn, Peter K., and Gordon K. Smyth. 2018. 
+#' \emph{Generalized Linear Models with Examples in R}. Springer.
+
 #' @usage data(EmeraldAug)
 
 "EmeraldAug"

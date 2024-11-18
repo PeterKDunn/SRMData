@@ -23,7 +23,7 @@
 #'  
 #' Extracted from <https://doi.pangaea.de/10.1594/PANGAEA.871491>
 #'  
-#' @references The source (Schepaschenko et al.) obtains the data from various sources, which are giuven there.
+#' @references The source (Schepaschenko et al.) obtains the data from various sources, which are given there.
 #' 
 #' @usage data(Lime)
 

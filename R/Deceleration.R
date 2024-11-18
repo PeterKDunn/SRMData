@@ -1,12 +1,12 @@
 #' Deceleration
 #'
-#' The deceleration of cars after addin additional speed signage.
+#' The deceleration of cars after adding additional speed signage.
 #' 
 #' @docType data
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 79 rows (one per person) and 2 columns:
+#' @format A data frame with 79 rows (one per car) and 2 columns:
 #' \describe{
 #'   \item{When}{When the deceleration is measured: \code{Before} or \code{After} signage added}
 #'   \item{Deceleration}{The deceleratio}

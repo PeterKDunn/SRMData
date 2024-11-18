@@ -7,7 +7,7 @@
 #' @keywords datasets
 #'
 #' @format A data frame with 32 observations.
-#' The data give the weights of large fries bought from a McDonald m(target: 171g)
+#' The data give the weights of large fries bought from a McDonald (target: 171g)
 #' \describe{
 #'   \item{FriesWt}{The weight of 32 large french fry order at McDonalds, in grams}
 #' }

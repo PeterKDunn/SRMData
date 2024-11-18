@@ -1,6 +1,6 @@
 #' CherryRipe
 #'
-#' The weight if 'Fun Size' Cherry Ripe chocolate bars.
+#' The weight of 'Fun Size' Cherry Ripe chocolate bars.
 #' 
 #' @docType data
 #' 
@@ -15,7 +15,7 @@
 #' }
 #' 
 #' @details
-#' The Cherry Ripe chocolate bars were weighted as an in-class activity, usually by weighing the bar+wrapper, and then the wrappe )for hygeib reasons) on a set of scales.
+#' The Cherry Ripe chocolate bars were weighted as an in-class activity, usually by weighing the bar+wrapper, and then the wrapper (for hygiene reasons) on a set of scales.
 #' The bars were in a Fun Size pack, of about 11 bars.
 #' Until 2015, were listed in the nutrition panel as 18g.
 #' After 2015, this changed to 14g.

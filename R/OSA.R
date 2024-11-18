@@ -1,6 +1,6 @@
 #' OSA
 #'
-#' Sleeping information for adiults with Down Syndrome.
+#' Sleeping information for adults with Down Syndrome.
 #' 
 #' @docType data
 #' 

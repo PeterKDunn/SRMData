@@ -6,7 +6,7 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 32 rows (each experiments) and 2 columns:
+#' @format A data frame with 32 rows (each experiment) and 2 columns:
 #' \describe{
 #'   \item{Removal}{The removal efficieny, in percent}
 #'   \item{Temp}{The inlet temperature, in degrees C}

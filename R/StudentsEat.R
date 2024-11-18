@@ -1,6 +1,6 @@
 #' StudentsEat
 #'
-#' Where students live and wjere they eat most of their meals.
+#' Where students live and where they eat most of their meals.
 #' 
 #' @docType data
 #' 

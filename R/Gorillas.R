@@ -1,6 +1,6 @@
 #' Gorillas
 #'
-#' Chest-beating in Gorillas.
+#' Chest-beating rates in Gorillas.
 #' 
 #' @docType data
 #' 

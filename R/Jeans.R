@@ -25,7 +25,6 @@
 #' }
 #' 
 #' @source 
-#' 
 #' https://github.com/the-pudding/data/tree/master/pockets (used with permission).
 #' 
 #' Diehm, Jan & Thomas, Amber (August 2018).

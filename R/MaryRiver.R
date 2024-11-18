@@ -1,6 +1,6 @@
 #' Mary River stream flow data
 #'
-#' Stream flow from Mary River
+#' The mean daily stream flow from the Mary River.
 #' 
 #' @docType data
 #' 

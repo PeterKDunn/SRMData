@@ -14,7 +14,7 @@
 #'   \item{Diameter}{the pizza diameter, in cm)}
 #'   \item{DiameterInches}{the pizza diameter, in inches (converted from cm)}
 #' }
-#' @source P.~K. Dunn. 
+#' @source P. K. Dunn. 
 #' Assessing claims made by a pizza chain.
 #' \emph{Journal of Statistical Education}, \bold{20}(1), 2012.
 #' 

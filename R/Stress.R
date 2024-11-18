@@ -13,7 +13,7 @@
 #' }
 #' @source Hand et al. \emph{A Handbook of Small Data Sets}, data set #232.
 #' 
-#' The original source is given as Hoaglin, D. C., Mosteller, F. amd Tukey. J. W. 1985.
+#' The original source is given as Hoaglin, D. C., Mosteller, F. and Tukey. J. W. 1985.
 #' \emph{Exploring data tables, trends and shapes}. New York: John Wiley & Sons.
 #' 
 #' @usage data(Stress)

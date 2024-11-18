@@ -1,6 +1,6 @@
 #' DogsLife
 #'
-#' Relationship between bitumen content and percentage air voids.
+#' The average weight of dog breeds, and the average lifespan of dog breeds, using over 50 individuals for each breed.
 #' 
 #' @docType data
 #' 
