@@ -239,7 +239,7 @@ write.csv(Dogs, "..//SRM-Textbook//Data//Dogs.csv")
 ##############################
 ### Processing needed
 ### Some code based on code from https://datadryad.org/stash/dataset/doi:10.5061/dryad.wwpzgmsn6#citations
-dat <- read.csv("data-raw/Adams data plus.csv",
+dat <- read.csv("data-raw/AdamsDataPlus.csv",
                 na.strings = "#N/A")
 dat <- as.data.frame(dat)
 dat <- dat[, c(1:5)]
