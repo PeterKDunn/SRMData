@@ -1,0 +1,288 @@
+Breed,Weight,LitterSize,BirthWeight,Lifespan,T50
+Affenpinscher,3.855535145,4.1,0.086,11.42,#N/A
+Afghan Hound,24.94758035,8,#N/A,11.92,#N/A
+Airedale Terrier,27.2155422,7.4,0.397,10.75,#N/A
+Akita,45.359237,6,#N/A,9.92,#N/A
+Alaskan Malamute,36.2873896,6.9,0.482,10.71,#N/A
+American Bulldog,35.72039914,#N/A,#N/A,#N/A,#N/A
+American English Coonhound,24.94758035,#N/A,#N/A,#N/A,#N/A
+American Eskimo Dog (Miniature),6.80388555,#N/A,#N/A,#N/A,#N/A
+American Eskimo Dog (Standard),13.6077711,#N/A,#N/A,#N/A,#N/A
+American Eskimo Dog (Toy),3.62873896,#N/A,#N/A,#N/A,#N/A
+American Foxhound,29.48350405,#N/A,#N/A,#N/A,#N/A
+American Hairless Terrier,6.35029318,#N/A,#N/A,#N/A,#N/A
+American Leopard Hound,26.08156128,#N/A,#N/A,#N/A,#N/A
+American Staffordshire Terrier,24.94758035,#N/A,#N/A,#N/A,#N/A
+American Water Spaniel,15.87573295,#N/A,#N/A,#N/A,#N/A
+Anatolian Shepherd Dog,52.16312255,#N/A,#N/A,10.75,#N/A
+Appenzeller Sennenhund,26.76194983,#N/A,#N/A,#N/A,#N/A
+Australian Cattle Dog,19.27767573,5.5,0.3,11.67,#N/A
+Australian Kelpie,,4.5,#N/A,#N/A,#N/A
+Australian Shepherd,23.81359943,8,#N/A,9,#N/A
+Australian Stumpy Tail Cattle Dog,17.00971388,#N/A,#N/A,#N/A,#N/A
+Australian Terrier,7.937866475,5.5,#N/A,12.08,#N/A
+Azawakh,19.95806428,#N/A,#N/A,#N/A,#N/A
+Barbet,22.6796185,#N/A,#N/A,#N/A,#N/A
+Basenji,10.43262451,4.8,#N/A,13.54,#N/A
+Basset Fauve de Bretagne,14.06136347,5.8,#N/A,10.42,#N/A
+Basset Hound,23.81359943,6.7,0.45,11.29,18.55
+Bavarian Mountain Scent Hound,23.36000706,7.2,#N/A,#N/A,#N/A
+Beagle,11.33980925,5.5,#N/A,12.67,17.66
+Bearded Collie,22.6796185,5.4,0.298,13.5,#N/A
+Beauceron,40.8233133,11,0.481,#N/A,#N/A
+Bedlington Terrier,9.0718474,3.6,#N/A,13.38,#N/A
+Belgian Laekenois,27.2155422,#N/A,#N/A,#N/A,#N/A
+Belgian Malinois,27.2155422,7.1,#N/A,#N/A,#N/A
+Belgian Sheepdog,26.64855174,6.3,#N/A,#N/A,#N/A
+Belgian Tervuren,26.64855174,6.2,#N/A,#N/A,#N/A
+Bergamasco Sheepdog,31.97826209,7,#N/A,#N/A,#N/A
+Berger Picard,27.2155422,#N/A,#N/A,#N/A,#N/A
+Bernese Mountain Dog,40.8233133,6.4,0.52,8,#N/A
+Bichon Frise,6.80388555,4.6,#N/A,12.92,#N/A
+Biewer Terrier,2.72155422,#N/A,#N/A,#N/A,#N/A
+Black and Tan Coonhound,39.68933238,#N/A,#N/A,#N/A,#N/A
+Black Russian Terrier,47.62719885,#N/A,0.667,1.79,#N/A
+Bloodhound,43.09127515,7,0.45,6.79,#N/A
+Bluetick Coonhound,27.78253266,#N/A,#N/A,#N/A,#N/A
+Boerboel,79.37866475,#N/A,#N/A,#N/A,#N/A
+Bohemian Shepherd,21.65903567,#N/A,#N/A,#N/A,#N/A
+Bolognese,3.288544683,4.7,#N/A,#N/A,#N/A
+Border Collie,19.27767573,6,0.372,12.25,#N/A
+Border Terrier,6.123496995,5.1,0.184,14,#N/A
+Borzoi,36.85438006,7.6,0.359,9.08,#N/A
+Boston Terrier,8.391458845,4.1,#N/A,10.92,#N/A
+Bouvier des Flandres,40.8233133,6.9,0.326,11.33,#N/A
+Boxer,,6.6,0.482,10.25,#N/A
+Boykin Spaniel,14.74175203,#N/A,#N/A,#N/A,#N/A
+Bracco Italiano,32.88544683,8,#N/A,2.67,#N/A
+Braque du Bourbonnais,19.95806428,#N/A,#N/A,#N/A,#N/A
+Braque Francais Pyrenean,21.54563758,#N/A,#N/A,#N/A,#N/A
+Briard,35.15340868,7.3,0.348,11.17,#N/A
+Brittany,15.87573295,6.4,0.283,12.88,#N/A
+Broholmer,54.4310844,#N/A,#N/A,#N/A,#N/A
+Brussels Griffon,4.08233133,3.6,0.17,12,#N/A
+Bull Terrier,27.2155422,5.5,0.283,10,#N/A
+Bulldog,20.41165665,5.4,0.34,6.29,#N/A
+Bullmastiff,52.16312255,6.9,0.635,7.46,#N/A
+Cairn Terrier,6.123496995,4.4,0.193,14,15.5
+Canaan Dog,20.41165665,#N/A,0.418,14.63,#N/A
+Cane Corso,,8.2,0.465,#N/A,#N/A
+Cardigan Welsh Corgi,14.40155775,7.5,0.34,12.17,#N/A
+Carolina Dog,19.27767573,#N/A,#N/A,#N/A,#N/A
+Catahoula Leopard Dog,32.88544683,#N/A,#N/A,#N/A,#N/A
+Caucasian Shepherd Dog,61.00817377,8.1,#N/A,#N/A,#N/A
+Cavalier King Charles Spaniel,7.030681735,4.1,0.21,11.38,#N/A
+Central Asian Shepherd Dog,44.90564463,#N/A,#N/A,#N/A,#N/A
+Cesky Terrier,8.61825503,5,#N/A,8.42,#N/A
+Chesapeake Bay Retriever,30.61748498,6.5,#N/A,10.75,#N/A
+Chihuahua,,3.2,0.113,12.42,#N/A
+Chinese Crested,4.5359237,4.3,0.208,10.08,#N/A
+Chinese Shar-Pei,23.81359943,3.9,#N/A,6.29,#N/A
+Chinook,29.48350405,#N/A,0.376,#N/A,#N/A
+Chow Chow,26.08156128,4.4,#N/A,9.38,#N/A
+Cirneco dell’Etna,9.865634048,4.5,#N/A,#N/A,#N/A
+Clumber Spaniel,31.7514659,9,#N/A,10.33,#N/A
+Cocker Spaniel,11.33980925,5.3,0.25,10.33,16.6
+Collie,28.34952313,5.2,0.482,12.67,#N/A
+Coton de Tulear,5.102914163,3.8,0.214,#N/A,#N/A
+Croatian Sheepdog,16.55612151,#N/A,#N/A,#N/A,#N/A
+Curly-Coated Retriever,35.15340868,7.5,0.358,10.75,#N/A
+Czechoslovakian Vlcak,22.90641469,#N/A,#N/A,#N/A,#N/A
+Dachshund (Miniature),,4.4,#N/A,#N/A,#N/A
+Dachshund (Standard),10.88621688,5.4,0.227,12.67,#N/A
+Dalmatian,26.08156128,8.4,0.404,12.5,#N/A
+Dandie Dinmont Terrier,9.52543977,5,#N/A,12.17,#N/A
+Danish-Swedish Farmdog,7.937866475,4.2,#N/A,#N/A,#N/A
+Deutscher Wachtelhund,21.54563758,6,#N/A,#N/A,#N/A
+Doberman Pinscher,36.85438006,7,0.312,10.5,#N/A
+Dogo Argentino,42.07069232,#N/A,#N/A,#N/A,#N/A
+Dogue de Bordeaux,,8.1,#N/A,3.83,#N/A
+Drentsche Patrijshond,27.44233839,#N/A,#N/A,#N/A,#N/A
+Drever,17.00971388,6.1,#N/A,#N/A,#N/A
+Dutch Shepherd,26.53515365,#N/A,#N/A,#N/A,#N/A
+English Cocker Spaniel,13.6077711,5.7,0.313,11.17,#N/A
+English Foxhound,30.61748498,#N/A,#N/A,#N/A,#N/A
+English Setter,27.78253266,6.4,0.482,11.58,#N/A
+English Springer Spaniel,20.41165665,7.3,0.3,12,14.3
+English Toy Spaniel,4.98951607,#N/A,0.184,#N/A,#N/A
+Entlebucher Mountain Dog,23.81359943,#N/A,#N/A,#N/A,#N/A
+Estrela Mountain Dog,47.40040267,4.5,#N/A,9.75,#N/A
+Eurasier,24.94758035,6.7,#N/A,#N/A,#N/A
+Field Spaniel,19.27767573,#N/A,0.283,11.63,#N/A
+Finnish Lapphund,19.50447191,5.2,0.363,7.33,#N/A
+Finnish Spitz,12.02019781,3.7,#N/A,11.13,#N/A
+Flat-Coated Retriever,29.48350405,8.3,0.284,9.83,#N/A
+French Bulldog,,4.7,0.255,9,#N/A
+French Spaniel,24.94758035,#N/A,#N/A,#N/A,#N/A
+German Longhaired Pointer,30.61748498,7.8,#N/A,10.5,#N/A
+German Pinscher,15.87573295,5,0.265,11.38,#N/A
+German Shepherd Dog,31.18447544,6.1,0.567,#N/A,20.23
+German Shorthaired Pointer,26.08156128,8.3,0.5,12,#N/A
+German Spitz,11.33980925,#N/A,#N/A,11.33,#N/A
+German Wirehaired Pointer,27.2155422,7.3,#N/A,10,#N/A
+Giant Schnauzer,31.18447544,7,#N/A,10,#N/A
+Glen of Imaal Terrier,16.32932532,5.3,#N/A,10.42,#N/A
+Golden Retriever,29.48350405,7.5,0.411,12.25,28.17
+Gordon Setter,28.34952313,7.6,0.315,11.08,#N/A
+Grand Basset Griffon Vendéen,19.27767573,#N/A,#N/A,#N/A,#N/A
+Great Dane,64.06992226,7.1,0.625,6.5,18.1
+Great Pyrenees,,7.3,0.624,9.58,#N/A
+Greater Swiss Mountain Dog,51.02914163,9,0.51,#N/A,#N/A
+Greyhound,29.48350405,8.9,0.55,9.08,#N/A
+Hamiltonstovare,26.08156128,6.5,#N/A,10.13,#N/A
+Hanoverian Scenthound,40.36972093,#N/A,#N/A,#N/A,#N/A
+Harrier,23.81359943,#N/A,#N/A,#N/A,#N/A
+Havanese,4.5359237,4.3,0.156,10.25,#N/A
+Hokkaido,24.94758035,#N/A,#N/A,#N/A,#N/A
+Hovawart,35.15340868,7.8,#N/A,12.92,#N/A
+Ibizan Hound,21.54563758,#N/A,#N/A,#N/A,#N/A
+Icelandic Sheepdog,12.47379018,4.5,0.293,#N/A,#N/A
+Irish Red and White Setter,21.2054433,8,0.41,11.42,#N/A
+Irish Setter,29.48350405,7.1,#N/A,12,#N/A
+Irish Terrier,11.79340162,6.3,0.28,14.83,#N/A
+Irish Water Spaniel,25.62796891,#N/A,#N/A,9.33,#N/A
+Irish Wolfhound,51.02914163,6.8,0.568,7.04,19.1
+Italian Greyhound,4.762719885,3.3,0.146,13.5,#N/A
+Jagdterrier,8.845051215,6.4,#N/A,#N/A,#N/A
+Japanese Chin,4.08233133,1.9,#N/A,9.25,#N/A
+Japanese Spitz,7.937866475,3.9,#N/A,12.29,#N/A
+Jindo,18.1436948,#N/A,#N/A,#N/A,#N/A
+Kai Ken,13.6077711,#N/A,#N/A,#N/A,#N/A
+Karelian Bear Dog,21.09204521,6.5,#N/A,#N/A,#N/A
+Keeshond,18.1436948,5.5,0.255,12.21,#N/A
+Kerry Blue Terrier,,4,#N/A,11.5,#N/A
+Kishu Ken,20.41165665,#N/A,#N/A,#N/A,#N/A
+Komondor,,#N/A,#N/A,#N/A,#N/A
+Kromfohrlander,12.47379018,#N/A,#N/A,#N/A,#N/A
+Kuvasz,42.52428469,#N/A,0.547,#N/A,#N/A
+Labrador Retriever,30.61748498,6.9,0.45,12.25,19.43
+Lagotto Romagnolo,13.43767396,6.7,#N/A,#N/A,#N/A
+Lakeland Terrier,,2,#N/A,15.46,#N/A
+Lancashire Heeler,5.89670081,5.5,#N/A,11.75,#N/A
+Lapponian Herder,31.7514659,5,#N/A,#N/A,#N/A
+Leonberger,57.83302718,8.4,0.51,7.08,#N/A
+Lhasa Apso,6.123496995,4.9,#N/A,14.33,#N/A
+Lowchen,5.669904625,3.3,#N/A,10,#N/A
+Maltese,3.17514659,2.1,0.142,12.25,#N/A
+Manchester Terrier (Standard),7.71107029,4.7,#N/A,12.83,#N/A
+Manchester Terrier (Toy),5.44310844,#N/A,#N/A,#N/A,#N/A
+Mastiff,77.1107029,6,0.567,6.83,22.9
+Miniature American Shepherd,13.6077711,#N/A,#N/A,#N/A,#N/A
+Miniature Bull Terrier,10.43262451,#N/A,#N/A,6.08,#N/A
+Miniature Pinscher,4.08233133,4.3,0.184,13,#N/A
+Miniature Schnauzer,7.030681735,4.7,#N/A,12.08,14.1
+Mountain Cur,20.41165665,#N/A,#N/A,#N/A,#N/A
+Mudi,10.6594207,5,#N/A,#N/A,#N/A
+Neapolitan Mastiff,58.9670081,7.5,0.9,2.33,#N/A
+Nederlandse Kooikerhondje,11.33980925,5.6,#N/A,3.92,#N/A
+Newfoundland,56.69904625,6.5,#N/A,9.67,18.5
+Norfolk Terrier,5.216312255,2.5,#N/A,11,#N/A
+Norrbottenspets,11.33980925,3,#N/A,#N/A,#N/A
+Norwegian Buhund,14.96854821,4.9,0.345,12.67,#N/A
+Norwegian Elkhound,23.36000706,5.5,#N/A,13.17,#N/A
+Norwegian Lundehund,11.33980925,3.2,#N/A,#N/A,#N/A
+Norwich Terrier,5.44310844,2.6,#N/A,13.38,#N/A
+Nova Scotia Duck Tolling Retriever,19.27767573,6.6,0.47,8,#N/A
+Old English Sheepdog,36.2873896,4.3,0.33,10.75,#N/A
+Otterhound,44.22525608,#N/A,0.631,10.21,#N/A
+Papillon,3.401942775,3.3,0.15,13.08,11.1
+Parson Russell Terrier,6.80388555,4.5,0.19,13,#N/A
+Pekingese,,3.1,#N/A,11.42,#N/A
+Pembroke Welsh Corgi,,5.5,0.34,12.21,#N/A
+Perro de Presa Canario,43.99845989,8.4,#N/A,#N/A,#N/A
+Peruvian Inca Orchid (Large),18.48388908,#N/A,#N/A,#N/A,#N/A
+Peruvian Inca Orchid (Medium),9.97903214,#N/A,#N/A,#N/A,#N/A
+Peruvian Inca Orchid (Small),5.89670081,#N/A,#N/A,#N/A,#N/A
+Petit Basset Griffon Vendéen,14.74175203,5.1,#N/A,#N/A,#N/A
+Pharaoh Hound,22.6796185,#N/A,#N/A,11.83,#N/A
+Plott Hound,23.92699752,#N/A,#N/A,#N/A,#N/A
+Pointer,27.2155422,7.2,#N/A,12.42,#N/A
+Polish Lowland Sheepdog,18.1436948,#N/A,#N/A,9.58,#N/A
+Pomeranian,2.26796185,2.4,#N/A,9.67,#N/A
+Poodle (Miniature),5.669904625,3,#N/A,13.92,#N/A
+Poodle (Standard),24.94758035,7,#N/A,12,#N/A
+Poodle (Toy),2.26796185,2.4,#N/A,14.63,15.01
+Porcelaine,26.53515365,#N/A,#N/A,#N/A,#N/A
+Portuguese Podengo (Large),24.94758035,#N/A,#N/A,#N/A,#N/A
+Portuguese Podengo (Medium),17.91689862,#N/A,#N/A,#N/A,#N/A
+Portuguese Podengo Pequeno,4.98951607,#N/A,#N/A,#N/A,#N/A
+Portuguese Pointer,21.31884139,#N/A,#N/A,#N/A,#N/A
+Portuguese Sheepdog,21.88583185,#N/A,#N/A,#N/A,#N/A
+Portuguese Water Dog,21.2054433,7.4,0.284,11.42,#N/A
+Pudelpointer,26.08156128,#N/A,#N/A,#N/A,#N/A
+Pug,7.25747792,4.2,0.227,11,#N/A
+Puli,13.6077711,4,#N/A,12.42,#N/A
+Pumi,11.56660544,5.6,#N/A,#N/A,#N/A
+Pyrenean Mastiff,81.6466266,5,#N/A,#N/A,#N/A
+Pyrenean Shepherd (Rough-Faced),10.20582833,#N/A,#N/A,#N/A,#N/A
+Pyrenean Shepherd (Smooth-Faced),10.20582833,#N/A,#N/A,#N/A,#N/A
+Rafeiro do Alentejo,47.40040267,#N/A,#N/A,#N/A,#N/A
+Rat Terrier (Miniature),7.937866475,#N/A,#N/A,#N/A,#N/A
+Rat Terrier (Standard),7.937866475,#N/A,0.227,#N/A,#N/A
+Redbone Coonhound,26.08156128,#N/A,0.439,#N/A,#N/A
+Rhodesian Ridgeback,35.15340868,8.9,0.44,11,#N/A
+Romanian Mioritic Shepherd Dog,52.16312255,#N/A,#N/A,#N/A,#N/A
+Rottweiler,46.49321793,7.4,#N/A,8.92,#N/A
+Russell Terrier,5.44310844,#N/A,#N/A,#N/A,#N/A
+Russian Toy,,2.7,#N/A,#N/A,#N/A
+Russian Tsvetnaya Bolonka,3.515340868,#N/A,#N/A,#N/A,#N/A
+Saint Bernard,65.77089365,6.8,0.566,7,21.9
+Saluki,23.81359943,6.3,#N/A,12,#N/A
+Samoyed,22.11262804,6.2,#N/A,12.5,#N/A
+Schapendoes,18.37049099,6.6,#N/A,#N/A,#N/A
+Schipperke,5.89670081,4.1,0.14,13,#N/A
+Scottish Deerhound,41.39030376,8,#N/A,8.67,#N/A
+Scottish Terrier,9.0718474,5.7,#N/A,10.25,#N/A
+Sealyham Terrier,,4,#N/A,12.25,#N/A
+Segugio italiano,22.6796185,#N/A,#N/A,#N/A,#N/A
+Shetland Sheepdog,9.0718474,3.9,#N/A,12.5,#N/A
+Shiba Inu,9.0718474,3.3,#N/A,7,#N/A
+Shih Tzu,5.669904625,4.2,0.17,13.17,#N/A
+Shikoku,20.41165665,#N/A,#N/A,#N/A,#N/A
+Siberian Husky,21.54563758,5.1,0.527,12.58,#N/A
+Silky Terrier,4.5359237,3.7,#N/A,14.25,#N/A
+Skye Terrier,,3.3,#N/A,11,#N/A
+Sloughi,19.27767573,10,#N/A,5,#N/A
+Slovakian Wirehaired Pointer,26.08156128,#N/A,#N/A,#N/A,#N/A
+Slovensky Cuvac,37.42137053,#N/A,#N/A,#N/A,#N/A
+Slovensky Kopov,17.46330625,#N/A,#N/A,#N/A,#N/A
+Small Munsterlander Pointer,22.6796185,#N/A,#N/A,#N/A,#N/A
+Smooth Fox Terrier,7.71107029,4.3,0.213,#N/A,16.12
+Soft Coated Wheaten Terrier,15.87573295,5.8,0.265,12.5,#N/A
+Spanish Mastiff,77.1107029,13,#N/A,#N/A,#N/A
+Spanish Water Dog,18.1436948,6.3,#N/A,#N/A,#N/A
+Spinone Italiano,,#N/A,0.65,#N/A,#N/A
+Stabyhoun,22.6796185,8,#N/A,#N/A,#N/A
+Staffordshire Bull Terrier,14.06136347,5.6,0.284,12.75,#N/A
+Standard Schnauzer,18.1436948,7,#N/A,11.96,#N/A
+Sussex Spaniel,18.1436948,#N/A,#N/A,11.13,#N/A
+Swedish Lapphund,17.00971388,4.4,#N/A,#N/A,#N/A
+Swedish Vallhund,12.47379018,5,#N/A,14.42,#N/A
+Taiwan Dog,14.96854821,#N/A,#N/A,#N/A,#N/A
+Terry Roosevelt Terrier,7.484274105,#N/A,#N/A,#N/A,#N/A
+Thai Ridgeback,24.94758035,#N/A,#N/A,#N/A,#N/A
+Tibetan Mastiff,48.76117978,#N/A,0.51,11.92,#N/A
+Tibetan Spaniel,5.44310844,3.8,#N/A,14.42,#N/A
+Tibetan Terrier,,5.2,0.213,12.17,#N/A
+Tornjak,39.00894382,#N/A,#N/A,#N/A,#N/A
+Tosa,68.0388555,#N/A,#N/A,#N/A,#N/A
+Toy Fox Terrier,2.381359943,#N/A,#N/A,#N/A,#N/A
+Transylvanian Hound,,#N/A,#N/A,#N/A,#N/A
+Treeing Tennessee Brindle,18.1436948,#N/A,#N/A,#N/A,#N/A
+Treeing Walker Coonhound,27.2155422,#N/A,#N/A,#N/A,#N/A
+Vizsla,24.2671918,5,0.482,12.92,#N/A
+Weimaraner,32.88544683,8.8,#N/A,11.13,22.74
+Welsh Springer Spaniel,20.41165665,6,#N/A,12.58,#N/A
+Welsh Terrier,,7,#N/A,12.67,#N/A
+West Highland White Terrier,7.937866475,3.7,#N/A,13,#N/A
+Wetterhoun,28.34952313,#N/A,#N/A,#N/A,#N/A
+Whippet,14.74175203,6.1,#N/A,12.79,#N/A
+Wire Fox Terrier,7.71107029,3.5,#N/A,13.13,#N/A
+Wirehaired Pointing Griffon,23.24660896,#N/A,#N/A,#N/A,#N/A
+Wirehaired Vizsla,24.94758035,#N/A,#N/A,9.83,#N/A
+Working Kelpie,19.95806428,5.9,#N/A,#N/A,#N/A
+Xoloitzcuintli (Miniature),10.20582833,4.5,#N/A,#N/A,#N/A
+Xoloitzcuintli (Standard),19.27767573,4.3,#N/A,#N/A,#N/A
+Xoloitzcuintli (Toy),5.669904625,#N/A,#N/A,#N/A,#N/A
+Yakutian Laika,21.54563758,#N/A,#N/A,#N/A,#N/A
+Yorkshire Terrier,3.17514659,3.5,#N/A,12.67,15.21
