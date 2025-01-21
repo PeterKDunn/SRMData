@@ -1,4 +1,4 @@
-#' WaterAccess
+#' Water access
 #'
 #' Water access for households in West Cameroon.
 #' 
@@ -27,7 +27,8 @@
 #' \emph{PLOS Water}, \bold{1}(8), e0000029.
 #' 
 #' 
-#' @usage data(WaterAccess)
+#' @usage 
+#' data(WaterAccess)
 
 "WaterAccess"
 

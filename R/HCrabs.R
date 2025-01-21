@@ -1,4 +1,4 @@
-#' HCrabs
+#' Hermit crabs
 #'
 #' The number of male crabs attached to female horseshoe crabs
 #' 
@@ -15,10 +15,12 @@
 #'   \item{Sat}{The number of male crabs attached ('satellites')}
 #' }
 #' 
-#' @source H. J. Brockmann (1996) Satellite male groups in horseshoe crabs, \emph{Limulus polyphemus}. 
-#' \emph{Ethology}, \bold{102}(1), 1–21.
+#' @source 
+#' H. J. Brockmann (1996) Satellite male groups in horseshoe crabs, \emph{Limulus polyphemus}. 
+#' \emph{Ethology}, \bold{102}(1), 1--21.
 #' 
-#' @usage data(HCrabs)
+#' @usage 
+#' data(HCrabs)
 
 "HCrabs"
 

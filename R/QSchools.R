@@ -1,4 +1,4 @@
-#' QSchools
+#' Queensland school children
 #'
 #' The number of four-year-old students enrolled at school in Queensland (Australia), 
 #' classified by sex, school type and whether the students are First Nations students (in 2019).
@@ -22,9 +22,10 @@
 #' @references 
 #' Peter K. Dunn. Generalized linear models. 
 #' In R. J. Tierney, F. Rizvi, and K. Erkican, editors, 
-#' \emph{International Encyclopedia of Education}, pages 583-–589. Elsevier, 2023.
+#' \emph{International Encyclopedia of Education}, pages 583--589. Elsevier, 2023.
 #' 
-#' @usage data(QSchools)
+#' @usage 
+#' data(QSchools)
 
 "QSchools"
 

@@ -1,4 +1,4 @@
-#' Placebos
+#' Placebos and pain relief
 #'
 #' Pain relief from analgesics and placebos.
 #' 
@@ -15,11 +15,13 @@
 #'   \item{Codis}{The mean pain relief score for 22 patients given codis}
 #'   \item{PlaceboRed}{The mean pain relief score for 22 patients given red placebos}
 #' }
-#' @source Read from Figures 3 and 4 of Huskisson, E. C. 1974.
+#' @source 
+#' Read from Figures 3 and 4 of Huskisson, E. C. 1974.
 #' Simple Analgesics for Arthritis. 
 #' \emph{British Medical Journal} \bold{4}: 196--200.
 #' 
-#' @usage data(Placebos)
+#' @usage 
+#' data(Placebos)
 
 "Placebos"
 

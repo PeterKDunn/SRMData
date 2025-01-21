@@ -1,4 +1,4 @@
-#' PetBirds
+#' Pet birds
 #'
 #' Lung cancer and owning pet birds. 
 #' 
@@ -12,11 +12,13 @@
 #'   \item{Pets}{Whether the adult kept pet birds; one of \code{Kept pet birds} or \code{Did not keep pet birds}}
 #'   \item{Counts}{The number of adults with the given combination}
 #' }
-#' @source Kohlmeier, L., G. Arminger, S. Bartolomeycik, B. Bellach, J. Rehm, and M. Thamm. 1992.
-#' Pet Birds as an Independent Risk Factor for Lung Cancer: Case-Control Study. 
-#' \emph{British Medical Journal} \bold{305} (6860): 986–89.
+#' @source 
+#' Kohlmeier, L., G. Arminger, S. Bartolomeycik, B. Bellach, J. Rehm, and M. Thamm. 1992.
+#' Pet birds as an independent risk factor for lung cancer: case-control study. 
+#' \emph{British Medical Journal} \bold{305} (6860): 986--89.
 #' 
-#' @usage data(PetBirds)
+#' @usage 
+#' data(PetBirds)
 
 "PetBirds"
 

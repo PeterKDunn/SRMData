@@ -13,10 +13,12 @@
 #'   \item{SBPsecond}{the systolic blood pressure from the second visit, in mm Hg}
 #'   \item{DBPsecond}{the diatolic blood pressure from the second visit, in mm Hg}
 #' }
-#' @source Originally from <http://biostat.mc.vanderbilt.edu/DataSets>, though that URL no longer works.
+#' @source 
+#' Originally from <http://biostat.mc.vanderbilt.edu/DataSets>, though that URL no longer works.
 #' It seems to now appear at <https://hbiostat.org/data/repo/diabetes.html>
 #' 
-#' @usage data(Diabetes)
+#' @usage 
+#' data(Diabetes)
 
 "Diabetes"
 

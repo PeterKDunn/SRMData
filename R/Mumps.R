@@ -1,4 +1,4 @@
-#' Mumps
+#' Mumps and isolating
 #' 
 #' Whether students complied with isolation orders duration a mumps outbreak.
 #' 
@@ -13,14 +13,16 @@
 #'   \item{Counts}{The number of students in each cell}
 #' }
 #' 
-#' @details The data provide the number of students complying and not complying with an isolation order during a mumps outbreak in Kansas in 2006.
+#' @details 
+#' The data provide the number of students complying and not complying with an isolation order during a mumps outbreak in Kansas in 2006.
 #' 
 #' @source 
 #'  Soud, F. A., M. M. Cortese, A. T. Curns, P. J. Edelson, R. H. Bitsko, H. T. Jordan, A. S. Huang, J. M.Villalon-Gomez, and G. H. Dayan. (2009). 
 #'  "Isolation Compliance Among University Students During a Mumps Outbreak, Kansas 2006".
 #'  \emph{Epidemiology & Infection}, \bold{137}(1): 30--37.
 #' 
-#' @usage data(Mumps)
+#' @usage 
+#' data(Mumps)
 
 "Mumps"
 

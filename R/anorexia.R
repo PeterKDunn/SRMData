@@ -12,9 +12,12 @@
 #'   \item{Before}{Weight (in kg) before the anorexia treatment}
 #'   \item{After}{Weight (in kg) after the anorexia treatment}
 #' }
-#' @source Hand et al. \emph{A Handbook of Small Data Sets}, data set #285.
+#' @source 
+#' D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway, and E. Ostrowski (1994) 
+#' A Handbook of Small Data Sets, London: Chapman and Hall. Dataset 285.
 #' 
-#' @usage data(Anorexia)
+#' @usage 
+#' data(Anorexia)
 
 "Anorexia"
 

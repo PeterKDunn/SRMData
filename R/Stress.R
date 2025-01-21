@@ -11,12 +11,16 @@
 #'   \item{BeforeHours}{beta-endorphin concentrations measured 12--14 hours before surgery, in fmol/ml}
 #'   \item{BeforeMins}{beta-endorphin concentrations measured 10 minutes before surgery, in fmol/ml}
 #' }
-#' @source Hand et al. \emph{A Handbook of Small Data Sets}, data set #232.
+#' @source 
+#' D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway, and E. Ostrowski (1994) 
+#' A Handbook of Small Data Sets, London: Chapman and Hall. Dataset 232.
 #' 
+#' @references
 #' The original source is given as Hoaglin, D. C., Mosteller, F. and Tukey. J. W. 1985.
 #' \emph{Exploring data tables, trends and shapes}. New York: John Wiley & Sons.
 #' 
-#' @usage data(Stress)
+#' @usage 
+#' data(Stress)
 
 "Stress"
 

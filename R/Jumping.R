@@ -1,4 +1,4 @@
-#' Jumping
+#' Jumping and footwear
 #'
 #' Double-leg jumping distance, wearing shoes and barefoot.
 #' 
@@ -17,7 +17,8 @@
 #' \emph{International Journal of Sports Physical Therapy}, \bold{18}(4), 845.
 #' 
 #' 
-#' @usage data(Jumping)
+#' @usage 
+#' data(Jumping)
 
 "Jumping"
 

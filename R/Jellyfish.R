@@ -12,12 +12,16 @@
 #'   \item{Width}{the width (breadth) of the jellyfish, in mm}
 #'   \item{Length}{the length of the jellyfish, in mm}
 #' }
-#' @source Hand et al. \emph{A Handbook of Small Data Sets}, data set #72.
+#' @source 
+#' D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway, and E. Ostrowski (1994) 
+#' A Handbook of Small Data Sets, London: Chapman and Hall. Dataset 72.
 #' 
+#' @references
 #' Lunn, A. D. and McNeil, D. R. (1991).
 #' \emph{Computer-Interactive Data Analysis}, Chichester: John Wiley and Sons.
 #' 
-#' @usage data(Jellyfish)
+#' @usage 
+#' data(Jellyfish)
 
 "Jellyfish"
 

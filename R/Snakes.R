@@ -19,11 +19,13 @@
 #' Data from: Morphological convergence in a Mexican garter snake associated with the ingestion of a novel prey [Dataset]. 
 #' Dryad. https://doi.org/10.5061/dryad.mg152
 #' 
+#' @references
 #' Manjarrez, J., Macias Garcia, C., & Drummond, H. (2017). 
 #' Morphological convergence in a Mexican garter snake associated with the ingestion of a novel prey. 
 #' \emph{Ecology and Evolution}, \bold{7}(18), 7178--7186.
 #' 
 #' 
-#' @usage data(Snakes)
+#' @usage 
+#' data(Snakes)
 
 "Snakes"

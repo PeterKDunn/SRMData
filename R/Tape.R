@@ -1,4 +1,4 @@
-#' Tape
+#' Tape use
 #'
 #' The use of tapes to reduce pain.
 #' 
@@ -32,7 +32,8 @@
 #' "Effect of different Kinesio tape tensions on experimentally-induced thermal and muscle pain in healthy adults."
 #' \emph{PloS One}, \bold{16}(11), e0259433.
 #' 
-#' @usage data(Tape)
+#' @usage 
+#' data(Tape)
 
 "Tape"
 

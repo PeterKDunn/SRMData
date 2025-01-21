@@ -1,4 +1,4 @@
-#' Cyclones
+#' Cyclones in the Australian region
 #'
 #' The number of cyclones (severe; non-severe) and the ONI.
 #' 
@@ -17,10 +17,13 @@
 #'   \item{JAS}{the Ocean Nino Index, or oni, averaged over the months July to September; a numeric vector}
 #'   \item{OND}{the Ocean Nino Index, or oni, averaged over the months October to December; a numeric vector}
 #' }
-#' @source Dunn, Peter K., and Gordon K. Smyth. 2018. 
+#' 
+#' @source 
+#' Dunn, Peter K., and Gordon K. Smyth. 2018. 
 #' \emph{Generalized Linear Models with Examples in R}. Springer.
 #' 
-#' @usage data(Cyclones)
+#' @usage 
+#' data(Cyclones)
 
 "Cyclones"
 

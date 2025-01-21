@@ -1,4 +1,4 @@
-#' RipsID
+#' Rip identification
 #' 
 #' Whether people of given age groups can correctly identify ocean rips.
 #' 
@@ -13,14 +13,16 @@
 #'   \item{Counts}{The number of people in each cel}
 #' }
 #' 
-#' @details The data provide the number of people correctly identifying a rip from a photo, by age group.
+#' @details 
+#' The data provide the number of people correctly identifying a rip from a photo, by age group.
 #' 
 #' @source 
 #' Diez-Fern\'andez, P., Ruibal-Lista, B., Lobato-Alejano, F., & L\'opez-Garc\'ia, S. (2023). 
 #' 'Rip current knowledge: do people really know its danger? Do lifeguards know more than the general public?'. 
 #' \emph{Heliyon}, \bold{9}(7).
 #' 
-#' @usage data(RipsID)
+#' @usage 
+#' data(RipsID)
 
 "RipsID"
 

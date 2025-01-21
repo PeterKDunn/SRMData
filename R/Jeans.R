@@ -1,4 +1,4 @@
-#' Jeans
+#' Jeans' pockets
 #'
 #' Measurements of pockets in men's and women's jeans.
 #' 
@@ -27,6 +27,7 @@
 #' @source 
 #' https://github.com/the-pudding/data/tree/master/pockets (used with permission).
 #' 
+#' @references
 #' Diehm, Jan & Thomas, Amber (August 2018).
 #' Women's pockets are inferior.
 #' \emph{The Pudding}.
@@ -35,6 +36,7 @@
 #' The \code{githib} source contains a diagram explaining the pocket measurements more clearly.
 #' All jeans that were measured have a 32-inch waistband, as indicated by the brand.
 #' 
-#' @usage data(Jeans)
+#' @usage 
+#' data(Jeans)
 
 "Jeans"

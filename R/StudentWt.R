@@ -1,4 +1,4 @@
-#' StudentWt
+#' Students' weight changes
 #'
 #' Weights of students from Week 1 to Week 12 of semester.
 #' 
@@ -13,12 +13,16 @@
 #'   \item{Week12}{The student's weight in Week 12, in kg}
 #'   \item{GainWt}{The student's weight gain, in kg}
 #' }
-#' @source Levitsky, D. A., Halbmaier, C. A., & Mrdjenovic, G. (2004).
+#' @source 
+#' David. n.d. DASL: Data and Story Library. <https://dasl.datadescription.com/datafile/freshman-15/>
+#' 
+#' @references
+#' Levitsky, D. A., Halbmaier, C. A., & Mrdjenovic, G. (2004).
 #' The freshman weight gain: a model for the study of the epidemic of obesity. 
 #' \emph{International Journal of Obesity}, \bold{28}(11), 1435--1442.
 #'
-#' The data are given at:  David. n.d. DASL: Data and Story Library. <https://dasl.datadescription.com/datafile/freshman-15/>
 #' 
-#' @usage data(StudentWt)
+#' @usage 
+#' data(StudentWt)
 
 "StudentWt"

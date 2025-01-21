@@ -1,4 +1,4 @@
-#' BMI
+#' BMI of Irish patients
 #'
 #' The BMI and other health data number of Irish patients.
 #' 
@@ -23,14 +23,16 @@
 #'   \item{bmi_perception}{the person perception of the BMI; one of \code{normalweight}, \code{overweight} or \code{obese}}
 #' }
 #' 
-#' @details The data come from a survey.
+#' @details 
+#' The data come from a survey.
 #' 
 #' @source 
 #' Johnson, E., Millar, S. R., & Shiely, F. (2021). 
 #' The association between BMI self-selection, self-reported BMI and objectively measured BMI. 
 #' \emph{HRB Open Research}, \bold{4}(37), 37.
 #' 
-#' @usage data(BMI)
+#' @usage 
+#' data(BMI)
 
 "BMI"
 

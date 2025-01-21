@@ -1,4 +1,4 @@
-#' TurtleNests
+#' Turtle nests
 #'
 #' Infected and non-infected turtle nests, and whether the nests were relocated.
 #' 
@@ -13,7 +13,8 @@
 #'   \item{Counts}{The number of nests in the combination defined by \code{Infected} and \code{Nest}}
 #' }
 #' 
-#' @details The data provide the number of nests from Mediterranean loggerhead turtles that had fungal or bacterial infections.
+#' @details 
+#' The data provide the number of nests from Mediterranean loggerhead turtles that had fungal or bacterial infections.
 #' Some nests are relocated due to the risk if tidal inundation; researchers were interested to see if the relocation was related to the probability of infection.
 #' 
 #' @source 
@@ -21,7 +22,8 @@
 #' "First report of \emph{Fusarium} species occurrence in loggerhead sea turtle (\emph{Caretta caretta}) nests and hatchling success in Iztuzu Beach, Turkey".
 #' \emph{Biologia}, \bold{76}, 565--573.
 #' 
-#' @usage data(TurtleNests)
+#' @usage 
+#' data(TurtleNests)
 
 "TurtleNests"
 

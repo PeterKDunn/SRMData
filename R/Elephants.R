@@ -1,4 +1,4 @@
-#' Elephants
+#' Elephant measurements
 #'
 #' Physical measurements of elephants.
 #' 
@@ -26,7 +26,8 @@
 #' Sex‐specific body mass ageing trajectories in adult Asian elephants. 
 #' \emph{Journal of Evolutionary Biology}, \bold{35}(5), 752--762.
 #' 
-#' @usage data(Elephants)
+#' @usage 
+#' data(Elephants)
 
 "Elephants"
 

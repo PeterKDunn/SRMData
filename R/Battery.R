@@ -13,10 +13,12 @@
 #'   \item{Time}{The time taken for 1.5V battery to reduce to the given voltage, in hours}
 #'   \item{Battery}{Which battery in the sequence}
 #' }
-#' @source Dunn, Peter K. 2013. Comparing the Lifetimes of Two Brands of Batteries. 
+#' @source 
+#' Dunn, Peter K. 2013. Comparing the Lifetimes of Two Brands of Batteries. 
 #' \emph{Journal of Statistical Education}, \bold{21} (1).
 #' 
-#' @usage data(Battery)
+#' @usage 
+#' data(Battery)
 
 "Battery"
 

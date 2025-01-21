@@ -1,4 +1,4 @@
-#' BoneQuality
+#' Bone quality in South Koreans
 #'
 #' Bone mass density of South Korean subjects, at three body locations.
 #' 
@@ -29,7 +29,8 @@
 #' \emph{PLOS One}, \bold{17}(1), e0260924.
 
 #' 
-#' @usage data(BoneQuality)
+#' @usage 
+#' data(BoneQuality)
 
 "BoneQuality"
 

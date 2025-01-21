@@ -1,4 +1,4 @@
-#' Sanddollars
+#' Sand dollars
 #'
 #' Details about reproduction of sand dollars
 #' 
@@ -13,7 +13,9 @@
 #'   \item{SD.speeds}{Sperm swimming velocities, in micrometres per second}
 #'   \item{SD.motility}{Sperm motility}
 #' }
-#' @source Leuchtenberger, Sara Grace, Maris Daleo, Peter Gullickson, Andi Delgado, Carly Lo, andMichael T. Nishizaki. 2022. 
+#' 
+#' @source 
+#' Leuchtenberger, Sara Grace, Maris Daleo, Peter Gullickson, Andi Delgado, Carly Lo, andMichael T. Nishizaki. 2022. 
 #' The Effects of Temperature and pH on the Reproductive Ecology of Sand Dollars and Sea Urchins: Impacts on Sperm Swimming and Fertilization. 
 #' \emph{PLoS One} \bold{17} (12): e0276134
 #' 
@@ -21,6 +23,7 @@
 #' Nishizaki, Michael T., Sara Grace Leuchtenberger, Maris Daleo, Peter Gullickson, Andi Delgado, and Carly Lo. 2022. 
 #' Echinoderm Sperm Swimming and Fertilization. \emph{Dryad}. <https://doi.org/10.5061/dryad.jwstqjqbz>
 #' 
-#' @usage data(Sanddollars)
+#' @usage 
+#' data(Sanddollars)
 
 "Sanddollars"

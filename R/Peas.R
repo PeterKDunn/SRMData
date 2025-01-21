@@ -1,4 +1,4 @@
-#' Peas
+#' Pea nutrition
 #'
 #' Nutritional content of peas.
 #' 
@@ -20,11 +20,13 @@
 #'   \item{B}{The boron content, in mg/g}
 #'   \item{Mn}{The manganese content, in mg/g}
 #' }
-#' @source Hacisalihoglu, Gokhan, Nicole S. Beisel, and A.Mark Settles. 2021.
+#' @source 
+#' Hacisalihoglu, Gokhan, Nicole S. Beisel, and A.Mark Settles. 2021.
 #' Characterization of Pea Seed Nutritional Value Within a Diverse Population of Pisum Sativum.
 #' \emph{PLoS One} \bold{16} (11): e0259565.
 #' 
-#' @usage data(Peas)
+#' @usage 
+#' data(Peas)
 
 "Peas"
 

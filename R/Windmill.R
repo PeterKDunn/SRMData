@@ -1,6 +1,6 @@
-#' Windmill
+#' Windmill and current
 #'
-#' The amount of direct current (dc) output from windmills for varying wind velocities.
+#' The amount of direct current (DC) output from windmills for varying wind velocities.
 #' 
 #' @docType data
 #' 
@@ -13,7 +13,7 @@
 #' }
 #' 
 #' @source G. Joglekar, J. H. Schuenemeyer and V. LaRicca (1989) Lack-of-fit testing when replicates are not available. 
-#' \emph{American Statistician}, \bold{43}, 135–143.
+#' \emph{American Statistician}, \bold{43}, 135--143.
 #' 
 #' @references 
 #' D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway, and E. Ostrowski (1994). 
@@ -22,7 +22,8 @@
 #' D. C. Montgomery and E. A. Peck (1982).
 #' \emph{Introduction to Linear Regression Analysis}. New York: John Wiley.
 #'  
-#' @usage data(Windmill)
+#' @usage 
+#' data(Windmill)
 
 "Windmill"
 

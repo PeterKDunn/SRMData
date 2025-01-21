@@ -1,4 +1,4 @@
-#' IgE
+#' IgE concentrations
 #'
 #' IgE concentration before and after intervention.
 #' 
@@ -18,7 +18,8 @@
 #' \emph{International Journal of Food Science and Nutrition},
 #' \bold{57} (3/4), 204--211.
 #' 
-#' @usage data(IgE)
+#' @usage 
+#' data(IgE)
 
 "IgE"
 

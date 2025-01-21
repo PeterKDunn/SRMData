@@ -1,4 +1,4 @@
-#' DogWalks
+#' Dog walks
 #' 
 #' Dog walking in the city and country.
 #' 
@@ -13,14 +13,16 @@
 #'   \item{Counts}{The number of dogs in each cell}
 #' }
 #' 
-#' @details The data provide the number of dogs being walked for given times, in the city and country.
+#' @details 
+#' The data provide the number of dogs being walked for given times, in the city and country.
 #' 
 #' @source 
-#'  Naughton, Violetta, Teresa Grzelak, and Patrick J. Naughton. (2024). 
-#'  "Association Between Household Lo-cation (Urban Versus Rural) and Fundamental Care Provided to Domestic Dogs (Canis Familiaris) in Northern Ireland.” 
-#'  In \emph{Nutrition and Metabolism of Dogs and Cats}, 217--236. Springer.
+#' Naughton, Violetta, Teresa Grzelak, and Patrick J. Naughton. (2024). 
+#' "Association Between Household Lo-cation (Urban Versus Rural) and Fundamental Care Provided to Domestic Dogs (Canis Familiaris) in Northern Ireland.” 
+#' In \emph{Nutrition and Metabolism of Dogs and Cats}, 217--236. Springer.
 #' 
-#' @usage data(DogWalks)
+#' @usage 
+#' data(DogWalks)
 
 "DogWalks"
 
