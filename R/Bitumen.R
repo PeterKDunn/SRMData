@@ -1,4 +1,4 @@
-#' Bitumen
+#' Bitumen content
 #'
 #' Relationship between bitumen content and percentage air voids.
 #' 
@@ -11,11 +11,13 @@
 #'   \item{Bitumen}{The bitumen content (by percentage weight) in the bitumen sample}
 #'   \item{AirVoids}{The percentage of air voids, by volume}
 #' }
-#' @source Panda, R. P., Sudhanshu Sekhar Das, and P. K. Sahoo. 2018. 
+#' @source 
+#' Panda, R. P., Sudhanshu Sekhar Das, and P. K. Sahoo. 2018. 
 #' Relation Between Bitumen Content and Percentage Air Voids in Semi Dense Bituminous Concrete.
 #' \emph{Journal of The Institution of Engineers (India): Series A} \bold{99} (2): 327--32.
 #' 
-#' @usage data(Bitumen)
+#' @usage 
+#' data(Bitumen)
 
 "Bitumen"
 

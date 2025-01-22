@@ -1,4 +1,4 @@
-#' EVpurchase
+#' EV purchasing
 #'
 #' Details of people regarding the purchase of an EV.
 #' 
@@ -13,12 +13,11 @@
 #'   \item{Counts}{The number of respondents in the given cell}
 #' }
 #' @source 
-#' 
-#' 
 #' Egbue, Ona and Long, Suzanna (2012).
 #' Barriers to widespread adoption of electric vehicles: An analysis of consumer attitudes and perceptions.
 #' \emph{Energy Policy}, \bold{48}, 717--729.
-#' @usage data(EVpurchase)
+#' 
+#' @usage 
+#' data(EVpurchase)
 
 "EVpurchase"
-

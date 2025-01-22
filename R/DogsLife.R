@@ -1,4 +1,4 @@
-#' DogsLife
+#' Lifespan of dogs
 #'
 #' The average weight of dog breeds, and the average lifespan of dog breeds, using over 50 individuals for each breed.
 #' 
@@ -17,7 +17,7 @@
 #' 
 #' @details
 #' The original data list many more breeds, but these are (as best as I can determine)
-#'  those based on at least 50 individuals, as noted in the original article.
+#' those based on at least 50 individuals, as noted in the original article.
 #' 
 #' @source 
 #' da Silva, Jack and Cross, Bethany (2022).
@@ -29,7 +29,7 @@
 #' Dog life spans and the evolution of aging. 
 #' \emph{The American Naturalist}, \bold{201}(6), E140--E152.
 #' 
-#' @usage data(DogsLife)
+#' @usage 
+#' data(DogsLife)
 
 "DogsLife"
-

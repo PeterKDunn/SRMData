@@ -1,4 +1,4 @@
-#' Soils
+#' Soil properties
 #'
 #' Properties of soil and the California Bearing Ratio.
 #' 
@@ -15,10 +15,12 @@
 #'   \item{PI}{Plasticity index (PI, a measure of the plasticity of the soil}
 #'   \item{CBR}{The California Bearing Ratio, a measure of flexibility, in percentage}
 #' }
-#' @source Talukdar, Dilip Kumar. 2014. 
+#' @source 
+#' Talukdar, Dilip Kumar. 2014. 
 #' A Study of Correlation Between California Bearing Ratio (CBR) Value with Other Properties of Soil.
 #' \emph{International Journal of Emerging Technology and Advanced Engineering} \bold{4} (1): 559--62
 #' 
-#' @usage data(Soils)
+#' @usage 
+#' data(Soils)
 
 "Soils"

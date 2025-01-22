@@ -1,4 +1,4 @@
-#' WaterAccess
+#' Water access
 #'
 #' Water access for households in West Cameroon.
 #' 
@@ -6,7 +6,7 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 150 rows (15 participants by 10 reps each) and 3 columns:
+#' @format A data frame with 150 rows (15 participants by 10 reps each) and 12 columns:
 #' \describe{
 #'   \item{Region}{The region; one of \code{Mbeng}, \code{Mbih} or \code{Ntsingbeu}}
 #'   \item{Age}{The age of the woman in the household, in years}
@@ -27,7 +27,7 @@
 #' \emph{PLOS Water}, \bold{1}(8), e0000029.
 #' 
 #' 
-#' @usage data(WaterAccess)
+#' @usage 
+#' data(WaterAccess)
 
 "WaterAccess"
-

@@ -1,4 +1,4 @@
-#' Running
+#' Running data
 #'
 #' The reliability vertical oscillation measurements in wearable devices for running.
 #' 
@@ -6,7 +6,7 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 150 rows (15 participants by 10 reps each) and 3 columns:
+#' @format A data frame with 150 rows (15 participants by 10 reps each) and 8 columns:
 #' \describe{
 #'   \item{ID}{The particiapnt ID}
 #'   \item{Trial}{Which trial; one of \code{1} to \code{5}}
@@ -17,6 +17,7 @@
 #'   \item{Footpod}{The VO as measured by the Stryd Running Power Meter Footpod (Footpod), in cm}
 #'   \item{Video}{The VO as measured by video analysis, in cm}
 #' }
+#' 
 #' @source From Tables 1 and 5 of:
 #' 
 #'   Smith, Craig P. and Fullerton, Elliott and Walton, Liam and Funnell, Emelia and Pantazis, Dimitrios and Lugo, Heinz (2022).
@@ -24,7 +25,7 @@
 #'   \emph{Plos One}, 17 (11), p. e0277810.
 #' 
 #' 
-#' @usage data(Running)
+#' @usage 
+#' data(Running)
 
 "Running"
-

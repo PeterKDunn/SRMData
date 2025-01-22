@@ -1,4 +1,4 @@
-#' ReactionTime
+#' Reaction times when driving
 #'
 #' Reaction times when driving, when using and not using a mobile phone.
 #'  
@@ -20,6 +20,7 @@
 #' Driven to Distraction: Dual-Task Studies of Simulated Driving and Conversing on a Cellular Telephone. 
 #' \emph{Psychological Science} \bold{12} (6):462--66
 #' 
-#' @usage data(ReactionTime)
+#' @usage 
+#' data(ReactionTime)
 
 "ReactionTime"

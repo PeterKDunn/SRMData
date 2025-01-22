@@ -1,4 +1,4 @@
-#' Orthoses
+#' Orthoses for children
 #'
 #' Details of children fitted with orthoses.
 #' 
@@ -20,6 +20,7 @@
 #' "The Influence of the Use of Ankle-Foot Orthoses on Thorax, Spine, and Pelvis Kinematics During Walking in Children with Cerebral Palsy".
 #' \emph{Prosthetics and Orthotics International}. \bold{42}(2), 208--213. 
 #' 
-#' @usage data(Orthoses)
+#' @usage 
+#' data(Orthoses)
 
 "Orthoses"

@@ -1,4 +1,4 @@
-#' PremierL
+#' Premier league results
 #'
 #' Premier League football (soccer) results from 2019 to 2020.
 #' 
@@ -15,8 +15,10 @@
 #'   \item{AwayGoals}{The number of goals scored by the away team}
 #'   \item{Result}{The reuslt, one of `H` for the home team, `A` for the away team, or `D` for a draw}
 #' }
-#' @source The website https://sports-statistics.com/sports-data/soccer-datasets/
+#' @source 
+#' The website https://sports-statistics.com/sports-data/soccer-datasets/
 #' 
-#' @usage data(PremierL)
+#' @usage 
+#' data(PremierL)
 
 "PremierL"

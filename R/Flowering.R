@@ -1,4 +1,4 @@
-#' Flowering
+#' Flowering shrubs
 #'
 #' First-flowering dates for two shrubs.
 #' 
@@ -13,12 +13,13 @@
 #'   \item{MinTemp}{The minimum June temperature (in degrees C)}
 #'   \item{Altitude}{The altitude (in m)}
 #' }
-#' @source Kettenbach, Jessica A.; Miller-Struttmann, Nicole; Moffett, Zoë; Galen, Candace (2018). 
+#' @source 
+#' Kettenbach, Jessica A.; Miller-Struttmann, Nicole; Moffett, Zoë; Galen, Candace (2018). 
 #' Data from: How shrub encroachment under climate change could threaten pollination services for alpine wildflowers: a case study using the alpine skypilot, Polemonium viscosum [Dataset]. 
 #' Dryad. https://doi.org/10.5061/dryad.2p2bh
 #' 
 #' 
-#' @usage data(Flowering)
+#' @usage 
+#' data(Flowering)
 
 "Flowering"
-

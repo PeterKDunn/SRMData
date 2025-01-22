@@ -1,4 +1,4 @@
-#' Perm
+#' Permeability of building materials
 #'
 #' The permeability of building materials.
 #' 
@@ -13,13 +13,15 @@
 #'   \item{Perm}{The permeability of the sample, in seconds}
 #' }
 #' 
-#' @source Bent Joergensen (1992) Exponential dispersion models and extensions: A review. 
-#' \emph{International Statistical Review}, \bold{60}(1), 5–20
+#' @source 
+#' Bent Joergensen (1992) Exponential dispersion models and extensions: A review. 
+#' \emph{International Statistical Review}, \bold{60}(1), 5--20
 #' 
-#' @references A. Hald (1952).
+#' @references 
+#' A. Hald (1952).
 #' \emph{Statistical theory with engineering applications}. New York: Wiley.
 #'  
-#' @usage data(Perm)
+#' @usage 
+#' data(Perm)
 
 "Perm"
-

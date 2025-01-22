@@ -1,4 +1,4 @@
-#' YieldDen
+#' Yield of onions
 #'
 #' The mean yields per plant for three onion varieties.
 #' 
@@ -13,10 +13,11 @@
 #'   \item{Var}{The variety; one of \code{1}. \code{2} or \code{3}}
 #' }
 #' 
-#' @source R. Mead (1970). Plant density and crop yield. 
-#' \emph{Applied Statistics}, \bold{19}(1), 64–81.
+#' @source 
+#' R. Mead (1970). Plant density and crop yield. 
+#' \emph{Applied Statistics}, \bold{19}(1), 64--81.
 #' 
-#' @usage data(YieldDen)
+#' @usage 
+#' data(YieldDen)
 
 "YieldDen"
-

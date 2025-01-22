@@ -1,4 +1,4 @@
-#' Typing
+#' Typing speeds
 #'
 #' Typing speeds and accuracy.
 #'
@@ -28,7 +28,7 @@
 #' https://doi.org/10.1186/s41235-022-00424-3.
 
 #' 
-#' @usage data(Typing)
+#' @usage 
+#' data(Typing)
 
 "Typing"
-

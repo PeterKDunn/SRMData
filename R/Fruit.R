@@ -1,4 +1,4 @@
-#' Fruit
+#' Fruit statistics from farms
 #'
 #' Details of fruit from different farms.
 #' 
@@ -6,7 +6,7 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 37 rows (one per person) and 8 columns:
+#' @format A data frame with 37 rows (one per person) and 11 columns:
 #' \describe{
 #'   \item{Farm}{The farm identifier}
 #'   \item{Flowers2014}{The number of flowers in 2014}
@@ -20,11 +20,18 @@
 #'   \item{FWeight2014}{The fruit weight (in g) in 2014}
 #'   \item{FWeight2015}{The fruit weight (in g) in 2015}
 #' }
-#' @source Mukherjee, Ronita; Deb, Rittik; Devy, Soubadra (2020). 
-#' Data from: Diversity matters: effects of density compensation in pollination service during rainfall shift [Dataset]. 
-#' Dryad. https://doi.org/10.5061/dryad.0n5v168
+#' @source 
+#' Ronita Mukherjee, Rittik Deb and Soubadra Devy (2020).
+#' Diversity matters: effects of density compensation in pollination service during rainfall shift [Dataset]. 
+#' Dryad. 
+#' https://doi.org/10.5061/dryad.0n5v168
 #' 
-#' @usage data(Fruit)
+#' @references
+#' Mukherjee, Ronita; Deb, Rittik; Devy, Soubadra (2020). 
+#' Diversity matters: Effects of density compensation in pollination service during rainfall shift
+#' \emph{Ecology and Evolution}, \bold{9}(17), 9701--9711.
+#' 
+#' @usage 
+#' data(Fruit)
 
 "Fruit"
-

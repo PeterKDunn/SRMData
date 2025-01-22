@@ -1,4 +1,4 @@
-#' Burros
+#' The health of burros
 #' 
 #' The health of females burros in the Mojave Desert.
 #' 
@@ -13,14 +13,15 @@
 #'   \item{Counts}{The number of female burros in each cell}
 #' }
 #' 
-#' @details The data provide the number of female burros of given health and reproductive status.
+#' @details 
+#' The data provide the number of female burros of given health and reproductive status.
 #' 
 #' @source 
 #' Johnson, R. A., Carothers, S. W., & McGill, T. J. (1987). 
 #' Demography of feral burros in the Mohave Desert. 
 #' \emph{The Journal of Wildlife Management}, \bold{51}(4), 916--920.
 #' 
-#' @usage data(Burros)
+#' @usage 
+#' data(Burros)
 
 "Burros"
-

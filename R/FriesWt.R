@@ -1,4 +1,4 @@
-#' FriesWt
+#' McDonald's fries
 #'
 #' The weights of McDonald's large fries.
 #' 
@@ -17,7 +17,7 @@
 #'  "McDonald's french fries: Would you like small or large fries?"
 #'  \emph{STATS}, \bold{43}, 12--14.
 #' 
-#' @usage data(FriesWt)
+#' @usage 
+#' data(FriesWt)
 
 "FriesWt"
-

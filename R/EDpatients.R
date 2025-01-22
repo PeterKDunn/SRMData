@@ -1,6 +1,6 @@
-#' EDpatients
+#' ED patients and welfare
 #'
-#' Welfare distribution and emergency department patients.
+#' Welfare distribution and emergency department (ED) patients.
 #' 
 #' @docType data
 #' 
@@ -11,12 +11,13 @@
 #'   \item{Days}{The number of days after welfare distribution}
 #'   \item{ED}{The mean number of emergency department (ED) patients}
 #' }
-#' @source Data read from the scatterplot in 
+#' @source 
+#' Data read from the scatterplot in 
 #' Brunette, Douglas D., John Kominsky, and Ernest Ruiz. 1991. 
 #' Correlation of Emergency Health Care Use, 911 Volume, and Jail Activity with Welfare Check Distribution.
 #' \emph{Annals of Emergency Medicine} \bold{20} (7): 739--42.
 #' 
-#' @usage data(EDpatients)
+#' @usage 
+#' data(EDpatients)
 
 "EDpatients"
-

@@ -1,4 +1,4 @@
-#' Gorillas
+#' Chest-beating rates in gorillas
 #'
 #' Chest-beating rates in Gorillas.
 #' 
@@ -16,11 +16,12 @@
 #'   \item{Age}{Mean age during the study period, in years}
 #'   \item{Age20}{Whether the gorillas is aged under 20 or not; one of \code{Younger} or \code{Older}}
 #' }
-#' @source Wright, Edward, Sven Grawunder, Eric Ndayishimiye, Jordi Galbany, Shannon C.McFarlin, Tara S. Stoinski, and Martha M. Robbins. 2021. 
+#' @source 
+#' Wright, Edward, Sven Grawunder, Eric Ndayishimiye, Jordi Galbany, Shannon C.McFarlin, Tara S. Stoinski, and Martha M. Robbins. 2021. 
 #' Chest Beats as an Honest Signal of Body Size in Male Mountain Gorillas (Gorilla Beringei Beringei). 
 #' \emph{Scientific Reports} \bold{11} (1): 6879.
 #' 
-#' @usage data(Gorillas)
+#' @usage 
+#' data(Gorillas)
 
 "Gorillas"
-

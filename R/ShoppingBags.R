@@ -1,4 +1,4 @@
-#' ShoppingBags
+#' Shopping bags
 #'
 #' Age of people, and whether they bring their own shopping bags.
 #' 
@@ -17,8 +17,7 @@
 #' The perception of households about solid waste management issues in Malaysia. 
 #' \emph{Environment, Development and Sustainability}, \bold{19}, 1685--1700.
 #' 
-#' 
-#' @usage data(ShoppingBags)
+#' @usage 
+#' data(ShoppingBags)
 
 "ShoppingBags"
-

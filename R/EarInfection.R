@@ -1,6 +1,6 @@
-#' EarInfection
+#' Ear infections in Sydney
 #'
-#' Ear infections on a Sydney beach.
+#' Ear infections for swimmers at a Sydney beach.
 #' 
 #' @docType data
 #' 
@@ -20,10 +20,11 @@
 #' D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway, and E. Ostrowski (1994) 
 #' A Handbook of Small Data Sets, London: Chapman and Hall. Dataset 328.
 #' 
-#' @source James K. Lindsey (1995).
+#' @source 
+#' James K. Lindsey (1995).
 #' This data file was downloaded from OzDASL (http://www.statsci.org/data/oz/earinf.html) where it was prepared by Dr Gordon Smyth from Hand et al (1994) Dataset 328.
 #' 
-#' @usage data(EarInfection)
+#' @usage 
+#' data(EarInfection)
 
 "EarInfection"
-

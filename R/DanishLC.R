@@ -1,4 +1,4 @@
-#' DanishLC
+#' Danish lung cancer cases
 #'
 #' The number of cases of lung cancer in four Danish cities.
 #' 
@@ -14,16 +14,15 @@
 #'   \item{City}{The city; one of \code{Fredericia}, \code{Horsens}, \code{Kolding} or \code{Vejle}}
 #' }
 #' 
-#' @references The original source is: E. B. Andersen (1977) \
+#' @references 
+#' E. B. Andersen (1977).
 #' Multiplicative Poisson models with unequal cell rates.
-#' \emph{Scandinavian Journal of Statistics}, \bold{4}, 153–158.
+#' \emph{Scandinavian Journal of Statistics}, \bold{4}, 153--158.
 #' 
 #' @source James K. Lindsey (1995).
 #' \emph{Modelling frequency and count data}. Clarendon Press, page 157.
-
-
 #' 
-#' @usage data(DanishLC)
+#' @usage 
+#' data(DanishLC)
 
 "DanishLC"
-

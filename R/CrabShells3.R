@@ -1,4 +1,4 @@
-#' CrabShells3
+#' Crab shells and anemones (3x3)
 #' 
 #' The placement of anemones on their shells by hermit crabs.
 #' 
@@ -13,7 +13,8 @@
 #'   \item{Counts}{The number of anemones in the indicated sector on the shell}
 #' }
 #' 
-#' @details The data provide the number of anemones placed on their shell by hermit crabs in indicated regions.
+#' @details
+#' The data provide the number of anemones placed on their shell by hermit crabs in indicated regions.
 #' Roughly, the shells are divided into a $3$ x $3$ grid of approximately equal areas.
 #' 
 #' @source 
@@ -21,7 +22,8 @@
 #' Hermit crabs alter sea anemone placement patterns for shell balance and reduced predation. 
 #' \emph{Journal of Experimental Marine Biology and Ecology}, \bold{132}(2), 109--121.
 #' 
-#' @usage data(CrabShells3)
+#' @usage 
+#' data(CrabShells3)
 
 "CrabShells3"
 

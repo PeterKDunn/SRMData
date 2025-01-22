@@ -1,4 +1,4 @@
-#' Mary River stream flow data
+#' Mary River stream flow
 #'
 #' The mean daily stream flow from the Mary River.
 #' 
@@ -6,20 +6,20 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 21,659 rows and 8 columns:
+#' @format A data frame with 21,659 rows and 3 columns:
 #' \describe{
 #'   \item{Month}{The month (where \code{1} means January, etc.}
 #'   \item{Year}{The year}
 #'   \item{Mean}{The mean stream flow recording for given date, in ML}
 #' }
-#' @source The State of Queensland.
+#' @source 
 #' Originally sourced from <http://watermonitoring.dnrm.qld.gov.au/cgi/webhyd.pl?rsdf_org=138110A&cat=rs&lvl=1&0>,
-#' but the actual website keeps changing...
+#' but the actual website address keeps changing...
 #' 
 #' Last time I checked it was <https://water-monitoring.information.qld.gov.au>;
 #' then select "Streamflow data", "Mary Basin" and "Mary River at Bellbird Creek" (i.e., station 138110A).
 #' 
-#' @usage data(MaryRiver)
+#' @usage 
+#' data(MaryRiver)
 
 "MaryRiver"
-

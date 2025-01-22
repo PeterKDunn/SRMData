@@ -1,4 +1,4 @@
-#' LungCap
+#' Lung capacity
 #'
 #' The lung capacity of children.
 #' 
@@ -15,19 +15,18 @@
 #'   \item{Smoke}{Whether the child is a smoker; one of \code{0} (non-smoker) or \code{1} (smoker)}
 #' }
 #' 
-#' @references Kahn, Michael (2005). 
+#' @references 
+#' Kahn, Michael (2005). 
 #' An exhalent problem for teaching statistics. 
 #' \emph{The Journal of Statistical Education}, \bold{13}(2). Available on-line.
 #' 
-#' @source Kahn, M. (2003) Data Sleuth, \emph{STATS}, \bold{37}, 24.
+#' @source 
+#' Kahn, M. (2003) Data Sleuth, \emph{STATS}, \bold{37}, 24.
 #' 
 #' Ira B. Tager, Scott T. Weiss, Alvaro Munoz, Bernard Rosner, and Frank E. Speizer (1983).
 #' Longitudinal study of the effects of maternal smoking on pulmonary function in children. 
-#' \emph{New England Journal of Medicine}, \bold{309}(12):699–703.
-
-
+#' \emph{New England Journal of Medicine}, \bold{309}(12):699--703.
 #' 
 #' @usage data(LungCap)
 
 "LungCap"
-

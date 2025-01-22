@@ -1,4 +1,4 @@
-#' SoilCN
+#' Soil carbon and nitrogen
 #'
 #' Percentage of carbon and nitrogen in irrigated and non-irrigated plots.
 #' 
@@ -13,10 +13,12 @@
 #'   \item{IrrigatedN}{The percentage nitrogen, in a paired irrigated plot}
 #'   \item{NonirrigatedN}{The percentage nitrogen, in a paired non-irrigated plot}
 #' }
-#' @source Lambie, S. M., Mudge, P. L., & Stevenson, B. A. (2021). 
+#' @source 
+#' Lambie, S. M., Mudge, P. L., & Stevenson, B. A. (2021). 
 #' Microbial community composition and activity in paired irrigated and non-irrigated pastures in New Zealand. 
 #' \emph{Soil Research}, \bold{60}(4), 337--348.
 #' 
-#' @usage data(SoilCN)
+#' @usage 
+#' data(SoilCN)
 
 "SoilCN"

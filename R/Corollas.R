@@ -1,6 +1,6 @@
 #' Price of second-hand Corollas
 #'
-#' The price of second-hand Corollas advertised on Gum Tree.
+#' The price of second-hand Corollas advertised on Gum Tree (Australia).
 #' 
 #' @docType data
 #' 
@@ -12,11 +12,10 @@
 #'   \item{Price}{the advertised price, in AUD}
 #'   \item{Age}{the age of the vehicle, in years}
 #' }
-#' @source Collected by Peter K. Dunn, 2014, from www.gumtree.com.au
+#' @source 
+#' Collected by Peter K. Dunn, 2014, from www.gumtree.com.au
 #' 
-#' Peter K. Dunn (2023). \emph{Scientific Research and Methodology: An introduction to quantitative research in science and health}.
-#' 
-#' @usage data(Corollas)
+#' @usage 
+#' data(Corollas)
 
 "Corollas"
-

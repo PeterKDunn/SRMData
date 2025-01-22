@@ -1,10 +1,10 @@
 Package: SRMData
 Type: Package
-Title: Datafiles Supporting "Scientific  Research and Methodology"
-Version: 0.1.0
+Title: Datafiles Supporting "Scientific Research and Methodology" by Peter K. Dunn
+Version: 1.0.0
 Authors@R: c(person("Peter K. Dunn", role = c("aut", "cre"),
                     email = "pdunn2@usc.edu.au") )
-Description: A package that provide most of the data files used in the textbook "Scientific  Research and Methodology".
+Description: A package that provide most of the data files used in the textbook "Scientific Research and Methodology".
 License: GPL (>= 2)
 Imports:
     dplyr (>= 1.1.0),

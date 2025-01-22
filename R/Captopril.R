@@ -1,4 +1,4 @@
-#' Captopril
+#' Captopril effectiveness
 #'
 #' Blood pressure before and after treatment with Captopril.
 #'  
@@ -12,13 +12,17 @@
 #'   \item{After}{The blood pressure after taking captopril, in mm Hg}
 #'   \item{BP}{The type of blood pressure measured; \code{S} for systolic, and \code{D} for diastolic}
 #' }
-#' @source Hand et al. \emph{A Handbook of Small Data Sets}, data set #72.
+#' @source 
+#' D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway, and E. Ostrowski (1994) 
+#' A Handbook of Small Data Sets, London: Chapman and Hall. Dataset 72.
 #' 
-#' Originally from: MacGregor, Graham A., N. D.Markandu, J. E. Roulston, and J. C. Jones. 1979. 
+#' @references
+#' MacGregor, Graham A., N. D.Markandu, J. E. Roulston, and J. C. Jones. 1979. 
 #' Essential Hypertension: Effect of an Oral Inhibitor of Angiotensin-Converting Enzyme.
-#' \emph{British Medical Journal} \bold{2}: 1106--9.
+#' \emph{British Medical Journal} \bold{2}: 1106--1109.
 #' 
-#' @usage data(Captopril)
+#' @usage 
+#' data(Captopril)
 
 "Captopril"
 

@@ -1,4 +1,4 @@
-#' BoneQuality
+#' Bone quality in South Koreans
 #'
 #' Bone mass density of South Korean subjects, at three body locations.
 #' 
@@ -6,7 +6,7 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 1301 rows (one for each student) and 5 columns:
+#' @format A data frame with 1301 rows (one for each student) and 7 columns:
 #' \describe{
 #'   \item{Sex}{The sex of the subject; one of \code{M} (male) or \code{F} (female)}
 #'   \item{Age}{The age of the subject, in years}
@@ -29,7 +29,7 @@
 #' \emph{PLOS One}, \bold{17}(1), e0260924.
 
 #' 
-#' @usage data(BoneQuality)
+#' @usage 
+#' data(BoneQuality)
 
 "BoneQuality"
-
