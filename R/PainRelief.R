@@ -6,7 +6,7 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 912 rows (227 mothers with four rows (\code{Time}) for each) and 8 columns:
+#' @format A data frame with 912 rows (228 mothers with four rows (\code{Time}) for each) and 8 columns:
 #' \describe{
 #'   \item{ID}{The patient ID; a digit from \code{1} to \code{228}}
 #'   \item{Time}{The time point of the measurement; one of \code{1} (0 minutes), \code{2} (after 20 mins), \code{3} (after 40 mins) or \code{4} (after 60 mins)}

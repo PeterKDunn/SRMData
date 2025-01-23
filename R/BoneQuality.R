@@ -6,7 +6,7 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 1301 rows (one for each student) and 7 columns:
+#' @format A data frame with 969 rows (one for each student) and 7 columns:
 #' \describe{
 #'   \item{Sex}{The sex of the subject; one of \code{M} (male) or \code{F} (female)}
 #'   \item{Age}{The age of the subject, in years}
