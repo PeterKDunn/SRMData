@@ -17,7 +17,8 @@
 #' 
 #' @references
 #' The data originally come from: 
-#' Holgate, P. 1965. Fitting a Straight Line to Data from a Truncated Population.
+#' Holgate, P. 1965. Fitting a Straight Line to Data from a 
+#' Truncated Population.
 #' \emph{Biometrics} \bold{21}(3): 715--20
 #' 
 #' @usage 

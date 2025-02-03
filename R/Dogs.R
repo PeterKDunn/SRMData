@@ -15,7 +15,8 @@
 #' }
 #' @source 
 #' Quan, Quoc-Dang, Hoang-Dung Tran, and Anh-Dung Chung. 2017. 
-#' The Relation of Body Score (Body Height/Body Length) and Haplotype E on Phu Quoc Ridgeback Dogs (Canis Familiaris).
+#' The Relation of Body Score (Body Height/Body Length) and 
+#' Haplotype E on Phu Quoc Ridgeback Dogs (Canis Familiaris).
 #' \emph{Journal of Entomology and Zoology Studies} \bold{5}: 388--94
 #' 
 #' @usage 

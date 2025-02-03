@@ -1,6 +1,7 @@
 #' Windmill and current
 #'
-#' The amount of direct current (DC) output from windmills for varying wind velocities.
+#' The amount of direct current (DC) output from windmills for 
+#' varying wind velocities.
 #' 
 #' @docType data
 #' 
@@ -12,7 +13,8 @@
 #'   \item{DC}{The DC output}
 #' }
 #' 
-#' @source G. Joglekar, J. H. Schuenemeyer and V. LaRicca (1989) Lack-of-fit testing when replicates are not available. 
+#' @source G. Joglekar, J. H. Schuenemeyer and V. LaRicca (1989) 
+#' Lack-of-fit testing when replicates are not available. 
 #' \emph{American Statistician}, \bold{43}, 135--143.
 #' 
 #' @references 

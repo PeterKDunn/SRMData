@@ -22,13 +22,15 @@
 #' }
 #' @source 
 #' Ronita Mukherjee, Rittik Deb and Soubadra Devy (2020).
-#' Diversity matters: effects of density compensation in pollination service during rainfall shift [Dataset]. 
+#' Diversity matters: effects of density compensation in 
+#' pollination service during rainfall shift [Dataset]. 
 #' Dryad. 
 #' https://doi.org/10.5061/dryad.0n5v168
 #' 
 #' @references
 #' Mukherjee, Ronita; Deb, Rittik; Devy, Soubadra (2020). 
-#' Diversity matters: Effects of density compensation in pollination service during rainfall shift
+#' Diversity matters: Effects of density compensation in 
+#' pollination service during rainfall shift
 #' \emph{Ecology and Evolution}, \bold{9}(17), 9701--9711.
 #' 
 #' @usage 

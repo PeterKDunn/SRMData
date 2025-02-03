@@ -8,7 +8,9 @@
 #'
 #' @format A data frame with 46 rows (one per jellyfish) and 3 columns:
 #' \describe{
-#'   \item{Location}{the location of the jellyfish; one of \code{Dangar} (Dangar Island) or \code{Salamander} (Salamander Bay)}
+#'   \item{Location}{the location of the jellyfish;
+#'         one of \code{Dangar} (Dangar Island) or 
+#'         \code{Salamander} (Salamander Bay)}
 #'   \item{Width}{the width (breadth) of the jellyfish, in mm}
 #'   \item{Length}{the length of the jellyfish, in mm}
 #' }

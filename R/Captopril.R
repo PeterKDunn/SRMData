@@ -10,7 +10,8 @@
 #' \describe{
 #'   \item{Before}{The blood pressure before taking captopril, in mm Hg}
 #'   \item{After}{The blood pressure after taking captopril, in mm Hg}
-#'   \item{BP}{The type of blood pressure measured; \code{S} for systolic, and \code{D} for diastolic}
+#'   \item{BP}{The type of blood pressure measured; 
+#'         \code{S} for systolic, and \code{D} for diastolic}
 #' }
 #' @source 
 #' D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway, and E. Ostrowski (1994) 
@@ -18,7 +19,8 @@
 #' 
 #' @references
 #' MacGregor, Graham A., N. D.Markandu, J. E. Roulston, and J. C. Jones. 1979. 
-#' Essential Hypertension: Effect of an Oral Inhibitor of Angiotensin-Converting Enzyme.
+#' Essential Hypertension: Effect of an Oral Inhibitor of 
+#' Angiotensin-Converting Enzyme.
 #' \emph{British Medical Journal} \bold{2}: 1106--1109.
 #' 
 #' @usage 

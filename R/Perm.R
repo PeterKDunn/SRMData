@@ -14,7 +14,8 @@
 #' }
 #' 
 #' @source 
-#' Bent Joergensen (1992) Exponential dispersion models and extensions: A review. 
+#' Bent Joergensen (1992) Exponential dispersion models and extensions: 
+#' A review. 
 #' \emph{International Statistical Review}, \bold{60}(1), 5--20
 #' 
 #' @references 

@@ -13,13 +13,15 @@
 #' }
 #' @source 
 #' Exercise 12.109 in 
-#' Devore, Jay L., and Kenneth N. Berk. 2007. \emph{Modern Mathematical Statistics with Applications}.
+#' Devore, Jay L., and Kenneth N. Berk. 2007. 
+#' \emph{Modern Mathematical Statistics with Applications}.
 #' Thomson Higher Education
 #' 
 #' @references 
 #' The data originally come from: 
 #' Chitwood, Derek E., and Joseph S. Devinny. 2001. 
-#' Treatment of Mixed Hydrogen Sulfide and Organic Vapors in a Rock Medium Biofilter. 
+#' Treatment of Mixed Hydrogen Sulfide and Organic Vapors 
+#' in a Rock Medium Biofilter. 
 #' \emph{Water Environment Research} \bold{73} (4): 426--35.
 #' 
 #' @usage 

@@ -6,7 +6,8 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 16 rows (each combination of the other variables) and 4 columns:
+#' @format A data frame with 16 rows (each combination of the other variables)
+#'  and 4 columns:
 #' \describe{
 #'   \item{TotalWeight}{The weight of the wrapper bar, in g}
 #'   \item{WrapperWt}{The weight of the wrapper only, in g}
@@ -15,13 +16,16 @@
 #' }
 #' 
 #' @details
-#' The Cherry Ripe chocolate bars were weighted as an in-class activity, usually by weighing the bar+wrapper, and then the wrapper (for hygiene reasons) on a set of scales.
+#' The Cherry Ripe chocolate bars were weighted as an in-class activity, 
+#' usually by weighing the bar+wrapper, and then the wrapper 
+#' (for hygiene reasons) on a set of scales.
 #' The bars were in a Fun Size pack, of about 11 bars.
 #' Until 2015, the weights were listed in the nutrition panel as 18g.
 #' After 2015, this changed to 14g.
 #' 
 #' @source 
-#' Collected and weighed by Peter K. Dunn and students.
+#' Collected and weighed by Peter K. Dunn and students (who got to eat the
+#' chocolate bars).
 #' 
 #' @usage data(CherryRipe)
 

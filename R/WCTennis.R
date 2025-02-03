@@ -1,6 +1,7 @@
 #' Wheelchair tennis
 #'
-#' The push-time for wheelchair tennis players, with and without holding a racquet.
+#' The push-time for wheelchair tennis players, 
+#' with and without holding a racquet.
 #' 
 #' 
 #' @docType data
@@ -16,13 +17,17 @@
 #' 
 #' @source 
 #' I. Alberca, 2016, 
-#' Kinetic and temporal parameters calculated from raw data collected via wireless instrumented wheel for measuring 3D pushrim kinetics of a racing wheelchair,
+#' Kinetic and temporal parameters calculated from raw data collected via 
+#' wireless instrumented wheel for measuring 3D pushrim kinetics of 
+#' a racing wheelchair,
 #'  https://doi.org/10.17026/dans-xjf-bs8v, 
 #'  \emph{DANS Data Station Life Sciences}, V1.
 #'  
 #'  @references
-#' Alberca, I., Chénier, F., Astier, M., Watelain, E., Vallier, J. M., Pradon, D., & Faupin, A. (2022). 
-#' Sprint performance and force application of tennis players during manual wheelchair propulsion with and without holding a tennis racket. 
+#' Alberca, I., Chénier, F., Astier, M., Watelain, E., Vallier, J. M., 
+#' Pradon, D., & Faupin, A. (2022). 
+#' Sprint performance and force application of tennis players during manual
+#'  wheelchair propulsion with and without holding a tennis racket. 
 #' \emph{PLoS ONE}, \bold{17}(2), e0263392.
 #' 
 #' 

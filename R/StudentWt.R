@@ -14,7 +14,8 @@
 #'   \item{GainWt}{The student's weight gain, in kg}
 #' }
 #' @source 
-#' David. n.d. DASL: Data and Story Library. <https://dasl.datadescription.com/datafile/freshman-15/>
+#' David. n.d. DASL: Data and Story Library. 
+#' <https://dasl.datadescription.com/datafile/freshman-15/>
 #' 
 #' @references
 #' Levitsky, D. A., Halbmaier, C. A., & Mrdjenovic, G. (2004).

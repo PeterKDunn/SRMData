@@ -16,7 +16,9 @@
 #' A Handbook of Small Data Sets, London: Chapman and Hall. Dataset 86.
 #' 
 #' @references
-#' Originally from: The Open University. 1983. \emph{MDST242 Statistics in Society, Unit A0: Introduction.} The Open University.
+#' Originally from: The Open University. 1983. 
+#' \emph{MDST242 Statistics in Society, Unit A0: Introduction.} 
+#' The Open University.
 #' 
 #' @usage 
 #' data(Insulation)

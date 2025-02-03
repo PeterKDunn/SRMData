@@ -13,7 +13,8 @@
 #' }
 #' @source 
 #' Hébert-Losier, K., Boswell-Smith, C., & Hanzlíková, I. (2023). 
-#' Effect of Footwear Versus Barefoot on Double-Leg Jump-Landing and Jump Height Measures: A Randomized Cross-Over Study. 
+#' Effect of Footwear Versus Barefoot on Double-Leg Jump-Landing and 
+#' Jump Height Measures: A Randomized Cross-Over Study. 
 #' \emph{International Journal of Sports Physical Therapy}, \bold{18}(4), 845.
 #' 
 #' 

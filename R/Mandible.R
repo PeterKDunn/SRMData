@@ -1,6 +1,7 @@
 #' Mandible lengths
 #'
-#' The mandible length and gestational age for 167 foetuses from the 12th week of gestation onwards
+#' The mandible length and gestational age for 167 foetuses from the 
+#' 12th week of gestation onwards
 #' 
 #' @docType data
 #' 
@@ -14,7 +15,8 @@
 #' 
 #' @source 
 #' Patrick Royston and Douglas G. Altman (1994).
-#' Regression using fractional polynomials of continuous covariates: Parsimonious parametric modelling. 
+#' Regression using fractional polynomials of continuous covariates: 
+#' Parsimonious parametric modelling. 
 #' \emph{Applied Statistics}, \bold{43}(3), 429--467.
 #'  
 #' @usage 

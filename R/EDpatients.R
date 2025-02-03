@@ -14,7 +14,8 @@
 #' @source 
 #' Data read from the scatterplot in 
 #' Brunette, Douglas D., John Kominsky, and Ernest Ruiz. 1991. 
-#' Correlation of Emergency Health Care Use, 911 Volume, and Jail Activity with Welfare Check Distribution.
+#' Correlation of Emergency Health Care Use, 911 Volume, 
+#' and Jail Activity with Welfare Check Distribution.
 #' \emph{Annals of Emergency Medicine} \bold{20} (7): 739--42.
 #' 
 #' @usage 

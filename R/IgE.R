@@ -14,7 +14,8 @@
 #' }
 #' @source 
 #' Lothian, James B. and Grey, Vijaylaxmi  and Lands, Larry C.  (2006).
-#' "Effect of whey protein to modulate immune response in children with atopic asthma",
+#' "Effect of whey protein to modulate immune response in children 
+#' with atopic asthma",
 #' \emph{International Journal of Food Science and Nutrition},
 #' \bold{57} (3/4), 204--211.
 #' 

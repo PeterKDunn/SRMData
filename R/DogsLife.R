@@ -1,6 +1,7 @@
 #' Lifespan of dogs
 #'
-#' The average weight of dog breeds, and the average lifespan of dog breeds, using over 50 individuals for each breed.
+#' The average weight of dog breeds, and the average lifespan of dog breeds, 
+#' using over 50 individuals for each breed.
 #' 
 #' @docType data
 #' 
@@ -16,7 +17,8 @@
 #' }
 #' 
 #' @details
-#' The original data list many more breeds, but these are (as best as I can determine)
+#' The original data list many more breeds, but these are 
+#' (as best as I can determine)
 #' those based on at least 50 individuals, as noted in the original article.
 #' 
 #' @source 

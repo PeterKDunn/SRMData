@@ -22,9 +22,11 @@
 #' https://osf.io/v92fy/files/osfstorage?view_only=87885752038b4be190d532143fdedb07
 #' 
 #' @references
-#' Pinet, Svetlana, Christelle Zielinski, F.-Xavier Alario, and Marieke Longcamp. 
+#' Pinet, Svetlana, Christelle Zielinski, F.-Xavier Alario,
+#'  and Marieke Longcamp. 
 #' Typing Expertise in a Large Student Population.
-#' \emph{Cognitive Research: Principles and Implications} \bold{7}, no. 1 (August 5, 2022): 77. 
+#' \emph{Cognitive Research: Principles and Implications} 
+#' \bold{7}, no. 1 (August 5, 2022): 77. 
 #' https://doi.org/10.1186/s41235-022-00424-3.
 
 #' 

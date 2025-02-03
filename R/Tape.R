@@ -9,7 +9,8 @@
 #' @format A data frame with 16 individuals having 18 observations:
 #' \describe{
 #'   \item{Age}{The age of the participant, in years}
-#'   \item{Sex}{The sex of the participant; one of \code{1} or \code{2}, but what they refer to is unknown}
+#'   \item{Sex}{The sex of the participant; one of \code{1} or \code{2}, 
+#'              but what they refer to is unknown}
 #'   \item{Pre.Left.KT.NoTension}{The pressure pain threshold (PPT) in the left arm, using Kinesio tape (KT), applied without tension: The level of pressure where pain was felt, in kPa}
 #'   \item{Pre.Right.KT.NoTension}{The PPT, in the right arm, using KT, 5 mins before application of KT, applied without tension: The level of pressure where pain was felt, in kPa}
 #'   \item{Post1.Left.KT.NoTension}{The PPT, in the left arm, using KT, 5 mins after application of KT, applied without tension: The level of pressure where pain was felt, in kPa}
@@ -29,7 +30,8 @@
 #' }
 #' @source 
 #' Naugle, K. E., Hackett, J., Aqeel, D., & Naugle, K. M. (2021). 
-#' "Effect of different Kinesio tape tensions on experimentally-induced thermal and muscle pain in healthy adults."
+#' "Effect of different Kinesio tape tensions on experimentally-induced thermal 
+#'  and muscle pain in healthy adults."
 #' \emph{PloS One}, \bold{16}(11), e0259433.
 #' 
 #' @usage 

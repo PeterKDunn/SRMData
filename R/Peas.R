@@ -22,7 +22,8 @@
 #' }
 #' @source 
 #' Hacisalihoglu, Gokhan, Nicole S. Beisel, and A.Mark Settles. 2021.
-#' Characterization of Pea Seed Nutritional Value Within a Diverse Population of Pisum Sativum.
+#' Characterization of Pea Seed Nutritional Value Within a Diverse 
+#' Population of Pisum Sativum.
 #' \emph{PLoS One} \bold{16} (11): e0259565.
 #' 
 #' @usage 

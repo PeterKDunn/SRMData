@@ -14,7 +14,9 @@
 #' }
 #' @source 
 #' Saiphoklang, N., Pugongchai, A., & Leelasittikul, K. (2022). 
-#' Comparison between 20 and 30 meters in walkway length affecting the 6-minute walk test in patients with chronic obstructive pulmonary disease: A randomized crossover study. 
+#' Comparison between 20 and 30 meters in walkway length affecting the 6-minute 
+#' walk test in patients with chronic obstructive pulmonary disease: 
+#' A randomized crossover study. 
 #' \emph{Plos One}, \bold{17}(1), e0262238.
 #' 
 #' @usage 

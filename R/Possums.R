@@ -13,8 +13,10 @@
 #'   \item{DEM}{The elevation, in m, where the possum is found}
 #' }
 #' @source 
-#' Williams, Jessica L., Dan Harley, Darcy Watchorn, Lachlan McBurney, and David B. Lindenmayer. 2022.
-#' Relationship Between Body Weight and Elevation in Leadbeater's Possum (Gymnobelideus Leadbeateri).
+#' Williams, Jessica L., Dan Harley, Darcy Watchorn, Lachlan McBurney, 
+#' and David B. Lindenmayer. 2022.
+#' Relationship Between Body Weight and Elevation in Leadbeater's Possum 
+#' (Gymnobelideus Leadbeateri).
 #' \emph{Australian Journal of Zoology} \bold{69} (5): 167--74
 #' 
 #' @usage data(Possums)
