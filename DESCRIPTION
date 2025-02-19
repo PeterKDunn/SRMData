@@ -8,6 +8,7 @@ Author: Peter K. Dunn [aut, cre]
 Maintainer: Peter K. Dunn <pdunn2@usc.edu.au>
 Description: Provide most of the data files used in the textbook "Scientific Research and Methodology".
 License: GPL (>= 2)
+Language: en-GB
 Encoding: UTF-8
 LazyData: false
 Depends: 
