@@ -16,8 +16,7 @@
 #'   \item{Altitude}{The altitude (in m)}
 #' }
 #' @source 
-#' Kettenbach, Jessica A.; Miller-Struttmann, Nicole; Moffett, Zoë; 
-#' Galen, Candace (2018). 
+#' Kettenbach, Jessica A.; Miller-Struttmann, Nicole; Moffett, Zoë; Galen, Candace (2018). 
 #' Data from: How shrub encroachment under climate change could threaten
 #' pollination services for alpine wildflowers: a case study using the 
 #' alpine skypilot, Polemonium viscosum [Dataset]. 

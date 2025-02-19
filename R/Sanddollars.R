@@ -16,8 +16,7 @@
 #' }
 #' 
 #' @source 
-#' Leuchtenberger, Sara Grace, Maris Daleo, Peter Gullickson, Andi Delgado, 
-#' Carly Lo, andMichael T. Nishizaki. 2022. 
+#' Leuchtenberger, Sara Grace, Maris Daleo, Peter Gullickson, Andi Delgado, Carly Lo, and Michael T. Nishizaki. 2022. 
 #' The Effects of Temperature and pH on the Reproductive Ecology of 
 #' Sand Dollars and Sea Urchins: Impacts on Sperm Swimming and Fertilization. 
 #' \emph{PLoS One} \bold{17} (12): e0276134

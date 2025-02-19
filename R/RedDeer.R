@@ -1,4 +1,4 @@
-#' Molar weights of red deers
+#' Molar weights of red deer
 #'
 #' The age and weight of molars in male red deer.
 #' 

@@ -7,11 +7,10 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 31 rows (each foetus) and 2 columns:
+#' @format A data frame with 31 rows (each transect) and 2 columns:
 #' \describe{
 #'   \item{Eucs}{The number of eucalypt trees in the transect}
-#'   \item{Minerab}{The number of noisy miners ('abundance') 
-#'         in three 20 min surveys in each transect}
+#'   \item{Minerab}{The number of noisy miners ('abundance') in three 20 minute surveys in each transect}
 #' }
 #' 
 #' @source 

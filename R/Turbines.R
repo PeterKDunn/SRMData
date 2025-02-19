@@ -9,7 +9,7 @@
 #' @format A data frame with 4 rows and 3 columns:
 #' \describe{
 #'   \item{Hours}{The approximate number of hours run by these turbines}
-#'   \item{Turbines}{The numbert of turbines run 
+#'   \item{Turbines}{The number of turbines run 
 #'         for the indicated number of hours}
 #'   \item{Fissures}{The number of fissure cracks in the turbines}
 #' }

@@ -11,11 +11,11 @@
 #' \describe{
 #'   \item{SBPfirst}{the systolic blood pressure from the first visit, 
 #'         in mm Hg}
-#'   \item{DBPfirst}{the diasystolic blood pressure from the first visit,
+#'   \item{DBPfirst}{the diastolic blood pressure from the first visit,
 #'         in mm Hg}
 #'   \item{SBPsecond}{the systolic blood pressure from the second visit, 
 #'         in mm Hg}
-#'   \item{DBPsecond}{the diatolic blood pressure from the second visit,
+#'   \item{DBPsecond}{the diastolic blood pressure from the second visit,
 #'         in mm Hg}
 #' }
 #' @source 

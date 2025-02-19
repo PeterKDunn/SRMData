@@ -24,8 +24,7 @@
 #'  \emph{DANS Data Station Life Sciences}, V1.
 #'  
 #'  @references
-#' Alberca, I., Chénier, F., Astier, M., Watelain, E., Vallier, J. M., 
-#' Pradon, D., & Faupin, A. (2022). 
+#' Alberca, I., Chénier, F., Astier, M., Watelain, E., Vallier, J. M., Pradon, D., & Faupin, A. (2022). 
 #' Sprint performance and force application of tennis players during manual
 #'  wheelchair propulsion with and without holding a tennis racket. 
 #' \emph{PLoS ONE}, \bold{17}(2), e0263392.

@@ -19,9 +19,7 @@
 #'         one of \code{Severe}, \code{Moderate} or \code{Low}}
 #' }
 #' @source 
-#' de Carvalho, Anderson Albuquerque, Fabio Ferreira Amorim, 
-#' Levy Aniceto Santana, Karlo Jozefo Quadros de Almeida, 
-#' Alfredo Nicodemos Cruz Santana, and Francisco de Assis Rocha Neves. 2020.
+#' de Carvalho, Anderson Albuquerque, Fabio Ferreira Amorim, Levy Aniceto Santana, Karlo Jozefo Quadros de Almeida, Alfredo Nicodemos Cruz Santana, and Francisco de Assis Rocha Neves. 2020.
 #' STOP-Bang Questionnaire Should Be Used in All Adults with Down Syndrome 
 #' to Screen for Moderate to Severe Obstructive Sleep Apnea.
 #' \emph{PloS ONE} \bold{15} (5): e0232596.

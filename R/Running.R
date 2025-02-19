@@ -10,7 +10,7 @@
 #' @format A data frame with 150 rows (15 participants by 10 reps each) 
 #' and 8 columns:
 #' \describe{
-#'   \item{ID}{The particiapnt ID}
+#'   \item{ID}{The participant ID}
 #'   \item{Trial}{Which trial; one of \code{1} to \code{5}}
 #'   \item{Speed}{The average running speed, in km.h}
 #'   \item{HRM}{The vertical oscillation (VO) as measured by the
