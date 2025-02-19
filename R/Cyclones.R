@@ -11,7 +11,7 @@
 #'   \item{Year}{The year}
 #'   \item{Severe}{The number of severe cyclones recorded 
 #'         in the Australian region}
-#'   \item{NonSevere}{The number of nonsevere cyclones recorded 
+#'   \item{NonSevere}{The number of non-severe cyclones recorded 
 #'         in the Australian region}
 #'   \item{Total}{The total number of cyclones recorded 
 #'         in the Australian region}
