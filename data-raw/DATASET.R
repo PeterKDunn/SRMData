@@ -1539,37 +1539,37 @@ write.csv(YieldDen,
 # Now produce the man (.Rd) files
 
 cat("*** Running roxygenise *** \n")
-setwd("..")
+#setwd("..")
 roxygen2::roxygenise()
 
-
-# The following function runs a local R CMD check
-devtools::check()
-
-# Check for CRAN specific requirements
-rhub::check()
-
-# Checks
-devtools::check()
-devtools::check_win_devel()  # For Windows compatibility
-
-
-# Check on standard platforms
-usethis::use_github_action("check-standard")
-
-
-# Check for win-builder
-devtools::check_win_devel()
-
-
-# Generate your cran-comments.md, then you copy-paste the output from this function 
-usethis::use_cran_comments()
-
-
-# Build source package
-devtools::build()
-
-
-# Good practice
-library(goodpractice)
-goodpractice::gp()
+# 
+# # The following function runs a local R CMD check
+# devtools::check()
+# 
+# # Check for CRAN specific requirements
+# rhub::check()
+# 
+# # Checks
+# devtools::check()
+# devtools::check_win_devel()  # For Windows compatibility
+# 
+# 
+# # Check on standard platforms
+# usethis::use_github_action("check-standard")
+# 
+# 
+# # Check for win-builder
+# devtools::check_win_devel()
+# 
+# 
+# # Generate your cran-comments.md, then you copy-paste the output from this function 
+# usethis::use_cran_comments()
+# 
+# 
+# # Build source package
+# devtools::build()
+# 
+# 
+# # Good practice
+# library(goodpractice)
+# goodpractice::gp()
