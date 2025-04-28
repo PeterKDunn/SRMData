@@ -8,8 +8,8 @@
 #'
 #' @format A data frame with 50 rows (one per subject) and 3 columns:
 #' \describe{
-#'   \item{Distance20}{The 6MWT distance in a 20m corridor, in m}
-#'   \item{Distance30}{The 6MWT distance in a 30m corridor, in m}
+#'   \item{Dist20}{The 6MWT distance in a 20m corridor, in m}
+#'   \item{Dist30}{The 6MWT distance in a 30m corridor, in m}
 #'   \item{Age}{The age of the subject, in completed years}
 #' }
 #' @source 
