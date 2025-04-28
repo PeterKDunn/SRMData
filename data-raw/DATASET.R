@@ -17,8 +17,8 @@ library(dplyr) # For selecting variables
 
 
 SixMWT <- read.csv("./data-raw/6MWT.csv")
-SixMWT <- data.frame( Distance20 = SixMWT$Distance20,
-                      Distance30 = SixMWT$Distance30,
+SixMWT <- data.frame( Dist20 = SixMWT$Distance20,
+                      Dist30 = SixMWT$Distance30,
                       Age = SixMWT$Age)
 usethis::use_data(SixMWT, 
                   overwrite = TRUE)
