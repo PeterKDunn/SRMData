@@ -1133,7 +1133,8 @@ StudentWt <- read.csv("./data-raw/StudentWt.csv")
 usethis::use_data(StudentWt, 
                   overwrite = TRUE)
 write.csv(StudentWt, 
-          "..//..//SRM-Textbook//Data//StudentWt.csv")
+          "..//..//SRM-Textbook//Data//StudentWt.csv",
+          row.names = FALSE)
 
 
 ##############################

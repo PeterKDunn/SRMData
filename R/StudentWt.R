@@ -9,8 +9,8 @@
 #' @format A data frame with 68 rows (each student) and 4 columns:
 #' \describe{
 #'   \item{Student}{An identifier}
-#'   \item{Week1}{The student's weight in Week 1, in kg}
-#'   \item{Week12}{The student's weight in Week 12, in kg}
+#'   \item{WtWk1}{The student's weight in Week 1, in kg}
+#'   \item{WtWk12}{The student's weight in Week 12, in kg}
 #'   \item{GainWt}{The student's weight gain, in kg}
 #' }
 #' @source 
