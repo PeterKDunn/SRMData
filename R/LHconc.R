@@ -1,6 +1,6 @@
-#' Blood loss estimates
+#' Accuracy of scientific instruments
 #'
-#' Estimates of blood loss, for a known amount of blood.
+#' Measurements of LH concentrations at different concentrations, for two instruments.
 #' 
 #' @docType data
 #' 
@@ -27,6 +27,6 @@
 #' \emph{Frontiers in Laboratory Medicine} \bold{1} (3): 125--128.
 #' 
 #' @usage 
-#' data(BloodLoss)
+#' data(LHconc)
 
-"BloodLoss"
+"LHconc"

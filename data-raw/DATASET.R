@@ -84,11 +84,11 @@ write.csv(Bitumen,
 
 
 ##############################
-BloodLoss <- read.csv("./data-raw/BloodLoss.csv")
-usethis::use_data(BloodLoss, 
+LHconc <- read.csv("./data-raw/LHconc.csv")
+usethis::use_data(LHconc, 
                   overwrite = TRUE)
-write.csv(BloodLoss, 
-          "..//..//SRM-Textbook//Data//BloodLoss.csv")
+write.csv(LHconc, 
+          "..//..//SRM-Textbook//Data//LHconc.csv")
 
 
 
