@@ -148,6 +148,25 @@ write.csv(BoneQuality,
 
 
 ##############################
+### Exception: Processing needed
+Borers <- read.csv("./data-raw/borers.csv")
+Borers <- dplyr::select(Borers,
+                        Hybrids = Hybrids,
+                        Insecticide = Insecticide,
+                        Height = "Plant.height..cm.",
+                        Tunnels = "Tunnels.length..cm.",
+                        PanicleLength = "Panicle.length..cm.",
+                        PanicleWeight = "panicle.weight..g.",
+                        Infestation = Infestation.intensity,
+                        Yield = "Yield..kg.ha.1.")
+usethis::use_data(Borers,
+                  overwrite = TRUE)
+write.csv(Borers, 
+          "..//..//SRM-Textbook//Data//Borers.csv",
+          row.names = FALSE)
+
+
+##############################
 Burros <- read.csv("./data-raw/Burros.csv")
 usethis::use_data(Burros, 
                   overwrite = TRUE)
