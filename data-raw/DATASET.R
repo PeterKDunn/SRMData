@@ -47,7 +47,8 @@ Anorexia <- read.csv("./data-raw/Anorexia.csv")
 usethis::use_data(Anorexia, 
                   overwrite = TRUE)
 write.csv(Anorexia, 
-          "..//..//SRM-Textbook//Data//Anorexia.csv")
+          "..//..//SRM-Textbook//Data//Anorexia.csv",
+          row.names = FALSE)
 
 
 ##############################
@@ -55,7 +56,8 @@ B12Diet <- read.csv("./data-raw/B12Long.csv")
 usethis::use_data(B12Diet, 
                   overwrite = TRUE)
 write.csv(B12Diet, 
-          "..//..//SRM-Textbook//Data//B12Long.csv")
+          "..//..//SRM-Textbook//Data//B12Long.csv",
+          row.names = FALSE)
 
 
 ##############################
@@ -63,7 +65,8 @@ BabyBoom <- read.csv("./data-raw/BabyBoom.csv")
 usethis::use_data(BabyBoom, 
                   overwrite = TRUE)
 write.csv(BabyBoom, 
-          "..//..//SRM-Textbook//Data//BabyBoom.csv")
+          "..//..//SRM-Textbook//Data//BabyBoom.csv",
+          row.names = FALSE)
 
 
 ##############################
@@ -71,7 +74,8 @@ Battery <- read.csv("./data-raw/Battery.csv")
 usethis::use_data(Battery, 
                   overwrite = TRUE)
 write.csv(Battery, 
-          "..//..//SRM-Textbook//Data//Battery.csv")
+          "..//..//SRM-Textbook//Data//Battery.csv",
+          row.names = FALSE)
 
 
 ##############################
@@ -79,7 +83,8 @@ Bitumen <- read.csv("./data-raw/Bitumen.csv")
 usethis::use_data(Bitumen, 
                   overwrite = TRUE)
 write.csv(Bitumen, 
-          "..//..//SRM-Textbook//Data//Bitumen.csv")
+          "..//..//SRM-Textbook//Data//Bitumen.csv",
+          row.names = FALSE)
 
 
 
@@ -88,7 +93,8 @@ LHconc <- read.csv("./data-raw/LHconc.csv")
 usethis::use_data(LHconc, 
                   overwrite = TRUE)
 write.csv(LHconc, 
-          "..//..//SRM-Textbook//Data//LHconc.csv")
+          "..//..//SRM-Textbook//Data//LHconc.csv",
+          row.names = FALSE)
 
 
 
@@ -114,7 +120,8 @@ levels(BMI$bmi_perception) <- c("normalweight",
 usethis::use_data(BMI, 
                   overwrite = TRUE)
 write.csv(BMI, 
-          "..//..//SRM-Textbook//Data//BMI.csv")
+          "..//..//SRM-Textbook//Data//BMI.csv",
+          row.names = FALSE)
 
 
 ##############################
@@ -122,7 +129,8 @@ BodyTemp <- read.csv("./data-raw/BodyTemp.csv")
 usethis::use_data(BodyTemp, 
                   overwrite = TRUE)
 write.csv(BodyTemp, 
-          "..//..//SRM-Textbook//Data//BodyTemp.csv")
+          "..//..//SRM-Textbook//Data//BodyTemp.csv",
+          row.names = FALSE)
 
 
 ##############################
@@ -144,7 +152,8 @@ BoneQuality$Sex <- factor(BoneQuality$Sex,
 usethis::use_data(BoneQuality, 
                   overwrite = TRUE)
 write.csv(BoneQuality, 
-          "..//..//SRM-Textbook//Data//BoneQuality.csv")
+          "..//..//SRM-Textbook//Data//BoneQuality.csv",
+          row.names = FALSE)
 
 
 ##############################
