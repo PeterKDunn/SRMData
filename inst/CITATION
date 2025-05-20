@@ -1,0 +1,11 @@
+## R package reference generated from DESCRIPTION metadata
+citation(auto = meta)
+
+## SRM book
+bibentry(bibtype = "Book",
+         title = "Scientific Research and Methodology: An Introduction to Quantitative Research and Statistics",
+         author = c(person(c("Peter", "K."), "Dunn")),
+         year = "2025", 
+         address = " Boca Raton, FL",
+         publisher = "Chapman & Hall",
+         doi = "10.1201/9781003394938")
