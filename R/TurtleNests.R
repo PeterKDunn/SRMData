@@ -8,13 +8,10 @@
 #'
 #' @format A data frame with 4 rows and 3 columns:
 #' \describe{
-#'   \item{Infected}{Whether the nest was infected with fungi or bacteria; 
-#'                  one of \code{0} (not infected) or \code{1}}
+#'   \item{Infected}{Whether the nest was infected with fungi or bacteria; one of \code{0} (not infected) or \code{1}}
 #'   \item{Nest}{Whether the nest was relocated; 
-#'               one of \code{0} (Natural (not relocated)) or 
-#'               \code{1} (relocated)}
-#'   \item{Counts}{The number of nests in the combination
-#'                 defined by \code{Infected} and \code{Nest}}
+#'               one of \code{0} (Natural (not relocated)) or \code{1} (relocated)}
+#'   \item{Counts}{The number of nests in the combination defined by \code{Infected} and \code{Nest}}
 #' }
 #' 
 #' @details 
@@ -33,5 +30,9 @@
 #' 
 #' @usage 
 #' data(TurtleNests)
+#' 
+#' @examples
+#' prop.test(xtabs( Counts ~ Infected + Nest, data = TurtleNests))
+#' 
 
 "TurtleNests"

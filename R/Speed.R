@@ -8,8 +8,7 @@
 #'
 #' @format A data frame with 79 rows (each vehicle) and 2 columns:
 #' \describe{
-#'   \item{When}{When the speed is measured; 
-#'         one of \code{Before} or \code{After} new signage added}
+#'   \item{When}{When the speed is measured; one of \code{Before} or \code{After} new signage added}
 #'   \item{Speed}{The measured speed, in km/h}
 #' }
 #' @source 
@@ -20,5 +19,9 @@
 #' 
 #' @usage 
 #' data(Speed)
+#' 
+#' @examples
+#' plot(Speed ~ factor(When), data = Speed, xlab = "When recorded", ylab = "Speed (km/h)")
+#' 
 
 "Speed"

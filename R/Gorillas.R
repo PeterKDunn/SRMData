@@ -27,5 +27,9 @@
 #' 
 #' @usage 
 #' data(Gorillas)
+#' 
+#' @examples
+#' plot( ChestBeatRate ~ BackBreadth, data = Gorillas, xlab = "Back breadth (cm)", ylab = "Cheast-beating rate (per 10 hrs)")
+#' 
 
 "Gorillas"

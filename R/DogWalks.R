@@ -29,5 +29,9 @@
 #' 
 #' @usage 
 #' data(DogWalks)
+#' 
+#' @examples
+#' barplot( xtabs(Counts ~ WalkLength + Location, data = DogWalks), names.arg = c("City", "Farm"), ylab = "Number of dogs")
+#' 
 
 "DogWalks"

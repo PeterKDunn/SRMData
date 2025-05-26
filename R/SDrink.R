@@ -10,8 +10,7 @@
 #' \describe{
 #'   \item{Time}{The time taken to service the vending machine, in minutes}
 #'   \item{Cases}{The number of cases of soft drink stocked}
-#'   \item{Distance}{The distance walked by the driver to service 
-#'         the vending machine, in feet}
+#'   \item{Distance}{The distance walked by the driver to service the vending machine, in feet}
 #' }
 #' 
 #' @source
@@ -23,5 +22,9 @@
 #'  
 #' @usage 
 #' data(SDrink)
+#' 
+#' @examples
+#' plot(Time ~ Distance, data = SDrink, xlab = "Distance (feet)", ylab = "Time to deliver (mins)")
+#' 
 
 "SDrink"

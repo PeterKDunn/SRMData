@@ -26,5 +26,9 @@
 #'  
 #' @usage 
 #' data(Windmill)
+#' 
+#' @examples
+#' plot(DC ~ Wind, data = Windmill, xlab = "Wind speed (miles/h)", ylab = "DC output")
+#' 
 
 "Windmill"

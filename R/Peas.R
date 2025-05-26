@@ -28,5 +28,9 @@
 #' 
 #' @usage 
 #' data(Peas)
+#' 
+#' @examples
+#' plot(P ~ K, data = Peas, xlab = "Potassium content (mg/g)", ylab = "Phosphorus content (mg/g)")
+#' 
 
 "Peas"

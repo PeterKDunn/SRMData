@@ -8,8 +8,7 @@
 #'
 #' @format A data frame with 79 rows (one per car) and 2 columns:
 #' \describe{
-#'   \item{When}{When the deceleration is measured:
-#'         \code{Before} or \code{After} signage added}
+#'   \item{When}{When the deceleration is measured: \code{Before} or \code{After} signage added}
 #'   \item{Deceleration}{The deceleration, in metres-per-second-squared}
 #' }
 #' @source 
@@ -19,6 +18,10 @@
 #' 
 #' @usage 
 #' data(Deceleration)
+#' 
+#' @examples
+#' plot(Deceleration ~ factor(When), data = Deceleration)
+#' 
 
 "Deceleration"
 

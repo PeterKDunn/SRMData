@@ -8,14 +8,10 @@
 #'
 #' @format A data frame with 28 rows (each plot) and 4 columns:
 #' \describe{
-#'   \item{IrrigatedC}{The percentage carbon,  
-#'         in a paired irrigated plot}
-#'   \item{NonirrigatedC}{The percentage carbon, 
-#'         in a paired non-irrigated plot}
-#'   \item{IrrigatedN}{The percentage nitrogen, 
-#'         in a paired irrigated plot}
-#'   \item{NonirrigatedN}{The percentage nitrogen, 
-#'         in a paired non-irrigated plot}
+#'   \item{IrrigatedC}{The percentage carbon, in a paired irrigated plot}
+#'   \item{NonirrigatedC}{The percentage carbon, in a paired non-irrigated plot}
+#'   \item{IrrigatedN}{The percentage nitrogen, in a paired irrigated plot}
+#'   \item{NonirrigatedN}{The percentage nitrogen, in a paired non-irrigated plot}
 #' }
 #' @source 
 #' Lambie, S. M., Mudge, P. L., & Stevenson, B. A. (2021). 
@@ -25,5 +21,9 @@
 #' 
 #' @usage 
 #' data(SoilCN)
+#' 
+#' @examples
+#' plot(IrrigatedC ~ NonirrigatedC, data = SoilCN)
+#' 
 
 "SoilCN"

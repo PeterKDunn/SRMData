@@ -10,8 +10,7 @@
 #' \describe{
 #'   \item{Before}{The blood pressure before taking captopril, in mm Hg}
 #'   \item{After}{The blood pressure after taking captopril, in mm Hg}
-#'   \item{BP}{The type of blood pressure measured; 
-#'         \code{S} for systolic, and \code{D} for diastolic}
+#'   \item{BP}{The type of blood pressure measured; \code{S} for systolic, and \code{D} for diastolic}
 #' }
 #' @source 
 #' D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway, and E. Ostrowski (1994) 
@@ -25,6 +24,10 @@
 #' 
 #' @usage 
 #' data(Captopril)
+#' 
+#' @examples
+#' plot( After ~ Before, data = subset(Captopril, BP=="S"), xlab = "Before SBP", ylab = "After SBP")
+#' 
 
 "Captopril"
 

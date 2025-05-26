@@ -28,8 +28,7 @@
 #' 
 #' @references 
 #' Telford, R. D. and Cunningham, R. B. (1991).
-#' Sex, sport, and body-size dependency of hematology
-#'  in highly trained athletes. 
+#' Sex, sport, and body-size dependency of hematology in highly trained athletes. 
 #' \emph{Medicine and Science in Sports and Exercise}, \bold{23}(7):788--794.
 #' 
 #' @source 
@@ -37,5 +36,8 @@
 #' 
 #' @usage 
 #' data(AISsub)
+#' 
+#' @examples
+#' barplot( table(AISsub$Sport), las = 2, ylab = "Number of athletes" )
 
 "AISsub"

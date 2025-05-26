@@ -11,8 +11,7 @@
 #'   \item{BodyTemp}{The measured body temperature, in degrees F, as given}
 #'   \item{Gender}{One of \code{1} (males) or \code{2} (females)}
 #'   \item{HeartRate}{Heart rate, in beats per minute}
-#'   \item{BodyTempC}{The measured body temperature in degrees C; 
-#'         converted from degrees F}
+#'   \item{BodyTempC}{The measured body temperature in degrees C; converted from degrees F}
 #' }
 #' @references
 #' Wunderlich, C. 1868. Das Verhalten Der Eiaenwarme in Krankenheitem. 
@@ -29,6 +28,10 @@
 #' 
 #' @usage 
 #' data(BodyTemp)
+#' 
+#' @examples
+#' plot(BodyTempC ~ factor(Gender), data = BodyTemp)
+#' 
 
 "BodyTemp"
 

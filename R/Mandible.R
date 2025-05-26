@@ -10,7 +10,7 @@
 #' @format A data frame with 167 rows (each foetus) and 2 columns:
 #' \describe{
 #'   \item{Age}{The foetus age, in weeks}
-#'   \item{Length}{The foetus length, in mm}
+#'   \item{Length}{The mandible length, in mm}
 #' }
 #' 
 #' @source 
@@ -21,5 +21,9 @@
 #'  
 #' @usage 
 #' data(Mandible)
+#' 
+#' @examples
+#' plot(Length ~ Age, data = Mandible, xlab = "Age (weeks)", ylab = "Mandible length (mm)")
+#' 
 
 "Mandible"

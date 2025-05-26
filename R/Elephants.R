@@ -28,6 +28,10 @@
 #' 
 #' @usage 
 #' data(Elephants)
+#' 
+#' @examples
+#' plot(Height ~ factor(Sex), data = Elephants, xlab = "Sex", ylab = "Height (cm)")
+#' 
 
 "Elephants"
 

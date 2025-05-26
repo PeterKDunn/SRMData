@@ -27,5 +27,9 @@
 #' 
 #' @usage 
 #' data(Fluoro)
+#' 
+#' @examples
+#' plot(Dose ~ Time, data = Fluoro, xlab = "Procedure time (mins)", ylab = "Radiation dose")
+#' 
 
 "Fluoro"

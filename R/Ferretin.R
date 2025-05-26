@@ -23,5 +23,9 @@
 #' 
 #' @usage 
 #' data(Ferritin)
+#' 
+#' @examples
+#' with(Ferritin, hist( September - March, xlab = "Increase in ferritin (micrograms/L)") )
+#' 
 
 "Ferritin"

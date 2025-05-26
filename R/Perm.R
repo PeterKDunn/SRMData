@@ -24,5 +24,9 @@
 #'  
 #' @usage 
 #' data(Perm)
+#' 
+#' @examples
+#' plot(Perm ~ factor(Mach), data = Perm, ylab = "Permeability (seconds)", xlab = "Machine")
+#' 
 
 "Perm"

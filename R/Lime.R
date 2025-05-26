@@ -11,8 +11,7 @@
 #'   \item{Foliage}{The oven-dried foliage biomass, in kg}
 #'   \item{DBH}{The diameter at breast height, in cm}
 #'   \item{Age}{The age of the tree, in years}
-#'   \item{Origin}{The origin of the tree; 
-#'         one of \code{Coppice}, \code{Natural} or \code{Planted}}
+#'   \item{Origin}{The origin of the tree; one of \code{Coppice}, \code{Natural} or \code{Planted}}
 #' }
 #' 
 #' @source 
@@ -34,5 +33,9 @@
 #' 
 #' @usage 
 #' data(Lime)
+#' 
+#' @examples
+#' plot(Foliage ~ DBH, data = Lime, xlab = "Diameter (cm)", ylab = "Foliage biomass (kg)")
+#' 
 
 "Lime"

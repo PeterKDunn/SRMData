@@ -6,12 +6,10 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 25 rows (one per person) and 4 columns:
+#' @format A data frame with 25 rows (one per location) and 4 columns:
 #' \describe{
-#'   \item{Willow}{The (Julian) date on which flowering began for the 
-#'         encroaching Salix (willows)}
-#'   \item{Skypilot}{The (Julian) date on which flowering began for the 
-#'         native Polemonium viscosum (alpine skypilot)}
+#'   \item{Willow}{The (Julian) date on which flowering began for the encroaching Salix (willows)}
+#'   \item{Skypilot}{The (Julian) date on which flowering began for the native Polemonium viscosum (alpine skypilot)}
 #'   \item{MinTemp}{The minimum June temperature (in degrees C)}
 #'   \item{Altitude}{The altitude (in m)}
 #' }
@@ -25,5 +23,9 @@
 #' 
 #' @usage 
 #' data(Flowering)
+#' 
+#' @examples
+#' with( Flowering, hist( Willow - Skypilot, xlab = "Days later for willow"), ylab = "Number of locations")
+#' 
 
 "Flowering"

@@ -8,10 +8,8 @@
 #'
 #' @format A data frame with 6 rows and 3 columns:
 #' \describe{
-#'   \item{AgeGroup}{The age group: \code{1} means '30 and under'; 
-#'         \code{2} means '31 to 40'; \code{3} means 'Over 40'}
-#'   \item{BringBags}{Whether people bring their own shopping bags or not; 
-#'         \code{y} means they do; \code{n} means they do not}
+#'   \item{AgeGroup}{The age group: \code{1} means '30 and under'; \code{2} means '31 to 40'; \code{3} means 'Over 40'}
+#'   \item{BringBags}{Whether people bring their own shopping bags or not; \code{y} means they do; \code{n} means they do not}
 #'   \item{Counts}{The number of people in each designated category}
 #' }
 #' @source From Tables 1 and 5 of:
@@ -22,5 +20,9 @@
 #' 
 #' @usage 
 #' data(ShoppingBags)
+#' 
+#' @examples
+#' barplot( xtabs(Counts ~ BringBags + AgeGroup, data = ShoppingBags), names.arg = c("30 and under", "31 to 40", "Over 40"), ylab = "Number of shoppers")
+#' 
 
 "ShoppingBags"

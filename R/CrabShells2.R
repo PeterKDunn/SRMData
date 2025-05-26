@@ -8,10 +8,8 @@
 #' 
 #' @format A data frame with 4 rows and 3 columns:
 #' \describe{
-#'   \item{ShellColumn}{The column where anemone placed; 
-#'         one of \code{1} (Side) or \code{2} (Central)}
-#'   \item{ShellRow}{The row where anemone placed; 
-#'         one of \code{1} (Side) or \code{2} (Central)}
+#'   \item{ShellColumn}{The column where anemone placed; one of \code{1} (Side) or \code{2} (Central)}
+#'   \item{ShellRow}{The row where anemone placed; one of \code{1} (Side) or \code{2} (Central)}
 #'   \item{Counts}{The number of anemones in the indicated sector on the shell}
 #' }
 #' 
@@ -30,5 +28,9 @@
 #' \bold{132}(2), 109--121.
 #' 
 #' @usage data(CrabShells2)
+#' 
+#' @examples
+#' barplot( xtabs(Counts ~ ShellRow + ShellColumn, data = CrabShells2), names.arg = c("Column: Side", "Column: Central"), ylab = "Number of anemones")
+#' 
 
 "CrabShells2"

@@ -30,6 +30,10 @@
 #' 
 #' @usage 
 #' data(CarCrashes)
+#' 
+#' @examples
+#' barplot( xtabs(Counts ~ CrashType + Year, data = CarCrashes), ylab = "Number of crashes")
+#' 
 
 "CarCrashes"
 

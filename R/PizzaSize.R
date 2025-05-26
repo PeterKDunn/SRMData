@@ -27,5 +27,10 @@
 #' 
 #' @usage 
 #' data(PizzaSize)
+#' 
+#' @examples
+#' plot(DiameterInches ~ factor(Store), data = PizzaSize, ylab = "Diameter (inches)", xlab = "Store")
+#' abline(h = 12)
+#' 
 
 "PizzaSize"

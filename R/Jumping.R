@@ -20,5 +20,8 @@
 #' 
 #' @usage 
 #' data(Jumping)
+#' 
+#' @examples
+#' with(Jumping, hist(Barefoot - Shoes, xlab = "Increase barefoot (cm)", ylab = "Number people") )
 
 "Jumping"

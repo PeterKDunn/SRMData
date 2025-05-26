@@ -24,5 +24,8 @@
 #' 
 #' @usage 
 #' data(MaryRiver)
+#' 
+#' @examples
+#' with(MaryRiver, hist( log(Mean[Month==2])), xlab = "log(Mean Streamflow in Feb, in ML)", ylab = "Number of Februarys")
 
 "MaryRiver"

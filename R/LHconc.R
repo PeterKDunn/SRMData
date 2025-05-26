@@ -8,14 +8,10 @@
 #'
 #' @format A data frame with 36 rows and 4 columns:
 #' \describe{
-#'   \item{High1}{Instrument 1 measurement of luteotropichormone (LH) 
-#'         concentrations at a high level, in mIU/ml}
-#'   \item{Mid1}{Instrument 1 measurement of LH concentrations 
-#'         at a middle level, in mIU/ml}
-#'   \item{High2}{Instrument 2 measurement of LH concentrations 
-#'         at a high level, in mIU/ml}
-#'   \item{Mid2}{Instrument 2 measurement of LH concentrations 
-#'         at a middle level, in mIU/ml}
+#'   \item{High1}{Instrument 1 measurement of luteotropichormone (LH) concentrations at a high level, in mIU/ml}
+#'   \item{Mid1}{Instrument 1 measurement of LH concentrations at a middle level, in mIU/ml}
+#'   \item{High2}{Instrument 2 measurement of LH concentrations at a high level, in mIU/ml}
+#'   \item{Mid2}{Instrument 2 measurement of LH concentrations at a middle level, in mIU/ml}
 #' }
 #' @note 
 #' The known values are, respectively, 64.31, 19.24, 64.97 and 19.40 mIU/ml.
@@ -28,5 +24,9 @@
 #' 
 #' @usage 
 #' data(LHconc)
+#' 
+#' @examples
+#' colMeans(LHconc)
+#' 
 
 "LHconc"

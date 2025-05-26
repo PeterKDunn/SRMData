@@ -21,5 +21,9 @@
 #' 
 #' @usage 
 #' data(Dogs)
+#' 
+#' @examples
+#' plot(BL ~ BH, data = Dogs, xlab = "Height (cm)", ylab = "Length (cm)")
+#' 
 
 "Dogs"

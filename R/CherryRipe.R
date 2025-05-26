@@ -27,6 +27,11 @@
 #' Collected and weighed by Peter K. Dunn and students (who got to eat the
 #' chocolate bars).
 #' 
-#' @usage data(CherryRipe)
+#' @usage 
+#' data(CherryRipe)
+#' 
+#' @examples
+#' plot(BarWt ~ factor(Year), data = CherryRipe, xlab = "Year", ylab = "Bar weight (g)")
+#' 
 
 "CherryRipe"

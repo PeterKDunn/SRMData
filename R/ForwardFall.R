@@ -21,5 +21,9 @@
 #' 
 #' @usage 
 #' data(ForwardFall)
+#' 
+#' @examples
+#' boxplot( LeanAngle ~ factor(Group), data = ForwardFall, names.arg = c("Younger", "Older"), ylab = "Lean-forward angle", xlab = "Age group")
+#' 
 
 "ForwardFall"

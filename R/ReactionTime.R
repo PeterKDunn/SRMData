@@ -9,8 +9,7 @@
 #' @format A data frame with 64 rows (each student) and 2 columns:
 #' \describe{
 #'   \item{Reaction}{The reaction time, in milliseconds}
-#'   \item{Group}{Which group the student was in; 
-#'         one of \code{Phone} or \code{Control}}
+#'   \item{Group}{Which group the student was in; one of \code{Phone} or \code{Control}}
 #' }
 #' @source Reported by: 
 #' Agresti, Alan, and Christine A. Franklin. 2007. 
@@ -24,5 +23,9 @@
 #' 
 #' @usage 
 #' data(ReactionTime)
+#' 
+#' @examples
+#' plot(Reaction ~ factor(Group), data = ReactionTime, xlab = "Group", ylab = "Reaction time (sec)")
+#' 
 
 "ReactionTime"

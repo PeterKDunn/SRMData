@@ -10,13 +10,11 @@
 #' \describe{
 #'   \item{ID}{An identifier}
 #'   \item{Age}{The age of the patient, in years}
-#'   \item{Gender}{The gender of the patient;
-#'         one of \code{1} (male) or \code{2} (female)}
+#'   \item{Gender}{The gender of the patient; one of \code{1} (male) or \code{2} (female)}
 #'   \item{BMI}{The BMI of the patient}
 #'   \item{Neck}{The neck circumference of the patient, in cm}
 #'   \item{REI}{The Respiratory Event Index for the patient}
-#'   \item{SAOS}{The SAOS score; 
-#'         one of \code{Severe}, \code{Moderate} or \code{Low}}
+#'   \item{SAOS}{The SAOS score; one of \code{Severe}, \code{Moderate} or \code{Low}}
 #' }
 #' @source 
 #' de Carvalho, Anderson Albuquerque, Fabio Ferreira Amorim, Levy Aniceto Santana, Karlo Jozefo Quadros de Almeida, Alfredo Nicodemos Cruz Santana, and Francisco de Assis Rocha Neves. 2020.
@@ -29,5 +27,8 @@
 #' 
 #' @usage 
 #' data(OSA)
+#' 
+#' @examples
+#' plot(BMI ~ factor(SAOS), data = OSA, xlab = "SAOS score", ylab = "BMI")
 
 "OSA"

@@ -20,6 +20,11 @@
 #' Threshold effect of eucalypt density on an aggressive avian competitor. 
 #' \emph{Biological Conservation}, \bold{136}, 100--107.
 #'  
-#' @usage data(NMiner)
+#' @usage 
+#' data(NMiner)
+#' 
+#' @examples
+#' plot(Minerab ~ Eucs, data = NMiner, xlab = "Number eucalypts", ylab = "Number noisy miners")
+#' 
 
 "NMiner"

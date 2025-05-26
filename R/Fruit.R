@@ -6,7 +6,7 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 37 rows (one per person) and 11 columns:
+#' @format A data frame with 37 rows (one per farm) and 11 columns:
 #' \describe{
 #'   \item{Farm}{The farm identifier}
 #'   \item{Flowers2014}{The number of flowers in 2014}
@@ -35,5 +35,9 @@
 #' 
 #' @usage 
 #' data(Fruit)
+#' 
+#' @examples
+#' with(Fruit, hist(Flowers2015 - Flowers2014, xlab = "Increase in flowers to 2015", ylab = "Number of farms") )
+#' 
 
 "Fruit"

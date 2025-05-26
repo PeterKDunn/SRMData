@@ -8,15 +8,11 @@
 #'
 #' @format A data frame with 15 rows and 5 columns:
 #' \describe{
-#'   \item{Gender}{The gender of the child; 
-#'         one of \code{M} (male) or \code{F} (female)}
+#'   \item{Gender}{The gender of the child; one of \code{M} (male) or \code{F} (female)}
 #'   \item{Age}{The age of the child, in years}
 #'   \item{Height}{The height of the child, in cm}
 #'   \item{Weight}{The weight of the child, in kg}
-#'   \item{GMFCS}{The value of the ordinal Gross Motor Function Classification 
-#'         System describing the impact of cerebral palsy on their motor 
-#'         function; lower levels mean better functionality; 
-#'         one of \code{1} or \code{2}}
+#'   \item{GMFCS}{The value of the ordinal Gross Motor Function Classification System describing the impact of cerebral palsy on their motor function; lower levels mean better functionality; one of \code{1} or \code{2}}
 #' }
 #' 
 #' @source 
@@ -28,5 +24,9 @@
 #' 
 #' @usage 
 #' data(Orthoses)
+#' 
+#' @examples
+#' plot(Height ~ factor(Gender), data = Orthoses, ylab = "Height (cm)", xlab = "Gender")
+#' 
 
 "Orthoses"

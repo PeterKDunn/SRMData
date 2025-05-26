@@ -21,5 +21,9 @@
 #' 
 #' @usage 
 #' data(IgE)
+#' 
+#' @examples
+#' with(IgE, hist( After - Before) )
+#' 
 
 "IgE"

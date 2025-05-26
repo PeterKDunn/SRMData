@@ -56,5 +56,8 @@
 #' 
 #' @usage 
 #' data(Jeans)
+#' 
+#' @examples
+#' boxplot(Price ~ factor(Sex), data = Jeans, xlab = "Jeans type", ylab = "Price ($)")
 
 "Jeans"

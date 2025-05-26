@@ -8,8 +8,7 @@
 #'
 #' @format A data frame with 42 rows and 2 columns:
 #' \describe{
-#'   \item{Bitumen}{The bitumen content (by percentage weight) 
-#'         in the bitumen sample}
+#'   \item{Bitumen}{The bitumen content (by percentage weight) in the bitumen sample}
 #'   \item{AirVoids}{The percentage of air voids, by volume}
 #' }
 #' @source 
@@ -21,6 +20,9 @@
 #' 
 #' @usage 
 #' data(Bitumen)
+#' 
+#' @examples
+#' plot(AirVoids ~ Bitumen, data = Bitumen)
 
 "Bitumen"
 

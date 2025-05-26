@@ -6,10 +6,9 @@
 #' 
 #' @keywords datasets
 #'
-#' @format A data frame with 36 rows (each experiments) and 4 columns:
+#' @format A data frame with 36 rows (each experiment) and 4 columns:
 #' \describe{
-#'   \item{SD.temperatures}{The temperature, in degrees C, 
-#'         where the sand dollar is located}
+#'   \item{SD.temperatures}{The temperature, in degrees C, where the sand dollar is located}
 #'   \item{SD.fertilization}{Sand dollar fertilization rates, in percent}
 #'   \item{SD.speeds}{Sperm swimming velocities, in micrometres per second}
 #'   \item{SD.motility}{Sperm motility}
@@ -29,5 +28,8 @@
 #' 
 #' @usage 
 #' data(Sanddollars)
+#' 
+#' @examples
+#' plot(SD.fertilization ~ SD.temperatures, data = Sanddollars, xlab = "Temperature (deg. C)", ylab = "Fertilization rate (%)")
 
 "Sanddollars"

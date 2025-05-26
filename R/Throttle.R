@@ -1,4 +1,4 @@
-#' Throttles
+#' Throttle
 #'
 #' Throttle and manifold air pressure.
 #'  
@@ -9,8 +9,7 @@
 #' @format A data frame with 68 rows (each student) and 2 columns:
 #' \describe{
 #'   \item{ThrottleAngle}{The throttle angle, in degrees}
-#'   \item{MAPvalue}{The manifold air pressure, 
-#'         as a fraction of the maximum value}
+#'   \item{MAPvalue}{The manifold air pressure, as a fraction of the maximum value}
 #' }
 #' @source 
 #' Amin, Arslan Ahmed, and Khalid Mahmood-ul-Hasan. 2019.
@@ -20,5 +19,9 @@
 #' 
 #' @usage 
 #' data(Throttle)
+#' 
+#' @examples
+#' plot(MAPvalue ~ ThrottleAngle, data = Throttle, ylab = "Manifold air pressure (% of max)", xlab = "Angle (degrees)")
+#' 
 
 "Throttle"

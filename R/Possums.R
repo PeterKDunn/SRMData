@@ -12,6 +12,7 @@
 #'   \item{Wgt}{The weight of the possum, in g}
 #'   \item{DEM}{The elevation, in m, where the possum is found}
 #' }
+#'
 #' @source 
 #' Williams, Jessica L., Dan Harley, Darcy Watchorn, Lachlan McBurney, 
 #' and David B. Lindenmayer. 2022.
@@ -19,6 +20,10 @@
 #' (Gymnobelideus Leadbeateri).
 #' \emph{Australian Journal of Zoology} \bold{69} (5): 167--74
 #' 
-#' @usage data(Possums)
+#' @usage 
+#' data(Possums)
+#' 
+#' @examples
+#' plot(Wgt ~ DEM, data = Possums, xlab = "Elevation (m)", ylab = "Possum weight (g)")
 
 "Possums"

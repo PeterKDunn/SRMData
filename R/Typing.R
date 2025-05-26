@@ -32,5 +32,9 @@
 #' 
 #' @usage 
 #' data(Typing)
+#' 
+#' @examples
+#' plot(mAcc ~ mTS, data = Typing, ylab = "Mean typing accuracy", xlab = "Mean typing speed (wpm)")
+#' 
 
 "Typing"

@@ -8,11 +8,8 @@
 #'
 #' @format A data frame with 4 rows (each combination) and 3 columns:
 #' \describe{
-#'   \item{LC}{Whether the adult had lung cancer; 
-#'         one of \code{Adults with lung cancer} or 
-#'         \code{Adults without lung cancer}}
-#'   \item{Pets}{Whether the adult kept pet birds; 
-#'         one of \code{Kept pet birds} or \code{Did not keep pet birds}}
+#'   \item{LC}{Whether the adult had lung cancer; one of \code{Adults with lung cancer} or \code{Adults without lung cancer}}
+#'   \item{Pets}{Whether the adult kept pet birds; one of \code{Kept pet birds} or \code{Did not keep pet birds}}
 #'   \item{Counts}{The number of adults with the given combination}
 #' }
 #' @source 
@@ -23,5 +20,9 @@
 #' 
 #' @usage 
 #' data(PetBirds)
+#' 
+#' @examples
+#' barplot( xtabs(Counts ~ LC + Pets, data = PetBirds), ylab = "Number of adults")
+#' 
 
 "PetBirds"

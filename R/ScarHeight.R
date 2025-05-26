@@ -22,5 +22,9 @@
 #' 
 #' @usage 
 #' data(ScarHeight)
+#' 
+#' @examples
+#' barplot( xtabs(Counts ~ ScarHt + Gender, data = ScarHeight), ylab = "Number of people")
+#' 
 
 "ScarHeight"

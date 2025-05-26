@@ -8,9 +8,8 @@
 #'
 #' @format A data frame with 4 rows and 3 columns:
 #' \describe{
-#'   \item{Hours}{The approximate number of hours run by these turbines}
-#'   \item{Turbines}{The number of turbines run 
-#'         for the indicated number of hours}
+#'   \item{Hours}{The approximate number of hours run by these turbines; one of \code{1800h} or \code{3000h} (i.e., in hours)}
+#'   \item{Turbines}{The number of turbines run for the indicated number of hours}
 #'   \item{Fissures}{The number of fissure cracks in the turbines}
 #' }
 #' 
@@ -28,6 +27,9 @@
 #' 
 #' 
 #' @usage 
-#' data(Turbines)
+#' fisher.test( cbind(Fails = Turbines$Fissures, Passes = Turbines$Turbines - Turbines$Fissures))
+#' 
+#' @examples
+#' 
 
 "Turbines"

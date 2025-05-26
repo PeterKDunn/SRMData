@@ -22,5 +22,9 @@
 #' 
 #' @usage 
 #' data(Insulation)
+#' 
+#' @examples
+#' with(Insulation, hist(Before - After), xlab = "Energy reduction (MWh)")
+#' 
 
 "Insulation"

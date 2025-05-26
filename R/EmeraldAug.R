@@ -13,8 +13,7 @@
 #'   \item{Year}{The year}
 #'   \item{Rain}{The rainfall in August of the given year; in mm}
 #'   \item{SOI}{The monthly average Southern Oscillation Index (SOI)}
-#'   \item{Phase}{the SOI phase (see Stone and Auliciems, 1992);
-#'         a factor with these values: 
+#'   \item{Phase}{the SOI phase (see Stone and Auliciems, 1992); a factor with these values: 
 #'         1 (consistently negative), 
 #'         2 (consistently positive), 
 #'         3 (rapidly falling), 
@@ -41,5 +40,9 @@
 
 #' @usage 
 #' data(EmeraldAug)
+#' 
+#' @examples
+#' plot(Rain ~ factor(Phase), data = EmeraldAug, xlab = "SOI Phase", ylab = "August rainfall (mm)")
+#' 
 
 "EmeraldAug"

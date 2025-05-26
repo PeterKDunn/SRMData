@@ -7,5 +7,4 @@ bibentry(bibtype = "Book",
          author = c(person(c("Peter", "K."), "Dunn")),
          year = "2025", 
          address = " Boca Raton, FL",
-         publisher = "Chapman & Hall",
-         doi = "10.1201/9781003394938")
+         publisher = "CRC Press")

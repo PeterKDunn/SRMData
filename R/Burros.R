@@ -8,11 +8,8 @@
 #' 
 #' @format A data frame with 9 rows and 3 columns:
 #' \describe{
-#'   \item{Status}{The reproductive status of the female burro; 
-#'         one of \code{1} (barren), \code{2} (pregnant (but not lactating)), 
-#'         or \code{3} (lactating)}
-#'   \item{Health}{The health of the burro; 
-#'         one of \code{1} (excellent), \code{2} (fair) or \code{3} (poor).}
+#'   \item{Status}{The reproductive status of the female burro; one of \code{1} (barren), \code{2} (pregnant (but not lactating)), or \code{3} (lactating)}
+#'   \item{Health}{The health of the burro; one of \code{1} (excellent), \code{2} (fair) or \code{3} (poor).}
 #'   \item{Counts}{The number of female burros in each cell}
 #' }
 #' 
@@ -27,5 +24,9 @@
 #' 
 #' @usage 
 #' data(Burros)
+#' 
+#' @examples
+#' barplot( xtabs( Counts ~ Status + Health, data = Burros), names.arg = c("Barren", "Pregnant", "Lactating"), ylab = "Number of burros" )
+#' 
 
 "Burros"

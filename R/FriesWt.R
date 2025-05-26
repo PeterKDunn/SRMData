@@ -19,5 +19,8 @@
 #' 
 #' @usage 
 #' data(FriesWt)
+#' 
+#' @examples
+#' hist(FriesWt$FriesWt, ylab = "Number of orders", xlab = "Weight of large fries (g)")
 
 "FriesWt"

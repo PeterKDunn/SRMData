@@ -8,10 +8,8 @@
 #'
 #' @format A data frame with 19 rows and 2 columns:
 #' \describe{
-#'   \item{BeforeHours}{beta-endorphin concentrations measured 
-#'         12--14 hours before surgery, in fmol/ml}
-#'   \item{BeforeMins}{beta-endorphin concentrations measured 
-#'         10 minutes before surgery, in fmol/ml}
+#'   \item{BeforeHours}{beta-endorphin concentrations measured 12--14 hours before surgery, in fmol/ml}
+#'   \item{BeforeMins}{beta-endorphin concentrations measured 10 minutes before surgery, in fmol/ml}
 #' }
 #' @source 
 #' D. J. Hand, F. Daly, A. D. Lunn, K. J. McConway, and E. Ostrowski (1994) 
@@ -25,5 +23,9 @@
 #' 
 #' @usage 
 #' data(Stress)
+#' 
+#' @examples
+#' with(Stress, hist(BeforeMins - BeforeHours, xlab = "Stress increase: hours before compared to minutes before"))
+#' 
 
 "Stress"

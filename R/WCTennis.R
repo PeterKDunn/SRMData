@@ -31,5 +31,9 @@
 #' 
 #' @usage 
 #' data(WCTennis)
+#' 
+#' @examples
+#' with(WCTennis, hist(PTwithout - PTwith), xlab="Pushtime increase without racquet")
+#' 
 
 "WCTennis"

@@ -10,12 +10,9 @@
 #' and 5 columns:
 #' \describe{
 #'   \item{Gender}{Gender of person; one of \code{Male} or \code{Female}}
-#'   \item{Hat}{Whether the person was wearing a hat; 
-#'         one of \code{Yes} or \code{No}}
-#'   \item{Sunglasses}{Whether the person was wearing sunglasses; 
-#'         one of \code{Yes} or \code{No}}
-#'   \item{Phone}{Whether the person had easy access to their phone;
-#'         one of \code{Easy} or \code{Not easy}}
+#'   \item{Hat}{Whether the person was wearing a hat; one of \code{Yes} or \code{No}}
+#'   \item{Sunglasses}{Whether the person was wearing sunglasses; one of \code{Yes} or \code{No}}
+#'   \item{Phone}{Whether the person had easy access to their phone; one of \code{Easy} or \code{Not easy}}
 #'   \item{Count}{The number if people meeting the given combination}
 #' }
 #' @source 
@@ -28,5 +25,9 @@
 #' 
 #' @usage 
 #' data(HatSunglasses)
+#' 
+#' @examples
+#' barplot( xtabs(Count ~ Hat + Gender, data = HatSunglasses), ylab = "Number people")
+#' 
 
 "HatSunglasses"

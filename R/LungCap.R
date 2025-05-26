@@ -12,8 +12,7 @@
 #'   \item{FEV}{The forced expiratory volume, in litres}
 #'   \item{Ht}{The height, in inches}
 #'   \item{Gender}{The gender of the child; one of \code{F} or \code{M}}
-#'   \item{Smoke}{Whether the child is a smoker; 
-#'         one of \code{0} (non-smoker) or \code{1} (smoker)}
+#'   \item{Smoke}{Whether the child is a smoker; one of \code{0} (non-smoker) or \code{1} (smoker)}
 #' }
 #' 
 #' @references 
@@ -30,6 +29,11 @@
 #' pulmonary function in children. 
 #' \emph{New England Journal of Medicine}, \bold{309}(12):699--703.
 #' 
-#' @usage data(LungCap)
+#' @usage 
+#' data(LungCap)
+#' 
+#' @examples
+#' plot(FEV ~ Age, data = LungCap, xlab = "Age (years)", ylab = "FEV (L)")
+#' 
 
 "LungCap"

@@ -21,5 +21,9 @@
 #' 
 #' @usage 
 #' data(SixMWT)
+#' 
+#' @examples
+#' with(SixMWT, hist(Dist20 - Dist30, xlab = "Increase using 20m walkway" ) )
+#' 
 
 "SixMWT"

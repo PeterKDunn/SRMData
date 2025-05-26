@@ -11,13 +11,9 @@
 #' @format A data frame with 8 rows and 4 columns:
 #' \describe{
 #'   \item{Sex}{Sex of the student; one of \code{F} (female) or \code{M} (male)}
-#'   \item{FNations}{The first-nations status; 
-#'         one of \code{Yes} (First Nations students) or 
-#'         \code{No} (non-First Nations students)}
-#'   \item{School}{The school type; 
-#'         one of \code{Government} or \code{Non-government}}
-#'   \item{Counts}{The number of four-year-old students meeting 
-#'         the designated criteria}
+#'   \item{FNations}{The first-nations status; one of \code{Yes} (First Nations students) or \code{No} (non-First Nations students)}
+#'   \item{School}{The school type; one of \code{Government} or \code{Non-government}}
+#'   \item{Counts}{The number of four-year-old students meeting the designated criteria}
 #' }
 #' 
 #' @source 
@@ -33,5 +29,8 @@
 #' 
 #' @usage 
 #' data(QSchools)
+#' 
+#' @examples
+#' barplot( xtabs(Counts ~ Sex + School, data = QSchools), ylab = "Number students")
 
 "QSchools"

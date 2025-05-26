@@ -8,10 +8,8 @@
 #'
 #' @format A data frame with 183 rows (each student) and 2 columns:
 #' \describe{
-#'   \item{Meals}{Where the student eats most of their meals; 
-#'         one of \code{Most off-campus} or \code{Most on-campus}}
-#'   \item{Live}{Where the student lives; 
-#'         one of \code{Living with parents} or \code{Not living with parents}}
+#'   \item{Meals}{Where the student eats most of their meals; one of \code{Most off-campus} or \code{Most on-campus}}
+#'   \item{Live}{Where the student lives; one of \code{Living with parents} or \code{Not living with parents}}
 #' }
 #' @source 
 #' Mann, Linda, and Karen Blotnicky. 2017.
@@ -20,5 +18,9 @@
 #' 
 #' @usage 
 #' data(StudentsEat)
+#' 
+#' @examples
+#' barplot( xtabs( ~ Meals + Live, data = StudentsEat), ylab = "Number students")
+#' 
 
 "StudentsEat"

@@ -30,7 +30,12 @@
 #' Souza, C., de Souza, B. H. S., Fadini, M. A. M., França, J. C. O., de Menezes, C. B., Nascimento, P. T., and Mendes, S. M. (2024). 
 #' What is the potential of sugarcane borer in reducing sorghum fitness and grain production?. 
 #' \emph{Journal of Applied Entomology}, \bold{148}(7), 818--826.
+#' 
 #' @usage 
 #' data(Borers)
+#' 
+#' @examples
+#' plot(Yield ~ Infestation, data = Borers, xlab = "% infestation", ylab = "Yield (kg/ha)")
+#' 
 
 "Borers"
