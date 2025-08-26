@@ -10,7 +10,7 @@ Description: Provides most of the data files used in the textbook "Scientific Re
 License: GPL (>= 2)
 Language: en-GB
 Encoding: UTF-8
-LazyData: false
+LazyData: true
 Depends: 
     R (>= 3.5.0)
 RoxygenNote: 7.3.2

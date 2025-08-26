@@ -25,7 +25,9 @@
 #' data(Flowering)
 #' 
 #' @examples
-#' with( Flowering, hist( Willow - Skypilot, xlab = "Days later for willow"), ylab = "Number of locations")
+#' with( Flowering, hist( Willow - Skypilot, 
+#'       xlab = "Days later for willow"), 
+#'       ylab = "Number of locations")
 #' 
 
 "Flowering"

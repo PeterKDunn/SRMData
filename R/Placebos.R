@@ -24,8 +24,15 @@
 #' data(Placebos)
 #' 
 #' @examples
-#' plot( Asp ~ Time, data = Placebos, type = "l", lty = 1, xlab = "Time (hrs)", ylab = "Pain relief score")
-#' lines( Placebo ~ Time, data = Placebos, lty = 2)
+#' plot( Asp ~ Time, 
+#'       data = Placebos, 
+#'       type = "l", 
+#'       lty = 1, 
+#'       xlab = "Time (hrs)", 
+#'       ylab = "Pain relief score")
+#' lines( Placebo ~ Time, 
+#'        data = Placebos, 
+#'        lty = 2)
 #' 
 
 "Placebos"

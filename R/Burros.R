@@ -26,7 +26,9 @@
 #' data(Burros)
 #' 
 #' @examples
-#' barplot( xtabs( Counts ~ Status + Health, data = Burros), names.arg = c("Barren", "Pregnant", "Lactating"), ylab = "Number of burros" )
+#' barplot( xtabs( Counts ~ Status + Health, data = Burros), 
+#'          names.arg = c("Barren", "Pregnant", "Lactating"), 
+#'          ylab = "Number of burros" )
 #' 
 
 "Burros"

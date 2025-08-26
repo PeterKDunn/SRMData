@@ -30,7 +30,9 @@
 #' data(EarInfection)
 #' 
 #' @examples
-#' barplot( xtabs(NumInfections ~ Age + Sex, data = EarInfection ), names.arg = c("Male", "Female"), ylab = "Number of swimmers")
+#' barplot( xtabs(NumInfections ~ Age + Sex, data = EarInfection ),
+#'          names.arg = c("Male", "Female"), 
+#'          ylab = "Number of swimmers")
 #' 
 
 "EarInfection"

@@ -17,7 +17,7 @@
 #' A Handbook of Small Data Sets, London: Chapman and Hall. Dataset 285.
 #' 
 #' @usage 
-#' data(Anorexia)
+#' data("Anorexia")
 #' 
 #' @examples
 #' plot(After ~ Before, data = Anorexia, xlab = "Before weight (kg)", ylab = "After weight (kg)")

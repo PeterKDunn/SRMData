@@ -21,7 +21,9 @@
 #' data(Throttle)
 #' 
 #' @examples
-#' plot(MAPvalue ~ ThrottleAngle, data = Throttle, ylab = "Manifold air pressure (% of max)", xlab = "Angle (degrees)")
+#' plot(MAPvalue ~ ThrottleAngle, data = Throttle, 
+#'      ylab = "Manifold air pressure (% of max)", 
+#'      xlab = "Angle (degrees)")
 #' 
 
 "Throttle"

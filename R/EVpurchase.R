@@ -22,7 +22,9 @@
 #' data(EVpurchase)
 #' 
 #' @examples
-#' barplot( xtabs(Counts ~ PurchaseEV + Education, data = EVpurchase), names.arg = c("No PG study", "PG study"), ylab = "Number respondents")
+#' barplot( xtabs(Counts ~ PurchaseEV + Education, data = EVpurchase), 
+#'          names.arg = c("No PG study", "PG study"), 
+#'          ylab = "Number respondents")
 #' 
 
 "EVpurchase"

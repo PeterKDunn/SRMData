@@ -19,7 +19,12 @@
 #' data(Corollas)
 #' 
 #' @examples
-#' plot(Price ~ Age, data = Corollas, xlab = "Age (years)", ylab = "Price (thousands $)")
-#' plot(Price ~ Age, data = subset(Corollas, Price < 30000 & Age < 16), xlab = "Age (years)", ylab = "Price (thousands $)")
+#' plot(Price ~ Age, data = Corollas, 
+#'      xlab = "Age (years)", 
+#'      ylab = "Price (thousands $)")
+#' plot(Price ~ Age, 
+#'      data = subset(Corollas, Price < 30000 & Age < 16), 
+#'      xlab = "Age (years)", 
+#'      ylab = "Price (thousands $)")
 
 "Corollas"

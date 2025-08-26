@@ -35,7 +35,9 @@
 #' data(DogsLife)
 #' 
 #' @examples
-#' plot(Lifespan ~ Weight, data = DogsLife, xlab = "Breed weight (kg)", ylab = "Breed lifespan (years)")
+#' plot(Lifespan ~ Weight, data = DogsLife, 
+#'      xlab = "Breed weight (kg)", 
+#'      ylab = "Breed lifespan (years)")
 #' 
 
 "DogsLife"

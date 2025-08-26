@@ -33,7 +33,15 @@
 #' data(PainRelief)
 #' 
 #' @examples
-#' plot( Score ~ factor(Time, levels = 1:4, labels = c("0 mins", "After 20 mins", "After 40 mins", "After 60 mins")), data = PainRelief, xlab = "", ylab = "Pain score")
+#' plot( Score ~ factor(Time, 
+#'                      levels = 1:4, 
+#'                      labels = c("0 mins", 
+#'                                 "After 20 mins", 
+#'                                 "After 40 mins", 
+#'                                 "After 60 mins")), 
+#'                      data = PainRelief, 
+#'                      xlab = "", 
+#'                      ylab = "Pain score")
 #' 
 
 "PainRelief"

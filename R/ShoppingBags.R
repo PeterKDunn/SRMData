@@ -22,7 +22,9 @@
 #' data(ShoppingBags)
 #' 
 #' @examples
-#' barplot( xtabs(Counts ~ BringBags + AgeGroup, data = ShoppingBags), names.arg = c("30 and under", "31 to 40", "Over 40"), ylab = "Number of shoppers")
+#' barplot( xtabs(Counts ~ BringBags + AgeGroup, data = ShoppingBags), 
+#'          names.arg = c("30 and under", "31 to 40", "Over 40"), 
+#'          ylab = "Number of shoppers")
 #' 
 
 "ShoppingBags"

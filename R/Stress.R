@@ -25,7 +25,8 @@
 #' data(Stress)
 #' 
 #' @examples
-#' with(Stress, hist(BeforeMins - BeforeHours, xlab = "Stress increase: hours before compared to minutes before"))
+#' with(Stress, hist(BeforeMins - BeforeHours,
+#'      xlab = "Stress increase: hours before compared to minutes before"))
 #' 
 
 "Stress"

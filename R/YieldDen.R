@@ -21,8 +21,14 @@
 #' data(YieldDen)
 #' 
 #' @examples
-#' plot(Yield ~ Dens, pch = ifelse(Var=="1", 1, ifelse(Var=="2", 2, 3) ), data = YieldDen, xlab = "Density (plants/sq. foot)", ylab = "Yield per plant (g)")
-#' legend("topright", pch = 1:3, legend = paste("Variety", 1:3))
+#' plot(Yield ~ Dens, 
+#'      pch = ifelse(Var=="1", 1, ifelse(Var=="2", 2, 3) ), 
+#'      data = YieldDen, 
+#'      xlab = "Density (plants/sq. foot)", 
+#'      ylab = "Yield per plant (g)")
+#' legend("topright", 
+#'        pch = 1:3, 
+#'        legend = paste("Variety", 1:3))
 #' 
 
 "YieldDen"

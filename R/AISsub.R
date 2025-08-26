@@ -35,9 +35,11 @@
 #' OzDASL, available on-line at http://www.statsci.org/data/.
 #' 
 #' @usage 
-#' data(AISsub)
+#' data("AISsub")
 #' 
 #' @examples
-#' barplot( table(AISsub$Sport), las = 2, ylab = "Number of athletes" )
+#' barplot( table(AISsub$Sport), 
+#'          las = 2, 
+#'          ylab = "Number of athletes" )
 
 "AISsub"

@@ -27,7 +27,8 @@
 #' data(StudentWt)
 #' 
 #' @examples
-#' hist(StudentWt$GainWt, xlab = :Weight gain (kg)")
+#' hist(StudentWt$GainWt, 
+#'      xlab = "Weight gain (kg)")
 #' 
 
 "StudentWt"

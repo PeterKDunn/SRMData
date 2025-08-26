@@ -19,7 +19,7 @@
 #' 
 #' @source 
 #'  Soud, F. A., M. M. Cortese, A. T. Curns, P. J. Edelson, R. H. Bitsko, 
-#'  H. T. Jordan, A. S. Huang, J. M.Villalon-Gomez, and G. H. Dayan. (2009). 
+#'  H. T. Jordan, A. S. Huang, J. M. Villalon-Gomez, and G. H. Dayan. (2009). 
 #'  "Isolation Compliance Among University Students During a Mumps Outbreak,
 #'  Kansas 2006".
 #'  \emph{Epidemiology & Infection}, \bold{137}(1): 30--37.
@@ -28,7 +28,9 @@
 #' data(Mumps)
 #' 
 #' @examples
-#' barplot( xtabs(Counts ~ Compliance + AgeGroup, data = Mumps), names.arg = c("18, 19", "20, 21", "22+"), ylab = "Number of students")
+#' barplot( xtabs(Counts ~ Compliance + AgeGroup, data = Mumps), 
+#'          names.arg = c("18, 19", "20, 21", "22+"), 
+#'          ylab = "Number of students")
 #' 
 
 "Mumps"

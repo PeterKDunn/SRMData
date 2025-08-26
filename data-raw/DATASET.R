@@ -16,84 +16,83 @@ library(dplyr) # For selecting variables
 
 
 
-SixMWT <- read.csv("./data-raw/6MWT.csv")
+SixMWT <- read.csv(file.path("data-raw","6MWT.csv"))
 SixMWT <- data.frame( Dist20 = SixMWT$Distance20,
                       Dist30 = SixMWT$Distance30,
                       Age = SixMWT$Age)
 usethis::use_data(SixMWT, 
                   overwrite = TRUE)
 write.csv(SixMWT, 
-          "..//..//SRM-Textbook//Data//SixMWT.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "SixMWT.csv"), 
           row.names = FALSE)
 
 
 ##############################
-AISsub <- read.csv("./data-raw/AIS.csv")
-AISsub <- data.frame( Sex = AISsub$Sex,
-                      SSF = AISsub$SSF,
-                      PBF = AISsub$PBF,
+AISsub <- read.csv(file.path("data-raw","AIS.csv"))
+AISsub <- data.frame( Sex   = AISsub$Sex,
+                      SSF   = AISsub$SSF,
+                      PBF   = AISsub$PBF,
                       Sport = AISsub$Sport,
-                      Wt = AISsub$Wt,
-                      Ht = AISsub$Ht)
+                      Wt    = AISsub$Wt,
+                      Ht    = AISsub$Ht)
 usethis::use_data(AISsub, 
                   overwrite = TRUE)
 write.csv(AISsub, 
-          "..//..//SRM-Textbook//Data//AISsub.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "AISsub.csv"), 
           row.names = FALSE)
 
-
 ##############################
-Anorexia <- read.csv("./data-raw/Anorexia.csv")
+Anorexia <- read.csv(file.path("data-raw","Anorexia.csv"))
 usethis::use_data(Anorexia, 
                   overwrite = TRUE)
 write.csv(Anorexia, 
-          "..//..//SRM-Textbook//Data//Anorexia.csv",
+          file = file.path("..", "SRM-Textbook", "Data", "Anorexia.csv"),
           row.names = FALSE)
 
 
 ##############################
-B12Diet <- read.csv("./data-raw/B12Long.csv")
+B12Diet <- read.csv(file.path("data-raw","B12Long.csv"))
 usethis::use_data(B12Diet, 
                   overwrite = TRUE)
 write.csv(B12Diet, 
-          "..//..//SRM-Textbook//Data//B12Long.csv",
+          file = file.path("..", "SRM-Textbook", "Data", "B12Long.csv"),
           row.names = FALSE)
 
 
 ##############################
-BabyBoom <- read.csv("./data-raw/BabyBoom.csv")
+BabyBoom <- read.csv(file.path("data-raw","BabyBoom.csv"))
 usethis::use_data(BabyBoom, 
                   overwrite = TRUE)
 write.csv(BabyBoom, 
-          "..//..//SRM-Textbook//Data//BabyBoom.csv",
+          file = file.path("..", "SRM-Textbook", "Data", "BabyBoom.csv"),
           row.names = FALSE)
 
 
 ##############################
-Battery <- read.csv("./data-raw/Battery.csv")
+Battery <- read.csv(file.path("data-raw","Battery.csv"))
 usethis::use_data(Battery, 
                   overwrite = TRUE)
 write.csv(Battery, 
-          "..//..//SRM-Textbook//Data//Battery.csv",
+          file = file.path("..", "SRM-Textbook", "Data", "Battery.csv"),
           row.names = FALSE)
 
 
 ##############################
-Bitumen <- read.csv("./data-raw/Bitumen.csv")
+Bitumen <- read.csv(file.path("data-raw","Bitumen.csv"))
 usethis::use_data(Bitumen, 
                   overwrite = TRUE)
 write.csv(Bitumen, 
-          "..//..//SRM-Textbook//Data//Bitumen.csv",
+          file = file.path("..", "SRM-Textbook", "Data", "Bitumen.csv"),
           row.names = FALSE)
 
 
 
 ##############################
-LHconc <- read.csv("./data-raw/LHconc.csv")
+LHconc <- read.csv(file.path("data-raw","LHconc.csv"))
 usethis::use_data(LHconc, 
                   overwrite = TRUE)
 write.csv(LHconc, 
-          "..//..//SRM-Textbook//Data//LHconc.csv",
+          file = file.path("..", "SRM-Textbook", "Data", "LHconc.csv"),
           row.names = FALSE)
 
 
@@ -101,7 +100,7 @@ write.csv(LHconc,
 ##############################
 library("foreign")
 
-BMI <- read.spss("./data-raw/ARCHIVEDDATA.sav",
+BMI <- read.spss(file.path("data-raw", "ARCHIVEDDATA.sav"),
                  to.data.frame = TRUE)    # From publisher website
 levels(BMI$edu) <- c("primary",
                      "secondary",
@@ -120,21 +119,21 @@ levels(BMI$bmi_perception) <- c("normalweight",
 usethis::use_data(BMI, 
                   overwrite = TRUE)
 write.csv(BMI, 
-          "..//..//SRM-Textbook//Data//BMI.csv",
+          file = file.path("..", "SRM-Textbook", "Data", "BMI.csv"),
           row.names = FALSE)
 
 
 ##############################
-BodyTemp <- read.csv("./data-raw/BodyTemp.csv")
+BodyTemp <- read.csv(file.path("data-raw","BodyTemp.csv"))
 usethis::use_data(BodyTemp, 
                   overwrite = TRUE)
 write.csv(BodyTemp, 
-          "..//..//SRM-Textbook//Data//BodyTemp.csv",
+          file = file.path("..", "SRM-Textbook", "Data", "BodyTemp.csv"),
           row.names = FALSE)
 
 
 ##############################
-BoneQuality <- read.csv("./data-raw/BoneQuality.csv")
+BoneQuality <- read.csv(file.path("data-raw","BoneQuality.csv"))
 
 BoneQuality <- dplyr::select(BoneQuality,
                              Sex = Sex.M.1..W.2.,
@@ -152,13 +151,13 @@ BoneQuality$Sex <- factor(BoneQuality$Sex,
 usethis::use_data(BoneQuality, 
                   overwrite = TRUE)
 write.csv(BoneQuality, 
-          "..//..//SRM-Textbook//Data//BoneQuality.csv",
+          file = file.path("..", "SRM-Textbook", "Data", "BoneQuality.csv"),
           row.names = FALSE)
 
 
 ##############################
 ### Exception: Processing needed
-Borers <- read.csv("./data-raw/borers.csv")
+Borers <- read.csv(file.path("data-raw","borers.csv"))
 Borers <- dplyr::select(Borers,
                         Hybrids = Hybrids,
                         Insecticide = Insecticide,
@@ -171,67 +170,70 @@ Borers <- dplyr::select(Borers,
 usethis::use_data(Borers,
                   overwrite = TRUE)
 write.csv(Borers, 
-          "..//..//SRM-Textbook//Data//Borers.csv",
+          file = file.path("..", "SRM-Textbook", "Data", "Borers.csv"),
           row.names = FALSE)
 
 
 ##############################
-Burros <- read.csv("./data-raw/Burros.csv")
+Burros <- read.csv(file.path("data-raw","Burros.csv"))
 usethis::use_data(Burros, 
                   overwrite = TRUE)
 write.csv(Burros, 
-          "..//..//SRM-Textbook//Data//Burros.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Burros.csv"),
+          row.names = FALSE)
 
 
 ##############################
-Captopril <- read.csv("./data-raw/Captopril.csv")
+Captopril <- read.csv(file.path("data-raw","Captopril.csv"))
 usethis::use_data(Captopril, 
                   overwrite = TRUE)
 write.csv(Captopril, 
-          "..//..//SRM-Textbook//Data//Captopril.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Captopril.csv"),
+          row.names = FALSE)
 
 
 ##############################
-CarCrashes <- read.csv("./data-raw/CarCrashes.csv")
+CarCrashes <- read.csv(file.path("data-raw","CarCrashes.csv"))
 usethis::use_data(CarCrashes, 
                   overwrite = TRUE)
 write.csv(CarCrashes, 
-          "..//..//SRM-Textbook//Data//CarCrashes.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "CarCrashes.csv"),
+          row.names = FALSE)
 
 
 ##############################
 ### Exception: Processing needed
-CherryRipe <- read.csv("./data-raw/CherryRipe.csv")
+CherryRipe <- read.csv(file.path("data-raw","CherryRipe.csv"))
 
 CherryRipe <- CherryRipe[, c(3:5, 7)]
 
 usethis::use_data(CherryRipe, 
                   overwrite = TRUE)
 write.csv(CherryRipe, 
-          "..//..//SRM-Textbook//Data//CherryRipe.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "CherryRipe.csv"), 
           row.names = FALSE)
 ##############################
 
 
 ##############################
-Corollas <- read.csv("./data-raw/Corollas.csv")
+Corollas <- read.csv(file.path("data-raw","Corollas.csv"))
 
 usethis::use_data(Corollas, 
                   overwrite = TRUE)
 write.csv(Corollas, 
-          "..//..//SRM-Textbook//Data//Corollas.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Corollas.csv"), 
           row.names = FALSE)
 
 
 
 ##############################
-CrabShells3 <- read.csv("./data-raw/CrabShells.csv")
+CrabShells3 <- read.csv(file.path("data-raw","CrabShells.csv"))
 
 # 3 x 3
 usethis::use_data(CrabShells3, 
                   overwrite = TRUE)
 write.csv(CrabShells3, 
-          "..//..//SRM-Textbook//Data//CrabShells3.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "CrabShells3.csv"), 
           row.names = FALSE)
 
 # 2 x 2
@@ -246,48 +248,49 @@ CrabShells2 <- dplyr::rename(CrabShells2,
 usethis::use_data(CrabShells2, 
                   overwrite = TRUE)
 write.csv(CrabShells2, 
-          "..//..//SRM-Textbook//Data//CrabShells2.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "CrabShells2.csv"), 
           row.names = FALSE)
 
 
 ##############################
-Cyclones <- read.csv("./data-raw/Cyclones.csv")
+Cyclones <- read.csv(file.path("data-raw","Cyclones.csv"))
 usethis::use_data(Cyclones, 
                   overwrite = TRUE)
 write.csv(Cyclones, 
-          "..//..//SRM-Textbook//Data//Cyclones.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Cyclones.csv"),
+          row.names = FALSE)
 
 
 ##############################
-Deceleration <- read.csv("./data-raw/Deceleration.csv")
+Deceleration <- read.csv(file.path("data-raw","Deceleration.csv"))
 usethis::use_data(Deceleration, 
                   overwrite = TRUE)
 write.csv(Deceleration, 
-          "..//..//SRM-Textbook//Data//Deceleration.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Deceleration.csv"), 
           row.names = FALSE)
 
 
 ##############################
-DanishLC <- read.csv("./data-raw/DanishLC.csv")
+DanishLC <- read.csv(file.path("data-raw","DanishLC.csv"))
 usethis::use_data(DanishLC, 
                   overwrite = TRUE)
 write.csv(DanishLC, 
-          "..//..//SRM-Textbook//Data//DanishLC.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "DanishLC.csv"), 
           row.names = FALSE)
 
 
 ##############################
-Dental <- read.csv("./data-raw/Dental.csv")
+Dental <- read.csv(file.path("data-raw","Dental.csv"))
 usethis::use_data(Dental, 
                   overwrite = TRUE)
 write.csv(Dental, 
-          "..//..//SRM-Textbook//Data//Dental.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Dental.csv"), 
           row.names = FALSE)
 
 
 ##############################
 ### Exception: Processing needed
-Diabetes <- read.csv("./data-raw/Diabetes.csv")
+Diabetes <- read.csv(file.path("data-raw","Diabetes.csv"))
 Diabetes <- dplyr::select(Diabetes,
                           bp.1s,
                           bp.1d,
@@ -301,13 +304,14 @@ Diabetes <- dplyr::rename(Diabetes,
 usethis::use_data(Diabetes, 
                   overwrite = TRUE)
 write.csv(Diabetes, 
-          "..//..//SRM-Textbook//Data//Diabetes.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Diabetes.csv"),
+          row.names = FALSE)
 
 
 
 ##############################
 ### Exception: Processing needed
-Dogs <- read.csv("./data-raw/Dogs.csv")
+Dogs <- read.csv(file.path("data-raw","Dogs.csv"))
 Dogs <- select(Dogs,
                BL,
                BH,
@@ -316,7 +320,8 @@ Dogs <- select(Dogs,
 usethis::use_data(Dogs, 
                   overwrite = TRUE)
 write.csv(Dogs, 
-          "..//..//SRM-Textbook//Data//Dogs.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Dogs.csv"),
+          row.names = FALSE)
 
 
 
@@ -326,7 +331,7 @@ write.csv(Dogs,
 ### Processing needed
 ### Some code based on code from:
 # https://datadryad.org/stash/dataset/doi:10.5061/dryad.wwpzgmsn6#citations
-dat <- read.csv("./data-raw/AdamsDataPlus.csv",
+dat <- read.csv(file.path("data-raw", "AdamsDataPlus.csv"),
                 na.strings = "#N/A")
 dat <- as.data.frame(dat)
 dat <- dat[, c(1:5)]
@@ -372,17 +377,17 @@ DogsLife <- DogsLife[
 usethis::use_data(DogsLife, 
                   overwrite = TRUE)
 write.csv(DogsLife, 
-          "..//..//SRM-Textbook//Data//DogsLife.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "DogsLife.csv"), 
           row.names=FALSE)
 
 
 ##############################
 ### Processing needed
-DogWalks <- read.csv("./data-raw/DogWalks.csv")
+DogWalks <- read.csv(file.path("data-raw","DogWalks.csv"))
 usethis::use_data(DogWalks, 
                   overwrite = TRUE)
 write.csv(DogWalks, 
-          "..//..//SRM-Textbook//Data//DogWalks.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "DogWalks.csv"), 
           row.names=FALSE)
 
 
@@ -390,7 +395,7 @@ write.csv(DogWalks,
 
 ##############################
 ### Processing needed
-EarInfection <- read.csv("./data-raw/EarInfection.csv")
+EarInfection <- read.csv(file.path("data-raw","EarInfection.csv"))
 
 EarInfection$Swimmer <- factor(EarInfection$Swimmer,
                                levels = 0:1,
@@ -412,22 +417,22 @@ EarInfection$Infections <- factor(EarInfection$Infections,
 usethis::use_data(EarInfection, 
                   overwrite = TRUE)
 write.csv(EarInfection, 
-          "..//..//SRM-Textbook//Data//EarInfection.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "EarInfection.csv"), 
           row.names=FALSE)
 
 
 
 
-EDpatients <- read.csv("./data-raw/EDpatients.csv")
+EDpatients <- read.csv(file.path("data-raw","EDpatients.csv"))
 usethis::use_data(EDpatients, 
                   overwrite = TRUE)
 write.csv(EDpatients, 
-          "..//..//SRM-Textbook//Data//EDpatients.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "EDpatients.csv"), 
           row.names=FALSE)
 
 
 ##############################
-Elephants <- read.csv("./data-raw/sex-specific-dataset.csv",
+Elephants <- read.csv(file.path("data-raw", "sex-specific-dataset.csv"),
                       sep = ";")
 Elephants <- dplyr::select(Elephants,
                            Sex = sex,
@@ -441,13 +446,13 @@ Elephants <- Elephants[ Ecomplete, ]
 usethis::use_data(Elephants,
                   overwrite = TRUE)
 write.csv(Elephants, 
-          "..//..//SRM-Textbook//Data//Elephants.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Elephants.csv"), 
           row.names=FALSE)
 
 
 ##############################
 ### Processing needed
-EmeraldAug <- read.csv("./data-raw/EmeraldAug.csv")
+EmeraldAug <- read.csv(file.path("data-raw","EmeraldAug.csv"))
 EmeraldAug <- select(EmeraldAug,
                      Phase,
                      Rain,
@@ -456,31 +461,32 @@ EmeraldAug <- select(EmeraldAug,
 usethis::use_data(EmeraldAug, 
                   overwrite = TRUE)
 write.csv(EmeraldAug, 
-          "..//..//SRM-Textbook//Data//EmeraldAug.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "EmeraldAug.csv"), 
           row.names=FALSE)
 
 
 
 ##############################
-EVpurchase <- read.csv("./data-raw/EVpurchase.csv")
+EVpurchase <- read.csv(file.path("data-raw","EVpurchase.csv"))
 usethis::use_data(EVpurchase, 
                   overwrite = TRUE)
 write.csv(EVpurchase, 
-          "..//..//SRM-Textbook//Data//EVpurchase.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "EVpurchase.csv"), 
           row.names=FALSE)
 
 
 ##############################
-Ferritin <- read.csv("./data-raw/Ferritin.csv")
+Ferritin <- read.csv(file.path("data-raw","Ferritin.csv"))
 usethis::use_data(Ferritin, 
                   overwrite = TRUE)
 write.csv(Ferritin, 
-          "..//..//SRM-Textbook//Data//Ferritin.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Ferritin.csv"),
+          row.names = FALSE)
 
 
 ##############################
 ### Exception: Processing needed
-Flowering <- read.csv("./data-raw/salix_and_pv_phenology_data.csv")
+Flowering <- read.csv(file.path("data-raw","salix_and_pv_phenology_data.csv"))
 
 Flowering <- dplyr::select(Flowering,
                            Willow = julian.day...Salix,
@@ -496,27 +502,28 @@ Flowering$Altitude <- as.numeric(sub(",",
 usethis::use_data(Flowering, 
                   overwrite = TRUE)
 write.csv(Flowering, 
-          "..//..//SRM-Textbook//Data//Flowering.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Flowering.csv"), 
           row.names = FALSE)
 
 
 
 
 ##############################
-Fluoro <- read.csv("./data-raw/Fluoro.csv")
+Fluoro <- read.csv(file.path("data-raw","Fluoro.csv"))
 usethis::use_data(Fluoro, 
                   overwrite = TRUE)
 write.csv(Fluoro, 
-          "..//..//SRM-Textbook//Data//Fluoro.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Fluoro.csv"), 
           row.names = FALSE)
 
 
 ##############################
-ForwardFall <- read.csv("./data-raw/ForwardFall.csv")
+ForwardFall <- read.csv(file.path("data-raw","ForwardFall.csv"))
 usethis::use_data(ForwardFall, 
                   overwrite = TRUE)
 write.csv(ForwardFall, 
-          "..//..//SRM-Textbook//Data//ForwardFall.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "ForwardFall.csv"),
+          row.names = FALSE)
 
 
 
@@ -529,15 +536,16 @@ FriesWt <- data.frame( FriesWt = FriesWt)
 usethis::use_data(FriesWt, 
                   overwrite = TRUE)
 write.csv(FriesWt, 
-          "..//..//SRM-Textbook//Data//FriesWt.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "FriesWt.csv"),
+          row.names = FALSE)
 
 
 
 
 ##############################
 ### Exception: Processing needed
-Fruit2014 <- read.csv("./data-raw/pair_2014_For_Dryad.csv")
-Fruit2015 <- read.csv("./data-raw/pair_2015_For_Dryad.csv")
+Fruit2014 <- read.csv(file.path("data-raw", "pair_2014_For_Dryad.csv") )
+Fruit2015 <- read.csv(file.path("data-raw", "pair_2015_For_Dryad.csv") )
 
 # Merge
 Fruit <- dplyr::inner_join(Fruit2014, 
@@ -560,13 +568,14 @@ Fruit <- dplyr::select(Fruit,
 usethis::use_data(Fruit, 
                   overwrite = TRUE)
 write.csv(Fruit, 
-          "..//..//SRM-Textbook//Data//Fruit.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Fruit.csv"),
+          row.names = FALSE)
 
 
 
 ##############################
 ### Exception: Processing needed
-Gorillas <- read.csv("./data-raw/Gorillas.csv")
+Gorillas <- read.csv(file.path("data-raw", "Gorillas.csv") )
 Gorillas$Age20 <- ifelse( Gorillas$Age < 20,
                           "Younger",
                           "Older")
@@ -581,31 +590,33 @@ Gorillas <- select(Gorillas,
 usethis::use_data(Gorillas, 
                   overwrite = TRUE)
 write.csv(Gorillas, 
-          "..//..//SRM-Textbook//Data//Gorillas.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Gorillas.csv"),
+          row.names = FALSE)
 
 
 
 ##############################
-HatSunglasses <- read.csv("./data-raw/HatSunglasses.csv")
+HatSunglasses <- read.csv(file.path("data-raw", "HatSunglasses.csv") )
 usethis::use_data(HatSunglasses, 
                   overwrite = TRUE)
 write.csv(HatSunglasses, 
-          "..//..//SRM-Textbook//Data//HatSunglasses.csv")
-
-
-##############################
-HCrabs <- read.csv("./data-raw/HCrabs.csv")
-usethis::use_data(HCrabs, 
-                  overwrite = TRUE)
-write.csv(HCrabs, 
-          "..//..//SRM-Textbook//Data//HCrabs.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "HatSunglasses.csv"),
           row.names = FALSE)
 
 
 ##############################
-# HusbandWife <- read.csv("./data-raw/HusbandWife.csv")
+HCrabs <- read.csv(file.path("data-raw","HCrabs.csv"))
+usethis::use_data(HCrabs, 
+                  overwrite = TRUE)
+write.csv(HCrabs, 
+          file = file.path("..", "SRM-Textbook", "Data", "HCrabs.csv"), 
+          row.names = FALSE)
+
+
+##############################
+# HusbandWife <- read.csv(file.path("data-raw","HusbandWife.csv")
 # usethis::use_data(HusbandWife, overwrite = TRUE)
-# write.csv(HusbandWife, "..//..//SRM-Textbook//Data//HusbandWife.csv")
+# write.csv(HusbandWife, file = file.path("..", "SRM-Textbook", "Data", "HusbandWife.csv")
 
 
 
@@ -620,22 +631,23 @@ IgE <- data.frame( Before = Pre,
 usethis::use_data(IgE, 
                   overwrite = TRUE)
 write.csv(IgE, 
-          "..//..//SRM-Textbook//Data//IgE.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "IgE.csv"), 
           row.names = FALSE)
 
 
 
 ##############################
-Insulation <- read.csv("./data-raw/InsulationBeforeAfter.csv")
+Insulation <- read.csv(file.path("data-raw","InsulationBeforeAfter.csv"))
 usethis::use_data(Insulation, 
                   overwrite = TRUE)
 write.csv(Insulation, 
-          "..//..//SRM-Textbook//Data//Insulation.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Insulation.csv"),
+          row.names = FALSE)
 
 
 
 ##############################
-Jeans <- read.csv("./data-raw/measurements.csv")
+Jeans <- read.csv(file.path("data-raw","measurements.csv"))
 
 # Now load the json file, with other data
 # install.packages("jsonlite")
@@ -664,7 +676,7 @@ Jeans$Style2 <- df$updatedStyle
 usethis::use_data(Jeans, 
                   overwrite = TRUE)
 write.csv(Jeans, 
-          "..//..//SRM-Textbook//Data//Jeans.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Jeans.csv"), 
           row.names = FALSE)
 
 
@@ -672,78 +684,78 @@ write.csv(Jeans,
 
 
 ##############################
-Jellyfish <- read.csv("./data-raw/Jellyfish.csv")
+Jellyfish <- read.csv(file.path("data-raw","Jellyfish.csv"))
 
 usethis::use_data(Jellyfish, 
                   overwrite = TRUE)
 write.csv(Jellyfish, 
-          "..//..//SRM-Textbook//Data//Jellyfish.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Jellyfish.csv"), 
           row.names = FALSE)
 
 
 ##############################
-Jumping.tmp <- read.csv("./data-raw/Footwear_OSF.csv")
+Jumping.tmp <- read.csv(file.path("data-raw","Footwear_OSF.csv"))
 Jumping <- data.frame( Shoes = rowMeans( Jumping.tmp[, 2:4] ),
                        Barefoot = rowMeans( Jumping.tmp[, 5:7] ) )
 usethis::use_data(Jumping, 
                   overwrite = TRUE)
 write.csv(Jumping, 
-          "..//..//SRM-Textbook//Data//Jumping.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Jumping.csv"), 
           row.names = FALSE)
 
 
 
 ##############################
-# Kerbside <- read.csv("./data-raw/Kerbside.csv")
+# Kerbside <- read.csv(file.path("data-raw","Kerbside.csv")
 # usethis::use_data(Kerbside, overwrite = TRUE)
-# write.csv(Kerbside, "..//..//SRM-Textbook//Data//Kerbside.csv", row.names = FALSE)
+# write.csv(Kerbside, file = file.path("..", "SRM-Textbook", "Data", "Kerbside.csv"), row.names = FALSE)
 
 
 ##############################
-KStones <- read.csv("./data-raw/KStones.csv")
+KStones <- read.csv(file.path("data-raw","KStones.csv"))
 usethis::use_data(KStones, 
                   overwrite = TRUE)
 write.csv(KStones, 
-          "..//..//SRM-Textbook//Data//KStones.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "KStones.csv"), 
           row.names = FALSE)
 
 
 ##############################
-Lime <- read.csv("./data-raw/Lime.csv")
+Lime <- read.csv(file.path("data-raw","Lime.csv"))
 usethis::use_data(Lime, 
                   overwrite = TRUE)
 write.csv(Lime, 
-          "..//..//SRM-Textbook//Data//Lime.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Lime.csv"), 
           row.names = FALSE)
 
 
 ##############################
-LungCap <- read.csv("./data-raw/LungCap.csv")
+LungCap <- read.csv(file.path("data-raw","LungCap.csv"))
 usethis::use_data(LungCap, 
                   overwrite = TRUE)
 write.csv(LungCap, 
-          "..//..//SRM-Textbook//Data//LungCap.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "LungCap.csv"), 
           row.names = FALSE)
 
 
 ##############################
-# Lynx <- read.csv("./data-raw/Lynx.csv")
+# Lynx <- read.csv(file.path("data-raw","Lynx.csv"))
 # usethis::use_data(Lynx, overwrite = TRUE)
-# write.csv(Lynx, "..//..//SRM-Textbook//Data//Lynx.csv")
+# write.csv(Lynx, file = file.path("..", "SRM-Textbook", "Data", "Lynx.csv")
 
 
 ##############################
-Mandible <- read.csv("./data-raw/Mandible.csv")
+Mandible <- read.csv(file.path("data-raw","Mandible.csv"))
 usethis::use_data(Mandible, 
                   overwrite = TRUE)
 write.csv(Mandible, 
-          "..//..//SRM-Textbook//Data//Mandible.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Mandible.csv"), 
           row.names = FALSE)
 
 
 ##############################
 ### Exception: Processing needed
-MaryRiver <- read.csv("./data-raw/MaryRiver.csv")
+MaryRiver <- read.csv(file.path("data-raw","MaryRiver.csv"))
 MaryRiver$Year <- substr(MaryRiver$Date.and.time,
                          start = 7, 
                          stop = 8)
@@ -761,31 +773,31 @@ MaryRiver <- dplyr::select(MaryRiver,
 usethis::use_data(MaryRiver, 
                   overwrite = TRUE)
 write.csv(MaryRiver, 
-          "..//..//SRM-Textbook//Data//MaryRiver.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "MaryRiver.csv"), 
           row.names = FALSE)
 
 
 
 
 ##############################
-Mumps <- read.csv("./data-raw/Mumps.csv")
+Mumps <- read.csv(file.path("data-raw","Mumps.csv"))
 usethis::use_data(Mumps, 
                   overwrite = TRUE) 
 write.csv(Mumps, 
-          "..//..//SRM-Textbook//Data//Mumps.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Mumps.csv"), 
           row.names = FALSE)
 
 
 
 
 ##############################
-NMiner <- read.csv("./data-raw/NMiner.csv")
+NMiner <- read.csv(file.path("data-raw","NMiner.csv"))
 NMiner <- data.frame( Eucs = NMiner$Eucs,
                       Minerab = NMiner$Minerab)
 usethis::use_data(NMiner, 
                   overwrite = TRUE) # Just  Minerab  and  Eucs
 write.csv(NMiner, 
-          "..//..//SRM-Textbook//Data//NMiner.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "NMiner.csv"), 
           row.names = FALSE)
 
 
@@ -809,22 +821,22 @@ Orthoses <- data.frame(
 usethis::use_data(Orthoses, 
                   overwrite = TRUE)
 write.csv(Orthoses, 
-          "..//..//SRM-Textbook//Data//Orthoses.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Orthoses.csv"), 
           row.names = FALSE)
 
 
 
 ##############################
-OSA <- read.csv("./data-raw/OSA.csv")
+OSA <- read.csv(file.path("data-raw","OSA.csv"))
 usethis::use_data(OSA, 
                   overwrite = TRUE)
 write.csv(OSA, 
-          "..//..//SRM-Textbook//Data//OSA.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "OSA.csv"), 
           row.names = FALSE)
 
 
 ##############################
-PainRelief <- read.csv("./data-raw/PainRelief.csv")
+PainRelief <- read.csv(file.path("data-raw","PainRelief.csv"))
 
 PainRelief <- dplyr::select(PainRelief,
                             ID = id,
@@ -840,52 +852,55 @@ PainRelief$Group[PainRelief$Group == "palacetamol"] <- "paracetamol"
 usethis::use_data(PainRelief, 
                   overwrite = TRUE)
 write.csv(PainRelief, 
-          "..//..//SRM-Textbook//Data//PainRelief.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "PainRelief.csv"), 
           row.names = FALSE)
 
 
 
 ##############################
-Peas <- read.csv("./data-raw/Peas.csv")
+Peas <- read.csv(file.path("data-raw","Peas.csv"))
 usethis::use_data(Peas, 
                   overwrite = TRUE)
 write.csv(Peas, 
-          "..//..//SRM-Textbook//Data//Peas.csv")
-
-
-##############################
-Perm <- read.csv("./data-raw/Perm.csv")
-usethis::use_data(Perm, 
-                  overwrite = TRUE)
-write.csv(Perm, 
-          "..//..//SRM-Textbook//Data//Perm.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Peas.csv"),
           row.names = FALSE)
 
 
 ##############################
-PetBirds <- read.csv("./data-raw/PetBirds.csv")
+Perm <- read.csv(file.path("data-raw","Perm.csv"))
+usethis::use_data(Perm, 
+                  overwrite = TRUE)
+write.csv(Perm, 
+          file = file.path("..", "SRM-Textbook", "Data", "Perm.csv"), 
+          row.names = FALSE)
+
+
+##############################
+PetBirds <- read.csv(file.path("data-raw","PetBirds.csv"))
 usethis::use_data(PetBirds, 
                   overwrite = TRUE)
 write.csv(PetBirds, 
-          "..//..//SRM-Textbook//Data//PetBirds.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "PetBirds.csv"), 
+          row.names = FALSE)
 
 
 ##############################
-Placebos <- read.csv("./data-raw/Placebos.csv")
+Placebos <- read.csv(file.path("data-raw","Placebos.csv"))
 usethis::use_data(Placebos, 
                   overwrite = TRUE)
 write.csv(Placebos, 
-          "..//..//SRM-Textbook//Data//Placebos.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Placebos.csv"),
+          row.names = FALSE)
 
 
 
 ##############################
-PizzaSize <- read.csv("./data-raw/PizzaSize.csv")
+PizzaSize <- read.csv(file.path("data-raw","PizzaSize.csv"))
 PizzaSize <- PizzaSize[, c(2, 4, 5, 6, 7)]
 usethis::use_data(PizzaSize, 
                   overwrite = TRUE)
 write.csv(PizzaSize, 
-          "..//..//SRM-Textbook//Data//PizzaSize.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "PizzaSize.csv"), 
           row.names = FALSE)
 
 
@@ -893,7 +908,7 @@ write.csv(PizzaSize,
 ##############################
 ### Exception: Processing needed
 ## Select bits from PossumsALL.csv
-Possums <- read.csv("./data-raw/PossumsALL.csv")
+Possums <- read.csv(file.path("data-raw","PossumsALL.csv"))
 Possums <- dplyr::select(Possums,
                          Sex,
                          Wgt,
@@ -901,13 +916,14 @@ Possums <- dplyr::select(Possums,
 usethis::use_data(Possums, 
                   overwrite = TRUE)
 write.csv(Possums, 
-          "..//..//SRM-Textbook//Data//Possums.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Possums.csv"),
+          row.names = FALSE)
 
 
 
 
 ##############################
-PremierL <- read.csv("./data-raw/england-premier-league-2019-to-2020.csv")
+PremierL <- read.csv(file.path("data-raw","england-premier-league-2019-to-2020.csv"))
 PremierL<- dplyr::select(PremierL,
                          Date = Date,
                          HomeTeam = HomeTeam,
@@ -919,7 +935,8 @@ PremierL<- dplyr::select(PremierL,
 usethis::use_data(PremierL, 
                   overwrite = TRUE)
 write.csv(PremierL,
-          "..//..//SRM-Textbook//Data//PremierL.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "PremierL.csv"),
+          row.names = FALSE)
 
 
 
@@ -955,56 +972,58 @@ QSchools <- data.frame(Counts = Counts,
 usethis::use_data(QSchools, 
                   overwrite = TRUE)
 write.csv(QSchools, 
-          "..//..//SRM-Textbook//Data//QSchools.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "QSchools.csv"),
+          row.names = TRUE)
 
 
 
 ##############################
-ReactionTime <- read.csv("./data-raw/ReactionTimePhoneInd.csv")
+ReactionTime <- read.csv(file.path("data-raw","ReactionTimePhoneInd.csv"))
 usethis::use_data(ReactionTime, 
                   overwrite = TRUE)
 write.csv(ReactionTime, 
-          "..//..//SRM-Textbook//Data//ReactionTime.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "ReactionTime.csv"),
+          row.names = FALSE)
 
 
 ##############################
-# RecoveryTime <- read.csv("./data-raw/RecoveryTime.csv")
+# RecoveryTime <- read.csv(file.path("data-raw","RecoveryTime.csv")
 # usethis::use_data(RecoveryTime, 
 #.                  overwrite = TRUE)
 # write.csv(RecoveryTime, 
-#.          "..//..//SRM-Textbook//Data//RecoveryTime.csv", 
+#.          file = file.path("..", "SRM-Textbook", "Data", "RecoveryTime.csv"), 
 #.          row.names = FALSE)
 
 
 ##############################
-RedDeer <- read.csv("./data-raw/RedDeer.csv")
+RedDeer <- read.csv(file.path("data-raw","RedDeer.csv"))
 usethis::use_data(RedDeer, 
                   overwrite = TRUE)
 write.csv(RedDeer, 
-          "..//..//SRM-Textbook//Data//RedDeer.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "RedDeer.csv"), 
           row.names = FALSE)
 
 
 ##############################
-Removal <- read.csv("./data-raw/Removal.csv")
+Removal <- read.csv(file.path("data-raw","Removal.csv"))
 usethis::use_data(Removal, 
                   overwrite = TRUE)
 write.csv(Removal, 
-          "..//..//SRM-Textbook//Data//Removal.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Removal.csv"), 
           row.names = FALSE)
 
 
 ##############################
-RipsID <- read.csv("./data-raw/RipsID.csv")
+RipsID <- read.csv(file.path("data-raw","RipsID.csv"))
 usethis::use_data(RipsID, 
                   overwrite = TRUE)
 write.csv(RipsID, 
-          "..//..//SRM-Textbook//Data//RipsID.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "RipsID.csv"), 
           row.names = FALSE)
 
 
 ##############################
-Running <- read.csv("./data-raw/Running.csv",
+Running <- read.csv(file.path("data-raw","Running.csv"),
                     skip = 1)
 Running <- dplyr::select(Running,
                          ID = participant_id,
@@ -1019,12 +1038,13 @@ Running <- dplyr::select(Running,
 usethis::use_data(Running, 
                   overwrite = TRUE)
 write.csv(Running, 
-          "..//..//SRM-Textbook//Data//Running.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Running.csv"),
+          row.names = FALSE)
 
 
 ##############################
 ### Exception: Processing needed
-Sanddollars <- read.csv("./data-raw/Fertilization_data.csv")
+Sanddollars <- read.csv(file.path("data-raw","Fertilization_data.csv"))
 Sanddollars <- dplyr::select(Sanddollars,
                              SD.temperatures,
                              SD.fertilization,
@@ -1040,44 +1060,45 @@ Sanddollars <- data.frame(
 usethis::use_data(Sanddollars,
                   overwrite = TRUE)
 write.csv(Sanddollars,
-          "..//..//SRM-Textbook//Data//Sanddollars.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Sanddollars.csv"), 
           row.names = FALSE)
 
 
 
 ##############################
-ScarHeight <- read.csv("./data-raw/ScarHeight.csv")
+ScarHeight <- read.csv(file.path("data-raw","ScarHeight.csv"))
 usethis::use_data(ScarHeight, 
                   overwrite = TRUE)
 write.csv(ScarHeight, 
-          "..//..//SRM-Textbook//Data//ScarHeight.csv")
-
-
-##############################
-SDrink <- read.csv("./data-raw/SDrink.csv")
-usethis::use_data(SDrink, 
-                  overwrite = TRUE)
-write.csv(SDrink, 
-          "..//..//SRM-Textbook//Data//SDrink.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "ScarHeight.csv"),
           row.names = FALSE)
 
 
 ##############################
-ShoppingBags <- read.csv("./data-raw/ShoppingBags.csv")
+SDrink <- read.csv(file.path("data-raw","SDrink.csv"))
+usethis::use_data(SDrink, 
+                  overwrite = TRUE)
+write.csv(SDrink, 
+          file = file.path("..", "SRM-Textbook", "Data", "SDrink.csv"), 
+          row.names = FALSE)
+
+
+##############################
+ShoppingBags <- read.csv(file.path("data-raw","ShoppingBags.csv"))
 colnames(ShoppingBags) <- c("AgeGroup",
                             "BringBags",
                             "Counts")
 usethis::use_data(ShoppingBags, 
                   overwrite = TRUE)
 write.csv(ShoppingBags, 
-          "..//..//SRM-Textbook//Data//ShoppingBags.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "ShoppingBags.csv"), 
           row.names = FALSE)
 
 
 
 ##############################
 ### Exception: Processing needed
-Snakes <- read.csv("./data-raw/Snakes.csv")
+Snakes <- read.csv(file.path("data-raw","Snakes.csv"))
 SPtable <- table(Snakes$SPECIES)
 Snakes <- subset(Snakes,
                  (SPECIES == names(SPtable)[4]) | 
@@ -1099,7 +1120,7 @@ Snakes$Sex[ Snakes$Sex == "" ] <- NA
 usethis::use_data(Snakes, 
                   overwrite = TRUE)
 write.csv(Snakes, 
-          "..//..//SRM-Textbook//Data//Snakes.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Snakes.csv"), 
           row.names = FALSE)
 
 
@@ -1107,7 +1128,7 @@ write.csv(Snakes,
 
 ##############################
 ### Exception: Processing needed
-Soils <- read.csv("./data-raw/Soils.csv")
+Soils <- read.csv(file.path("data-raw","Soils.csv"))
 Soils <- dplyr::select(Soils,
                        Sample,
                        Gravel,
@@ -1118,55 +1139,58 @@ Soils <- dplyr::select(Soils,
 usethis::use_data(Soils, 
                   overwrite = TRUE)
 write.csv(Soils, 
-          "..//..//SRM-Textbook//Data//Soils.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Soils.csv"), 
           row.names = FALSE)
 
 
 ##############################
-SoilCN <- read.csv("./data-raw/SoilCN.csv")
+SoilCN <- read.csv(file.path("data-raw","SoilCN.csv"))
 usethis::use_data(SoilCN, 
                   overwrite = TRUE)
 write.csv(SoilCN, 
-          "..//..//SRM-Textbook//Data//SoilCN.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "SoilCN.csv"),
+          row.names = FALSE)
 
 
 ##############################
-Speed <- read.csv("./data-raw/Speed.csv")
+Speed <- read.csv(file.path("data-raw","Speed.csv"))
 usethis::use_data(Speed, 
                   overwrite = TRUE)
 write.csv(Speed, 
-          "..//..//SRM-Textbook//Data//Speed.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "Speed.csv"),
+          row.names = FALSE)
 
 
 ##############################
-Stress <- read.csv("./data-raw/Stress.csv")
+Stress <- read.csv(file.path("data-raw","Stress.csv"))
 usethis::use_data(Stress, 
                   overwrite = TRUE)
 write.csv(Stress, 
-          "..//..//SRM-Textbook//Data//Stress.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Stress.csv"), 
           row.names = FALSE)
 
 
 
 ##############################
-StudentsEat <- read.csv("./data-raw/UniStudentsLong.csv")
+StudentsEat <- read.csv(file.path("data-raw","UniStudentsLong.csv"))
 usethis::use_data(StudentsEat, 
                   overwrite = TRUE)
 write.csv(StudentsEat, 
-          "..//..//SRM-Textbook//Data//StudentsEat.csv")
-
-
-##############################
-StudentWt <- read.csv("./data-raw/StudentWt.csv")
-usethis::use_data(StudentWt, 
-                  overwrite = TRUE)
-write.csv(StudentWt, 
-          "..//..//SRM-Textbook//Data//StudentWt.csv",
+          file = file.path("..", "SRM-Textbook", "Data", "StudentsEat.csv"),
           row.names = FALSE)
 
 
 ##############################
-TapeOriginal <- read.csv("./data-raw/Tape.csv")
+StudentWt <- read.csv(file.path("data-raw","StudentWt.csv"))
+usethis::use_data(StudentWt, 
+                  overwrite = TRUE)
+write.csv(StudentWt, 
+          file = file.path("..", "SRM-Textbook", "Data", "StudentWt.csv"),
+          row.names = FALSE)
+
+
+##############################
+TapeOriginal <- read.csv(file.path("data-raw","Tape.csv"))
 
 # Lots of empty cols:
 emptyColumns <- which(colSums( is.na(TapeOriginal) ) == dim(TapeOriginal)[1])
@@ -1210,38 +1234,39 @@ Tape <- dplyr::select(Tape,
 usethis::use_data(Tape, 
                   overwrite = TRUE)
 write.csv(Tape, 
-          "..//..//SRM-Textbook//Data//Tape.csv")
-
-
-##############################
-Throttle <- read.csv("./data-raw/Throttle.csv")
-usethis::use_data(Throttle, 
-                  overwrite = TRUE)
-write.csv(Throttle, 
-          "..//..//SRM-Textbook//Data//Throttle.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Tape.csv"),
           row.names = FALSE)
 
 
 ##############################
-Turbines <- read.csv("./data-raw/Turbines.csv")
+Throttle <- read.csv(file.path("data-raw","Throttle.csv"))
+usethis::use_data(Throttle, 
+                  overwrite = TRUE)
+write.csv(Throttle, 
+          file = file.path("..", "SRM-Textbook", "Data", "Throttle.csv"), 
+          row.names = FALSE)
+
+
+##############################
+Turbines <- read.csv(file.path("data-raw","Turbines.csv"))
 Turbines <- subset(Turbines, 
                    (Hours == "1800h") | (Hours == "3000h") )
 
 usethis::use_data(Turbines, 
                   overwrite = TRUE)
 write.csv(Turbines, 
-          "..//..//SRM-Textbook//Data//Turbines.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Turbines.csv"), 
           row.names = FALSE)
 
 
 
 
 ##############################
-TurtleNests <- read.csv("./data-raw/TurtleNests.csv")
+TurtleNests <- read.csv(file.path("data-raw","TurtleNests.csv"))
 usethis::use_data(TurtleNests, 
                   overwrite = TRUE)
 write.csv(TurtleNests, 
-          "..//..//SRM-Textbook//Data//TurtleNests.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "TurtleNests.csv"), 
           row.names = FALSE)
 
 
@@ -1252,11 +1277,11 @@ write.csv(TurtleNests,
 # https://osf.io/u2xyz?view_only=87885752038b4be190d532143fdedb07, RQ1.R, 
 # and adapted to get what I want
 
-load('./data-raw/Typing/txt_insdelsub.RData')  # by text and/or by subject
-load('./data-raw/Typing/txt_ikis.RData')
+load(file.path("data-raw", "Typing", "txt_insdelsub.RData"))  # by text and/or by subject
+load(file.path("data-raw", "Typing", "txt_ikis.RData"))
 
 # Select sample we will be working with
-load('./data-raw/Typing/SubjIn_final.RData')
+load(file.path("data-raw", "Typing", "SubjIn_final.RData"))
 
 txtikis <- subset(txtikis, 
                   Subject %in% SubjIn)
@@ -1360,13 +1385,13 @@ rm(mPKD, m1)
 usethis::use_data(Typing, 
                   overwrite = TRUE)
 write.csv(Typing, 
-          "..//..//SRM-Textbook//Data//Typing.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Typing.csv"), 
           row.names = FALSE)
 
 
 
 ##############################
-Water <- read.csv2(".//data-raw//Water.csv")
+Water <- read.csv2(file.path("data-raw", "Water.csv"))
 
 names(Water) <- c("District", "Date", "code",
                   "NameCaretaker", "PhoneNb", "age",
@@ -1512,11 +1537,12 @@ WaterAccess$Diarrhea <- factor(WaterAccess$Diarrhea,
 usethis::use_data(WaterAccess, 
                   overwrite = TRUE)
 write.csv(WaterAccess, 
-          "..//..//SRM-Textbook//Data//WaterAccess.csv")
+          file = file.path("..", "SRM-Textbook", "Data", "WaterAccess.csv"),
+          row.names = FALSE)
 
 
 ##############################
-WC <- read.csv("./data-raw//Kinetic_and_temporal_datas.csv")
+WC <- read.csv(file.path("data-raw","/Kinetic_and_temporal_datas.csv"))
 # Turn participant labels into numbers by removing initial letter (a "P")
 WC$X <- gsub("P", "", WC$X)
 WC$X.3 <- gsub("P", "", WC$X.3)
@@ -1541,26 +1567,26 @@ WCTennis <- data.frame(Person = WC$X.3[takeWOR + 1],
 usethis::use_data(WCTennis, 
                   overwrite = TRUE)
 write.csv(WCTennis, 
-          "..//..//SRM-Textbook//Data//WCTennis.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "WCTennis.csv"), 
           row.names = FALSE)
 
 
 
 ##############################
-Windmill <- read.csv("./data-raw/Windmill.csv")
+Windmill <- read.csv(file.path("data-raw","Windmill.csv"))
 usethis::use_data(Windmill, 
                   overwrite = TRUE)
 write.csv(Windmill, 
-          "..//..//SRM-Textbook//Data//Windmill.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "Windmill.csv"), 
           row.names = FALSE)
 
 
 ##############################
-YieldDen <- read.csv("./data-raw/YieldDen.csv")
+YieldDen <- read.csv(file.path("data-raw","YieldDen.csv"))
 usethis::use_data(YieldDen, 
                   overwrite = TRUE)
 write.csv(YieldDen, 
-          "..//..//SRM-Textbook//Data//YieldDen.csv", 
+          file = file.path("..", "SRM-Textbook", "Data", "YieldDen.csv"), 
           row.names = FALSE)
 
 
@@ -1570,6 +1596,15 @@ write.csv(YieldDen,
 cat("*** Running roxygenise *** \n")
 #setwd("..")
 roxygen2::roxygenise()
+
+
+
+###
+devtools::check()     # local check
+devtools::check_win_devel()  # optional: Windows check
+devtools::check_rhub()       # optional: cross-platform check
+###
+
 
 # 
 # # The following function runs a local R CMD check

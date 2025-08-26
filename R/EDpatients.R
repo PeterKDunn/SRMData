@@ -22,7 +22,9 @@
 #' data(EDpatients)
 #' 
 #' @examples
-#' plot(ED ~ Days, data = EDpatients, xlab = "Days after welfare distribution", ylab = "Mean ED patients")
+#' plot(ED ~ Days, data = EDpatients, 
+#'      xlab = "Days after welfare distribution", 
+#'      ylab = "Mean ED patients")
 #' 
 
 "EDpatients"

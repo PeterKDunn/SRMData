@@ -26,6 +26,8 @@
 #' data(RipsID)
 #' 
 #' @examples
-#' barplot( xtabs( Counts ~ Identification + AgeGroup, data = RipsID), names.arg = c("18-24", "25-34", "35-50",  "51-65"), ylab = "Number of people")
+#' barplot( xtabs( Counts ~ Identification + AgeGroup, data = RipsID), 
+#'          names.arg = c("18-24", "25-34", "35-50",  "51-65"), 
+#'          ylab = "Number of people")
 
 "RipsID"

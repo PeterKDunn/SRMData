@@ -30,6 +30,9 @@
 #' data(Sanddollars)
 #' 
 #' @examples
-#' plot(SD.fertilization ~ SD.temperatures, data = Sanddollars, xlab = "Temperature (deg. C)", ylab = "Fertilization rate (%)")
+#' plot(SD.fertilization ~ SD.temperatures, 
+#'      data = Sanddollars, 
+#'      xlab = "Temperature (deg. C)", 
+#'      ylab = "Fertilization rate (%)")
 
 "Sanddollars"

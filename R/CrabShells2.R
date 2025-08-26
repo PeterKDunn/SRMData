@@ -30,7 +30,9 @@
 #' @usage data(CrabShells2)
 #' 
 #' @examples
-#' barplot( xtabs(Counts ~ ShellRow + ShellColumn, data = CrabShells2), names.arg = c("Column: Side", "Column: Central"), ylab = "Number of anemones")
+#' barplot( xtabs(Counts ~ ShellRow + ShellColumn, data = CrabShells2), 
+#'          names.arg = c("Column: Side", "Column: Central"), 
+#'          ylab = "Number of anemones")
 #' 
 
 "CrabShells2"

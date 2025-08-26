@@ -27,9 +27,10 @@
 #' 
 #' 
 #' @usage 
-#' fisher.test( cbind(Fails = Turbines$Fissures, Passes = Turbines$Turbines - Turbines$Fissures))
+#' data(Turbines)
 #' 
 #' @examples
-#' 
+#' stats::fisher.test( cbind(Fails = Turbines$Fissures, 
+#'                     Passes = Turbines$Turbines - Turbines$Fissures))
 
 "Turbines"

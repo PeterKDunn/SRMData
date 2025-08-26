@@ -37,7 +37,9 @@
 #' data(Fruit)
 #' 
 #' @examples
-#' with(Fruit, hist(Flowers2015 - Flowers2014, xlab = "Increase in flowers to 2015", ylab = "Number of farms") )
+#' with(Fruit, hist(Flowers2015 - Flowers2014, 
+#'      xlab = "Increase in flowers to 2015", 
+#'      ylab = "Number of farms") )
 #' 
 
 "Fruit"

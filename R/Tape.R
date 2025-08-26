@@ -37,7 +37,9 @@
 #' data(Tape)
 #' 
 #' @examples
-#' plot(Pre.Left.KT.NoTension ~ factor(Sex), data = Tape, xlab = "Sex", ylab = "Pressure pain threshold")
+#' plot(Pre.Left.KT.NoTension ~ factor(Sex), data = Tape, 
+#'      xlab = "Sex", 
+#'      ylab = "Pressure pain threshold")
 #' 
 
 "Tape"
